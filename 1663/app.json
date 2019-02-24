@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.yalantis.taurus.sample",
+    "label" : "Pull to Refresh",
+    "icon" : "res/drawable-mdpi-v4/lib_icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/lib_icon.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB5lBMVEUdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhlNSkLg3sHT0bYtKicuKycdGhkkIR/39dX+/Ns+OzVaV03c2b0dGhnEwqlyb2KKh3eioIyJhnamo4+3tZ5pZlodGhlPTUTa2Lzn5cf9+9owLSodGhkhHhzy8NA1Mi7X1bodGhkdGhkdGhm7uaFhXlRkYleem4gdGhmBfm+UkoCSkH4dGhlGRD3HxazBv6f8+tksKSYeGxrs6swiHx7v7c4dGhmysJpOTESZloQdGhl4dWeCf3Bta15fXFK3tJ2cmof7+dkpJiQdGhkdGhnk4sXq6MrNyrDNy7EdGhmqqJNvbGBcWU82My7599YmIyEdGhliX1RKR0DJx609OjRoZVo8OTQdGhk/PDaPjHuhn4uRjn36+Nj6+NdlY1epp5InJCFnZFlVU0rY1rrV07iuq5YoJiNFQjtGQzz08tMqJyRzcGNwbWEdGhkdGhk4NTFZVk1JRj9IRT4dGhkdGhk/PTcdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkdGhkFf0VfAAAAonRSTlMAFlePt9jt+BNxy/7/GY309ZMaBHXzBSXOzypP8VBm/GlO//////8p////////0P//////////dv//////lP////+VFPb/////cP///8z///////////9Y////W///////////ttv/////8v////////n////////s////////////////////////////XBf/////cib/UQZ6exuOHLjZ7vpvjEcKAAACd0lEQVRIx6VW91sTQRBduFCSrIoxgYi0EIoMErGiIpYkCohRIWosWECxxN6wY0OxR7Fho/ynzl48sy2X8Dk/3L1v3ntXZsssIXIUFBqOouKSkuIih1FYQHJEqdPlply4Xc5SG/mChYuoEmWLPVnkS7w+qg2ft1ynr/DTrLG0UtUvq6I24auW9TW11DZqa0R9Hc0Zdbw+kHl+fTAYbDBRI6JgU+YdgYy+mSvP8hYAaGVoBYI2/j+aLX15iH/1StS1M7AKwWqeCVnV9QrfugZ1axlYh2C9QHWk9R5xvDagbiMDmwA6N4vFTY95l1iNLVtR2EjpNjRulyoVZvpIVMruQOVOSrvx1iNR0QgaeuWC70JlH6W78dYtc71oiMnJPajcS+k+gP4BmXPhenHLyfh+gJYD8YMADcpwuz0koU6CQ/iKw614OaJyR4mhJgdRe+w4Xk6onEEcapI9/OQQwPAplTtNRjQT8wzA2XMA5zXUCElqshfAjD4NlSS6qX8xbbik47SGy6b+ylUNdU38pKbrN8x7GzPcNOGt0du84o7w03dxsO4xcJ8ZHjA0+hDGHgk/zZf1McrGniB4ygzPWGocwXOhrPzAvUB2eALBS2YYsD5uXBg4fmq8eg0wRC3DG4bedkL/O07ynqT4yfeh/WNcNNDJwU/i5FOnt2gQI6ZbQHaGz7olamMwlygJ528I67YZG8PfbUbayGwMHdZW6c/P4P/XiCqq8jEkv2i3ezO+sp1+Qmopgf9pKPNvWYRU2zfFb/Nru6FKXaOe+h7Vy6M/prKcBX7+0h0dun7bnDYizph4OIk5I7kONKmEMT0zOzc3OzNtJFIK/QcQlrSUdTdotAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1178,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.yalantis.taurus.sample\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1-1756733\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0b0001\" android:label=\"Pull to Refresh\" android:icon=\"res/drawable-mdpi-v4/lib_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Pull to Refresh\" android:name=\"com.yalantis.taurus.sample.PullToRefreshActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1086852,
+  "crc32" : 1518338210,
+  "sha256" : "9c2af1f85d2f5acd870350549b1573020d586d5b489bbc92b3641eda9dd3c72a",
+  "buildTime" : 1526046434000
+}

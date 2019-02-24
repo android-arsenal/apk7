@@ -1,0 +1,7 @@
+2016-07-31 07:28:44,669 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/square/moshi/archive/master.zip", attempt 3
+2016-07-31 07:28:47,020 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/square/moshi/archive/master.zip, attempt 3
+2016-07-31 07:28:47,601 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-07-31 07:28:47,601 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-07-31 07:28:47,602 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-07-31 07:28:47,602 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-31 07:28:47,628 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

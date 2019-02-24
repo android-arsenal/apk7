@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "xyz.danoz.recyclerviewfastscroller.sample",
+    "label" : "RecyclerViewFastScroller",
+    "icon" : "res/drawable-mdpi-v4/recycler_fast_scroller_icon.png",
+    "versionName" : "0.1.3",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/recycler_fast_scroller_icon.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABDlBMVEUAAAD0Qzb0Qzb0Qzb0QzbsPjPlOTD0Qzb0Qzb0Qzb0QzbSLSe3HBzKKCTwQTT0Qzb0QzbpPDHhNy70Qzb0QzbGJiO7Hh70Qzb0Qzb0Qzb0QzbZMiu/IR/wQDTdNCzWMCnCIyH/mAD/mAD/mAD/6zv/6zvOKyb/mAD0eQD/mAD/6zv/6zv/6zv/mAD/mAD5hgDrXgDmUQD8jwD/6zvuZwD/6zv/6zv/mAD9kwDzdQD/6zv/mAD3ggDoVQD/6zv/6zv/mADxcAD2fQD/6zv/mAD/6zv/mADpWgD/mAD/6zvsYwD/mAD/mAD/6zv9lAD91zT4miD7wy7/mAD1fxf6tSn8yTD2jRz+3jf2hhn5rier6EuYAAAAWnRSTlMAEEAgn////68wz//////vv///YI///99wgFD//+////9w3xAwQP9A/4/f/4Agv//////v/yC/YO//cM///88Qn///n4BQr/9Qj///MGD/////7/////////8lxSXGAAACRElEQVRIx8WW23qaQBSFB0U0Ka2mNiJt1ApST4Ai0Whsgm1IpMXmoOnp/V+kA8KcpCTetOtyvvWz9t6zQQH49+IyUNnn2/mcIOTyWIWDdP/hCxHq5StMFFMJPvRDgsgopfgzR2Kk1wRRDqLfJAKl4xioEEVJHKgW5ST/W0FEekdE8FK+yCUB0gnyV2p5SuUkf7mOAxoyT/qlxJHWKsh/UuO4IgFkkgC5gQPqsITqU5MtCKiF92EJUnoAHJJUj4oSAke2hKb014sr1xoBcgxL4GRcEVzFpqIiV0vD4uTaB1E8OgBl1PJhqQraSqfTRYDW6yPpIMvn6vx2xzPRZRnmYGhZIwNXotuIaMHaC9TboHZHpxbUqUkcjlHIhG3rbDqzthq08amGizqn/fOPF5HfGir4+BIDtkMBi08W0udmfHreJ3RFAeoUJVgX02i0jk0CfY3wG8Dt4IiZuz29JtyQ7RHADQDKEgFLc7ei8XUPXkYsDzq8AY6YR1eN/V9ggXp/HANK8EjzK5sAJvSIxvFoz/zAsRqxPeBr+EZPSAkBNNohXsA4YoIEVwS4vj9vQ3m3wWiXs1sPL2xov7tHeoCzVdc+rRsi/SoA7jdIj1oYQGmtktsH/d83FGAwfr9JNQgjftDAgvGb9FY69s8NBewEGMze63cMwLTssi+KY/+iS6J7nu9+MfRHGoDXRmi1Czg9Zqwe4e8mfZRalw+/yYsDZro/eDF0pGBhV9FqtNXn/qQu2OE/JXW9JwDcfQGw2BdQ/8N/lz/72rlrCZhEBgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1047,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"0.1.3\" package=\"xyz.danoz.recyclerviewfastscroller.sample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f070000\" android:label=\"RecyclerViewFastScroller\" android:icon=\"res/drawable-mdpi-v4/recycler_fast_scroller_icon.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"RecyclerViewFastScroller\" android:name=\"xyz.danoz.recyclerviewfastscroller.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 526282,
+  "crc32" : 3851798752,
+  "sha256" : "27ae5253c6eb9fbb924b2f8dfe650ad7c73a4df67f5a338c02e0117e30851b04",
+  "buildTime" : 1526046875000
+}

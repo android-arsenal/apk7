@@ -1,0 +1,127 @@
+2018-05-11 13:54:06,535 INFO  DownloadService - Downloading "https://github.com/danoz73/RecyclerViewFastScroller/archive/master.zip", attempt 3
+2018-05-11 13:54:08,213 INFO  DownloadService - Downloaded https://github.com/danoz73/RecyclerViewFastScroller/archive/master.zip, attempt 3
+2018-05-11 13:54:08,213 INFO  DownloadService - Size of file "/tmp/rdisk/1582/master.zip": 137 KB
+2018-05-11 13:54:08,213 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:54:08,214 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1582/master.zip: true
+2018-05-11 13:54:08,214 DEBUG ZipUtil - Extracting '/tmp/rdisk/1582/master.zip' into '/tmp/rdisk/1582/src'.
+2018-05-11 13:54:08,226 INFO  FullProcessService - Size of directory with sources: 165 KB
+2018-05-11 13:54:08,226 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1582/src]
+2018-05-11 13:54:08,231 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1582/src/.git/
+
+2018-05-11 13:54:08,235 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/gradlew
+2018-05-11 13:54:08,240 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/build.gradle /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/build.gradle /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/build.gradle
+2018-05-11 13:54:08,243 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/settings.gradle /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/gradle-maven-push.gradle /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/build.gradle /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/build.gradle /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/build.gradle
+2018-05-11 13:54:08,243 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:54:08,243 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:54:08,253 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/local.properties
+2018-05-11 13:54:08,256 INFO  ProjectFixService - Build info for "/tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-11 13:54:08,257 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/local.properties
+2018-05-11 13:54:08,259 INFO  ProjectFixService - Build info for "/tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-11 13:54:08,260 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/local.properties
+2018-05-11 13:54:08,260 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-11 13:54:08,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-11 13:54:08,261 INFO  ProjectFixService - Build info for "/tmp/rdisk/1582/src/RecyclerViewFastScroller-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-11 13:54:08,261 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:54:08,261 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:54:08,261 INFO  SysUtils - Execute command: [/tmp/rdisk/1582/src/RecyclerViewFastScroller-master/gradlew, -b, /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:54:16,274 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-05-11 13:54:16,275 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-05-11 13:54:16,275 INFO  SysUtils - Execute command: [/tmp/rdisk/1582/src/RecyclerViewFastScroller-master/gradlew, -b, /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-05-11 13:54:35,511 INFO  SysUtils - Configuration on demand is an incubating feature.
+:Application:preBuild UP-TO-DATE
+:Application:preDebugBuild UP-TO-DATE
+:Application:compileDebugNdk UP-TO-DATE
+:Application:checkDebugManifest
+:Application:preReleaseBuild UP-TO-DATE
+:recyclerviewfastscroller:compileLint
+:recyclerviewfastscroller:copyReleaseLint UP-TO-DATE
+:recyclerviewfastscroller:preBuild UP-TO-DATE
+:recyclerviewfastscroller:preReleaseBuild UP-TO-DATE
+:recyclerviewfastscroller:checkReleaseManifest
+:recyclerviewfastscroller:preDebugAndroidTestBuild UP-TO-DATE
+:recyclerviewfastscroller:preDebugBuild UP-TO-DATE
+:recyclerviewfastscroller:prepareComAndroidSupportRecyclerviewV72210Library
+:recyclerviewfastscroller:prepareComAndroidSupportSupportV42210Library
+:recyclerviewfastscroller:prepareReleaseDependencies
+:recyclerviewfastscroller:compileReleaseAidl
+:recyclerviewfastscroller:compileReleaseRenderscript
+:recyclerviewfastscroller:generateReleaseBuildConfig
+:recyclerviewfastscroller:generateReleaseAssets UP-TO-DATE
+:recyclerviewfastscroller:mergeReleaseAssets
+:recyclerviewfastscroller:generateReleaseResValues
+:recyclerviewfastscroller:generateReleaseResources
+:recyclerviewfastscroller:mergeReleaseResources
+:recyclerviewfastscroller:processReleaseManifest
+:recyclerviewfastscroller:processReleaseResources
+:recyclerviewfastscroller:generateReleaseSources
+:recyclerviewfastscroller:compileReleaseJavaNote: /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/src/main/java/xyz/danoz/recyclerviewfastscroller/AbsRecyclerViewFastScroller.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/recyclerviewfastscroller/src/main/java/xyz/danoz/recyclerviewfastscroller/AbsRecyclerViewFastScroller.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:recyclerviewfastscroller:extractReleaseAnnotations
+:recyclerviewfastscroller:mergeReleaseProguardFiles
+:recyclerviewfastscroller:processReleaseJavaRes UP-TO-DATE
+:recyclerviewfastscroller:packageReleaseJar
+:recyclerviewfastscroller:compileReleaseNdk UP-TO-DATE
+:recyclerviewfastscroller:packageReleaseJniLibs UP-TO-DATE
+:recyclerviewfastscroller:packageReleaseLocalJar UP-TO-DATE
+:recyclerviewfastscroller:packageReleaseRenderscript UP-TO-DATE
+:recyclerviewfastscroller:packageReleaseResources
+:recyclerviewfastscroller:bundleRelease
+:Application:prepareComAndroidSupportRecyclerviewV72210Library
+:Application:prepareComAndroidSupportSupportV42210Library
+:Application:prepareRecyclerViewFastScrollerMasterRecyclerviewfastscrollerUnspecifiedLibrary
+:Application:prepareDebugDependencies
+:Application:compileDebugAidl
+:Application:compileDebugRenderscript
+:Application:generateDebugBuildConfig
+:Application:generateDebugAssets UP-TO-DATE
+:Application:mergeDebugAssets
+:Application:generateDebugResValues
+:Application:generateDebugResources
+:Application:mergeDebugResources
+:Application:processDebugManifest
+:Application:processDebugResources
+:Application:generateDebugSources
+:Application:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:Application:preDexDebug
+:Application:dexDebug
+:Application:processDebugJavaRes UP-TO-DATE
+:Application:validateDebugSigning
+:Application:packageDebug
+:Application:zipalignDebug
+:Application:assembleDebug
+:Application:checkReleaseManifest
+:Application:prepareReleaseDependencies
+:Application:compileReleaseAidl
+:Application:compileReleaseRenderscript
+:Application:generateReleaseBuildConfig
+:Application:generateReleaseAssets UP-TO-DATE
+:Application:mergeReleaseAssets
+:Application:generateReleaseResValues
+:Application:generateReleaseResources
+:Application:mergeReleaseResources
+:Application:processReleaseManifest
+:Application:processReleaseResources
+:Application:generateReleaseSources
+:Application:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:Application:lintVitalRelease
+:Application:compileReleaseNdk UP-TO-DATE
+:Application:preDexRelease
+:Application:dexRelease
+:Application:processReleaseJavaRes UP-TO-DATE
+:Application:packageRelease
+:Application:assembleRelease
+:Application:assemble
+:Application:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.807 secs
+
+2018-05-11 13:54:35,525 INFO  FullProcessService - Found APK file: /tmp/rdisk/1582/src/RecyclerViewFastScroller-master/Application/build/outputs/apk/Application-release-unsigned.apk

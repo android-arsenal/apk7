@@ -1,0 +1,125 @@
+2018-04-05 18:45:11,665 INFO  DownloadService - Downloading "https://github.com/florent37/WearMenu/archive/master.zip", attempt 3
+2018-04-05 18:45:12,291 INFO  DownloadService - Downloaded https://github.com/florent37/WearMenu/archive/master.zip, attempt 3
+2018-04-05 18:45:12,292 INFO  DownloadService - Size of file "/tmp/rdisk/1715/master.zip": 1 MB
+2018-04-05 18:45:12,292 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 18:45:12,292 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1715/master.zip: true
+2018-04-05 18:45:12,292 DEBUG ZipUtil - Extracting '/tmp/rdisk/1715/master.zip' into '/tmp/rdisk/1715/src'.
+2018-04-05 18:45:12,314 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 18:45:12,314 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1715/src]
+2018-04-05 18:45:12,319 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1715/src/.git/
+
+2018-04-05 18:45:12,322 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1715/src/WearMenu-master/gradlew
+2018-04-05 18:45:12,324 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1715/src/WearMenu-master/wear/build.gradle /tmp/rdisk/1715/src/WearMenu-master/wearmenu/build.gradle /tmp/rdisk/1715/src/WearMenu-master/build.gradle
+2018-04-05 18:45:12,327 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1715/src/WearMenu-master/wearmenu/build.gradle /tmp/rdisk/1715/src/WearMenu-master/wear/build.gradle /tmp/rdisk/1715/src/WearMenu-master/settings.gradle /tmp/rdisk/1715/src/WearMenu-master/build.gradle
+2018-04-05 18:45:12,327 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 18:45:12,327 INFO  ProjectFixService - Fixing project...
+2018-04-05 18:45:12,333 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1715/src/WearMenu-master/wear/local.properties
+2018-04-05 18:45:12,334 INFO  ProjectFixService - Build info for "/tmp/rdisk/1715/src/WearMenu-master/wear/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=21,targetSdkVersion=21]
+2018-04-05 18:45:12,334 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1715/src/WearMenu-master/wearmenu/local.properties
+2018-04-05 18:45:12,334 INFO  ProjectFixService - Build info for "/tmp/rdisk/1715/src/WearMenu-master/wearmenu/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=20,targetSdkVersion=21]
+2018-04-05 18:45:12,334 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1715/src/WearMenu-master/local.properties
+2018-04-05 18:45:12,335 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 18:45:12,335 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 18:45:12,336 INFO  ProjectFixService - Build info for "/tmp/rdisk/1715/src/WearMenu-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=20,targetSdkVersion=21]
+2018-04-05 18:45:12,336 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 18:45:12,336 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 18:45:12,336 INFO  SysUtils - Execute command: [/tmp/rdisk/1715/src/WearMenu-master/gradlew, -b, /tmp/rdisk/1715/src/WearMenu-master/wear/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 18:45:22,410 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 18:45:22,410 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 18:45:22,410 INFO  SysUtils - Execute command: [/tmp/rdisk/1715/src/WearMenu-master/gradlew, -b, /tmp/rdisk/1715/src/WearMenu-master/wear/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 18:46:00,925 INFO  SysUtils - Configuration on demand is an incubating feature.
+:wear:preBuild UP-TO-DATE
+:wear:preDebugBuild UP-TO-DATE
+:wear:compileDebugNdk UP-TO-DATE
+:wear:checkDebugManifest
+:wear:preReleaseBuild UP-TO-DATE
+:wearmenu:compileLint
+:wearmenu:copyReleaseLint UP-TO-DATE
+:wearmenu:preBuild UP-TO-DATE
+:wearmenu:preReleaseBuild UP-TO-DATE
+:wearmenu:checkReleaseManifest
+:wearmenu:preDebugAndroidTestBuild UP-TO-DATE
+:wearmenu:preDebugBuild UP-TO-DATE
+:wearmenu:prepareComAndroidSupportRecyclerviewV72100Library
+:wearmenu:prepareComAndroidSupportSupportV42100Library
+:wearmenu:prepareComGoogleAndroidGmsPlayServicesBase6587Library
+:wearmenu:prepareComGoogleAndroidGmsPlayServicesWearable6587Library
+:wearmenu:prepareComGoogleAndroidSupportWearable110Library
+:wearmenu:prepareReleaseDependencies
+:wearmenu:compileReleaseAidl
+:wearmenu:compileReleaseRenderscript
+:wearmenu:generateReleaseBuildConfig
+:wearmenu:generateReleaseAssets UP-TO-DATE
+:wearmenu:mergeReleaseAssets
+:wearmenu:generateReleaseResValues
+:wearmenu:generateReleaseResources
+:wearmenu:mergeReleaseResources
+:wearmenu:processReleaseManifest
+:wearmenu:processReleaseResources
+:wearmenu:generateReleaseSources
+:wearmenu:compileReleaseJava
+:wearmenu:extractReleaseAnnotations
+:wearmenu:mergeReleaseProguardFiles
+:wearmenu:processReleaseJavaRes UP-TO-DATE
+:wearmenu:packageReleaseJar
+:wearmenu:compileReleaseNdk UP-TO-DATE
+:wearmenu:packageReleaseJniLibs UP-TO-DATE
+:wearmenu:packageReleaseLocalJar UP-TO-DATE
+:wearmenu:packageReleaseRenderscript UP-TO-DATE
+:wearmenu:packageReleaseResources
+:wearmenu:bundleRelease
+:wear:prepareComAndroidSupportRecyclerviewV72100Library
+:wear:prepareComAndroidSupportSupportV42100Library
+:wear:prepareComGithubFlorent37Wearmenu100Library
+:wear:prepareComGoogleAndroidGmsPlayServicesBase6587Library
+:wear:prepareComGoogleAndroidGmsPlayServicesWearable6587Library
+:wear:prepareComGoogleAndroidSupportWearable110Library
+:wear:prepareDebugDependencies
+:wear:compileDebugAidl
+:wear:compileDebugRenderscript
+:wear:generateDebugBuildConfig
+:wear:generateDebugAssets UP-TO-DATE
+:wear:mergeDebugAssets
+:wear:generateDebugResValues
+:wear:generateDebugResources
+:wear:mergeDebugResources
+:wear:processDebugManifest
+:wear:processDebugResources
+:wear:generateDebugSources
+:wear:compileDebugJava
+:wear:preDexDebug
+:wear:dexDebug
+:wear:processDebugJavaRes UP-TO-DATE
+:wear:validateDebugSigning
+:wear:packageDebug
+:wear:zipalignDebug
+:wear:assembleDebug
+:wear:checkReleaseManifest
+:wear:prepareReleaseDependencies
+:wear:compileReleaseAidl
+:wear:compileReleaseRenderscript
+:wear:generateReleaseBuildConfig
+:wear:generateReleaseAssets UP-TO-DATE
+:wear:mergeReleaseAssets
+:wear:generateReleaseResValues
+:wear:generateReleaseResources
+:wear:mergeReleaseResources
+:wear:processReleaseManifest
+:wear:processReleaseResources
+:wear:generateReleaseSources
+:wear:compileReleaseJava
+:wear:lintVitalRelease
+:wear:compileReleaseNdk UP-TO-DATE
+:wear:preDexRelease
+:wear:dexRelease
+:wear:processReleaseJavaRes UP-TO-DATE
+:wear:packageRelease
+:wear:assembleRelease
+:wear:assemble
+:wear:build
+
+BUILD SUCCESSFUL
+
+Total time: 38.088 secs
+
+2018-04-05 18:46:00,981 INFO  FullProcessService - Found APK file: /tmp/rdisk/1715/src/WearMenu-master/wear/build/outputs/apk/wear-release-unsigned.apk

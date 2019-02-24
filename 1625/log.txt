@@ -1,0 +1,72 @@
+2016-07-15 02:56:38,444 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/tomakehurst/wiremock/archive/master.zip", attempt 3
+2016-07-15 02:56:42,102 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/tomakehurst/wiremock/archive/master.zip, attempt 3
+2016-07-15 02:56:44,358 DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src'.
+2016-07-15 02:56:44,654 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 7 MB
+2016-07-15 02:56:44,719 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/gradlew
+2016-07-15 02:56:44,740 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/build.gradle
+2016-07-15 02:56:44,764 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/build.gradle
+2016-07-15 02:56:44,775 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-07-15 02:56:44,777 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-07-15 02:56:44,863 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-07-15 02:56:44,864 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-07-15 02:56:44,868 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-15 02:56:44,871 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-15 02:56:44,875 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-07-15 02:56:44,877 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-07-15 02:56:44,917 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/local.properties
+2016-07-15 02:56:44,942 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: true (https://services.gradle.org/distributions/gradle-2.6-all.zip)
+2016-07-15 02:56:44,944 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.6-bin.zip)
+2016-07-15 02:56:44,972 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-15 02:56:44,988 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-15 02:56:45,007 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/local.properties
+2016-07-15 02:56:45,029 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-15 02:56:45,030 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-15 02:56:45,032 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-07-15 02:56:45,041 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-15 02:56:45,053 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/build.gradle, tasks]
+2016-07-15 02:56:58,999 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 71
+2016-07-15 02:56:59,000 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: javadoc test check
+2016-07-15 02:56:59,000 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/build.gradle, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2016-07-15 02:57:30,688 INFO  c.g.v.a.s.a.ProjectBuildService - :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:processResources
+:classes
+:jar
+:javadocJar
+:shadowJar
+:sourcesJar
+:signArchives SKIPPED
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 31.139 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
+2016-07-15 02:57:30,722 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-15 02:57:30,722 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/build.gradle, tasks]
+2016-07-15 02:57:38,122 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 47
+2016-07-15 02:57:38,123 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-07-15 02:57:38,123 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468529797841-0/src/wiremock-master/sample-war/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-07-15 02:57:45,763 INFO  c.g.v.a.s.a.ProjectBuildService - :compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:war
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.109 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
+2016-07-15 02:57:45,789 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-15 02:57:45,814 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

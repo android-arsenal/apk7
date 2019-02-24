@@ -1,0 +1,85 @@
+2018-04-05 22:55:44,880 INFO  DownloadService - Downloading "https://github.com/spengilley/ActivityFragmentMVP/archive/master.zip", attempt 3
+2018-04-05 22:56:45,514 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 22:56:46,213 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 22:56:46,213 INFO  DownloadService - Downloading "https://github.com/spengilley/ActivityFragmentMVP/archive/master.zip", attempt 3
+2018-04-05 22:57:47,415 DEBUG FullProcessService - Repository https://github.com/spengilley/ActivityFragmentMVP available: true
+2018-04-05 22:57:47,415 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 22:57:47,415 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/spengilley/ActivityFragmentMVP, /tmp/rdisk/1535/src]
+2018-04-05 22:57:48,864 INFO  SysUtils - 
+2018-04-05 22:57:48,876 INFO  GitService - Deleted "/tmp/rdisk/1535/src/.git": true
+2018-04-05 22:57:48,877 INFO  FullProcessService - Size of directory with sources: 126 KB
+2018-04-05 22:57:48,878 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1535/src]
+2018-04-05 22:57:48,882 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1535/src/.git/
+
+2018-04-05 22:57:48,884 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1535/src/gradlew
+2018-04-05 22:57:48,886 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1535/src/app/build.gradle /tmp/rdisk/1535/src/build.gradle
+2018-04-05 22:57:48,888 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1535/src/settings.gradle /tmp/rdisk/1535/src/build.gradle /tmp/rdisk/1535/src/app/build.gradle
+2018-04-05 22:57:48,888 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 22:57:48,888 INFO  ProjectFixService - Fixing project...
+2018-04-05 22:57:48,892 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1535/src/app/local.properties
+2018-04-05 22:57:48,893 INFO  ProjectFixService - Build info for "/tmp/rdisk/1535/src/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=19]
+2018-04-05 22:57:48,893 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1535/src/local.properties
+2018-04-05 22:57:48,893 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 22:57:48,893 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 22:57:48,894 INFO  ProjectFixService - Build info for "/tmp/rdisk/1535/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=19]
+2018-04-05 22:57:48,894 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 22:57:48,894 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 22:57:48,894 INFO  SysUtils - Execute command: [/tmp/rdisk/1535/src/gradlew, -b, /tmp/rdisk/1535/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 22:57:55,964 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 22:57:55,965 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 22:57:55,965 INFO  SysUtils - Execute command: [/tmp/rdisk/1535/src/gradlew, -b, /tmp/rdisk/1535/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 22:58:08,589 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.198 secs
+
+2018-04-05 22:58:08,597 INFO  FullProcessService - Found APK file: /tmp/rdisk/1535/src/app/build/outputs/apk/app-debug.apk

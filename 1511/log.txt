@@ -1,0 +1,420 @@
+2018-04-06 00:00:05,497 INFO  DownloadService - Downloading "https://github.com/m039/beacon-keeper/archive/master.zip", attempt 3
+2018-04-06 00:01:06,020 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-06 00:01:06,690 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-06 00:01:06,690 INFO  DownloadService - Downloading "https://github.com/m039/beacon-keeper/archive/master.zip", attempt 3
+2018-04-06 00:02:07,933 DEBUG FullProcessService - Repository https://github.com/m039/beacon-keeper available: true
+2018-04-06 00:02:07,933 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-06 00:02:07,933 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/m039/beacon-keeper, /tmp/rdisk/1511/src]
+2018-04-06 00:02:09,890 INFO  SysUtils - 
+2018-04-06 00:02:09,896 INFO  GitService - Deleted "/tmp/rdisk/1511/src/.git": true
+2018-04-06 00:02:09,902 INFO  FullProcessService - Size of directory with sources: 587 KB
+2018-04-06 00:02:09,902 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1511/src]
+2018-04-06 00:02:09,907 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1511/src/.git/
+
+2018-04-06 00:02:09,911 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1511/src/gradlew
+2018-04-06 00:02:09,916 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1511/src/beacon-keeper-app/build.gradle /tmp/rdisk/1511/src/beacon-keeper-library/build.gradle /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/build.gradle /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-foreground-sample/build.gradle /tmp/rdisk/1511/src/build.gradle
+2018-04-06 00:02:09,920 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1511/src/settings.gradle /tmp/rdisk/1511/src/build.gradle /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-foreground-sample/build.gradle /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/build.gradle /tmp/rdisk/1511/src/beacon-keeper-library/build.gradle /tmp/rdisk/1511/src/beacon-keeper-app/build.gradle
+2018-04-06 00:02:09,921 INFO  ProjectBuildService - Remote scripts: none
+2018-04-06 00:02:09,921 INFO  ProjectFixService - Fixing project...
+2018-04-06 00:02:09,930 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1511/src/beacon-keeper-app/local.properties
+2018-04-06 00:02:09,930 INFO  ProjectFixService - Build info for "/tmp/rdisk/1511/src/beacon-keeper-app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-06 00:02:09,931 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1511/src/beacon-keeper-library/local.properties
+2018-04-06 00:02:09,931 INFO  ProjectFixService - Build info for "/tmp/rdisk/1511/src/beacon-keeper-library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-06 00:02:09,931 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/local.properties
+2018-04-06 00:02:09,932 INFO  ProjectFixService - Build info for "/tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-06 00:02:09,932 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-foreground-sample/local.properties
+2018-04-06 00:02:09,932 INFO  ProjectFixService - Build info for "/tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-foreground-sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-06 00:02:09,932 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1511/src/local.properties
+2018-04-06 00:02:09,933 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2-all.zip
+2018-04-06 00:02:09,933 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2-bin.zip)
+2018-04-06 00:02:09,933 INFO  ProjectFixService - Build info for "/tmp/rdisk/1511/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-06 00:02:09,933 INFO  ProjectFixService - Project was maybe fixed
+2018-04-06 00:02:09,934 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:02:09,934 INFO  SysUtils - Execute command: [/tmp/rdisk/1511/src/gradlew, -b, /tmp/rdisk/1511/src/beacon-keeper-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:02:31,058 INFO  ProjectTaskService - Detected possible tasks: 60
+2018-04-06 00:02:31,058 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-06 00:02:31,059 INFO  SysUtils - Execute command: [/tmp/rdisk/1511/src/gradlew, -b, /tmp/rdisk/1511/src/beacon-keeper-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-06 00:02:51,900 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-06 00:02:51,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+:beacon-keeper-app:preBuild UP-TO-DATE
+:beacon-keeper-app:preDebugBuild UP-TO-DATE
+:beacon-keeper-app:compileDebugNdk UP-TO-DATE
+:beacon-keeper-app:checkDebugManifest
+:beacon-keeper-app:preReleaseBuild UP-TO-DATE
+:beacon-keeper-library:compileLint
+:beacon-keeper-library:copyReleaseLint UP-TO-DATE
+:beacon-keeper-library:mergeReleaseProguardFiles
+:beacon-keeper-library:preBuild UP-TO-DATE
+:beacon-keeper-library:preReleaseBuild UP-TO-DATE
+:beacon-keeper-library:checkReleaseManifest
+:beacon-keeper-library:prepareReleaseDependencies
+:beacon-keeper-library:compileReleaseAidl
+:beacon-keeper-library:compileReleaseRenderscript
+:beacon-keeper-library:generateReleaseBuildConfig
+:beacon-keeper-library:generateReleaseAssets UP-TO-DATE
+:beacon-keeper-library:mergeReleaseAssets
+:beacon-keeper-library:generateReleaseResValues
+:beacon-keeper-library:generateReleaseResources
+:beacon-keeper-library:packageReleaseResources
+:beacon-keeper-library:processReleaseManifest
+:beacon-keeper-library:processReleaseResources
+:beacon-keeper-library:generateReleaseSources
+:beacon-keeper-library:compileReleaseJavaNote: /tmp/rdisk/1511/src/beacon-keeper-library/src/main/java/com/m039/beacon/keeper/util/SimpleLeScanner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:beacon-keeper-library:processReleaseJavaRes UP-TO-DATE
+:beacon-keeper-library:packageReleaseJar
+:beacon-keeper-library:compileReleaseNdk UP-TO-DATE
+:beacon-keeper-library:packageReleaseJniLibs UP-TO-DATE
+:beacon-keeper-library:packageReleaseLocalJar UP-TO-DATE
+:beacon-keeper-library:packageReleaseRenderscript UP-TO-DATE
+:beacon-keeper-library:bundleRelease
+:beacon-keeper-app:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+:beacon-keeper-app:prepareComAndroidSupportAppcompatV72520Library
+:beacon-keeper-app:prepareComAndroidSupportMediarouterV72520Library
+:beacon-keeper-app:prepareComAndroidSupportPaletteV72520Library
+:beacon-keeper-app:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
+:beacon-keeper-app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:beacon-keeper-app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:beacon-keeper-app:prepareComAndroidSupportSupportCoreUtils2520Library
+:beacon-keeper-app:prepareComAndroidSupportSupportFragment2520Library
+:beacon-keeper-app:prepareComAndroidSupportSupportMediaCompat2520Library
+:beacon-keeper-app:prepareComAndroidSupportSupportV42520Library
+:beacon-keeper-app:prepareComAndroidSupportSupportVectorDrawable2520Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServices1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAds1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAdsLite1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAnalytics1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAppinvite1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAuth1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAuthApiPhone1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAuthBase1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesAwareness1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesBase1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesBasement1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesCast1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesCastFramework1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesClearcut1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesDrive1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesFitness1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesGames1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesGass1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesGcm1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesIdentity1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesIid1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesInstantapps1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesLocation1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesMaps1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesNearby1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesPanorama1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesPlaces1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesPlus1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesSafetynet1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesTagmanager1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesTagmanagerV4Impl1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesTasks1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesVision1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesVisionCommon1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesWallet1104Library
+:beacon-keeper-app:prepareComGoogleAndroidGmsPlayServicesWearable1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseAnalytics1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseAnalyticsImpl1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseAppindexing1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseAuth1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseCommon1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseConfig1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseCrash1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseDatabase1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseDatabaseConnection1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseDynamicLinks1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseIid1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseMessaging1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseStorage1104Library
+:beacon-keeper-app:prepareComGoogleFirebaseFirebaseStorageCommon1104Library
+:beacon-keeper-app:prepareSrcBeaconKeeperLibraryUnspecifiedLibrary
+:beacon-keeper-app:prepareDebugDependencies
+:beacon-keeper-app:compileDebugAidl
+:beacon-keeper-app:compileDebugRenderscript
+:beacon-keeper-app:generateDebugBuildConfig
+:beacon-keeper-app:generateDebugAssets UP-TO-DATE
+:beacon-keeper-app:mergeDebugAssets
+:beacon-keeper-app:generateDebugResValues
+:beacon-keeper-app:generateDebugResources
+:beacon-keeper-app:mergeDebugResources
+:beacon-keeper-app:processDebugManifest
+:beacon-keeper-app:processDebugResources Position 1 : Error retrieving parent for item: No resource found that matches the given name 'android:TextAppearance.Material.Widget.Button.Borderless.Colored'.
+ Position 1 : Error retrieving parent for item: No resource found that matches the given name 'android:TextAppearance.Material.Widget.Button.Colored'.
+ Position 1 : Error retrieving parent for item: No resource found that matches the given name 'android:TextAppearance.Material.Widget.Button.Inverse'.
+ Position 1 : Error retrieving parent for item: No resource found that matches the given name 'android:Widget.Material.Button.Colored'.
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':beacon-keeper-app:processDebugResources'.
+> com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/root/Applications/android-sdk/build-tools/22.0.1/aapt'' finished with non-zero exit value 1
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':beacon-keeper-app:processDebugResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.internal.UncheckedException: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/root/Applications/android-sdk/build-tools/22.0.1/aapt'' finished with non-zero exit value 1
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:39)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:66)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/root/Applications/android-sdk/build-tools/22.0.1/aapt'' finished with non-zero exit value 1
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:42)
+	at com.android.builder.core.AndroidBuilder.processResources(AndroidBuilder.java:777)
+	at com.android.builder.core.AndroidBuilder$processResources$3.call(Unknown Source)
+	at com.android.build.gradle.tasks.ProcessAndroidResources.doFullTaskAction(ProcessAndroidResources.groovy:145)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	... 53 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/root/Applications/android-sdk/build-tools/22.0.1/aapt'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:40)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 20.359 secs
+
+2018-04-06 00:02:51,988 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:02:51,988 INFO  SysUtils - Execute command: [/tmp/rdisk/1511/src/gradlew, -b, /tmp/rdisk/1511/src/beacon-keeper-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:02:59,945 INFO  ProjectTaskService - Detected possible tasks: 58
+2018-04-06 00:02:59,945 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-04-06 00:02:59,945 INFO  SysUtils - Execute command: [/tmp/rdisk/1511/src/gradlew, -b, /tmp/rdisk/1511/src/beacon-keeper-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-06 00:03:06,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+:beacon-keeper-library:compileLint
+:beacon-keeper-library:copyDebugLint UP-TO-DATE
+:beacon-keeper-library:mergeDebugProguardFiles
+:beacon-keeper-library:preBuild UP-TO-DATE
+:beacon-keeper-library:preDebugBuild UP-TO-DATE
+:beacon-keeper-library:checkDebugManifest
+:beacon-keeper-library:prepareDebugDependencies
+:beacon-keeper-library:compileDebugAidl
+:beacon-keeper-library:compileDebugRenderscript
+:beacon-keeper-library:generateDebugBuildConfig
+:beacon-keeper-library:generateDebugAssets UP-TO-DATE
+:beacon-keeper-library:mergeDebugAssets
+:beacon-keeper-library:generateDebugResValues
+:beacon-keeper-library:generateDebugResources
+:beacon-keeper-library:packageDebugResources
+:beacon-keeper-library:processDebugManifest
+:beacon-keeper-library:processDebugResources
+:beacon-keeper-library:generateDebugSources
+:beacon-keeper-library:compileDebugJavaNote: /tmp/rdisk/1511/src/beacon-keeper-library/src/main/java/com/m039/beacon/keeper/util/SimpleLeScanner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:beacon-keeper-library:processDebugJavaRes UP-TO-DATE
+:beacon-keeper-library:packageDebugJar
+:beacon-keeper-library:compileDebugNdk UP-TO-DATE
+:beacon-keeper-library:packageDebugJniLibs UP-TO-DATE
+:beacon-keeper-library:packageDebugLocalJar UP-TO-DATE
+:beacon-keeper-library:packageDebugRenderscript UP-TO-DATE
+:beacon-keeper-library:bundleDebug
+:beacon-keeper-library:assembleDebug
+:beacon-keeper-library:copyReleaseLint UP-TO-DATE
+:beacon-keeper-library:mergeReleaseProguardFiles UP-TO-DATE
+:beacon-keeper-library:preReleaseBuild UP-TO-DATE
+:beacon-keeper-library:checkReleaseManifest
+:beacon-keeper-library:prepareReleaseDependencies
+:beacon-keeper-library:compileReleaseAidl UP-TO-DATE
+:beacon-keeper-library:compileReleaseRenderscript UP-TO-DATE
+:beacon-keeper-library:generateReleaseBuildConfig UP-TO-DATE
+:beacon-keeper-library:generateReleaseAssets UP-TO-DATE
+:beacon-keeper-library:mergeReleaseAssets UP-TO-DATE
+:beacon-keeper-library:generateReleaseResValues UP-TO-DATE
+:beacon-keeper-library:generateReleaseResources UP-TO-DATE
+:beacon-keeper-library:packageReleaseResources UP-TO-DATE
+:beacon-keeper-library:processReleaseManifest UP-TO-DATE
+:beacon-keeper-library:processReleaseResources UP-TO-DATE
+:beacon-keeper-library:generateReleaseSources UP-TO-DATE
+:beacon-keeper-library:compileReleaseJava UP-TO-DATE
+:beacon-keeper-library:processReleaseJavaRes UP-TO-DATE
+:beacon-keeper-library:packageReleaseJar UP-TO-DATE
+:beacon-keeper-library:compileReleaseNdk UP-TO-DATE
+:beacon-keeper-library:packageReleaseJniLibs UP-TO-DATE
+:beacon-keeper-library:packageReleaseLocalJar UP-TO-DATE
+:beacon-keeper-library:packageReleaseRenderscript UP-TO-DATE
+:beacon-keeper-library:bundleRelease UP-TO-DATE
+:beacon-keeper-library:assembleRelease UP-TO-DATE
+:beacon-keeper-library:assemble
+:beacon-keeper-library:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.248 secs
+
+2018-04-06 00:03:06,754 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:03:06,755 INFO  SysUtils - Execute command: [/tmp/rdisk/1511/src/gradlew, -b, /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:03:14,655 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-06 00:03:14,656 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-06 00:03:14,656 INFO  SysUtils - Execute command: [/tmp/rdisk/1511/src/gradlew, -b, /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-06 00:03:25,023 INFO  SysUtils - Configuration on demand is an incubating feature.
+:beacon-keeper-samples:beacon-keeper-background-sample:preBuild UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:preDebugBuild UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:compileDebugNdk UP-TO-DATE
+:beacon-keeper-library:compileLint
+:beacon-keeper-library:copyReleaseLint UP-TO-DATE
+:beacon-keeper-library:mergeReleaseProguardFiles UP-TO-DATE
+:beacon-keeper-library:preBuild UP-TO-DATE
+:beacon-keeper-library:preReleaseBuild UP-TO-DATE
+:beacon-keeper-library:checkReleaseManifest
+:beacon-keeper-library:prepareReleaseDependencies
+:beacon-keeper-library:compileReleaseAidl UP-TO-DATE
+:beacon-keeper-library:compileReleaseRenderscript UP-TO-DATE
+:beacon-keeper-library:generateReleaseBuildConfig UP-TO-DATE
+:beacon-keeper-library:generateReleaseAssets UP-TO-DATE
+:beacon-keeper-library:mergeReleaseAssets UP-TO-DATE
+:beacon-keeper-library:generateReleaseResValues UP-TO-DATE
+:beacon-keeper-library:generateReleaseResources UP-TO-DATE
+:beacon-keeper-library:packageReleaseResources UP-TO-DATE
+:beacon-keeper-library:processReleaseManifest UP-TO-DATE
+:beacon-keeper-library:processReleaseResources UP-TO-DATE
+:beacon-keeper-library:generateReleaseSources UP-TO-DATE
+:beacon-keeper-library:compileReleaseJava UP-TO-DATE
+:beacon-keeper-library:processReleaseJavaRes UP-TO-DATE
+:beacon-keeper-library:packageReleaseJar UP-TO-DATE
+:beacon-keeper-library:compileReleaseNdk UP-TO-DATE
+:beacon-keeper-library:packageReleaseJniLibs UP-TO-DATE
+:beacon-keeper-library:packageReleaseLocalJar UP-TO-DATE
+:beacon-keeper-library:packageReleaseRenderscript UP-TO-DATE
+:beacon-keeper-library:bundleRelease UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:checkDebugManifest
+:beacon-keeper-samples:beacon-keeper-background-sample:preReleaseBuild UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:prepareSrcBeaconKeeperLibraryUnspecifiedLibrary
+:beacon-keeper-samples:beacon-keeper-background-sample:prepareDebugDependencies
+:beacon-keeper-samples:beacon-keeper-background-sample:compileDebugAidl
+:beacon-keeper-samples:beacon-keeper-background-sample:compileDebugRenderscript
+:beacon-keeper-samples:beacon-keeper-background-sample:generateDebugBuildConfig
+:beacon-keeper-samples:beacon-keeper-background-sample:generateDebugAssets UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:mergeDebugAssets
+:beacon-keeper-samples:beacon-keeper-background-sample:generateDebugResValues
+:beacon-keeper-samples:beacon-keeper-background-sample:generateDebugResources
+:beacon-keeper-samples:beacon-keeper-background-sample:mergeDebugResources
+:beacon-keeper-samples:beacon-keeper-background-sample:processDebugManifest
+:beacon-keeper-samples:beacon-keeper-background-sample:processDebugResources
+:beacon-keeper-samples:beacon-keeper-background-sample:generateDebugSources
+:beacon-keeper-samples:beacon-keeper-background-sample:compileDebugJava
+:beacon-keeper-samples:beacon-keeper-background-sample:preDexDebug
+:beacon-keeper-samples:beacon-keeper-background-sample:dexDebug
+:beacon-keeper-samples:beacon-keeper-background-sample:processDebugJavaRes UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:validateDebugSigning
+:beacon-keeper-samples:beacon-keeper-background-sample:packageDebug
+:beacon-keeper-samples:beacon-keeper-background-sample:zipalignDebug
+:beacon-keeper-samples:beacon-keeper-background-sample:assembleDebug
+:beacon-keeper-samples:beacon-keeper-background-sample:checkReleaseManifest
+:beacon-keeper-samples:beacon-keeper-background-sample:prepareReleaseDependencies
+:beacon-keeper-samples:beacon-keeper-background-sample:compileReleaseAidl
+:beacon-keeper-samples:beacon-keeper-background-sample:compileReleaseRenderscript
+:beacon-keeper-samples:beacon-keeper-background-sample:generateReleaseBuildConfig
+:beacon-keeper-samples:beacon-keeper-background-sample:generateReleaseAssets UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:mergeReleaseAssets
+:beacon-keeper-samples:beacon-keeper-background-sample:generateReleaseResValues
+:beacon-keeper-samples:beacon-keeper-background-sample:generateReleaseResources
+:beacon-keeper-samples:beacon-keeper-background-sample:mergeReleaseResources
+:beacon-keeper-samples:beacon-keeper-background-sample:processReleaseManifest
+:beacon-keeper-samples:beacon-keeper-background-sample:processReleaseResources
+:beacon-keeper-samples:beacon-keeper-background-sample:generateReleaseSources
+:beacon-keeper-samples:beacon-keeper-background-sample:compileReleaseJava
+:beacon-keeper-samples:beacon-keeper-background-sample:lintVitalRelease
+:beacon-keeper-samples:beacon-keeper-background-sample:compileReleaseNdk UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:preDexRelease
+:beacon-keeper-samples:beacon-keeper-background-sample:dexRelease
+:beacon-keeper-samples:beacon-keeper-background-sample:processReleaseJavaRes UP-TO-DATE
+:beacon-keeper-samples:beacon-keeper-background-sample:packageRelease
+:beacon-keeper-samples:beacon-keeper-background-sample:assembleRelease
+:beacon-keeper-samples:beacon-keeper-background-sample:assemble
+:beacon-keeper-samples:beacon-keeper-background-sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.94 secs
+
+2018-04-06 00:03:25,119 INFO  FullProcessService - Found APK file: /tmp/rdisk/1511/src/beacon-keeper-samples/beacon-keeper-background-sample/build/outputs/apk/beacon-keeper-background-sample-release-unsigned.apk

@@ -1,0 +1,281 @@
+2018-04-05 23:14:54,593 INFO  DownloadService - Downloading "https://github.com/singwhatiwanna/dynamic-load-apk/archive/master.zip", attempt 3
+2018-04-05 23:15:55,039 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 23:15:55,707 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 23:15:55,707 INFO  DownloadService - Downloading "https://github.com/singwhatiwanna/dynamic-load-apk/archive/master.zip", attempt 3
+2018-04-05 23:17:01,997 DEBUG FullProcessService - Repository https://github.com/singwhatiwanna/dynamic-load-apk available: true
+2018-04-05 23:17:01,997 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 23:17:01,997 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/singwhatiwanna/dynamic-load-apk, /tmp/rdisk/1528/src]
+2018-04-05 23:17:06,557 INFO  SysUtils - 
+2018-04-05 23:17:06,566 INFO  GitService - Deleted "/tmp/rdisk/1528/src/.git": true
+2018-04-05 23:17:06,578 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-04-05 23:17:06,578 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1528/src]
+2018-04-05 23:17:06,582 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1528/src/.git/
+
+2018-04-05 23:17:06,591 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1528/src/DynamicLoadApk/gradlew
+2018-04-05 23:17:06,600 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1528/src/DynamicLoadApk/lib/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-common/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-plugin/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-host/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-a/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-b/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/build.gradle
+2018-04-05 23:17:06,609 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1528/src/DynamicLoadApk/settings.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-b/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-a/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-host/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-plugin/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-common/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/lib/build.gradle /tmp/rdisk/1528/src/DynamicLoadApk/build.gradle
+2018-04-05 23:17:06,610 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 23:17:06,610 INFO  ProjectFixService - Fixing project...
+2018-04-05 23:17:06,628 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/lib/local.properties
+2018-04-05 23:17:06,628 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/lib/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=18]
+2018-04-05 23:17:06,629 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-common/local.properties
+2018-04-05 23:17:06,629 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-common/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=18]
+2018-04-05 23:17:06,629 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/local.properties
+2018-04-05 23:17:06,629 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-05 23:17:06,630 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-plugin/local.properties
+2018-04-05 23:17:06,630 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-plugin/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-05 23:17:06,630 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-host/local.properties
+2018-04-05 23:17:06,630 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-host/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-05 23:17:06,630 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-a/local.properties
+2018-04-05 23:17:06,631 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-a/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-05 23:17:06,631 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-b/local.properties
+2018-04-05 23:17:06,631 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/sample/main/main-plugin-b/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-05 23:17:06,631 INFO  LocalPropertiesFixService - Updated fake /tmp/rdisk/1528/src/DynamicLoadApk/local.properties
+2018-04-05 23:17:06,632 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 23:17:06,632 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 23:17:06,633 INFO  ProjectFixService - Build info for "/tmp/rdisk/1528/src/DynamicLoadApk/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=19]
+2018-04-05 23:17:06,633 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 23:17:06,633 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:17:06,633 INFO  SysUtils - Execute command: [/tmp/rdisk/1528/src/DynamicLoadApk/gradlew, -b, /tmp/rdisk/1528/src/DynamicLoadApk/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:17:18,057 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 23:17:18,057 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 23:17:18,057 INFO  SysUtils - Execute command: [/tmp/rdisk/1528/src/DynamicLoadApk/gradlew, -b, /tmp/rdisk/1528/src/DynamicLoadApk/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 23:17:25,517 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:mergeDebugProguardFiles
+:lib:preBuild
+:lib:preDebugBuild
+:lib:checkDebugManifest
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl
+:lib:compileDebugRenderscript
+:lib:generateDebugBuildConfig
+:lib:generateDebugAssets UP-TO-DATE
+:lib:mergeDebugAssets
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+:lib:processDebugManifest
+:lib:processDebugResources
+:lib:generateDebugSources
+:lib:compileDebugJava
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:packageDebugJar
+:lib:compileDebugNdk
+:lib:packageDebugJniLibs UP-TO-DATE
+:lib:packageDebugLocalJar
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:bundleDebug
+:lib:assembleDebug
+:lib:copyReleaseLint UP-TO-DATE
+:lib:mergeReleaseProguardFiles
+:lib:preReleaseBuild
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:compileReleaseJava
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar
+:lib:compileReleaseNdk
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:bundleRelease
+:lib:assembleRelease
+:lib:assemble
+:lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.001 secs
+
+2018-04-05 23:17:25,530 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:17:25,530 INFO  SysUtils - Execute command: [/tmp/rdisk/1528/src/DynamicLoadApk/gradlew, -b, /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:17:31,969 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 23:17:31,969 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 23:17:31,969 INFO  SysUtils - Execute command: [/tmp/rdisk/1528/src/DynamicLoadApk/gradlew, -b, /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 23:17:38,842 INFO  SysUtils - Configuration on demand is an incubating feature.
+:doi-common:compileLint
+:doi-common:copyDebugLint UP-TO-DATE
+:doi-common:mergeDebugProguardFiles
+:doi-common:preBuild
+:doi-common:preDebugBuild
+:doi-common:checkDebugManifest
+:doi-common:prepareDebugDependencies
+:doi-common:compileDebugAidl
+:doi-common:compileDebugRenderscript
+:doi-common:generateDebugBuildConfig
+:doi-common:generateDebugAssets UP-TO-DATE
+:doi-common:mergeDebugAssets
+:doi-common:generateDebugResValues
+:doi-common:generateDebugResources
+:doi-common:packageDebugResources
+:doi-common:processDebugManifest
+:doi-common:processDebugResources
+:doi-common:generateDebugSources
+:doi-common:compileDebugJava
+:doi-common:processDebugJavaRes UP-TO-DATE
+:doi-common:packageDebugJar
+:doi-common:compileDebugNdk
+:doi-common:packageDebugJniLibs UP-TO-DATE
+:doi-common:packageDebugLocalJar
+:doi-common:packageDebugRenderscript UP-TO-DATE
+:doi-common:bundleDebug
+:doi-common:assembleDebug
+:doi-common:copyReleaseLint UP-TO-DATE
+:doi-common:mergeReleaseProguardFiles
+:doi-common:preReleaseBuild
+:doi-common:checkReleaseManifest
+:doi-common:prepareReleaseDependencies
+:doi-common:compileReleaseAidl
+:doi-common:compileReleaseRenderscript
+:doi-common:generateReleaseBuildConfig
+:doi-common:generateReleaseAssets UP-TO-DATE
+:doi-common:mergeReleaseAssets
+:doi-common:generateReleaseResValues
+:doi-common:generateReleaseResources
+:doi-common:packageReleaseResources
+:doi-common:processReleaseManifest
+:doi-common:processReleaseResources
+:doi-common:generateReleaseSources
+:doi-common:compileReleaseJava
+:doi-common:processReleaseJavaRes UP-TO-DATE
+:doi-common:packageReleaseJar
+:doi-common:compileReleaseNdk
+:doi-common:packageReleaseJniLibs UP-TO-DATE
+:doi-common:packageReleaseLocalJar
+:doi-common:packageReleaseRenderscript UP-TO-DATE
+:doi-common:bundleRelease
+:doi-common:assembleRelease
+:doi-common:assemble
+:doi-common:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.427 secs
+
+2018-04-05 23:17:38,859 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:17:38,859 INFO  SysUtils - Execute command: [/tmp/rdisk/1528/src/DynamicLoadApk/gradlew, -b, /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:17:45,358 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-04-05 23:17:45,358 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 23:17:45,358 INFO  SysUtils - Execute command: [/tmp/rdisk/1528/src/DynamicLoadApk/gradlew, -b, /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 23:18:03,633 INFO  SysUtils - Configuration on demand is an incubating feature.
+:doi-host:preBuild
+:doi-host:compileDebugNdk
+:doi-common:compileLint
+:doi-common:copyReleaseLint UP-TO-DATE
+:doi-common:mergeReleaseProguardFiles UP-TO-DATE
+:doi-common:preBuild
+:doi-common:preReleaseBuild
+:doi-common:checkReleaseManifest
+:doi-common:prepareReleaseDependencies
+:doi-common:compileReleaseAidl UP-TO-DATE
+:doi-common:compileReleaseRenderscript UP-TO-DATE
+:doi-common:generateReleaseBuildConfig UP-TO-DATE
+:doi-common:generateReleaseAssets UP-TO-DATE
+:doi-common:mergeReleaseAssets UP-TO-DATE
+:doi-common:generateReleaseResValues UP-TO-DATE
+:doi-common:generateReleaseResources UP-TO-DATE
+:doi-common:packageReleaseResources UP-TO-DATE
+:doi-common:processReleaseManifest UP-TO-DATE
+:doi-common:processReleaseResources UP-TO-DATE
+:doi-common:generateReleaseSources UP-TO-DATE
+:doi-common:compileReleaseJava UP-TO-DATE
+:doi-common:processReleaseJavaRes UP-TO-DATE
+:doi-common:packageReleaseJar UP-TO-DATE
+:doi-common:compileReleaseNdk UP-TO-DATE
+:doi-common:packageReleaseJniLibs UP-TO-DATE
+:doi-common:packageReleaseLocalJar UP-TO-DATE
+:doi-common:packageReleaseRenderscript UP-TO-DATE
+:doi-common:bundleRelease UP-TO-DATE
+:doi-host:preDebugBuild
+:doi-host:checkDebugManifest
+:doi-host:preReleaseBuild
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:mergeReleaseProguardFiles UP-TO-DATE
+:lib:preBuild
+:lib:preReleaseBuild
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl UP-TO-DATE
+:lib:compileReleaseRenderscript UP-TO-DATE
+:lib:generateReleaseBuildConfig UP-TO-DATE
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets UP-TO-DATE
+:lib:generateReleaseResValues UP-TO-DATE
+:lib:generateReleaseResources UP-TO-DATE
+:lib:packageReleaseResources UP-TO-DATE
+:lib:processReleaseManifest UP-TO-DATE
+:lib:processReleaseResources UP-TO-DATE
+:lib:generateReleaseSources UP-TO-DATE
+:lib:compileReleaseJava UP-TO-DATE
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar UP-TO-DATE
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:bundleRelease UP-TO-DATE
+:doi-host:prepareDynamicLoadApkDoiCommonUnspecifiedLibrary
+:doi-host:prepareDynamicLoadApkLibUnspecifiedLibrary
+:doi-host:prepareDebugDependencies
+:doi-host:compileDebugAidl
+:doi-host:compileDebugRenderscript
+:doi-host:generateDebugBuildConfig
+:doi-host:generateDebugAssets UP-TO-DATE
+:doi-host:mergeDebugAssets
+:doi-host:generateDebugResValues
+:doi-host:generateDebugResources
+:doi-host:mergeDebugResources
+:doi-host:processDebugManifest
+:doi-host:processDebugResources
+:doi-host:generateDebugSources
+:doi-host:compileDebugJava
+:doi-host:preDexDebug
+:doi-host:dexDebug
+:doi-host:processDebugJavaRes UP-TO-DATE
+:doi-host:validateDebugSigning
+:doi-host:packageDebug
+:doi-host:zipalignDebug
+:doi-host:assembleDebug
+:doi-host:checkReleaseManifest
+:doi-host:prepareReleaseDependencies
+:doi-host:compileReleaseAidl
+:doi-host:compileReleaseRenderscript
+:doi-host:generateReleaseBuildConfig
+:doi-host:generateReleaseAssets UP-TO-DATE
+:doi-host:mergeReleaseAssets
+:doi-host:generateReleaseResValues
+:doi-host:generateReleaseResources
+:doi-host:mergeReleaseResources
+:doi-host:processReleaseManifest
+:doi-host:processReleaseResources
+:doi-host:generateReleaseSources
+:doi-host:compileReleaseJava
+:doi-host:lintVitalRelease
+:doi-host:compileReleaseNdk
+:doi-host:preDexRelease
+:doi-host:dexRelease
+:doi-host:processReleaseJavaRes UP-TO-DATE
+:doi-host:packageRelease
+:doi-host:assembleRelease
+:doi-host:assemble
+:doi-host:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.83 secs
+
+2018-04-05 23:18:03,663 INFO  FullProcessService - Found APK file: /tmp/rdisk/1528/src/DynamicLoadApk/sample/depend_on_interface/doi-host/build/outputs/apk/doi-host-release-unsigned.apk

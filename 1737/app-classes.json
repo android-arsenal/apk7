@@ -1,0 +1,17 @@
+{
+  "android.support.annotation" : [ "Keep" ],
+  "net.a.a" : [ "a", "b", "b$a" ],
+  "net.orange_box.storebox" : [ "BuildConfig", "StoreBox", "StoreBox$Builder", "StoreBoxInvocationHandler", "StoreBoxInvocationHandler$1" ],
+  "net.orange_box.storebox.adapters" : [ "StoreBoxTypeAdapter", "StoreType" ],
+  "net.orange_box.storebox.adapters.base" : [ "BaseBooleanTypeAdapter", "BaseFloatTypeAdapter", "BaseIntegerTypeAdapter", "BaseLongTypeAdapter", "BaseStringSetTypeAdapter", "BaseStringTypeAdapter" ],
+  "net.orange_box.storebox.adapters.extra" : [ "DateTypeAdapter", "DoubleTypeAdapter", "EnumTypeAdapter", "UriTypeAdapter" ],
+  "net.orange_box.storebox.adapters.standard" : [ "BooleanTypeAdapter", "FloatTypeAdapter", "IntegerTypeAdapter", "LongTypeAdapter", "StringSetTypeAdapter", "StringTypeAdapter" ],
+  "net.orange_box.storebox.annotations.method" : [ "ClearMethod", "DefaultValue", "KeyByResource", "KeyByString", "RegisterChangeListenerMethod", "RemoveMethod", "TypeAdapter", "UnregisterChangeListenerMethod" ],
+  "net.orange_box.storebox.annotations.option" : [ "SaveOption" ],
+  "net.orange_box.storebox.annotations.type" : [ "ActivityPreferences", "DefaultSharedPreferences", "FilePreferences" ],
+  "net.orange_box.storebox.enums" : [ "PreferencesMode", "PreferencesType", "SaveMode" ],
+  "net.orange_box.storebox.example.proguard" : [ "BuildConfig", "MainActivity", "MainActivity$1", "Preferences", "R", "R$attr", "R$integer", "R$layout", "R$string" ],
+  "net.orange_box.storebox.handlers" : [ "ChangeListenerMethodHandler", "ChangeListenerMethodHandler$ListenerInfo", "MethodHandler" ],
+  "net.orange_box.storebox.listeners" : [ "OnPreferenceValueChangedListener" ],
+  "net.orange_box.storebox.utils" : [ "MethodUtils", "PreferenceUtils", "PreferenceUtils$1", "TypeUtils" ]
+}

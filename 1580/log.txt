@@ -1,0 +1,21 @@
+2018-04-05 20:54:55,675 INFO  DownloadService - Downloading "https://github.com/wangjiegulu/DraggableFlagView/archive/master.zip", attempt 3
+2018-04-05 20:55:56,145 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 20:55:56,853 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 20:55:56,853 INFO  DownloadService - Downloading "https://github.com/wangjiegulu/DraggableFlagView/archive/master.zip", attempt 3
+2018-04-05 20:56:58,140 DEBUG FullProcessService - Repository https://github.com/wangjiegulu/DraggableFlagView available: true
+2018-04-05 20:56:58,140 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 20:56:58,140 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wangjiegulu/DraggableFlagView, /tmp/rdisk/1580/src]
+2018-04-05 20:57:00,004 INFO  SysUtils - 
+2018-04-05 20:57:00,013 INFO  GitService - Deleted "/tmp/rdisk/1580/src/.git": true
+2018-04-05 20:57:00,014 INFO  FullProcessService - Size of directory with sources: 390 KB
+2018-04-05 20:57:00,014 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1580/src]
+2018-04-05 20:57:00,019 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1580/src/.git/
+
+2018-04-05 20:57:00,020 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-05 20:57:00,020 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-05 20:57:00,021 INFO  ProjectBuildService - Build script(s): none
+2018-04-05 20:57:00,023 INFO  ProjectBuildService - All script(s): none
+2018-04-05 20:57:00,023 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:57:00,023 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-05 20:57:00,023 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 20:57:00,024 ERROR FullProcessService - Could not find generated or existed APK file

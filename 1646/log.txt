@@ -1,0 +1,102 @@
+2018-04-05 19:44:45,527 INFO  DownloadService - Downloading "https://github.com/Diolor/ADP/archive/master.zip", attempt 3
+2018-04-05 19:44:46,705 INFO  DownloadService - Downloaded https://github.com/Diolor/ADP/archive/master.zip, attempt 3
+2018-04-05 19:44:46,706 INFO  DownloadService - Size of file "/tmp/rdisk/1646/master.zip": 1 MB
+2018-04-05 19:44:46,706 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:44:46,706 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1646/master.zip: true
+2018-04-05 19:44:46,706 DEBUG ZipUtil - Extracting '/tmp/rdisk/1646/master.zip' into '/tmp/rdisk/1646/src'.
+2018-04-05 19:44:46,727 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 19:44:46,727 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1646/src]
+2018-04-05 19:44:46,734 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1646/src/.git/
+
+2018-04-05 19:44:46,737 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1646/src/ADP-master/client/gradlew
+2018-04-05 19:44:46,740 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1646/src/ADP-master/client/mobile/build.gradle /tmp/rdisk/1646/src/ADP-master/client/build.gradle
+2018-04-05 19:44:46,742 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1646/src/ADP-master/client/settings.gradle /tmp/rdisk/1646/src/ADP-master/client/mobile/build.gradle /tmp/rdisk/1646/src/ADP-master/client/build.gradle
+2018-04-05 19:44:46,742 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:44:46,742 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:44:46,748 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1646/src/ADP-master/client/mobile/local.properties
+2018-04-05 19:44:46,749 INFO  ProjectFixService - Build info for "/tmp/rdisk/1646/src/ADP-master/client/mobile/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-05 19:44:46,749 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1646/src/ADP-master/client/local.properties
+2018-04-05 19:44:46,749 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:44:46,749 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:44:46,750 INFO  ProjectFixService - Build info for "/tmp/rdisk/1646/src/ADP-master/client/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-05 19:44:46,750 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:44:46,750 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:44:46,750 INFO  SysUtils - Execute command: [/tmp/rdisk/1646/src/ADP-master/client/gradlew, -b, /tmp/rdisk/1646/src/ADP-master/client/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:45:01,150 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-04-05 19:45:01,150 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:45:01,151 INFO  SysUtils - Execute command: [/tmp/rdisk/1646/src/ADP-master/client/gradlew, -b, /tmp/rdisk/1646/src/ADP-master/client/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:45:58,038 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mobile:preBuild
+:mobile:compileDebugNdk
+:mobile:preDebugBuild
+:mobile:checkDebugManifest
+:mobile:preReleaseBuild
+:mobile:prepareComAndroidSupportAppcompatV72103Library
+:mobile:prepareComAndroidSupportRecyclerviewV72103Library
+:mobile:prepareComAndroidSupportSupportV42103Library
+:mobile:prepareDebugDependencies
+:mobile:compileDebugAidl
+:mobile:compileDebugRenderscript
+:mobile:generateDebugBuildConfig
+:mobile:generateDebugAssets UP-TO-DATE
+:mobile:mergeDebugAssets
+:mobile:generateDebugResValues
+:mobile:generateDebugResources
+:mobile:mergeDebugResources/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:mobile:processDebugManifest
+:mobile:processDebugResources
+:mobile:generateDebugSources
+:mobile:compileDebugJava
+:mobile:patchAndroidJar
+:mobile:_compileDebugJava
+:mobile:compileRetrolambdaDebug
+:mobile:preDexDebug
+:mobile:dexDebug
+:mobile:processDebugJavaRes UP-TO-DATE
+:mobile:validateDebugSigning
+:mobile:packageDebug
+:mobile:zipalignDebug
+:mobile:assembleDebug
+:mobile:checkReleaseManifest
+:mobile:prepareReleaseDependencies
+:mobile:compileReleaseAidl
+:mobile:compileReleaseRenderscript
+:mobile:generateReleaseBuildConfig
+:mobile:generateReleaseAssets UP-TO-DATE
+:mobile:mergeReleaseAssets
+:mobile:generateReleaseResValues
+:mobile:generateReleaseResources
+:mobile:mergeReleaseResources/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1646/src/ADP-master/client/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:mobile:processReleaseManifest
+:mobile:processReleaseResources
+:mobile:generateReleaseSources
+:mobile:compileReleaseJava
+:mobile:_compileReleaseJava
+:mobile:compileRetrolambdaRelease
+:mobile:lintVitalRelease
+:mobile:compileReleaseNdk
+:mobile:proguardRelease
+:mobile:dexRelease
+:mobile:processReleaseJavaRes UP-TO-DATE
+:mobile:packageRelease
+:mobile:assembleRelease
+:mobile:assemble
+:mobile:build
+
+BUILD SUCCESSFUL
+
+Total time: 56.445 secs
+
+2018-04-05 19:45:58,079 INFO  FullProcessService - Found APK file: /tmp/rdisk/1646/src/ADP-master/client/mobile/build/outputs/apk/mobile-release-unsigned.apk

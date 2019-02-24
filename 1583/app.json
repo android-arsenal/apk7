@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.qustom.dialog",
+    "label" : "Custom Dialog Example",
+    "icon" : "res/drawable-ldpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "17",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAACylBMVEUAAADIyMjo6Ojv7+/09PT39/f+/v7m5uYAAADZ2dny8vL7+/v+/v7////Kysru7u78/Pzd8/yR1/RbxO48ues1t+qQ1/Td8/vZ2dn39/fu+f180PEztup6z/Ht+f0AAADd3d36+vrb8vtKvuxJvuzZ8vva2tr7+/vj9fxEvOzi9fzLy8v4+Pj8/v9dxe5cxe77/v+qqqrt7e2t4ver4fasrKwAAADV1dX+//9Swe1Rwe39/v/U1NSqqqrx8fHY8fsAAADOzs6q4fZgYGDi4uKS2PSrq6vv7++J1fMAAADBwcH39/eX2vSV2fQAAADLy8u25fi15PfNzc0AAADU1NTp9/04uOqc3PWf3fWb2/U3t+rn9v3U1NQAAADV1dVpyfCl3/ai3vVnye8AAADR0dHM7fo0tuo6uevW8PvV8Ps5uOvK7PoAAADHx8eB0vJFvOzX8fvIyMi3t7fw8PD4/P5jx++h3vX3/P6h3fVix++4uLikpKTm5ub1/P51zfFCu+x70PFBu+tzzfEAAACPj4/X19dPwO215ffY2NgAAABWVla+vr7x8fHL7Pp2zvFty/B1zvFdXV0AAAAAAACdnZ3c3Nyenp4AAABwcHC7u7vE6vl0zfGj3vbC6fkAAACXl5fT09P4+Pja8vtgxu9hx++L1fOk3vZexe7Z8ftZWVmnp6ff39/6+vq85/i24fOoqKgAAAB+fn6wsLCtzts1s+UysuUvoc6Hoqx/f38AAAAAAAB7goQtf6AsncoxsOMztekje58kYXsAAAAaXHcgdJcqlcAwqtoys+YAAAAAAAAXUWoea4klhawwrN0AAAAROUobYHwfcJAmiK4rmcQuo9Iwq9sxr+EztegAAAAAAAAURFgbYXweaYYidpYmhKkpjbUrlL0smcMAAAAsLCxzc3OFhYWJiYmLi4uLi4sAAAAAAAAAAAAAAAAAAAB8ok4JAAAA7nRSTlMADmKr2dn9ZgE8vfn//yuw//////////9Y8v//////AoH8/////4T/////Wfz/////KvT//y4Esv////+zRf3/Bb//GPn/av//Brb///8L2P//2g/x//////////MR+/////8S+/////////8T9P////Tf/////////+HC/////////wyQ/////wc7/v//////PwMX0f/SDWT+/////xzM////////////UPn/////+RiS////////lQkhs///////syWq/v///w4kh/j//x9a0f////////8IK3Ha/f//////LEaUyejq/xUpMDQ4GiBOYQAAAtNJREFUOMtjYCAVMDIxs7CysbGyMLMzYlfBwcnFzcMLBTzcXJwcmEr4+AWAkoJCwiKiIsJi4ry8Avx8aMo4JCSBpkhJi8pAgKisHC+PpASKKnkFRaAxSsoyCKCiysurqCCPpEZNHahGQ1MGGWhq8fKqq8FVcWjrANXo6smgAn0DXl4dbaiNHIZGIF8Zy6ADE6AvjUwhqszMQZZZWGIosrIGWmhjBjbI1g4UMqoymMAeKG5nCzLKwRFkEK8JFkVOQHF1RwegImcXcDi7YlEkBgp7F2eg993cwRHhgUWRB0jC3U2ewdPLG6zIB4siX5CEt5cng58/2Em8AVgUBYIk1IP8GIJDIFEfKioTFh6BBCKjRKPBCSImmCE2Dpo+4mVkEniRQKJMEiTVxCUzJKdArONNTZNJz0CoycxKywYz1FNyGHJyvaHCeTIy+QVwNZoyeRCWd2EOQ3JRMVS8pFRGJr2sBMQsr0iXqSyHCBdXJTMEV9fAdNfWAX1U3xAZ2dAoI9NUCxWtqQ5maG5pFYCpsghog3q+rd0CKibQ0dLM0NnV3YNwrnWvb1//BN9sa7hIT/fEToZJk6dMVefFCdSnTps8iYFh+oyZ7qCgsp41uy1RDionNaetaS7QOB73mTOmA9OKw7z5Cxby8i5aDHJL1JKly0wSli6JAnGWr+BduGD+PFBS4Zi+ctXqNWvTscRd+rrV61dOB6dfsw0bN23egkWNzNZt23dsMINkhJ27du/Zu28/upL9+/YeOLhrJzS7yE8/dPjI0WPHUdUcP3b0yOFD0+EZT/7EyVOnz+w9i6Ts+Nm9Z06fOnkCOQs3nzt/4eKly1euXtt6/frWa1evXL508cL5c83yKIXBjQ03b92+c/fe/QcPHz64f+/undu3bm64IY9WrJhNn/fo8ZOnz56/ePH82dMnjx/Nm26GpYRymP7y3KvXb96+ffP61bmX0x0QSgBAfAMvvTkVqAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 12,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.qustom.dialog\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"17\" />\n\t<application android:theme=\"@android:style/Theme.Holo\" android:label=\"Custom Dialog Example\" android:icon=\"res/drawable-ldpi/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"Custom Dialog Example\" android:name=\"com.qustom.dialog.TestDialogActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 25352,
+  "crc32" : 543191390,
+  "sha256" : "eda4815ca321673107b1a48176fa36c7de7aae3298b64751c3da120ddc62825b",
+  "buildTime" : 1522961404000
+}

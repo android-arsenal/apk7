@@ -1,0 +1,125 @@
+2018-04-05 19:39:47,472 INFO  DownloadService - Downloading "https://github.com/Jungerr/GridPasswordView/archive/master.zip", attempt 3
+2018-04-05 19:39:49,601 INFO  DownloadService - Downloaded https://github.com/Jungerr/GridPasswordView/archive/master.zip, attempt 3
+2018-04-05 19:39:49,601 INFO  DownloadService - Size of file "/tmp/rdisk/1652/master.zip": 1020 KB
+2018-04-05 19:39:49,602 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:39:49,602 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1652/master.zip: true
+2018-04-05 19:39:49,602 DEBUG ZipUtil - Extracting '/tmp/rdisk/1652/master.zip' into '/tmp/rdisk/1652/src'.
+2018-04-05 19:39:49,617 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 19:39:49,617 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1652/src]
+2018-04-05 19:39:49,621 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1652/src/.git/
+
+2018-04-05 19:39:49,624 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1652/src/GridPasswordView-master/gradlew
+2018-04-05 19:39:49,626 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1652/src/GridPasswordView-master/demo/build.gradle /tmp/rdisk/1652/src/GridPasswordView-master/library/build.gradle /tmp/rdisk/1652/src/GridPasswordView-master/build.gradle
+2018-04-05 19:39:49,629 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1652/src/GridPasswordView-master/settings.gradle /tmp/rdisk/1652/src/GridPasswordView-master/library/build.gradle /tmp/rdisk/1652/src/GridPasswordView-master/demo/build.gradle /tmp/rdisk/1652/src/GridPasswordView-master/build.gradle
+2018-04-05 19:39:49,629 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:39:49,629 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:39:49,634 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1652/src/GridPasswordView-master/demo/local.properties
+2018-04-05 19:39:49,635 INFO  ProjectFixService - Build info for "/tmp/rdisk/1652/src/GridPasswordView-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 19:39:49,635 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1652/src/GridPasswordView-master/library/local.properties
+2018-04-05 19:39:49,635 INFO  ProjectFixService - Build info for "/tmp/rdisk/1652/src/GridPasswordView-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2018-04-05 19:39:49,635 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1652/src/GridPasswordView-master/local.properties
+2018-04-05 19:39:49,636 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-05 19:39:49,636 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-05 19:39:49,637 INFO  ProjectFixService - Build info for "/tmp/rdisk/1652/src/GridPasswordView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=23]
+2018-04-05 19:39:49,637 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:39:49,637 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:39:49,637 INFO  SysUtils - Execute command: [/tmp/rdisk/1652/src/GridPasswordView-master/gradlew, -b, /tmp/rdisk/1652/src/GridPasswordView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:39:59,659 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 19:39:59,659 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 19:39:59,659 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 19:39:59,660 INFO  SysUtils - Execute command: [/tmp/rdisk/1652/src/GridPasswordView-master/gradlew, -b, /tmp/rdisk/1652/src/GridPasswordView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 19:40:35,062 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:demo:prepareComAndroidSupportAppcompatV72311Library
+:demo:prepareComAndroidSupportSupportV42311Library
+:demo:prepareComJunglyGridPasswordView03Library
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugAssets UP-TO-DATE
+:demo:mergeDebugAssets
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:compileDebugJavaWithJavacNote: /tmp/rdisk/1652/src/GridPasswordView-master/demo/src/main/java/com/jungly/gridpasswordview/demo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileDebugNdk UP-TO-DATE
+:demo:compileDebugSources
+:demo:prePackageMarkerForDebug
+:demo:transformClassesWithDexForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNative_libsWithMergeJniLibsForDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateDebugSigning
+:demo:packageDebug
+:demo:zipalignDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseAssets UP-TO-DATE
+:demo:mergeReleaseAssets
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:compileReleaseJavaWithJavacNote: /tmp/rdisk/1652/src/GridPasswordView-master/demo/src/main/java/com/jungly/gridpasswordview/demo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileReleaseNdk UP-TO-DATE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:prePackageMarkerForRelease
+:demo:transformClassesWithDexForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNative_libsWithMergeJniLibsForRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:compileLint
+:demo:lint
+Ran lint on variant release: 25 issues found
+Ran lint on variant debug: 25 issues found
+Wrote HTML report to file:///tmp/rdisk/1652/src/GridPasswordView-master/demo/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/1652/src/GridPasswordView-master/demo/build/outputs/lint-results-debug.xml
+:demo:preDebugUnitTestBuild UP-TO-DATE
+:demo:prepareDebugUnitTestDependencies
+:demo:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:demo:processDebugUnitTestJavaRes UP-TO-DATE
+:demo:compileDebugUnitTestSources UP-TO-DATE
+:demo:mockableAndroidJar
+:demo:assembleDebugUnitTest
+:demo:testDebugUnitTest
+:demo:preReleaseUnitTestBuild UP-TO-DATE
+:demo:prepareReleaseUnitTestDependencies
+:demo:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:demo:processReleaseUnitTestJavaRes UP-TO-DATE
+:demo:compileReleaseUnitTestSources UP-TO-DATE
+:demo:assembleReleaseUnitTest
+:demo:testReleaseUnitTest
+:demo:test
+:demo:check
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 34.973 secs
+
+2018-04-05 19:40:35,103 INFO  FullProcessService - Found APK file: /tmp/rdisk/1652/src/GridPasswordView-master/demo/build/outputs/apk/demo-release-unsigned.apk

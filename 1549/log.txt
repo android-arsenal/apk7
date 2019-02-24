@@ -1,0 +1,346 @@
+2018-04-10 07:09:45,149 INFO  DownloadService - Downloading "https://github.com/hdodenhof/CircleImageView/archive/master.zip", attempt 3
+2018-04-10 07:10:45,634 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 07:10:46,334 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 07:10:46,334 INFO  DownloadService - Downloading "https://github.com/hdodenhof/CircleImageView/archive/master.zip", attempt 3
+2018-04-10 07:11:47,677 DEBUG FullProcessService - Repository https://github.com/hdodenhof/CircleImageView available: true
+2018-04-10 07:11:47,677 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 07:11:47,678 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hdodenhof/CircleImageView, /tmp/rdisk/1549/src]
+2018-04-10 07:11:50,077 INFO  SysUtils - 
+2018-04-10 07:11:50,089 INFO  GitService - Deleted "/tmp/rdisk/1549/src/.git": true
+2018-04-10 07:11:50,091 INFO  FullProcessService - Size of directory with sources: 899 KB
+2018-04-10 07:11:50,091 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1549/src]
+2018-04-10 07:11:50,098 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1549/src/.git/
+
+2018-04-10 07:11:50,100 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1549/src/gradlew
+2018-04-10 07:11:50,102 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1549/src/circleimageview/build.gradle /tmp/rdisk/1549/src/sample/build.gradle /tmp/rdisk/1549/src/build.gradle
+2018-04-10 07:11:50,104 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1549/src/settings.gradle /tmp/rdisk/1549/src/sample/build.gradle /tmp/rdisk/1549/src/circleimageview/build.gradle /tmp/rdisk/1549/src/build.gradle
+2018-04-10 07:11:50,104 INFO  DownloadService - Downloading "https://raw.github.com/hdodenhof/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-10 07:12:50,407 ERROR RemoteScriptService - Could not download content from "https://raw.github.com/hdodenhof/gradle-mvn-push/master/gradle-mvn-push.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 07:12:50,407 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 07:12:50,407 INFO  ProjectFixService - Fixing project...
+2018-04-10 07:12:50,415 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1549/src/circleimageview/local.properties
+2018-04-10 07:12:50,415 INFO  ProjectFixService - Build info for "/tmp/rdisk/1549/src/circleimageview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-04-10 07:12:50,415 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1549/src/sample/local.properties
+2018-04-10 07:12:50,416 INFO  ProjectFixService - Build info for "/tmp/rdisk/1549/src/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-04-10 07:12:50,416 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1549/src/local.properties
+2018-04-10 07:12:50,416 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-04-10 07:12:50,417 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-04-10 07:12:50,417 INFO  ProjectFixService - Build info for "/tmp/rdisk/1549/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-04-10 07:12:50,417 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 07:12:50,417 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 07:12:50,418 INFO  SysUtils - Execute command: [/tmp/rdisk/1549/src/gradlew, -b, /tmp/rdisk/1549/src/circleimageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 07:13:00,139 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-10 07:13:00,139 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-10 07:13:00,139 INFO  SysUtils - Execute command: [/tmp/rdisk/1549/src/gradlew, -b, /tmp/rdisk/1549/src/circleimageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-10 07:13:14,876 INFO  SysUtils - Configuration on demand is an incubating feature.
+:circleimageview:androidJavadocs/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:36: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:37: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:38: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:39: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresApi;
+                                 ^
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:468: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class RequiresApi
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:192: error: cannot find symbol
+    public void setBorderColor(@ColorInt int borderColor) {
+                                ^
+  symbol:   class ColorInt
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:206: error: cannot find symbol
+    public void setBorderColorResource(@ColorRes int borderColorRes) {
+                                        ^
+  symbol:   class ColorRes
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:214: error: cannot find symbol
+    public void setCircleBackgroundColor(@ColorInt int circleBackgroundColor) {
+                                          ^
+  symbol:   class ColorInt
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:224: error: cannot find symbol
+    public void setCircleBackgroundColorResource(@ColorRes int circleBackgroundRes) {
+                                                  ^
+  symbol:   class ColorRes
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:249: error: cannot find symbol
+    public void setFillColor(@ColorInt int fillColor) {
+                              ^
+  symbol:   class ColorInt
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:263: error: cannot find symbol
+    public void setFillColorResource(@ColorRes int fillColorRes) {
+                                      ^
+  symbol:   class ColorRes
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:319: error: cannot find symbol
+    public void setImageResource(@DrawableRes int resId) {
+                                  ^
+  symbol:   class DrawableRes
+  location: class CircleImageView
+/tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java:206: warning: no @param for borderColorRes
+    public void setBorderColorResource(@ColorRes int borderColorRes) {
+                ^
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class DrawableRes not found.
+
+20 warnings
+:circleimageview:androidJavadocsJar
+:circleimageview:androidSourcesJar
+:circleimageview:preBuild UP-TO-DATE
+:circleimageview:preDebugBuild UP-TO-DATE
+:circleimageview:compileDebugAidl
+:circleimageview:compileDebugRenderscript
+:circleimageview:checkDebugManifest
+:circleimageview:generateDebugBuildConfig
+:circleimageview:generateDebugResValues
+:circleimageview:generateDebugResources
+:circleimageview:packageDebugResources
+:circleimageview:platformAttrExtractor
+:circleimageview:processDebugManifest
+:circleimageview:prepareLintJar
+:circleimageview:generateDebugRFile
+:circleimageview:generateDebugSources
+:circleimageview:javaPreCompileDebug
+:circleimageview:compileDebugJavaWithJavacNote: /tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:circleimageview:extractDebugAnnotations
+:circleimageview:mergeDebugConsumerProguardFiles
+:circleimageview:mergeDebugShaders
+:circleimageview:compileDebugShaders
+:circleimageview:generateDebugAssets
+:circleimageview:packageDebugAssets
+:circleimageview:packageDebugRenderscript NO-SOURCE
+:circleimageview:processDebugJavaRes NO-SOURCE
+:circleimageview:transformResourcesWithMergeJavaResForDebug
+:circleimageview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:circleimageview:compileDebugNdk NO-SOURCE
+:circleimageview:mergeDebugJniLibFolders
+:circleimageview:transformNativeLibsWithMergeJniLibsForDebug
+:circleimageview:transformNativeLibsWithStripDebugSymbolForDebug
+:circleimageview:transformNativeLibsWithSyncJniLibsForDebug
+:circleimageview:bundleDebug
+:circleimageview:compileDebugSources
+:circleimageview:assembleDebug
+:circleimageview:preReleaseBuild UP-TO-DATE
+:circleimageview:compileReleaseAidl
+:circleimageview:compileReleaseRenderscript
+:circleimageview:checkReleaseManifest
+:circleimageview:generateReleaseBuildConfig
+:circleimageview:generateReleaseResValues
+:circleimageview:generateReleaseResources
+:circleimageview:packageReleaseResources
+:circleimageview:processReleaseManifest
+:circleimageview:generateReleaseRFile
+:circleimageview:generateReleaseSources
+:circleimageview:javaPreCompileRelease
+:circleimageview:compileReleaseJavaWithJavacNote: /tmp/rdisk/1549/src/circleimageview/src/main/java/de/hdodenhof/circleimageview/CircleImageView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:circleimageview:extractReleaseAnnotations
+:circleimageview:mergeReleaseConsumerProguardFiles
+:circleimageview:mergeReleaseShaders
+:circleimageview:compileReleaseShaders
+:circleimageview:generateReleaseAssets
+:circleimageview:packageReleaseAssets
+:circleimageview:packageReleaseRenderscript NO-SOURCE
+:circleimageview:processReleaseJavaRes NO-SOURCE
+:circleimageview:transformResourcesWithMergeJavaResForRelease
+:circleimageview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:circleimageview:compileReleaseNdk NO-SOURCE
+:circleimageview:mergeReleaseJniLibFolders
+:circleimageview:transformNativeLibsWithMergeJniLibsForRelease
+:circleimageview:transformNativeLibsWithStripDebugSymbolForRelease
+:circleimageview:transformNativeLibsWithSyncJniLibsForRelease
+:circleimageview:bundleRelease
+:circleimageview:compileReleaseSources
+:circleimageview:mergeReleaseResources
+:circleimageview:verifyReleaseResources
+:circleimageview:assembleRelease
+:circleimageview:signArchives SKIPPED
+:circleimageview:assemble
+:circleimageview:build
+
+BUILD SUCCESSFUL in 14s
+51 actionable tasks: 51 executed
+
+2018-04-10 07:13:14,886 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 07:13:14,886 INFO  SysUtils - Execute command: [/tmp/rdisk/1549/src/gradlew, -b, /tmp/rdisk/1549/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 07:13:22,727 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-10 07:13:22,727 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 07:13:22,728 INFO  SysUtils - Execute command: [/tmp/rdisk/1549/src/gradlew, -b, /tmp/rdisk/1549/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 07:13:40,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+:circleimageview:preBuild UP-TO-DATE
+:circleimageview:preDebugBuild UP-TO-DATE
+:circleimageview:compileDebugAidl UP-TO-DATE
+:circleimageview:compileDebugRenderscript UP-TO-DATE
+:circleimageview:checkDebugManifest UP-TO-DATE
+:circleimageview:generateDebugBuildConfig UP-TO-DATE
+:circleimageview:generateDebugResValues UP-TO-DATE
+:circleimageview:generateDebugResources UP-TO-DATE
+:circleimageview:packageDebugResources UP-TO-DATE
+:circleimageview:platformAttrExtractor UP-TO-DATE
+:circleimageview:processDebugManifest UP-TO-DATE
+:circleimageview:generateDebugRFile UP-TO-DATE
+:circleimageview:prepareLintJar UP-TO-DATE
+:circleimageview:generateDebugSources UP-TO-DATE
+:circleimageview:javaPreCompileDebug UP-TO-DATE
+:circleimageview:compileDebugJavaWithJavac UP-TO-DATE
+:circleimageview:processDebugJavaRes NO-SOURCE
+:circleimageview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:circleimageview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:circleimageview:mergeDebugShaders UP-TO-DATE
+:circleimageview:compileDebugShaders UP-TO-DATE
+:circleimageview:generateDebugAssets UP-TO-DATE
+:circleimageview:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:circleimageview:compileDebugNdk NO-SOURCE
+:circleimageview:mergeDebugJniLibFolders UP-TO-DATE
+:circleimageview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:circleimageview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:circleimageview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:circleimageview:preReleaseBuild UP-TO-DATE
+:circleimageview:compileReleaseAidl UP-TO-DATE
+:circleimageview:compileReleaseRenderscript UP-TO-DATE
+:circleimageview:checkReleaseManifest UP-TO-DATE
+:circleimageview:generateReleaseBuildConfig UP-TO-DATE
+:circleimageview:generateReleaseResValues UP-TO-DATE
+:circleimageview:generateReleaseResources UP-TO-DATE
+:circleimageview:packageReleaseResources UP-TO-DATE
+:circleimageview:processReleaseManifest UP-TO-DATE
+:circleimageview:generateReleaseRFile UP-TO-DATE
+:circleimageview:generateReleaseSources UP-TO-DATE
+:circleimageview:javaPreCompileRelease UP-TO-DATE
+:circleimageview:compileReleaseJavaWithJavac UP-TO-DATE
+:circleimageview:processReleaseJavaRes NO-SOURCE
+:circleimageview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:circleimageview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:circleimageview:mergeReleaseShaders UP-TO-DATE
+:circleimageview:compileReleaseShaders UP-TO-DATE
+:circleimageview:generateReleaseAssets UP-TO-DATE
+:circleimageview:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:circleimageview:compileReleaseNdk NO-SOURCE
+:circleimageview:mergeReleaseJniLibFolders UP-TO-DATE
+:circleimageview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:circleimageview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:circleimageview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 17s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-04-10 07:13:40,327 INFO  FullProcessService - Found APK file: /tmp/rdisk/1549/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

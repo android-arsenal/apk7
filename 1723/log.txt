@@ -1,0 +1,120 @@
+2018-04-04 15:52:02,419 INFO  DownloadService - Downloading "https://github.com/leonardoxh/FakeSearchView/archive/master.zip", attempt 3
+2018-04-04 15:52:05,166 INFO  DownloadService - Downloaded https://github.com/leonardoxh/FakeSearchView/archive/master.zip, attempt 3
+2018-04-04 15:52:05,166 INFO  DownloadService - Size of file "/tmp/rdisk/1723/master.zip": 1 MB
+2018-04-04 15:52:05,166 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:52:05,166 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1723/master.zip: true
+2018-04-04 15:52:05,167 DEBUG ZipUtil - Extracting '/tmp/rdisk/1723/master.zip' into '/tmp/rdisk/1723/src'.
+2018-04-04 15:52:05,188 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-04 15:52:05,188 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1723/src]
+2018-04-04 15:52:05,199 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1723/src/.git/
+
+2018-04-04 15:52:05,201 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/gradlew /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/gradlew
+2018-04-04 15:52:05,204 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/app/build.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/app/build.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/build.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/build.gradle
+2018-04-04 15:52:05,206 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/settings.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/build.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/app/build.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/settings.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/maven_push.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/build.gradle /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/app/build.gradle
+2018-04-04 15:52:05,206 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:52:05,206 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:52:05,217 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/app/local.properties
+2018-04-04 15:52:05,217 INFO  ProjectFixService - Build info for "/tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=22]
+2018-04-04 15:52:05,218 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/app/local.properties
+2018-04-04 15:52:05,218 INFO  ProjectFixService - Build info for "/tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-04 15:52:05,218 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/local.properties
+2018-04-04 15:52:05,219 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-04 15:52:05,219 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-04 15:52:05,220 INFO  ProjectFixService - Build info for "/tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-04 15:52:05,220 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/local.properties
+2018-04-04 15:52:05,221 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-04 15:52:05,221 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-04 15:52:05,222 INFO  ProjectFixService - Build info for "/tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchViewSample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-04 15:52:05,222 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:52:05,222 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:52:05,222 INFO  SysUtils - Execute command: [/tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/gradlew, -b, /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:52:15,995 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-04 15:52:15,995 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-04 15:52:15,996 INFO  SysUtils - Execute command: [/tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/gradlew, -b, /tmp/rdisk/1723/src/FakeSearchView-master/FakeSearchView/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-04 15:52:29,117 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+RELEASE BUILD
+:app:androidJavadocs
+:app:androidJavadocsJar
+:app:androidSourcesJar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugProguardFiles
+:app:packageDebugRenderscript UP-TO-DATE
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:packageDebugResources
+:app:processDebugManifest
+:app:generateDebugBuildConfig
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformNativeLibsWithSyncJniLibsForDebug
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseProguardFiles
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:compileReleaseRenderscript
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:packageReleaseResources
+:app:processReleaseManifest
+:app:generateReleaseBuildConfig
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformNativeLibsWithSyncJniLibsForRelease
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:signArchives SKIPPED
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.611 secs
+
+2018-04-04 15:52:29,126 INFO  FullProcessService - Found APK file: /tmp/rdisk/1723/src/FakeSearchView-master/downloads/FakeSearchViewSample-0.3.1.apk

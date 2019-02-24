@@ -1,0 +1,351 @@
+2018-05-11 13:57:52,152 INFO  DownloadService - Downloading "https://github.com/neevek/Paginize/archive/master.zip", attempt 3
+2018-05-11 13:57:54,034 INFO  DownloadService - Downloaded https://github.com/neevek/Paginize/archive/master.zip, attempt 3
+2018-05-11 13:57:54,034 INFO  DownloadService - Size of file "/tmp/rdisk/1545/master.zip": 8 MB
+2018-05-11 13:57:54,034 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:57:54,035 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1545/master.zip: true
+2018-05-11 13:57:54,035 DEBUG ZipUtil - Extracting '/tmp/rdisk/1545/master.zip' into '/tmp/rdisk/1545/src'.
+2018-05-11 13:57:54,144 INFO  FullProcessService - Size of directory with sources: 8 MB
+2018-05-11 13:57:54,144 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1545/src]
+2018-05-11 13:57:54,149 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1545/src/.git/
+
+2018-05-11 13:57:54,158 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1545/src/Paginize-master/Gradle/gradlew
+2018-05-11 13:57:54,167 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/build.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeDemo/build.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeLib/build.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/build.gradle
+2018-05-11 13:57:54,176 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1545/src/Paginize-master/Gradle/settings.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/build.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeLib/build.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeDemo/build.gradle /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/build.gradle
+2018-05-11 13:57:54,177 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:57:54,177 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:57:54,196 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/local.properties
+2018-05-11 13:57:54,198 INFO  ProjectFixService - Build info for "/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:57:54,198 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeDemo/local.properties
+2018-05-11 13:57:54,198 INFO  ProjectFixService - Build info for "/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeDemo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:57:54,198 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeLib/local.properties
+2018-05-11 13:57:54,200 INFO  ProjectFixService - Build info for "/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeLib/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:57:54,201 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1545/src/Paginize-master/Gradle/local.properties
+2018-05-11 13:57:54,201 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-05-11 13:57:54,201 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-05-11 13:57:54,202 INFO  ProjectFixService - Build info for "/tmp/rdisk/1545/src/Paginize-master/Gradle/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:57:54,202 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:57:54,203 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:57:54,203 INFO  SysUtils - Execute command: [/tmp/rdisk/1545/src/Paginize-master/Gradle/gradlew, -b, /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:58:03,750 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-05-11 13:58:03,750 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-11 13:58:03,751 INFO  SysUtils - Execute command: [/tmp/rdisk/1545/src/Paginize-master/Gradle/gradlew, -b, /tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-11 13:58:23,797 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:PaginizeContrib:preBuild UP-TO-DATE
+:PaginizeContrib:preDebugBuild UP-TO-DATE
+:PaginizeContrib:checkDebugManifest
+:PaginizeContrib:preDebugAndroidTestBuild UP-TO-DATE
+:PaginizeContrib:preDebugUnitTestBuild UP-TO-DATE
+:PaginizeContrib:preReleaseBuild UP-TO-DATE
+:PaginizeContrib:preReleaseUnitTestBuild UP-TO-DATE
+:PaginizeLib:preBuild UP-TO-DATE
+:PaginizeLib:preReleaseBuild UP-TO-DATE
+:PaginizeLib:checkReleaseManifest
+:PaginizeLib:preDebugAndroidTestBuild UP-TO-DATE
+:PaginizeLib:preDebugBuild UP-TO-DATE
+:PaginizeLib:preDebugUnitTestBuild UP-TO-DATE
+:PaginizeLib:preReleaseUnitTestBuild UP-TO-DATE
+:PaginizeLib:prepareComAndroidSupportAnimatedVectorDrawable2500Library
+:PaginizeLib:prepareComAndroidSupportAppcompatV72500Library
+:PaginizeLib:prepareComAndroidSupportDesign2500Library
+:PaginizeLib:prepareComAndroidSupportRecyclerviewV72500Library
+:PaginizeLib:prepareComAndroidSupportSupportCompat2500Library
+:PaginizeLib:prepareComAndroidSupportSupportCoreUi2500Library
+:PaginizeLib:prepareComAndroidSupportSupportCoreUtils2500Library
+:PaginizeLib:prepareComAndroidSupportSupportFragment2500Library
+:PaginizeLib:prepareComAndroidSupportSupportMediaCompat2500Library
+:PaginizeLib:prepareComAndroidSupportSupportV42500Library
+:PaginizeLib:prepareComAndroidSupportSupportVectorDrawable2500Library
+:PaginizeLib:prepareComAndroidSupportTransition2500Library
+:PaginizeLib:prepareReleaseDependencies
+:PaginizeLib:compileReleaseAidl
+:PaginizeLib:compileReleaseNdk UP-TO-DATE
+:PaginizeLib:compileLint
+:PaginizeLib:copyReleaseLint UP-TO-DATE
+:PaginizeLib:compileReleaseRenderscript
+:PaginizeLib:generateReleaseBuildConfig
+:PaginizeLib:generateReleaseResValues
+:PaginizeLib:generateReleaseResources
+:PaginizeLib:mergeReleaseResources
+:PaginizeLib:processReleaseManifest
+:PaginizeLib:processReleaseResources
+:PaginizeLib:generateReleaseSources
+:PaginizeLib:incrementalReleaseJavaCompilationSafeguard
+:PaginizeLib:compileReleaseJavaWithJavac
+:PaginizeLib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:PaginizeLib:extractReleaseAnnotations
+:PaginizeLib:mergeReleaseShaders
+:PaginizeLib:compileReleaseShaders
+:PaginizeLib:generateReleaseAssets
+:PaginizeLib:mergeReleaseAssets
+:PaginizeLib:mergeReleaseProguardFiles
+:PaginizeLib:packageReleaseRenderscript UP-TO-DATE
+:PaginizeLib:packageReleaseResources
+:PaginizeLib:processReleaseJavaRes UP-TO-DATE
+:PaginizeLib:transformResourcesWithMergeJavaResForRelease
+:PaginizeLib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:PaginizeLib:mergeReleaseJniLibFolders
+:PaginizeLib:transformNative_libsWithMergeJniLibsForRelease
+:PaginizeLib:transformNative_libsWithSyncJniLibsForRelease
+:PaginizeLib:bundleRelease
+:PaginizeContrib:prepareComAndroidSupportAnimatedVectorDrawable2500Library
+:PaginizeContrib:prepareComAndroidSupportAppcompatV72500Library
+:PaginizeContrib:prepareComAndroidSupportDesign2500Library
+:PaginizeContrib:prepareComAndroidSupportRecyclerviewV72500Library
+:PaginizeContrib:prepareComAndroidSupportSupportCompat2500Library
+:PaginizeContrib:prepareComAndroidSupportSupportCoreUi2500Library
+:PaginizeContrib:prepareComAndroidSupportSupportCoreUtils2500Library
+:PaginizeContrib:prepareComAndroidSupportSupportFragment2500Library
+:PaginizeContrib:prepareComAndroidSupportSupportMediaCompat2500Library
+:PaginizeContrib:prepareComAndroidSupportSupportV42500Library
+:PaginizeContrib:prepareComAndroidSupportSupportVectorDrawable2500Library
+:PaginizeContrib:prepareComAndroidSupportTransition2500Library
+:PaginizeContrib:prepareNetNeevekAndroidPaginizeLib0613Library
+:PaginizeContrib:prepareDebugDependencies
+:PaginizeContrib:compileDebugAidl
+:PaginizeContrib:compileDebugNdk UP-TO-DATE
+:PaginizeContrib:compileLint
+:PaginizeContrib:copyDebugLint UP-TO-DATE
+:PaginizeContrib:compileDebugRenderscript
+:PaginizeContrib:generateDebugBuildConfig
+:PaginizeContrib:generateDebugResValues
+:PaginizeContrib:generateDebugResources
+:PaginizeContrib:mergeDebugResources
+:PaginizeContrib:processDebugManifest
+:PaginizeContrib:processDebugResources
+:PaginizeContrib:generateDebugSources
+:PaginizeContrib:incrementalDebugJavaCompilationSafeguard
+:PaginizeContrib:compileDebugJavaWithJavac
+:PaginizeContrib:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:PaginizeContrib:extractDebugAnnotations
+:PaginizeContrib:mergeDebugShaders
+:PaginizeContrib:compileDebugShaders
+:PaginizeContrib:generateDebugAssets
+:PaginizeContrib:mergeDebugAssets
+:PaginizeContrib:mergeDebugProguardFiles
+:PaginizeContrib:packageDebugRenderscript UP-TO-DATE
+:PaginizeContrib:packageDebugResources
+:PaginizeContrib:processDebugJavaRes UP-TO-DATE
+:PaginizeContrib:transformResourcesWithMergeJavaResForDebug
+:PaginizeContrib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:PaginizeContrib:mergeDebugJniLibFolders
+:PaginizeContrib:transformNative_libsWithMergeJniLibsForDebug
+:PaginizeContrib:transformNative_libsWithSyncJniLibsForDebug
+:PaginizeContrib:bundleDebug
+:PaginizeContrib:compileDebugSources
+:PaginizeContrib:assembleDebug
+:PaginizeContrib:checkReleaseManifest
+:PaginizeContrib:prepareReleaseDependencies
+:PaginizeContrib:compileReleaseAidl
+:PaginizeContrib:compileReleaseNdk UP-TO-DATE
+:PaginizeContrib:copyReleaseLint UP-TO-DATE
+:PaginizeContrib:compileReleaseRenderscript
+:PaginizeContrib:generateReleaseBuildConfig
+:PaginizeContrib:generateReleaseResValues
+:PaginizeContrib:generateReleaseResources
+:PaginizeContrib:mergeReleaseResources
+:PaginizeContrib:processReleaseManifest
+:PaginizeContrib:processReleaseResources
+:PaginizeContrib:generateReleaseSources
+:PaginizeContrib:incrementalReleaseJavaCompilationSafeguard
+:PaginizeContrib:compileReleaseJavaWithJavac
+:PaginizeContrib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:PaginizeContrib:extractReleaseAnnotations
+:PaginizeContrib:mergeReleaseShaders
+:PaginizeContrib:compileReleaseShaders
+:PaginizeContrib:generateReleaseAssets
+:PaginizeContrib:mergeReleaseAssets
+:PaginizeContrib:mergeReleaseProguardFiles
+:PaginizeContrib:packageReleaseRenderscript UP-TO-DATE
+:PaginizeContrib:packageReleaseResources
+:PaginizeContrib:processReleaseJavaRes UP-TO-DATE
+:PaginizeContrib:transformResourcesWithMergeJavaResForRelease
+:PaginizeContrib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:PaginizeContrib:mergeReleaseJniLibFolders
+:PaginizeContrib:transformNative_libsWithMergeJniLibsForRelease
+:PaginizeContrib:transformNative_libsWithSyncJniLibsForRelease
+:PaginizeContrib:bundleRelease
+:PaginizeContrib:compileReleaseSources
+:PaginizeContrib:assembleRelease
+:PaginizeContrib:javadoc/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/util/ToolbarHelper.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.MenuRes;
+                                 ^
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/util/ToolbarHelper.java:8: error: cannot find symbol
+import net.neevek.android.lib.paginizecontrib.R;
+                                             ^
+  symbol:   class R
+  location: package net.neevek.android.lib.paginizecontrib
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/SlideInMenuPage.java:21: error: cannot find symbol
+import net.neevek.android.lib.paginizecontrib.R;
+                                             ^
+  symbol:   class R
+  location: package net.neevek.android.lib.paginizecontrib
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/OptionMenuPage.java:19: error: cannot find symbol
+import net.neevek.android.lib.paginizecontrib.R;
+                                             ^
+  symbol:   class R
+  location: package net.neevek.android.lib.paginizecontrib
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.MenuRes;
+                                 ^
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:19: error: cannot find symbol
+import net.neevek.android.lib.paginizecontrib.R;
+                                             ^
+  symbol:   class R
+  location: package net.neevek.android.lib.paginizecontrib
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:26: error: cannot find symbol
+import net.neevek.android.lib.paginizecontrib.R;
+                                             ^
+  symbol:   class R
+  location: package net.neevek.android.lib.paginizecontrib
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:27: error: cannot find symbol
+import net.neevek.android.lib.paginizecontrib.R;
+                                             ^
+  symbol:   class R
+  location: package net.neevek.android.lib.paginizecontrib
+warning: unknown enum constant Scope.GROUP_ID
+  reason: class file for android.support.annotation.RestrictTo$Scope not found
+warning: unknown enum constant Scope.GROUP_ID
+warning: unknown enum constant Scope.GROUP_ID
+warning: unknown enum constant Scope.GROUP_ID
+warning: unknown enum constant Scope.GROUP_ID
+warning: unknown enum constant Scope.GROUP_ID
+warning: unknown enum constant Scope.GROUP_ID
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/util/ToolbarHelper.java:15: error: cannot find symbol
+                               @MenuRes int menuResId,
+                                ^
+  symbol:   class MenuRes
+  location: class ToolbarHelper
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:75: error: cannot find symbol
+  protected final void setMenu(@MenuRes int menuResId) {
+                                ^
+  symbol:   class MenuRes
+  location: class BaseTabsPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:90: error: cannot find symbol
+  protected final void setTitle(@StringRes int resId) {
+                                 ^
+  symbol:   class StringRes
+  location: class BaseTabsPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseTabsPage.java:100: error: cannot find symbol
+  protected final void setNavigationIcon(@DrawableRes int resId) {
+                                          ^
+  symbol:   class DrawableRes
+  location: class BaseTabsPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:81: error: cannot find symbol
+  protected final void setMenu(@MenuRes int menuResId) {
+                                ^
+  symbol:   class MenuRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:96: error: cannot find symbol
+  protected final void setTitle(@StringRes int resId) {
+                                 ^
+  symbol:   class StringRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:106: error: cannot find symbol
+  protected final void setNavigationIcon(@DrawableRes int resId) {
+                                          ^
+  symbol:   class DrawableRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:139: error: cannot find symbol
+  protected void showLoadingView(@StringRes int resId) {
+                                  ^
+  symbol:   class StringRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:167: error: cannot find symbol
+  protected void showErrorView(@StringRes int errorTextResId,
+                                ^
+  symbol:   class StringRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:168: error: cannot find symbol
+                               @DrawableRes int errorIconResId,
+                                ^
+  symbol:   class DrawableRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BasePage.java:170: error: cannot find symbol
+                               @StringRes int retryButtonTextResId) {
+                                ^
+  symbol:   class StringRes
+  location: class BasePage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:83: error: cannot find symbol
+  protected final void setMenu(@MenuRes int menuResId) {
+                                ^
+  symbol:   class MenuRes
+  location: class BaseInnerPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:98: error: cannot find symbol
+  protected final void setTitle(@StringRes int resId) {
+                                 ^
+  symbol:   class StringRes
+  location: class BaseInnerPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:108: error: cannot find symbol
+  protected final void setNavigationIcon(@DrawableRes int resId) {
+                                          ^
+  symbol:   class DrawableRes
+  location: class BaseInnerPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:144: error: cannot find symbol
+  protected void showLoadingView(@StringRes int resId) {
+                                  ^
+  symbol:   class StringRes
+  location: class BaseInnerPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:172: error: cannot find symbol
+  protected void showErrorView(@StringRes int errorTextResId,
+                                ^
+  symbol:   class StringRes
+  location: class BaseInnerPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:173: error: cannot find symbol
+                               @DrawableRes int errorIconResId,
+                                ^
+  symbol:   class DrawableRes
+  location: class BaseInnerPage
+/tmp/rdisk/1545/src/Paginize-master/Gradle/PaginizeContrib/src/main/java/net/neevek/android/lib/paginizecontrib/page/BaseInnerPage.java:175: error: cannot find symbol
+                               @StringRes int retryButtonTextResId) {
+                                ^
+  symbol:   class StringRes
+  location: class BaseInnerPage
+javadoc: warning - Class MenuRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class MenuRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class MenuRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class MenuRes not found.
+
+53 warnings
+:PaginizeContrib:javadocJar
+:PaginizeContrib:sourcesJar
+:PaginizeContrib:assemble
+:PaginizeContrib:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.455 secs
+
+2018-05-11 13:58:23,905 INFO  FullProcessService - Found APK file: /tmp/rdisk/1545/src/Paginize-master/DemoAPK/PaginizeDemo.apk

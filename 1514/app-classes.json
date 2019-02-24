@@ -1,0 +1,5 @@
+{
+  "com.antonioleiva.mvpexample.app" : [ "BuildConfig", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style" ],
+  "com.antonioleiva.mvpexample.app.Login" : [ "LoginActivity", "LoginInteractor", "LoginInteractor$OnLoginFinishedListener", "LoginInteractorImpl", "LoginInteractorImpl$1", "LoginPresenter", "LoginPresenterImpl", "LoginView" ],
+  "com.antonioleiva.mvpexample.app.main" : [ "FindItemsInteractor", "FindItemsInteractor$OnFinishedListener", "FindItemsInteractorImpl", "FindItemsInteractorImpl$1", "MainActivity", "MainPresenter", "MainPresenterImpl", "MainView" ]
+}

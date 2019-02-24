@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ogaclejapan.smarttablayout.demo",
+    "label" : "SmartTabLayout",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.6.1",
+    "versionCode" : 16,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABL1BMVEUAAABeeohffYoAAABffIoAAAAAAABee4hFWWNdeocAAAAAAAAAAABgfYtadYJWcH1gj6yfn5Bxj5ppfYtgfZB1jZRgf5FzjZhofYuAttnd1sSGmbC+x715lMDh5d21sqhpn8jt8t2AfYtghJuHnKJxhpN4kpxwgpOBnKZ/kZhmhJR1kaSJmZmHutO1n5B5pL3V6PPVwcfIuqil0uO1lIuly8+NfYtghpt/kZRggpV+mqiDkJl+lppwkaR/jI51lqN2hI1xqMzh3s+21OPZ2uDMvsbZ3tnV3taqz8+HfYtggZiEnKR7lqOHnKeBjpd/mqSCmaR5kKKMnqN2ipFpiZVxj5Vgf45jfYtjgY5lf4tjf45ZgJJIiKVJh6RfeogOouYDqfRcdYEyjbcZm9cYnNcQr3rbAAAADXRSTlMASeMB5AQF52ToESctVvkePAAAAP9JREFUSMdjYBixgJGJlyBgYkSoZ2bhJQKwMMM1sPISBVjhGth4efn4MOQxhNiQNfDzw4QFBHl5hYR5kYVERHnFxCWwaZCUkpaRlZNXUFSCa1BWUVVT19DU0tbBpkFXT9/A0MjYxNQMrsHcwtLK2sbWzt4BmwZHJ2cXVzd3Mw9PuAYvbx9fP/+AwKBgrH4IEQ4FYojLoUJh4RHhYZG8UZG4PA0HGEJsFAUrMQBVQ3QMDhAbjUVDXFxcfAIuEB8HBUgaEhMTk5JTsIPkpEQooNAPoxpGNYxqGEYa2IlRz47QwMrBSVg9JweiymLm4uYhCLi5mJGqUVY2goCVebA2GgC+JHvpJX/AhwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1327,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"16\" android:versionName=\"1.6.1\" package=\"com.ogaclejapan.smarttablayout.demo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f070077\" android:label=\"SmartTabLayout\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"SmartTabLayout\" android:name=\"com.ogaclejapan.smarttablayout.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f070078\" android:label=\"SmartTabLayout\" android:name=\"com.ogaclejapan.smarttablayout.demo.DemoActivity\" android:parentActivityName=\"com.ogaclejapan.smarttablayout.demo.MainActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f070078\" android:label=\"SmartTabLayout\" android:name=\"com.ogaclejapan.smarttablayout.demo.DemoRtlActivity\" android:parentActivityName=\"com.ogaclejapan.smarttablayout.demo.MainActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f070078\" android:label=\"SmartTabLayout\" android:name=\"com.ogaclejapan.smarttablayout.demo.DemoLikeMediumActivity\" android:parentActivityName=\"com.ogaclejapan.smarttablayout.demo.MainActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f070078\" android:label=\"SmartTabLayout\" android:name=\"com.ogaclejapan.smarttablayout.demo.DemoTabWithNotificationMarkActivity\" android:parentActivityName=\"com.ogaclejapan.smarttablayout.demo.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1082141,
+  "crc32" : 2813970758,
+  "sha256" : "063c19c9de0615dca45f803b9e126f974c1397c05bc9b2a102fd70bc8030222c",
+  "buildTime" : 1522956054000
+}

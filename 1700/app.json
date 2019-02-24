@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.negusoft.greenmatter",
+    "label" : "GreenMatter",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.7.0",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1465,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"0.7.0\" package=\"com.negusoft.greenmatter\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0d0004\" android:label=\"GreenMatter\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:name=\"com.negusoft.greenmatter.example.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.negusoft.greenmatter.example.activity.TabbedActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:name=\"com.negusoft.greenmatter.example.activity.TabbedStripActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0005\" android:name=\"com.negusoft.greenmatter.example.activity.SpinnerActivity\" />\n\t\t<activity android:name=\"com.negusoft.greenmatter.example.activity.PreferencesActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0006\" android:label=\"Select Colors\" android:name=\"com.negusoft.greenmatter.example.activity.SelectColorActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1446313,
+  "crc32" : 4195573084,
+  "sha256" : "decb076d762509cd520d8c77b15f4a1b1d7d54a6f66eaad00c5a9a83a696f334",
+  "buildTime" : 1522954891000
+}

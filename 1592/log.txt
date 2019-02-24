@@ -1,0 +1,172 @@
+2018-04-05 20:27:55,321 INFO  DownloadService - Downloading "https://github.com/tonilopezmr/Android-EasySQLite/archive/master.zip", attempt 3
+2018-04-05 20:28:55,995 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 20:28:56,683 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 20:28:56,683 INFO  DownloadService - Downloading "https://github.com/tonilopezmr/Android-EasySQLite/archive/master.zip", attempt 3
+2018-04-05 20:29:58,035 DEBUG FullProcessService - Repository https://github.com/tonilopezmr/Android-EasySQLite available: true
+2018-04-05 20:29:58,035 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 20:29:58,035 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tonilopezmr/Android-EasySQLite, /tmp/rdisk/1592/src]
+2018-04-05 20:29:59,491 INFO  SysUtils - 
+2018-04-05 20:29:59,496 INFO  GitService - Deleted "/tmp/rdisk/1592/src/.git": true
+2018-04-05 20:29:59,500 INFO  FullProcessService - Size of directory with sources: 222 KB
+2018-04-05 20:29:59,501 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1592/src]
+2018-04-05 20:29:59,512 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1592/src/.git/
+
+2018-04-05 20:29:59,515 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1592/src/gradlew
+2018-04-05 20:29:59,519 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1592/src/app/build.gradle /tmp/rdisk/1592/src/easysqlite/build.gradle /tmp/rdisk/1592/src/build.gradle
+2018-04-05 20:29:59,522 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1592/src/settings.gradle /tmp/rdisk/1592/src/maven_push.gradle /tmp/rdisk/1592/src/easysqlite/build.gradle /tmp/rdisk/1592/src/build.gradle /tmp/rdisk/1592/src/app/build.gradle
+2018-04-05 20:29:59,523 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:29:59,523 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:29:59,533 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1592/src/app/local.properties
+2018-04-05 20:29:59,534 INFO  ProjectFixService - Build info for "/tmp/rdisk/1592/src/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-04-05 20:29:59,534 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1592/src/easysqlite/local.properties
+2018-04-05 20:29:59,534 INFO  ProjectFixService - Build info for "/tmp/rdisk/1592/src/easysqlite/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-04-05 20:29:59,534 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1592/src/local.properties
+2018-04-05 20:29:59,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 20:29:59,535 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 20:29:59,537 INFO  ProjectFixService - Build info for "/tmp/rdisk/1592/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2018-04-05 20:29:59,537 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:29:59,537 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:29:59,537 INFO  SysUtils - Execute command: [/tmp/rdisk/1592/src/gradlew, -b, /tmp/rdisk/1592/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:30:14,049 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-04-05 20:30:14,049 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 20:30:14,049 INFO  SysUtils - Execute command: [/tmp/rdisk/1592/src/gradlew, -b, /tmp/rdisk/1592/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 20:30:54,247 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:easysqlite:compileLint
+:easysqlite:copyReleaseLint UP-TO-DATE
+:easysqlite:preBuild
+:easysqlite:preReleaseBuild
+:easysqlite:checkReleaseManifest
+:easysqlite:preDebugBuild
+:easysqlite:preDebugTestBuild
+:easysqlite:prepareComAndroidSupportAppcompatV72103Library
+:easysqlite:prepareComAndroidSupportSupportV42103Library
+:easysqlite:prepareReleaseDependencies
+:easysqlite:compileReleaseAidl
+:easysqlite:compileReleaseRenderscript
+:easysqlite:generateReleaseBuildConfig
+:easysqlite:generateReleaseAssets UP-TO-DATE
+:easysqlite:mergeReleaseAssets
+:easysqlite:generateReleaseResValues
+:easysqlite:generateReleaseResources
+:easysqlite:mergeReleaseResources
+:easysqlite:processReleaseManifest
+:easysqlite:processReleaseResources
+:easysqlite:generateReleaseSources
+:easysqlite:compileReleaseJava
+:easysqlite:extractReleaseAnnotations
+:easysqlite:mergeReleaseProguardFiles
+:easysqlite:processReleaseJavaRes UP-TO-DATE
+:easysqlite:packageReleaseJar
+:easysqlite:compileReleaseNdk
+:easysqlite:packageReleaseJniLibs UP-TO-DATE
+:easysqlite:packageReleaseLocalJar UP-TO-DATE
+:easysqlite:packageReleaseRenderscript UP-TO-DATE
+:easysqlite:packageReleaseResources
+:easysqlite:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72103Library
+:app:prepareComAndroidSupportRecyclerviewV72103Library
+:app:prepareComAndroidSupportSupportV42103Library
+:app:prepareComGetbaseFloatingactionbutton121Library
+:app:prepareComGithubNavasmdcMaterialDesign14Library
+:app:prepareComGithubTonilopezmrEasysqlite210Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-hdpi-v4/fab_bg_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-ldpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-mdpi-v4/fab_bg_mini.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-mdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-xhdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-hdpi-v4/fab_bg_mini.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-xhdpi-v4/fab_bg_mini.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-hdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-mdpi-v4/fab_bg_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-xhdpi-v4/fab_bg_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-xxhdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava/tmp/rdisk/1592/src/app/src/main/java/com/tonilopezmr/sample/ui/presenter/SubjectListPresenterImp.java:34: warning: Dagger will ignore qualifier annotations on parameters that are not @Inject constructor parameters or @Provides method parameters: deleteSubjectUseCase
+                                   @Named("delete usecase") SubjectUseCase deleteSubjectUseCase) {
+                                                                           ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-hdpi-v4/fab_bg_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-ldpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-mdpi-v4/fab_bg_mini.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-mdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-xhdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-hdpi-v4/fab_bg_mini.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-xhdpi-v4/fab_bg_mini.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-mdpi-v4/fab_bg_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-hdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.2.1/res/drawable-xhdpi-v4/fab_bg_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/drawable-xxhdpi-v4/sprite_check.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1592/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava/tmp/rdisk/1592/src/app/src/main/java/com/tonilopezmr/sample/ui/presenter/SubjectListPresenterImp.java:34: warning: Dagger will ignore qualifier annotations on parameters that are not @Inject constructor parameters or @Provides method parameters: deleteSubjectUseCase
+                                   @Named("delete usecase") SubjectUseCase deleteSubjectUseCase) {
+                                                                           ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 39.753 secs
+
+2018-04-05 20:30:54,316 INFO  FullProcessService - Found APK file: /tmp/rdisk/1592/src/app/build/outputs/apk/app-debug.apk

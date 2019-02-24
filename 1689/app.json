@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ogaclejapan.arclayout.demo",
+    "label" : "ArcLayout",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1311,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.1.0\" package=\"com.ogaclejapan.arclayout.demo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f070077\" android:label=\"ArcLayout\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ArcLayout\" android:name=\"com.ogaclejapan.arclayout.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"ArcLayout\" android:name=\"com.ogaclejapan.arclayout.demo.DemoActivity\" />\n\t\t<activity android:label=\"ArcLayout\" android:name=\"com.ogaclejapan.arclayout.demo.DemoFreeAngleActivity\" />\n\t\t<activity android:label=\"ArcLayout\" android:name=\"com.ogaclejapan.arclayout.demo.DemoLikeTumblrActivity\" />\n\t\t<activity android:label=\"ArcLayout\" android:name=\"com.ogaclejapan.arclayout.demo.DemoLikePathActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1069587,
+  "crc32" : 2553529579,
+  "sha256" : "b3e56657afdd348b951115b3b2d1a451d0b1c97a738c225c9e72e9dfc0802314",
+  "buildTime" : 1526046314000
+}

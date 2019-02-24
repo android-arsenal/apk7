@@ -1,0 +1,196 @@
+2018-04-06 00:03:26,636 INFO  DownloadService - Downloading "https://github.com/PaNaVTEC/DrawableView/archive/master.zip", attempt 3
+2018-04-06 00:04:27,219 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-06 00:04:28,019 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-06 00:04:28,019 INFO  DownloadService - Downloading "https://github.com/PaNaVTEC/DrawableView/archive/master.zip", attempt 3
+2018-04-06 00:05:29,318 DEBUG FullProcessService - Repository https://github.com/PaNaVTEC/DrawableView available: true
+2018-04-06 00:05:29,319 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-06 00:05:29,319 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PaNaVTEC/DrawableView, /tmp/rdisk/1510/src]
+2018-04-06 00:05:31,161 INFO  SysUtils - 
+2018-04-06 00:05:31,175 INFO  GitService - Deleted "/tmp/rdisk/1510/src/.git": true
+2018-04-06 00:05:31,177 INFO  FullProcessService - Size of directory with sources: 580 KB
+2018-04-06 00:05:31,177 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1510/src]
+2018-04-06 00:05:31,189 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1510/src/.git/
+
+2018-04-06 00:05:31,191 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1510/src/gradlew
+2018-04-06 00:05:31,193 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1510/src/app/build.gradle /tmp/rdisk/1510/src/library/build.gradle /tmp/rdisk/1510/src/build.gradle
+2018-04-06 00:05:31,195 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1510/src/settings.gradle /tmp/rdisk/1510/src/maven_push.gradle /tmp/rdisk/1510/src/library/build.gradle /tmp/rdisk/1510/src/build.gradle /tmp/rdisk/1510/src/app/build.gradle
+2018-04-06 00:05:31,196 INFO  ProjectBuildService - Remote scripts: none
+2018-04-06 00:05:31,196 INFO  ProjectFixService - Fixing project...
+2018-04-06 00:05:31,202 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1510/src/app/local.properties
+2018-04-06 00:05:31,204 INFO  ProjectFixService - Build info for "/tmp/rdisk/1510/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-06 00:05:31,204 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1510/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-06 00:05:31,205 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1510/src/library/local.properties
+2018-04-06 00:05:31,207 INFO  ProjectFixService - Build info for "/tmp/rdisk/1510/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-06 00:05:31,207 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1510/src/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-06 00:05:31,208 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1510/src/local.properties
+2018-04-06 00:05:31,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-04-06 00:05:31,208 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-04-06 00:05:31,220 INFO  ProjectFixService - Build info for "/tmp/rdisk/1510/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-06 00:05:31,220 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1510/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-06 00:05:31,221 INFO  ProjectFixService - Project was maybe fixed
+2018-04-06 00:05:31,221 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:05:31,221 INFO  SysUtils - Execute command: [/tmp/rdisk/1510/src/gradlew, -b, /tmp/rdisk/1510/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:05:44,339 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-04-06 00:05:44,339 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-06 00:05:44,339 INFO  SysUtils - Execute command: [/tmp/rdisk/1510/src/gradlew, -b, /tmp/rdisk/1510/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-06 00:06:08,888 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+RELEASE BUILD
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42103Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1510/src/library/src/main/java/me/panavtec/drawableview/DrawableViewSaveState.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForDebug
+:library:transformNative_libsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1510/src/library/src/main/java/me/panavtec/drawableview/DrawableViewSaveState.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:app:prepareComAndroidSupportAppcompatV72510Library
+:app:prepareComAndroidSupportSupportCompat2510Library
+:app:prepareComAndroidSupportSupportCoreUi2510Library
+:app:prepareComAndroidSupportSupportCoreUtils2510Library
+:app:prepareComAndroidSupportSupportFragment2510Library
+:app:prepareComAndroidSupportSupportMediaCompat2510Library
+:app:prepareComAndroidSupportSupportV42510Library
+:app:prepareComAndroidSupportSupportVectorDrawable2510Library
+:app:prepareMePanavtecLibrary060DebugLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1510/src/app/src/main/java/me/panavtec/drawableview/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareMePanavtecLibrary060ReleaseLibrary
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1510/src/app/src/main/java/me/panavtec/drawableview/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.906 secs
+
+2018-04-06 00:06:08,955 INFO  FullProcessService - Found APK file: /tmp/rdisk/1510/src/app/build/outputs/apk/app-debug.apk

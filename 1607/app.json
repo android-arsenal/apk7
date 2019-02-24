@@ -1,0 +1,46 @@
+{
+  "meta" : {
+    "packageName" : "me.shkschneider.openlocationcodes.demo.debug",
+    "label" : "Open Location Codes DEBUG",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3.3-DEBUG",
+    "versionCode" : 12,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : true,
+    "smallScreens" : true,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WRITE_EXTERNAL_STORAGE", "com.google.android.providers.gsf.permission.READ_GSERVICES", "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.READ_PHONE_STATE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.touchscreen",
+      "required" : true
+    }, {
+      "name" : "android.hardware.location",
+      "required" : true
+    }, {
+      "name" : "android.hardware.location.gps",
+      "required" : true
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2830,
+  "locales" : [ "", "kk_KZ", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "is", "si", "de", "es_US", "ca", "te", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "hy", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "am", "ka_GE", "pl", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "iw", "en_IN", "mk_MK", "nb", "te_IN", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"12\" android:versionName=\"1.3.3-DEBUG\" package=\"me.shkschneider.openlocationcodes.demo.debug\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"22\" />\n\t<uses-feature android:name=\"android.hardware.touchscreen\" android:required=\"true\" />\n\t<uses-feature android:name=\"android.hardware.location\" android:required=\"true\" />\n\t<uses-feature android:name=\"android.hardware.location.gps\" android:required=\"true\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<supports-screens android:anyDensity=\"true\" android:smallScreens=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\" android:xlargeScreens=\"false\" />\n\t<android:uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<android:uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f07002e\" android:label=\"Open Location Codes DEBUG\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"me.shkschneider.openlocationcodes.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyBALbcdu7L2o-Lup_uclLOXcuBiNLKxllE\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"9683000\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2022804,
+  "crc32" : 2423962804,
+  "sha256" : "ccefa0e787426767dff6c9b3b3b6f58ecd54fac8f12dbda1110dcbac1c1be8ab",
+  "buildTime" : 1497567087000
+}

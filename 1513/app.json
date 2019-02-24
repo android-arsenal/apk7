@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.glomadrian.dashedprogressbar.demo",
+    "label" : "DashedCircularProgress",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1165,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.glomadrian.dashedprogressbar.demo\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"DashedCircularProgress\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"DashedCircularProgress\" android:name=\"com.github.glomadrian.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2276752,
+  "crc32" : 2790670609,
+  "sha256" : "7c43e61a41530dad46239cabfbbc0b3915df9c91b321605e3695991720ea151d",
+  "buildTime" : 1522972628000
+}

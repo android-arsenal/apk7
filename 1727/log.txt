@@ -1,0 +1,134 @@
+2018-04-04 15:48:37,778 INFO  DownloadService - Downloading "https://github.com/ppamorim/RecyclerRenderers/archive/master.zip", attempt 3
+2018-04-04 15:48:41,507 INFO  DownloadService - Downloaded https://github.com/ppamorim/RecyclerRenderers/archive/master.zip, attempt 3
+2018-04-04 15:48:41,507 INFO  DownloadService - Size of file "/tmp/rdisk/1727/master.zip": 5 MB
+2018-04-04 15:48:41,508 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:48:41,508 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1727/master.zip: true
+2018-04-04 15:48:41,508 DEBUG ZipUtil - Extracting '/tmp/rdisk/1727/master.zip' into '/tmp/rdisk/1727/src'.
+2018-04-04 15:48:41,569 INFO  FullProcessService - Size of directory with sources: 7 MB
+2018-04-04 15:48:41,569 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1727/src]
+2018-04-04 15:48:41,573 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1727/src/.git/
+
+2018-04-04 15:48:41,576 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1727/src/RecyclerRenderers-master/gradlew
+2018-04-04 15:48:41,589 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1727/src/RecyclerRenderers-master/app/build.gradle /tmp/rdisk/1727/src/RecyclerRenderers-master/recyclerrenderers/build.gradle /tmp/rdisk/1727/src/RecyclerRenderers-master/build.gradle
+2018-04-04 15:48:41,591 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1727/src/RecyclerRenderers-master/settings.gradle /tmp/rdisk/1727/src/RecyclerRenderers-master/recyclerrenderers/build.gradle /tmp/rdisk/1727/src/RecyclerRenderers-master/build.gradle /tmp/rdisk/1727/src/RecyclerRenderers-master/app/build.gradle
+2018-04-04 15:48:41,592 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:48:41,592 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:48:41,600 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1727/src/RecyclerRenderers-master/app/local.properties
+2018-04-04 15:48:41,601 INFO  ProjectFixService - Build info for "/tmp/rdisk/1727/src/RecyclerRenderers-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-04 15:48:41,601 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1727/src/RecyclerRenderers-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-04 15:48:41,602 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1727/src/RecyclerRenderers-master/recyclerrenderers/local.properties
+2018-04-04 15:48:41,604 INFO  ProjectFixService - Build info for "/tmp/rdisk/1727/src/RecyclerRenderers-master/recyclerrenderers/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-04 15:48:41,604 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1727/src/RecyclerRenderers-master/recyclerrenderers/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-04 15:48:41,604 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1727/src/RecyclerRenderers-master/local.properties
+2018-04-04 15:48:41,605 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-04 15:48:41,605 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-04 15:48:41,607 INFO  ProjectFixService - Build info for "/tmp/rdisk/1727/src/RecyclerRenderers-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-04 15:48:41,607 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1727/src/RecyclerRenderers-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-04 15:48:41,607 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:48:41,607 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:48:41,607 INFO  SysUtils - Execute command: [/tmp/rdisk/1727/src/RecyclerRenderers-master/gradlew, -b, /tmp/rdisk/1727/src/RecyclerRenderers-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:49:01,043 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-04 15:49:01,043 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease checkstyle test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-04-04 15:49:01,043 INFO  SysUtils - Execute command: [/tmp/rdisk/1727/src/RecyclerRenderers-master/gradlew, -b, /tmp/rdisk/1727/src/RecyclerRenderers-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, checkstyle, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-04-04 15:49:35,669 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:recyclerrenderers:compileLint
+:recyclerrenderers:copyReleaseLint UP-TO-DATE
+:recyclerrenderers:preBuild UP-TO-DATE
+:recyclerrenderers:preReleaseBuild UP-TO-DATE
+:recyclerrenderers:checkReleaseManifest
+:recyclerrenderers:preDebugAndroidTestBuild UP-TO-DATE
+:recyclerrenderers:preDebugBuild UP-TO-DATE
+:recyclerrenderers:preDebugUnitTestBuild UP-TO-DATE
+:recyclerrenderers:preReleaseUnitTestBuild UP-TO-DATE
+:recyclerrenderers:prepareComAndroidSupportAppcompatV72211Library
+:recyclerrenderers:prepareComAndroidSupportRecyclerviewV72210Library
+:recyclerrenderers:prepareComAndroidSupportSupportV42211Library
+:recyclerrenderers:prepareReleaseDependencies
+:recyclerrenderers:compileReleaseAidl
+:recyclerrenderers:compileReleaseRenderscript
+:recyclerrenderers:generateReleaseBuildConfig
+:recyclerrenderers:generateReleaseAssets UP-TO-DATE
+:recyclerrenderers:mergeReleaseAssets
+:recyclerrenderers:generateReleaseResValues
+:recyclerrenderers:generateReleaseResources
+:recyclerrenderers:mergeReleaseResources
+:recyclerrenderers:processReleaseManifest
+:recyclerrenderers:processReleaseResources
+:recyclerrenderers:generateReleaseSources
+:recyclerrenderers:processReleaseJavaRes UP-TO-DATE
+:recyclerrenderers:compileReleaseJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:recyclerrenderers:extractReleaseAnnotations
+:recyclerrenderers:mergeReleaseProguardFiles
+:recyclerrenderers:packageReleaseJar
+:recyclerrenderers:compileReleaseNdk UP-TO-DATE
+:recyclerrenderers:packageReleaseJniLibs UP-TO-DATE
+:recyclerrenderers:packageReleaseLocalJar UP-TO-DATE
+:recyclerrenderers:packageReleaseRenderscript UP-TO-DATE
+:recyclerrenderers:packageReleaseResources
+:recyclerrenderers:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72211Library
+:app:prepareComAndroidSupportRecyclerviewV72210Library
+:app:prepareComAndroidSupportSupportV42211Library
+:app:prepareComFacebookFrescoDrawee040Library
+:app:prepareComFacebookFrescoFbcore040Library
+:app:prepareComFacebookFrescoFresco040Library
+:app:prepareComFacebookFrescoImagepipeline040Library
+:app:prepareRecyclerRenderersMasterRecyclerrenderersUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJava
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJava
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 34.175 secs
+
+2018-04-04 15:49:35,726 INFO  FullProcessService - Found APK file: /tmp/rdisk/1727/src/RecyclerRenderers-master/app/build/outputs/apk/app-debug.apk

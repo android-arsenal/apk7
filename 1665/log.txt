@@ -1,0 +1,752 @@
+2018-04-05 19:31:54,566 INFO  DownloadService - Downloading "https://github.com/airbnb/AirMapView/archive/master.zip", attempt 3
+2018-04-05 19:31:55,106 INFO  DownloadService - Downloaded https://github.com/airbnb/AirMapView/archive/master.zip, attempt 3
+2018-04-05 19:31:55,106 INFO  DownloadService - Size of file "/tmp/rdisk/1665/master.zip": 505 KB
+2018-04-05 19:31:55,106 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:31:55,106 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1665/master.zip: true
+2018-04-05 19:31:55,106 DEBUG ZipUtil - Extracting '/tmp/rdisk/1665/master.zip' into '/tmp/rdisk/1665/src'.
+2018-04-05 19:31:55,137 INFO  FullProcessService - Size of directory with sources: 600 KB
+2018-04-05 19:31:55,137 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1665/src]
+2018-04-05 19:31:55,147 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1665/src/.git/
+
+2018-04-05 19:31:55,151 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1665/src/AirMapView-master/gradlew
+2018-04-05 19:31:55,155 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1665/src/AirMapView-master/library/build.gradle /tmp/rdisk/1665/src/AirMapView-master/sample/build.gradle /tmp/rdisk/1665/src/AirMapView-master/build.gradle
+2018-04-05 19:31:55,158 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1665/src/AirMapView-master/settings.gradle /tmp/rdisk/1665/src/AirMapView-master/sample/build.gradle /tmp/rdisk/1665/src/AirMapView-master/library/gradle-maven-push.gradle /tmp/rdisk/1665/src/AirMapView-master/library/build.gradle /tmp/rdisk/1665/src/AirMapView-master/build.gradle
+2018-04-05 19:31:55,159 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:31:55,159 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:31:55,169 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1665/src/AirMapView-master/library/local.properties
+2018-04-05 19:31:55,169 INFO  ProjectFixService - Build info for "/tmp/rdisk/1665/src/AirMapView-master/library/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-05 19:31:55,169 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1665/src/AirMapView-master/sample/local.properties
+2018-04-05 19:31:55,170 INFO  ProjectFixService - Build info for "/tmp/rdisk/1665/src/AirMapView-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-04-05 19:31:55,170 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1665/src/AirMapView-master/local.properties
+2018-04-05 19:31:55,170 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-05 19:31:55,170 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-05 19:31:55,171 INFO  ProjectFixService - Build info for "/tmp/rdisk/1665/src/AirMapView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-04-05 19:31:55,171 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:31:55,171 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:31:55,171 INFO  SysUtils - Execute command: [/tmp/rdisk/1665/src/AirMapView-master/gradlew, -b, /tmp/rdisk/1665/src/AirMapView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:32:04,237 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-05 19:32:04,238 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-05 19:32:04,238 INFO  SysUtils - Execute command: [/tmp/rdisk/1665/src/AirMapView-master/gradlew, -b, /tmp/rdisk/1665/src/AirMapView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 19:32:22,754 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:library:androidJavadocs/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnSnapshotReadyListener.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:3: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:4: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.Marker;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:7: error: cannot find symbol
+  void onMapMarkerDragStart(Marker marker);
+                            ^
+  symbol:   class Marker
+  location: interface OnMapMarkerDragListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:8: error: cannot find symbol
+  void onMapMarkerDrag(Marker marker);
+                       ^
+  symbol:   class Marker
+  location: interface OnMapMarkerDragListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:9: error: cannot find symbol
+  void onMapMarkerDragEnd(Marker marker);
+                          ^
+  symbol:   class Marker
+  location: interface OnMapMarkerDragListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:10: error: cannot find symbol
+  void onMapMarkerDragStart(long id, LatLng latLng);
+                                     ^
+  symbol:   class LatLng
+  location: interface OnMapMarkerDragListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:11: error: cannot find symbol
+  void onMapMarkerDrag(long id, LatLng latLng);
+                                ^
+  symbol:   class LatLng
+  location: interface OnMapMarkerDragListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapMarkerDragListener.java:12: error: cannot find symbol
+  void onMapMarkerDragEnd(long id, LatLng latLng);
+                                   ^
+  symbol:   class LatLng
+  location: interface OnMapMarkerDragListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:5: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.BitmapDescriptor;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:6: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:7: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:8: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.Marker;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:9: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.MarkerOptions;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:19: error: cannot find symbol
+  private final MarkerOptions markerOptions;
+                ^
+  symbol:   class MarkerOptions
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:20: error: cannot find symbol
+  private Marker marker;
+          ^
+  symbol:   class Marker
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:22: error: cannot find symbol
+  private AirMapMarker(T object, long id, MarkerOptions markerOptions) {
+                                          ^
+  symbol:   class MarkerOptions
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:36: error: cannot find symbol
+  public LatLng getLatLng() {
+         ^
+  symbol:   class LatLng
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:40: error: cannot find symbol
+  void setLatLng(LatLng latLng) {
+                 ^
+  symbol:   class LatLng
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:52: error: cannot find symbol
+  public MarkerOptions getMarkerOptions() {
+         ^
+  symbol:   class MarkerOptions
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:57: error: cannot find symbol
+  void setGoogleMarker(Marker marker) {
+                       ^
+  symbol:   class Marker
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:79: error: cannot find symbol
+  public Marker getMarker() {
+         ^
+  symbol:   class Marker
+  location: class AirMapMarker<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapMarker
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:86: error: cannot find symbol
+    private final MarkerOptions markerOptions = new MarkerOptions();
+                  ^
+  symbol:   class MarkerOptions
+  location: class Builder<T>
+  where T is a type-variable:
+    T extends Object declared in class Builder
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:101: error: cannot find symbol
+    public Builder<T> position(LatLng position) {
+                               ^
+  symbol:   class LatLng
+  location: class Builder<T>
+  where T is a type-variable:
+    T extends Object declared in class Builder
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapMarker.java:144: error: cannot find symbol
+    public Builder<T> bitmapDescriptor(BitmapDescriptor bitmap) {
+                                       ^
+  symbol:   class BitmapDescriptor
+  location: class Builder<T>
+  where T is a type-variable:
+    T extends Object declared in class Builder
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapClickListener.java:3: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapClickListener.java:6: error: cannot find symbol
+  void onMapClick(LatLng latLng);
+                  ^
+  symbol:   class LatLng
+  location: interface OnMapClickListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapBoundsCallback.java:3: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLngBounds;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnMapBoundsCallback.java:6: error: cannot find symbol
+  void onMapBoundsReady(LatLngBounds bounds);
+                        ^
+  symbol:   class LatLngBounds
+  location: interface OnMapBoundsCallback
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnCameraChangeListener.java:3: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/listeners/OnCameraChangeListener.java:6: error: cannot find symbol
+  void onCameraChanged(LatLng latLng, int zoom);
+                       ^
+  symbol:   class LatLng
+  location: interface OnCameraChangeListener
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:10: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:11: error: package android.support.v4.util does not exist
+import android.support.v4.util.LongSparseArray;
+                              ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:32: error: package com.google.android.gms.maps does not exist
+import com.google.android.gms.maps.GoogleMap;
+                                  ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:33: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:34: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLngBounds;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:42: error: cannot find symbol
+public abstract class WebViewMapFragment extends Fragment implements AirMapInterface {
+                                                 ^
+  symbol: class Fragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:13: error: package com.google.android.gms.maps does not exist
+import com.google.android.gms.maps.GoogleMap;
+                                  ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:14: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:15: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLngBounds;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:56: error: cannot find symbol
+  private LatLng center;
+          ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:61: error: cannot find symbol
+  private final LongSparseArray<AirMapMarker<?>> markers = new LongSparseArray<>();
+                ^
+  symbol:   class LongSparseArray
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:109: error: cannot find symbol
+  public LatLng getCenter() {
+         ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:113: error: cannot find symbol
+  public void setCenter(LatLng latLng) {
+                        ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:118: error: cannot find symbol
+  public void animateCenter(LatLng latLng) {
+                            ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:126: error: cannot find symbol
+  public void drawCircle(LatLng latLng, int radius) {
+                         ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:130: error: cannot find symbol
+  @Override public void drawCircle(LatLng latLng, int radius, int borderColor) {
+                                   ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:134: error: cannot find symbol
+  @Override public void drawCircle(LatLng latLng, int radius, int borderColor, int borderWidth) {
+                                   ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:138: error: cannot find symbol
+  @Override public void drawCircle(LatLng latLng, int radius, int borderColor, int borderWidth,
+                                   ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:172: error: cannot find symbol
+  @Override public void moveMarker(AirMapMarker<?> marker, LatLng to) {
+                                                           ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:200: error: cannot find symbol
+  @Override public void setCenterZoom(LatLng latLng, int zoom) {
+                                      ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:205: error: cannot find symbol
+  @Override public void animateCenterZoom(LatLng latLng, int zoom) {
+                                          ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:3: error: package com.google.android.gms.maps does not exist
+import com.google.android.gms.maps.GoogleMap;
+                                  ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:4: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:5: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.Polyline;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:6: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.PolylineOptions;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:6: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.LatLng;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:7: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.Polygon;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:8: error: package com.google.android.gms.maps.model does not exist
+import com.google.android.gms.maps.model.PolygonOptions;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:307: error: package GoogleMap does not exist
+  @Override public void setInfoWindowCreator(GoogleMap.InfoWindowAdapter adapter,
+                                                      ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:317: error: cannot find symbol
+  @Override public void getScreenLocation(LatLng latLng, OnLatLngScreenLocationCallback callback) {
+                                          ^
+  symbol:   class LatLng
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/WebViewMapFragment.java:323: error: cannot find symbol
+  @Override public void setCenter(LatLngBounds bounds, int boundsPadding) {
+                                  ^
+  symbol:   class LatLngBounds
+  location: class WebViewMapFragment
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapGeoJsonLayer.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapGeoJsonLayer.java:5: error: package com.google.maps.android.geojson does not exist
+import com.google.maps.android.geojson.GeoJsonPolygonStyle;
+                                      ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:44: error: cannot find symbol
+  void moveMarker(AirMapMarker<?> marker, LatLng to);
+                                          ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:65: error: package GoogleMap does not exist
+  void setInfoWindowCreator(GoogleMap.InfoWindowAdapter adapter, InfoWindowCreator creator);
+                                     ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:68: error: cannot find symbol
+  void drawCircle(LatLng latLng, int radius);
+                  ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:71: error: cannot find symbol
+  void drawCircle(LatLng latLng, int radius, int borderColor);
+                  ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:74: error: cannot find symbol
+  void drawCircle(LatLng latLng, int radius, int borderColor, int borderWidth);
+                  ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:79: error: cannot find symbol
+  void drawCircle(LatLng latLng, int radius, int borderColor, int borderWidth, int fillColor);
+                  ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:91: error: cannot find symbol
+  void getScreenLocation(LatLng latLng, OnLatLngScreenLocationCallback callback);
+                         ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:94: error: cannot find symbol
+  void setCenter(LatLngBounds latLngBounds, int boundsPadding);
+                 ^
+  symbol:   class LatLngBounds
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:103: error: cannot find symbol
+  void animateCenter(LatLng latLng);
+                     ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:106: error: cannot find symbol
+  void setCenter(LatLng latLng);
+                 ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:109: error: cannot find symbol
+  LatLng getCenter();
+  ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:125: error: cannot find symbol
+  void setCenterZoom(LatLng latLng, int zoom);
+                     ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapInterface.java:133: error: cannot find symbol
+  void animateCenterZoom(LatLng latLng, int zoom);
+                         ^
+  symbol:   class LatLng
+  location: interface AirMapInterface
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:24: error: cannot find symbol
+  private List<LatLng> points;
+               ^
+  symbol:   class LatLng
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:27: error: cannot find symbol
+  private Polyline googlePolyline;
+          ^
+  symbol:   class Polyline
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:29: error: cannot find symbol
+  public AirMapPolyline(List<LatLng> points, long id) {
+                             ^
+  symbol:   class LatLng
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:33: error: cannot find symbol
+  public AirMapPolyline(T object, List<LatLng> points, long id) {
+                                       ^
+  symbol:   class LatLng
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:37: error: cannot find symbol
+  public AirMapPolyline(T object, List<LatLng> points, long id, int strokeWidth, int strokeColor) {
+                                       ^
+  symbol:   class LatLng
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:53: error: cannot find symbol
+  public List<LatLng> getPoints() {
+              ^
+  symbol:   class LatLng
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:57: error: cannot find symbol
+  public void setPoints(List<LatLng> points) {
+                             ^
+  symbol:   class LatLng
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolyline.java:90: error: cannot find symbol
+  public void addToGoogleMap(GoogleMap googleMap) {
+                             ^
+  symbol:   class GoogleMap
+  location: class AirMapPolyline<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolyline
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:17: error: cannot find symbol
+  private final PolygonOptions polygonOptions;
+                ^
+  symbol:   class PolygonOptions
+  location: class AirMapPolygon<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolygon
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:18: error: cannot find symbol
+  private Polygon googlePolygon;
+          ^
+  symbol:   class Polygon
+  location: class AirMapPolygon<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolygon
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:20: error: cannot find symbol
+  public AirMapPolygon(T object, long id, PolygonOptions polygonOptions) {
+                                          ^
+  symbol:   class PolygonOptions
+  location: class AirMapPolygon<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolygon
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:34: error: cannot find symbol
+  public PolygonOptions getPolygonOptions() {
+         ^
+  symbol:   class PolygonOptions
+  location: class AirMapPolygon<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolygon
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:38: error: cannot find symbol
+  public Polygon getGooglePolygon() {
+         ^
+  symbol:   class Polygon
+  location: class AirMapPolygon<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolygon
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/AirMapPolygon.java:42: error: cannot find symbol
+  public void setGooglePolygon(Polygon googlePolygon) {
+                               ^
+  symbol:   class Polygon
+  location: class AirMapPolygon<T>
+  where T is a type-variable:
+    T extends Object declared in class AirMapPolygon
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/RuntimePermissionUtils.java:7: error: package android.support.v4.app does not exist
+import android.support.v4.app.ActivityCompat;
+                             ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/RuntimePermissionUtils.java:9: error: package android.support.v4.content does not exist
+import static android.support.v4.content.PermissionChecker.checkSelfPermission;
+                                        ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/RuntimePermissionUtils.java:9: error: static import only from classes and interfaces
+import static android.support.v4.content.PermissionChecker.checkSelfPermission;
+^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/NativeGoogleMapFragment.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/NativeGoogleMapFragment.java:21: error: package com.google.android.gms.maps does not exist
+import com.google.android.gms.maps.CameraUpdateFactory;
+                                  ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/NativeGoogleMapFragment.java:22: error: package com.google.android.gms.maps does not exist
+import com.google.android.gms.maps.GoogleMap;
+                                  ^
+/tmp/rdisk/1665/src/AirMapView-master/library/src/main/java/com/airbnb/android/airmapview/NativeGoogleMapFragment.java:23: error: package com.google.android.gms.maps does not exist
+import com.google.android.gms.maps.OnMapReadyCallback;
+                                  ^
+
+100 warnings
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42400Library
+:library:prepareComGoogleAndroidGmsPlayServicesBase1024Library
+:library:prepareComGoogleAndroidGmsPlayServicesBasement1024Library
+:library:prepareComGoogleAndroidGmsPlayServicesMaps1024Library
+:library:prepareComGoogleAndroidGmsPlayServicesTasks1024Library
+:library:prepareComGoogleMapsAndroidAndroidMapsUtils04Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:signArchives SKIPPED
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.296 secs
+
+2018-04-05 19:32:22,789 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:32:22,790 INFO  SysUtils - Execute command: [/tmp/rdisk/1665/src/AirMapView-master/gradlew, -b, /tmp/rdisk/1665/src/AirMapView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:32:30,665 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-05 19:32:30,665 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:32:30,665 INFO  SysUtils - Execute command: [/tmp/rdisk/1665/src/AirMapView-master/gradlew, -b, /tmp/rdisk/1665/src/AirMapView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:33:01,595 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42400Library
+:library:prepareComGoogleAndroidGmsPlayServicesBase1024Library
+:library:prepareComGoogleAndroidGmsPlayServicesBasement1024Library
+:library:prepareComGoogleAndroidGmsPlayServicesMaps1024Library
+:library:prepareComGoogleAndroidGmsPlayServicesTasks1024Library
+:library:prepareComGoogleMapsAndroidAndroidMapsUtils04Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sample:prepareComAndroidSupportAppcompatV72531Library
+:sample:prepareComAndroidSupportMultidex101Library
+:sample:prepareComAndroidSupportRecyclerviewV72531Library
+:sample:prepareComAndroidSupportSupportCompat2531Library
+:sample:prepareComAndroidSupportSupportCoreUi2531Library
+:sample:prepareComAndroidSupportSupportCoreUtils2531Library
+:sample:prepareComAndroidSupportSupportFragment2531Library
+:sample:prepareComAndroidSupportSupportMediaCompat2531Library
+:sample:prepareComAndroidSupportSupportV42531Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sample:prepareComGoogleAndroidGmsPlayServicesBase1024Library
+:sample:prepareComGoogleAndroidGmsPlayServicesBasement1024Library
+:sample:prepareComGoogleAndroidGmsPlayServicesMaps1024Library
+:sample:prepareComGoogleAndroidGmsPlayServicesTasks1024Library
+:sample:prepareComGoogleMapsAndroidAndroidMapsUtils04Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1665/src/AirMapView-master/sample/src/main/java/com/airbnb/airmapview/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1665/src/AirMapView-master/sample/src/main/java/com/airbnb/airmapview/sample/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1665/src/AirMapView-master/sample/src/main/java/com/airbnb/airmapview/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/1665/src/AirMapView-master/sample/src/main/java/com/airbnb/airmapview/sample/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 30.647 secs
+
+2018-04-05 19:33:01,680 INFO  FullProcessService - Found APK file: /tmp/rdisk/1665/src/AirMapView-master/sample/build/outputs/apk/sample-release-unsigned.apk

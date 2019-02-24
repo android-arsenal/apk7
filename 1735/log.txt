@@ -1,0 +1,709 @@
+2018-04-04 15:40:38,750 INFO  DownloadService - Downloading "https://github.com/Android-s14/RecyclerViewElementary/archive/master.zip", attempt 3
+2018-04-04 15:40:39,874 INFO  DownloadService - Downloaded https://github.com/Android-s14/RecyclerViewElementary/archive/master.zip, attempt 3
+2018-04-04 15:40:39,875 INFO  DownloadService - Size of file "/tmp/rdisk/1735/master.zip": 350 KB
+2018-04-04 15:40:39,875 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:40:39,875 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1735/master.zip: true
+2018-04-04 15:40:39,875 DEBUG ZipUtil - Extracting '/tmp/rdisk/1735/master.zip' into '/tmp/rdisk/1735/src'.
+2018-04-04 15:40:39,886 INFO  FullProcessService - Size of directory with sources: 411 KB
+2018-04-04 15:40:39,886 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1735/src]
+2018-04-04 15:40:39,897 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1735/src/.git/
+
+2018-04-04 15:40:39,899 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew
+2018-04-04 15:40:39,902 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1735/src/RecyclerViewElementary-master/lib/build.gradle /tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build.gradle /tmp/rdisk/1735/src/RecyclerViewElementary-master/build.gradle
+2018-04-04 15:40:39,904 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1735/src/RecyclerViewElementary-master/settings.gradle /tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build.gradle /tmp/rdisk/1735/src/RecyclerViewElementary-master/lib/build.gradle /tmp/rdisk/1735/src/RecyclerViewElementary-master/build.gradle
+2018-04-04 15:40:39,905 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:40:39,905 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:40:39,911 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1735/src/RecyclerViewElementary-master/lib/local.properties
+2018-04-04 15:40:39,911 INFO  ProjectFixService - Build info for "/tmp/rdisk/1735/src/RecyclerViewElementary-master/lib/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:40:39,912 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/local.properties
+2018-04-04 15:40:39,912 INFO  ProjectFixService - Build info for "/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:40:39,912 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1735/src/RecyclerViewElementary-master/local.properties
+2018-04-04 15:40:39,913 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-04 15:40:39,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-04 15:40:39,914 INFO  ProjectFixService - Build info for "/tmp/rdisk/1735/src/RecyclerViewElementary-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:40:39,914 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:40:39,914 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:40:39,914 INFO  SysUtils - Execute command: [/tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew, -b, /tmp/rdisk/1735/src/RecyclerViewElementary-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:40:48,034 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-04 15:40:48,034 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-04 15:40:48,034 INFO  SysUtils - Execute command: [/tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew, -b, /tmp/rdisk/1735/src/RecyclerViewElementary-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-04 15:40:58,077 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:preBuild
+:lib:preDebugBuild
+:lib:checkDebugManifest
+:lib:preDebugTestBuild
+:lib:preReleaseBuild
+:lib:prepareComAndroidSupportAppcompatV72103Library
+:lib:prepareComAndroidSupportCardviewV72100Library
+:lib:prepareComAndroidSupportRecyclerviewV72100Library
+:lib:prepareComAndroidSupportSupportV42103Library
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl
+:lib:compileDebugRenderscript
+:lib:generateDebugBuildConfig
+:lib:generateDebugAssets UP-TO-DATE
+:lib:mergeDebugAssets
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:mergeDebugResources
+:lib:processDebugManifest
+:lib:processDebugResources
+:lib:generateDebugSources
+:lib:compileDebugJava
+:lib:extractDebugAnnotations
+:lib:mergeDebugProguardFiles
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:packageDebugJar
+:lib:compileDebugNdk
+:lib:packageDebugJniLibs UP-TO-DATE
+:lib:packageDebugLocalJar UP-TO-DATE
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:packageDebugResources
+:lib:bundleDebug
+:lib:assembleDebug
+:lib:copyReleaseLint UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:compileReleaseJava
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseProguardFiles
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar
+:lib:compileReleaseNdk
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:bundleRelease
+:lib:assembleRelease
+:lib:assemble
+:lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.588 secs
+
+2018-04-04 15:40:58,109 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:40:58,109 INFO  SysUtils - Execute command: [/tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew, -b, /tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:41:04,163 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-04 15:41:04,163 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-04 15:41:04,163 INFO  SysUtils - Execute command: [/tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew, -b, /tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-04 15:41:13,049 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-04 15:41:13,050 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild
+:sample:compileDebugNdk
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:preBuild
+:lib:preReleaseBuild
+:lib:checkReleaseManifest
+:lib:preDebugBuild
+:lib:preDebugTestBuild
+:lib:prepareComAndroidSupportAppcompatV72103Library UP-TO-DATE
+:lib:prepareComAndroidSupportCardviewV72100Library UP-TO-DATE
+:lib:prepareComAndroidSupportRecyclerviewV72100Library UP-TO-DATE
+:lib:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl UP-TO-DATE
+:lib:compileReleaseRenderscript UP-TO-DATE
+:lib:generateReleaseBuildConfig UP-TO-DATE
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets UP-TO-DATE
+:lib:generateReleaseResValues UP-TO-DATE
+:lib:generateReleaseResources UP-TO-DATE
+:lib:mergeReleaseResources UP-TO-DATE
+:lib:processReleaseManifest UP-TO-DATE
+:lib:processReleaseResources UP-TO-DATE
+:lib:generateReleaseSources UP-TO-DATE
+:lib:compileReleaseJava UP-TO-DATE
+:lib:extractReleaseAnnotations UP-TO-DATE
+:lib:mergeReleaseProguardFiles UP-TO-DATE
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar UP-TO-DATE
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources UP-TO-DATE
+:lib:bundleRelease UP-TO-DATE
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:preReleaseBuild
+:sample:prepareComAndroidSupportAppcompatV72103Library
+:sample:prepareComAndroidSupportCardviewV72100Library
+:sample:prepareComAndroidSupportRecyclerviewV72100Library
+:sample:prepareComAndroidSupportSupportV42103Library
+:sample:prepareRecyclerViewElementaryMasterLibUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:4: error: cannot find symbol
+import android.support.v7.app.AppCompatActivity;
+                             ^
+  symbol:   class AppCompatActivity
+  location: package android.support.v7.app
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:22: error: cannot find symbol
+public class MainActivity extends AppCompatActivity {
+                                  ^
+  symbol: class AppCompatActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:24: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:26: error: cannot find symbol
+		super.onCreate(savedInstanceState);
+		^
+  symbol:   variable super
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:39: error: no suitable method found for makeText(MainActivity,String,int)
+				Toast.makeText(MainActivity.this,
+				     ^
+    method Toast.makeText(Context,CharSequence,int) is not applicable
+      (argument mismatch; MainActivity cannot be converted to Context)
+    method Toast.makeText(Context,int,int) is not applicable
+      (argument mismatch; MainActivity cannot be converted to Context)
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:46: error: incompatible types: MainActivity cannot be converted to Context
+		                                 .setLayoutManager(new GridLayoutManager(this, 2))
+		                                                                         ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:45: error: incompatible types: MainActivity cannot be converted to Context
+				RecyclerViewBuilder(this).setData(data)
+				                    ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:51: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:55: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:73: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main_recycler, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:76: error: incompatible types: MainActivity cannot be converted to Context
+		new RecyclerViewBuilder(this).using(recyclerView).setData(imageData).build();
+		                        ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:77: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:84: error: cannot find symbol
+		                       getResources().getDrawable(R.drawable.ic_launcher)));
+		                       ^
+  symbol:   method getResources()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:87: error: cannot find symbol
+		                       getResources().getDrawable(R.drawable.ic_launcher)));
+		                       ^
+  symbol:   method getResources()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:90: error: cannot find symbol
+		                       getResources().getDrawable(R.drawable.ic_launcher)));
+		                       ^
+  symbol:   method getResources()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:96: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main_recycler, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:97: error: incompatible types: MainActivity cannot be converted to Context
+		new RecyclerViewBuilder(this).using(R.id.recycler_view, layout).setData(imageData).build();
+		                        ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:98: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:104: error: incompatible types: MainActivity cannot be converted to Context
+				RecyclerViewBuilder(this).setData(imageData)
+				                    ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:108: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:112: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:115: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:118: error: cannot find symbol
+		getMenuInflater().inflate(R.menu.menu_main, menu);
+		^
+  symbol:   method getMenuInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:122: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:134: error: cannot find symbol
+		return super.onOptionsItemSelected(item);
+		       ^
+  symbol:   variable super
+  location: class MainActivity
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+25 errors
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:compileDebugJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:compileDebugJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:35)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:97)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:158)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:138)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:92)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 8.469 secs
+
+2018-04-04 15:41:13,101 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:41:13,101 INFO  SysUtils - Execute command: [/tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew, -b, /tmp/rdisk/1735/src/RecyclerViewElementary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:41:19,231 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-04-04 15:41:19,231 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-04 15:41:19,232 INFO  SysUtils - Execute command: [/tmp/rdisk/1735/src/RecyclerViewElementary-master/gradlew, -b, /tmp/rdisk/1735/src/RecyclerViewElementary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-04 15:41:26,489 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-04 15:41:26,490 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:preBuild
+:lib:preDebugBuild
+:lib:checkDebugManifest
+:lib:preDebugTestBuild
+:lib:preReleaseBuild
+:lib:prepareComAndroidSupportAppcompatV72103Library UP-TO-DATE
+:lib:prepareComAndroidSupportCardviewV72100Library UP-TO-DATE
+:lib:prepareComAndroidSupportRecyclerviewV72100Library UP-TO-DATE
+:lib:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl UP-TO-DATE
+:lib:compileDebugRenderscript UP-TO-DATE
+:lib:generateDebugBuildConfig UP-TO-DATE
+:lib:generateDebugAssets UP-TO-DATE
+:lib:mergeDebugAssets UP-TO-DATE
+:lib:generateDebugResValues UP-TO-DATE
+:lib:generateDebugResources UP-TO-DATE
+:lib:mergeDebugResources UP-TO-DATE
+:lib:processDebugManifest UP-TO-DATE
+:lib:processDebugResources UP-TO-DATE
+:lib:generateDebugSources UP-TO-DATE
+:lib:compileDebugJava UP-TO-DATE
+:lib:extractDebugAnnotations UP-TO-DATE
+:lib:mergeDebugProguardFiles UP-TO-DATE
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:packageDebugJar UP-TO-DATE
+:lib:compileDebugNdk UP-TO-DATE
+:lib:packageDebugJniLibs UP-TO-DATE
+:lib:packageDebugLocalJar UP-TO-DATE
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:packageDebugResources UP-TO-DATE
+:lib:bundleDebug UP-TO-DATE
+:lib:assembleDebug UP-TO-DATE
+:lib:copyReleaseLint UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl UP-TO-DATE
+:lib:compileReleaseRenderscript UP-TO-DATE
+:lib:generateReleaseBuildConfig UP-TO-DATE
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets UP-TO-DATE
+:lib:generateReleaseResValues UP-TO-DATE
+:lib:generateReleaseResources UP-TO-DATE
+:lib:mergeReleaseResources UP-TO-DATE
+:lib:processReleaseManifest UP-TO-DATE
+:lib:processReleaseResources UP-TO-DATE
+:lib:generateReleaseSources UP-TO-DATE
+:lib:compileReleaseJava UP-TO-DATE
+:lib:extractReleaseAnnotations UP-TO-DATE
+:lib:mergeReleaseProguardFiles UP-TO-DATE
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar UP-TO-DATE
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources UP-TO-DATE
+:lib:bundleRelease UP-TO-DATE
+:lib:assembleRelease UP-TO-DATE
+:lib:assemble UP-TO-DATE
+:lib:build
+:sample:preBuild
+:sample:compileDebugNdk UP-TO-DATE
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:preReleaseBuild
+:sample:prepareComAndroidSupportAppcompatV72103Library UP-TO-DATE
+:sample:prepareComAndroidSupportCardviewV72100Library UP-TO-DATE
+:sample:prepareComAndroidSupportRecyclerviewV72100Library UP-TO-DATE
+:sample:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:sample:prepareRecyclerViewElementaryMasterLibUnspecifiedLibrary UP-TO-DATE
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl UP-TO-DATE
+:sample:compileDebugRenderscript UP-TO-DATE
+:sample:generateDebugBuildConfig UP-TO-DATE
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets UP-TO-DATE
+:sample:generateDebugResValues UP-TO-DATE
+:sample:generateDebugResources UP-TO-DATE
+:sample:mergeDebugResources UP-TO-DATE
+:sample:processDebugManifest UP-TO-DATE
+:sample:processDebugResources UP-TO-DATE
+:sample:generateDebugSources UP-TO-DATE
+:sample:compileDebugJava/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:4: error: cannot find symbol
+import android.support.v7.app.AppCompatActivity;
+                             ^
+  symbol:   class AppCompatActivity
+  location: package android.support.v7.app
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:22: error: cannot find symbol
+public class MainActivity extends AppCompatActivity {
+                                  ^
+  symbol: class AppCompatActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:24: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:26: error: cannot find symbol
+		super.onCreate(savedInstanceState);
+		^
+  symbol:   variable super
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:39: error: no suitable method found for makeText(MainActivity,String,int)
+				Toast.makeText(MainActivity.this,
+				     ^
+    method Toast.makeText(Context,CharSequence,int) is not applicable
+      (argument mismatch; MainActivity cannot be converted to Context)
+    method Toast.makeText(Context,int,int) is not applicable
+      (argument mismatch; MainActivity cannot be converted to Context)
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:46: error: incompatible types: MainActivity cannot be converted to Context
+		                                 .setLayoutManager(new GridLayoutManager(this, 2))
+		                                                                         ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:45: error: incompatible types: MainActivity cannot be converted to Context
+				RecyclerViewBuilder(this).setData(data)
+				                    ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:51: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:55: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:73: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main_recycler, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:76: error: incompatible types: MainActivity cannot be converted to Context
+		new RecyclerViewBuilder(this).using(recyclerView).setData(imageData).build();
+		                        ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:77: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:84: error: cannot find symbol
+		                       getResources().getDrawable(R.drawable.ic_launcher)));
+		                       ^
+  symbol:   method getResources()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:87: error: cannot find symbol
+		                       getResources().getDrawable(R.drawable.ic_launcher)));
+		                       ^
+  symbol:   method getResources()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:90: error: cannot find symbol
+		                       getResources().getDrawable(R.drawable.ic_launcher)));
+		                       ^
+  symbol:   method getResources()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:96: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main_recycler, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:97: error: incompatible types: MainActivity cannot be converted to Context
+		new RecyclerViewBuilder(this).using(R.id.recycler_view, layout).setData(imageData).build();
+		                        ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:98: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:104: error: incompatible types: MainActivity cannot be converted to Context
+				RecyclerViewBuilder(this).setData(imageData)
+				                    ^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:108: error: cannot find symbol
+		View layout = getLayoutInflater().inflate(R.layout.activity_main, null);
+		              ^
+  symbol:   method getLayoutInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:112: error: cannot find symbol
+		setContentView(layout);
+		^
+  symbol:   method setContentView(View)
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:115: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:118: error: cannot find symbol
+		getMenuInflater().inflate(R.menu.menu_main, menu);
+		^
+  symbol:   method getMenuInflater()
+  location: class MainActivity
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:122: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/tmp/rdisk/1735/src/RecyclerViewElementary-master/sample/src/main/java/com/android_s14/rvh_sample/MainActivity.java:134: error: cannot find symbol
+		return super.onOptionsItemSelected(item);
+		       ^
+  symbol:   variable super
+  location: class MainActivity
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+25 errors
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:compileDebugJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:compileDebugJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:35)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:97)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:158)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:138)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:92)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 6.825 secs
+
+2018-04-04 15:41:26,540 ERROR FullProcessService - Project build has not produced APK file
+2018-04-04 15:41:26,587 ERROR FullProcessService - Could not find generated or existed APK file

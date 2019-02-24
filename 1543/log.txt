@@ -1,0 +1,21 @@
+2018-04-05 22:37:03,827 INFO  DownloadService - Downloading "https://github.com/jgilfelt/NotificationLog/archive/master.zip", attempt 3
+2018-04-05 22:38:04,276 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 22:38:05,177 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 22:38:05,177 INFO  DownloadService - Downloading "https://github.com/jgilfelt/NotificationLog/archive/master.zip", attempt 3
+2018-04-05 22:39:06,500 DEBUG FullProcessService - Repository https://github.com/jgilfelt/NotificationLog available: true
+2018-04-05 22:39:06,500 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 22:39:06,500 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jgilfelt/NotificationLog, /tmp/rdisk/1543/src]
+2018-04-05 22:39:09,131 INFO  SysUtils - 
+2018-04-05 22:39:09,143 INFO  GitService - Deleted "/tmp/rdisk/1543/src/.git": true
+2018-04-05 22:39:09,145 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 22:39:09,145 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1543/src]
+2018-04-05 22:39:09,150 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1543/src/.git/
+
+2018-04-05 22:39:09,152 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-05 22:39:09,152 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-05 22:39:09,154 INFO  ProjectBuildService - Build script(s): none
+2018-04-05 22:39:09,156 INFO  ProjectBuildService - All script(s): none
+2018-04-05 22:39:09,156 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 22:39:09,156 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-05 22:39:09,156 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 22:39:09,158 ERROR FullProcessService - Could not find generated or existed APK file

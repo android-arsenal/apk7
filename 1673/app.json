@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.dragger",
+    "label" : "Dragger",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACKFBMVEUAAAD4+Pj4+Pj5+fn29vbz9vbz8/Pz9vP28/b5+fn5+fn29vb////4+Pj5+fn4+Pj4+Pj3+Pf39/f29vb4+Pj4+Pj6+vr4+Pj5+fn4+Pj39/f29vb4+Pn5+fn5+fn4+Pj5+fn39vb5+fn29/f4+Pjr6+v39/f39/j5+fn////4+Pj5+Pj4+Pr6+Pr4+Pf39/b49/j6+Pj4+fj6+vj6+vr5+Pn5+vn6+vr3+Pj49/f3+Pf5+vn5+frz8/P6+vrc3Nzp6eno6Ojq6ura2trm5ubr6+vy8vLl5eXOzs7FxcXJycmwsLDGxsbS0dLR0dHExMTLy8vT09PMzMzPz8/Z2dnDw8PW1tbNzc3X19f6+fq+vr60tLT19fXV1dXCwsKzs7Ourq7d3d2srKzQ0ND6+fni4uK1tbXr6+q2traenp7g4ODBwcGZmZnW1tXe3d3j4+Oqqqq7u7vh4eGxsbHP0NDe3t77+vvU1NPY2Njr6uvg3+DS0tLJycju7u76+/r7+/vU1NTx8fH6+vnk5OT7+/v6+vv8/Pr7+/r8/Pz7+vr7/Pv8/Pz8+/z8/Pv7+/z8+/v8/Pz7/Pz8/fz9/f38/Pz8/P38/Pz////8/Pz9/f3////39/f8/Pz8/f38/Pz8/Pz8/Pz9/Pz9/f3////8/Pz9/f39/f38/Pz8+/z8+/v7/Pv7+/v8/Pv7+/z7/Pz9/f39/f3////////////////6+vr///////8SbzqXAAAAuHRSTlMAJU1ZWlpaWlpaVz0Mdtf6+/v7+/CpPXf//////70rKdr/gf/ADWz/1hdv/29v////b/9vb////////9f//9f////////////////////////////////////////////////////////////////////////////////////////////X/2//b////////9fX////av/VUfq4CyHM/3do7f+rG1++7/Pz8/Pz8/Pz4JApFDQ7OyYCX4wF/AAAAshJREFUSMed1vtbDFEcBvBBhZBy/U7rlhCiyGVE2Lat3bZsO+22lUxkRVIuIZdoFGGbcht3Qm4huV/+PTNnduacM9O0+3h/2GfmnPez3zPz0zDM/2TS5ClJRJKTU1JSpk5LojM9dcbMWH9W2ux0JRlzUOYS0VYy0rXMm78A9RcCi5KJ4qCiraHtRQCweInSX7qMAll2gFUALFdAajoFsq19AqxYyTCrIAZyrGeygNVrGGYtQC45ghDZZB+BNAWsA6DOhJ8iyzIAgfUGyIsV8qn/z9xgAhsNoI9A58o3LrW9AgNsgnGFqa8NQGAzAVjbvhlssRN0HwP9zZqFvpqr9bdiYByKJHgtNoAjACHYbTmF2wvzWEufBqQwxehzO1TAxRO4r03gitDtTuJdjdtXwS4EtBG7ncpPgX29iMNAEcWuEqfLCay7lGVL3Uqx2MWyZZ4ycHhY4/8x4LzlvopK7x6Xvyrg56vLeUeg0hcM+WuC4doaJ+4boM5bD3sb9gEvADRWAYT3BwC8B0JNwsEIqh/iaCA0K0MOOyByBKCiBaD0aCvAsbb2cLjlOFHH4ESwma/zOaCk1hM4earaU9UW6fCfboi4z9ScNY6jpNN4hla+DjzKszedO3/hYjvf1XipSwh2hPjQ5bJ6o851iwiIeAW9YOFKTzUvuF3hHuVd9hKbohgDpFCREPHD1Yi/o5deFzEwifEjkiA+EbVcM4DYOVG9TyTAdf3mhl29WxRJcBPfilFrO0psi/1mQM2J9kWj9J4kISCJCUbSgSQlWMdAGohXH5BoIEmD/fbtW5Ke2xjYjxmQcO5QQM1dujwo0bGCCXNPVsF9+UGCfVmWHyrg0WNZTrAuy0+eMsyz5+pVnClDspYX6pfAy1foemjYrj0s63n9Bn07vH33foTIh4+fRkdHP499GRuh8/Xb99jXyY+fvxLI7z9/le4/NkFmYfuOi8wAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 2411,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0\" package=\"com.github.dragger\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f090082\" android:label=\"Dragger\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.github.ppamorim.dragger.DraggerApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090081\" android:label=\"Dragger\" android:name=\"com.github.ppamorim.dragger.BaseActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.ppamorim.dragger.LazyActivity\" />\n\t\t<activity android:name=\"com.github.ppamorim.dragger.EditTextActivity\" />\n\t\t<activity android:name=\"com.github.ppamorim.dragger.ListActivity\" />\n\t\t<activity android:name=\"com.github.ppamorim.dragger.ActivityListActivity\" />\n\t\t<activity android:name=\"com.github.ppamorim.dragger.ImageActivity\" />\n\t\t<activity android:name=\"com.github.ppamorim.dragger.PanelActivity\" />\n\t\t<activity android:name=\"com.github.ppamorim.dragger.DraggingActivity\" />\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4653474,
+  "crc32" : 4233008229,
+  "sha256" : "45ffdfb971186fd8eacb8b84e890a8063a6adccf00f7f49e06b6c98dd7ba34c0",
+  "buildTime" : 1526046404000
+}

@@ -1,0 +1,215 @@
+2018-04-04 15:48:05,438 INFO  DownloadService - Downloading "https://github.com/yahoo/squidb/archive/master.zip", attempt 3
+2018-04-04 15:48:07,261 INFO  DownloadService - Downloaded https://github.com/yahoo/squidb/archive/master.zip, attempt 3
+2018-04-04 15:48:07,261 INFO  DownloadService - Size of file "/tmp/rdisk/1728/master.zip": 4 MB
+2018-04-04 15:48:07,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:48:07,262 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1728/master.zip: true
+2018-04-04 15:48:07,262 DEBUG ZipUtil - Extracting '/tmp/rdisk/1728/master.zip' into '/tmp/rdisk/1728/src'.
+2018-04-04 15:48:07,428 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-04-04 15:48:07,429 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1728/src]
+2018-04-04 15:48:07,440 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1728/src/.git/
+
+2018-04-04 15:48:07,453 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1728/src/squidb-master/gradlew
+2018-04-04 15:48:07,467 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/build.gradle /tmp/rdisk/1728/src/squidb-master/samples/squidb-sample-core/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-recyclerview/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-sqlite-bindings/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-support-loader/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-android/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-tests/build.gradle /tmp/rdisk/1728/src/squidb-master/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-annotations/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-compiler/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-plugin/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-reactive/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-annotations/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-ios/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-processor/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb/build.gradle
+2018-04-04 15:48:07,479 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1728/src/squidb-master/squidb/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-tests/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-processor/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-ios/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-annotations/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-android/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-support-loader/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-sqlite-bindings/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-recyclerview/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-reactive/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-plugin/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-compiler/build.gradle /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-annotations/build.gradle /tmp/rdisk/1728/src/squidb-master/settings.gradle /tmp/rdisk/1728/src/squidb-master/samples/squidb-sample-core/build.gradle /tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/build.gradle /tmp/rdisk/1728/src/squidb-master/build.gradle
+2018-04-04 15:48:07,480 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:48:07,480 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:48:07,510 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/local.properties
+2018-04-04 15:48:07,511 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2018-04-04 15:48:07,511 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/samples/squidb-sample-core/local.properties
+2018-04-04 15:48:07,511 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/samples/squidb-sample-core/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,512 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-recyclerview/local.properties
+2018-04-04 15:48:07,517 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-recyclerview/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,517 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-sqlite-bindings/local.properties
+2018-04-04 15:48:07,523 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-sqlite-bindings/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,523 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-support-loader/local.properties
+2018-04-04 15:48:07,528 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-support-loader/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,529 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-android/local.properties
+2018-04-04 15:48:07,534 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-android/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,534 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-tests/local.properties
+2018-04-04 15:48:07,540 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-tests/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,540 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/local.properties
+2018-04-04 15:48:07,541 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-04-04 15:48:07,541 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-04-04 15:48:07,547 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,547 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-annotations/local.properties
+2018-04-04 15:48:07,554 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-annotations/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,554 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-compiler/local.properties
+2018-04-04 15:48:07,560 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-compiler/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,560 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-plugin/local.properties
+2018-04-04 15:48:07,567 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-json/squidb-json-plugin/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,567 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-reactive/local.properties
+2018-04-04 15:48:07,573 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-addons/squidb-reactive/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,573 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-annotations/local.properties
+2018-04-04 15:48:07,579 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-annotations/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,580 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-ios/local.properties
+2018-04-04 15:48:07,586 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-ios/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,586 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb-processor/local.properties
+2018-04-04 15:48:07,592 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb-processor/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,592 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1728/src/squidb-master/squidb/local.properties
+2018-04-04 15:48:07,598 INFO  ProjectFixService - Build info for "/tmp/rdisk/1728/src/squidb-master/squidb/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2018-04-04 15:48:07,598 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:48:07,598 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:48:07,598 INFO  SysUtils - Execute command: [/tmp/rdisk/1728/src/squidb-master/gradlew, -b, /tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:48:18,325 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-04-04 15:48:18,325 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-04 15:48:18,325 INFO  SysUtils - Execute command: [/tmp/rdisk/1728/src/squidb-master/gradlew, -b, /tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-04 15:48:36,699 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:squidb:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:squidb:processResources UP-TO-DATE
+:squidb:classes
+:squidb:jar
+:squidb-android:preBuild UP-TO-DATE
+:squidb-android:preReleaseBuild UP-TO-DATE
+:squidb-android:checkReleaseManifest
+:squidb-android:prepareReleaseDependencies
+:squidb-android:compileReleaseAidl
+:squidb-android:compileReleaseNdk UP-TO-DATE
+:squidb-android:compileLint
+:squidb-android:copyReleaseLint UP-TO-DATE
+:squidb-android:mergeReleaseShaders
+:squidb-android:compileReleaseShaders
+:squidb-android:generateReleaseAssets
+:squidb-android:mergeReleaseAssets
+:squidb-android:mergeReleaseProguardFiles
+:squidb-android:packageReleaseRenderscript UP-TO-DATE
+:squidb-android:compileReleaseRenderscript
+:squidb-android:generateReleaseResValues
+:squidb-android:generateReleaseResources
+:squidb-android:packageReleaseResources
+:squidb-android:processReleaseManifest
+:squidb-android:generateReleaseBuildConfig
+:squidb-android:processReleaseResources
+:squidb-android:generateReleaseSources
+:squidb-android:incrementalReleaseJavaCompilationSafeguard
+:squidb-android:compileReleaseJavaWithJavac
+:squidb-android:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:squidb-android:processReleaseJavaRes UP-TO-DATE
+:squidb-android:transformResourcesWithMergeJavaResForRelease
+:squidb-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+:squidb-android:mergeReleaseJniLibFolders
+:squidb-android:transformNative_libsWithMergeJniLibsForRelease
+:squidb-android:transformNative_libsWithSyncJniLibsForRelease
+:squidb-android:bundleRelease
+:squidb-android-sample:preBuild UP-TO-DATE
+:squidb-android-sample:preDebugBuild UP-TO-DATE
+:squidb-android-sample:checkDebugManifest
+:squidb-android-sample:preReleaseBuild UP-TO-DATE
+:squidb-annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:squidb-annotations:processResources UP-TO-DATE
+:squidb-annotations:classes
+:squidb-annotations:jar
+:squidb-sample-core:preBuild UP-TO-DATE
+:squidb-sample-core:preReleaseBuild UP-TO-DATE
+:squidb-sample-core:checkReleaseManifest
+:squidb-sample-core:preDebugAndroidTestBuild UP-TO-DATE
+:squidb-sample-core:preDebugBuild UP-TO-DATE
+:squidb-sample-core:preDebugUnitTestBuild UP-TO-DATE
+:squidb-sample-core:preReleaseUnitTestBuild UP-TO-DATE
+:squidb-sample-core:prepareComYahooSquidbSquidbAndroid323Library
+:squidb-sample-core:prepareReleaseDependencies
+:squidb-sample-core:compileReleaseAidl
+:squidb-sample-core:compileReleaseNdk UP-TO-DATE
+:squidb-sample-core:compileLint
+:squidb-sample-core:copyReleaseLint UP-TO-DATE
+:squidb-sample-core:mergeReleaseShaders
+:squidb-sample-core:compileReleaseShaders
+:squidb-sample-core:generateReleaseAssets
+:squidb-sample-core:mergeReleaseAssets
+:squidb-sample-core:mergeReleaseProguardFiles
+:squidb-sample-core:packageReleaseRenderscript UP-TO-DATE
+:squidb-sample-core:compileReleaseRenderscript
+:squidb-sample-core:generateReleaseResValues
+:squidb-sample-core:generateReleaseResources
+:squidb-sample-core:packageReleaseResources
+:squidb-sample-core:processReleaseManifest
+:squidb-processor:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:squidb-processor:processResources UP-TO-DATE
+:squidb-processor:classes
+:squidb-processor:jar
+:squidb-sample-core:generateReleaseBuildConfig
+:squidb-sample-core:mergeReleaseResources
+:squidb-sample-core:processReleaseResources
+:squidb-sample-core:generateReleaseSources
+:squidb-sample-core:incrementalReleaseJavaCompilationSafeguard
+:squidb-sample-core:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:squidb-sample-core:processReleaseJavaRes UP-TO-DATE
+:squidb-sample-core:transformResourcesWithMergeJavaResForRelease
+:squidb-sample-core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:squidb-sample-core:mergeReleaseJniLibFolders
+:squidb-sample-core:transformNative_libsWithMergeJniLibsForRelease
+:squidb-sample-core:transformNative_libsWithSyncJniLibsForRelease
+:squidb-sample-core:bundleRelease
+:squidb-android-sample:prepareComYahooSquidbSquidbAndroid323Library
+:squidb-android-sample:prepareComYahooSquidbSquidbSampleCore323Library
+:squidb-android-sample:prepareDebugDependencies
+:squidb-android-sample:compileDebugAidl
+:squidb-android-sample:compileDebugRenderscript
+:squidb-android-sample:generateDebugBuildConfig
+:squidb-android-sample:generateDebugResValues
+:squidb-android-sample:generateDebugResources
+:squidb-android-sample:mergeDebugResources
+:squidb-android-sample:processDebugManifest
+:squidb-android-sample:processDebugResources
+:squidb-android-sample:generateDebugSources
+:squidb-android-sample:incrementalDebugJavaCompilationSafeguard
+:squidb-android-sample:compileDebugJavaWithJavac
+:squidb-android-sample:compileDebugNdk UP-TO-DATE
+:squidb-android-sample:compileDebugSources
+:squidb-android-sample:mergeDebugShaders
+:squidb-android-sample:compileDebugShaders
+:squidb-android-sample:generateDebugAssets
+:squidb-android-sample:mergeDebugAssets
+:squidb-android-sample:transformClassesWithDexForDebug
+:squidb-android-sample:mergeDebugJniLibFolders
+:squidb-android-sample:transformNative_libsWithMergeJniLibsForDebug
+:squidb-android-sample:processDebugJavaRes UP-TO-DATE
+:squidb-android-sample:transformResourcesWithMergeJavaResForDebug
+:squidb-android-sample:validateSigningDebug
+:squidb-android-sample:packageDebug
+:squidb-android-sample:assembleDebug
+:squidb-android-sample:checkReleaseManifest
+:squidb-android-sample:prepareReleaseDependencies
+:squidb-android-sample:compileReleaseAidl
+:squidb-android-sample:compileReleaseRenderscript
+:squidb-android-sample:generateReleaseBuildConfig
+:squidb-android-sample:generateReleaseResValues
+:squidb-android-sample:generateReleaseResources
+:squidb-android-sample:mergeReleaseResources
+:squidb-android-sample:processReleaseManifest
+:squidb-android-sample:processReleaseResources
+:squidb-android-sample:generateReleaseSources
+:squidb-android-sample:incrementalReleaseJavaCompilationSafeguard
+:squidb-android-sample:compileReleaseJavaWithJavac
+:squidb-android-sample:compileReleaseNdk UP-TO-DATE
+:squidb-android-sample:compileReleaseSources
+:squidb-android-sample:lintVitalRelease
+:squidb-android-sample:mergeReleaseShaders
+:squidb-android-sample:compileReleaseShaders
+:squidb-android-sample:generateReleaseAssets
+:squidb-android-sample:mergeReleaseAssets
+:squidb-android-sample:transformClassesWithDexForRelease
+:squidb-android-sample:mergeReleaseJniLibFolders
+:squidb-android-sample:transformNative_libsWithMergeJniLibsForRelease
+:squidb-android-sample:processReleaseJavaRes UP-TO-DATE
+:squidb-android-sample:transformResourcesWithMergeJavaResForRelease
+:squidb-android-sample:packageRelease
+:squidb-android-sample:assembleRelease
+:squidb-android-sample:assemble
+:squidb-android-sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.805 secs
+
+2018-04-04 15:48:36,733 INFO  FullProcessService - Found APK file: /tmp/rdisk/1728/src/squidb-master/samples/squidb-android-sample/build/outputs/apk/squidb-android-sample-release-unsigned.apk

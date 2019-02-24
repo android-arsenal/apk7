@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.unnamed.b.atv.demo",
+    "label" : "AndroidTreeView",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.9",
+    "versionCode" : 11,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1185,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"11\" android:versionName=\"1.2.9\" package=\"com.unnamed.b.atv.demo\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"AndroidTreeView\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"AndroidTreeView\" android:name=\"com.unnamed.b.atv.sample.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.unnamed.b.atv.sample.activity.SingleFragmentActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1140986,
+  "crc32" : 3778934165,
+  "sha256" : "3f09fd3a14250a556bf3c999e58317ea5d1e6adb3c37f37b1e57c35726720258",
+  "buildTime" : 1526047241000
+}

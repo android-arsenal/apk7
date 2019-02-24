@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.pedrovgs.sample",
+    "label" : "Lynx",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_LOGS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAIzElEQVRYw8VYaVRT1xbeN4EEBUQUBRWQBmoVwTotFecJ7HNArdRqHWh51KfPYnGeixbtcnyKWqyiKHZZVqui9i26sFJ9iDhURMaggkiQQAiXSAiQO+/340KMSmRw2j9Yybkn53z329O3AbRsgiAgYtIfF/EdmgQsGyICQFTU3pqaGoah4Z2YpNkdpM64M3K9TCZ/N4CgWZeFLQkGAD1Z9P5dRhDAcUK/vh8BwMRPZgEAz/Pv12WEgOj2QR8AKFbmJCbESKXS9+kyRLyeHF+hUctt5BFfzwGQpt++Jjrz/bgMAHiQfxu2pJNjRweFV/ata4OHjtY/Lec44f0wxPMcIrr1cAIg/MeMFAThrwvnAOB66hVE5DjubTDUjMs4jit8kA0AvRXudYYaRHyqI51tJF9+FYyINM2ImfjuXCaVSj17+ZaqHharSp5WahiWtbW11xh5OV3bx6tH5r1bBEEAAKLwjoJaLEe8gGlpV/8ZFCgusByPiJqysrDgIN/eHvl5d0W2eJ5/6y4zN2/PrnytARFTL19CRF4QEJGp1QeM8gsMGHoz7SrPs4jI88Lr+LEVgCK3rN35/WZEDPl8Su8PvdIuXUBEhuUQ8XFR0b6NYc6d7A8f3CZupmm6bdWhpYDEnBrSz6NWX330UJSVVAoAbu0hMeGX6iqtadt3q1Z4e3bfuiEsNy/XvP+8FYZYljscfWD7ykUCxyncnKytrQmpFAB6uHSZPXOarii7sVpwaSkpIdPHe3i4a59kISJFtYKtlgIyvai9g329Xnvmp4MA0NHBoXPnzi7OznIJAQCBw72V2RmISBmNiIj11f19P547fWTm3RtvmCGWZRGxTPVw9NiRHWWwb8d2RMy/d6dCU06SJEmShfnK4gJl/LEjc4NmRIRMRUSOZcXfPlAqw0Pn9vvYB5GtNzZPVYsA6avJoJmTZVLp2cO7TIs0RbGNRtM0Q1Ms33CZSplr2sbQNCJeuXjGuYMs9X+JYhlpIyBB4Dkei/JvtrNtFzpnRo2ORMRXFxtBaCLnhYaf8MN9++7ZsenVmODVQXMq9kcAiNmxydwLbTORqvXfLvopenerGRLRnDx2AABidm1GRP5NtFKeFxAxYNggpTKbYZjWMfRn0kUAmOQ3sA21xFKGCoJAG+t1pDZ09gRLjmsCEMPQKpWqg63c3bW7saba0qu0yk5HHygvvG8CF+TvV1pS0CKGxACcP2cyABzbu+1NiYqQhfMBYPumjeLX5EtJ61cvbqnLLiddBIA+CrfXdxY2Ct4/z8cDwChfL9OiU+eOzQMSr3d17Q4AWX+nUjTTsMrzryMtWJahKaqLvc2u71Z9EzpfXPx38OyMjHSGeTFzCXE8FY1hGGVOxsDBfm4uXe4XFFrJ5AKiXG4jPlXnZHSwh8ziymJ1laGurq+TbPSMBQggkUhaIrxITVlhUVHfPt52HR1ZltWVl3bz8BRljNT8hBfoCV+6EABWLA4W8zQvJ3vr6rDBPTu7dmoYgP4xYeSujauykhPbwBNFUeblozj35pRJYy26TBRc4q3c0/LTMYft2tsMG+SdcvnsrBn+AHA6JlpbqjKv468TWGJ/DJ099cmTxxZjKPWvCwAw5MOuMz7xHzOyP2+sOHsmHgDWhi9BRB6RZeimW4yFCBPDz/TX/FFVhcZQ/TQnNzc+7rBFQOPGjJDJ29nJIS4uFhFH+A0AAFV+VmORbSLjaJpq4D8jpUJVYNrDsSz30na2saTRNHPzeqq9BAwa9caVSyxNHbxaXeZgb6MuU48bO44giCelVerCBy5e3gAgkRAAxHMzJC8AQGWFdt/m5V3srCIOnurq7gVAoCAAAMtQcT/uH97H1cXRiiAIgiA+nTiktramYYCXEApPxfeRG5avCG9vY2HqePz40fgRvvoagymS1I8KLHZKhkbEL6ZPce3mHDhp4Ko160xRiIgndm9x7CBfuyIk895tjaZMp9PpdLrHhXm9Fd2MBh3HsaYcGurTc8+Wb5p2GVVXhcggciOG+MqtpU8eZtOW23ulttwOIOSrL0oLbwzv52P+KOHnoyCRPHqYJ0p9k2bS1xgMeu3XMxu6mNCYQ1siNlqMIZbj4mKPAsDa8MWNIckxDEPTFENTDE0zNGWsr79+JdnBrt3KlavUxXmOMgkimve73ZGbVoQtEEP6pYqN/fv2EkcGMUl9erkgMk0DEiFLXpgeOaq8rOxRfs793MyHysy8zPTignwA+HLhHEQWAH4/9+sLHSYtObmne1dL1I4fNcz0OSn+WML5hFe1jg1rlgHA8YN7EFGZcWteYIB7dxcxngLHek4b7xvoP2jqON9l/wpCxPFjhgFIbvwRz+mrEJGiKNM5U4f1v3Y1sV6U+mbdQ6cjD+3YhIj/2b5NW5Du3MnOJJKaBMT17qVwd3H6/fSJAR6drKyIwGn+p04cQaxu8l0P7t8RGhzk6akAAP/+iqyMuw2xaDQiojVAiarQtLm0tAQRI9Yt/W/CuaOHdkft/SF47mQ9WfKytnkG6H5+nrUU5HIbWxnExcWQlVozpccLz5v5ESSpzbiT0qEdsWvnTlNn0JYUAcC2yPXHY2NXLw0ePdRbTxZPDfBLuXyhukrTIgl78lgUAESsWyLOhC3WZQLLsobaOpEVyqAXZ1yxYCZd+O30z3FoILt179YYqc2o4WeAFs6dlpVxs20aSBB4hqbHjhtxNf6oOa/ih6G+nrSxRmjZyc8AsfWVHN8GKA23lKtVAMDRjNg1TXdvXR9+5/Y1o5F687P9K2zbljUAcHL/brF/JSX8apZxA1r1f9K2AxI9ErboM7EuLJ/3abYyP/ZQlM9HPZcGLzCRNNDHs1XHPqcY22AUZSxRFZUUpMcnXOIY/gNXux92xmoqtfaOTtZSYvrkgOOx0U4uXi0/8HUBCYLAcSwiUUVWpN9OmT5rwd3UxGra5sHfV3+7eH7aZ/OXha+xkr6oFN4ioAbJwNUdid5/5tx5WxknQaaOt50wcdK8BSFu7orWHvV/b3ceZ9pBJ4kAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1923,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.pedrovgs.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.READ_LOGS\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0700a5\" android:label=\"Lynx\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:name=\"com.github.pedrovgs.sample.LynxApplication\">\n\t\t<activity android:label=\"Lynx\" android:name=\"com.github.pedrovgs.sample.MainActivity\" android:screenOrientation=\"portrait\" android:windowSoftInputMode=\"0x20\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.pedrovgs.lynx.LynxActivity\" android:windowSoftInputMode=\"0x2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1624850,
+  "crc32" : 3872204710,
+  "sha256" : "e95a904e8c32123ebd8040cbd5fd20ddbaadab68db0fcacb4faafaf359b828ef",
+  "buildTime" : 1522966345000
+}

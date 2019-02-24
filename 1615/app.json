@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "github.chenupt.springindicator.sample",
+    "label" : "SpringIndicator",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACOlBMVEUAAABVVaqAgICAgIBeeYZegIhhe41mgIBffotffIlffIpdfIpefIpffIpffIlZdoMAAABee4hefIhffIlffIlad4RDWWRTZ3Vee4lbdoQ9VVtMYG5deog9T1uFm6bS2t7w8vP3+Pn29/jn6+24xMtmgY5viJTi5+n9/f3p7O6InKVjf4x3jpr7+/uerrWMoKrp7e78/P3z9PXCzNBgfYnx8/T7+/yJnaasu8L09faGmaO2w8no7O1hfIeBmKLT2t3y9PVsgo709veXqLBadoLe5ObCy9Bdd4JXcn9dd4O0v8VYc3/J0tdbdoP4+flheoVie4ff5Obl6etbd4Nbd4T8/Pzc4eTc4uTu8PJZdICQoqtbd4NXcn9ie4aHmqRbd4U9SVVeeIO0wMZsg49bd4Q9T1XU2t5sg47X3eGYqbFXc3+PoapifYlceIVyiJLDzNFziZRZdYHP19uKnqdceIRbdoJlfolnf4za3+Kfr7dceIRXc4BadYFifIi6xcuKnadceIZwh5Kot77O1tre4+bZ3+LBy9CSpK1fe4dceIVZdIBceYZceYVceYVZdIFdeYddeYZdeYZOYm9deoc7U1lAUltdeoddeYZceoVee4hYc38tPEQAAFUAAABRa3deeohgfYtbeIRKY20AAAASGBhLZG5Xc39adoNZdIJXcX1Xcn1Xcn5Yc35Yc4BWcn9YdIBWcX5IYWsRFxcAAAAAAAAXHyMkLjUiLDMiLDIiLC8zMzMAAAAAAABAQECdyQcjAAAAvnRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir///////////////////////////////////////////////////////////////z///////z//////////+////8q/////Cr/////7/////////////z////////v//////////////////zv//z/7//8/yf/Kxzs/fn/7CIDCKn///+tAyqw7fDv8PDw8PDv8O2xLAkgQk1LTEwFCw4ExD626AAAAohJREFUSMdjYKAXYGQiABhRlDMzEzYSWQ2QycLKhhewsoCVwdSzc3ByEQCc3OxwHcwMPLx8hAG/AFQDIwOLIJ+QsAheICzEKyrGAPE5E4O4BJ8IIfNFeCWlgEohGqRliNIgi9AgMaoBBuTkFRSVlFVUidSgpq4BAZpauDVo62jD1OsoacCArh4ODfoGhhpGxvpg9SamGghgZo5VgwVE1tIKpMFaAxnY2GLRYGeooaFgr6Ch4eAI1OCEokHD2QVTg6uGhpu7h6ebhoaXN58dqnoNHxdfDA1+Gkb+Hh4eAUYagd7eFmgaglyCQ9A1hGqEAdV7e4drRHhHRqFpiIgODonBtCEWqB5kQ2RkHLoN0cHxMQmYfkj0TjTW0EiKjEw2RPNDdEp8TCpaKDkAQykNFErpkZGRGagaMkNS4rPQNPBZWYLlnOKA6iOzUeMhJyQlF0MDX16+kYZRfgFIfaFLEXJMF4eElGDRwOddWlYaCVZfWFhegUhLlSEhVSW51Zga+LwjYepramrrdKGptR6ovqqkAZsGPoT6GheXxqbmlta29g6Q+qrOhmqs+QFJPQhER0eHgNXndjZ0Yc9AONTndnbj0MCHXX1uD04NfFjV9/Z09+HM09jU9/b049bAh0V97wQUDeiFMab6iSgaJmEUMxjqJ06Y3DcFqoGRYeo0XvQKJTg4JSWlpKSks7Ozp6dnwoTpM2bOms0wB1plzZ03fwHvAlTQ0NAwceLE/v7+yZMnz58/f/LMhYvmwuu4xUuWLlu+YjkqWLlq1arVq1evWbNm7dq169Zv2LhpMaIa3bxl67bt27fvQAE7QQDMAkpt27plM3JFvWv3HgJg9y7Uyn/OXgJgDt1aMQAWcIP/owbAQgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2850,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"github.chenupt.springindicator.sample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"SpringIndicator\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SpringIndicator\" android:name=\"github.chenupt.springindicator.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"SpringIndicator\" android:name=\"github.chenupt.springindicator.sample.AboutActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2130962,
+  "crc32" : 3343931071,
+  "sha256" : "c40a00a5f05f0b56d569456b53eef91c31ea42e9cde8664bb8c75cbe86afb8fc",
+  "buildTime" : 1522958776000
+}

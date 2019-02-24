@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "net.orange_box.storebox.example.proguard",
+    "label" : "StoreBox Harness",
+    "icon" : null,
+    "versionName" : "1.4.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 59,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.4.0\" package=\"net.orange_box.storebox.example.proguard\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<application android:label=\"StoreBox Harness\" android:icon=\"resourceId:0x1080093\" android:allowBackup=\"false\">\n\t\t<activity android:name=\"net.orange_box.storebox.example.proguard.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 21066,
+  "crc32" : 432841848,
+  "sha256" : "578024cc3120de0e5d35c7903fb746993480a5fbba137b136bea41b75f8ab279",
+  "buildTime" : 1522856430000
+}

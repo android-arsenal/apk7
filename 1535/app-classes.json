@@ -1,0 +1,14 @@
+{
+  "com.spengilley.activityfragmentmvp" : [ "App", "AppModule", "AppModule$$ModuleAdapter", "AppModule$$ModuleAdapter$ProvideApplicationProvidesAdapter", "BuildConfig", "Modules", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style" ],
+  "com.spengilley.activityfragmentmvp.ui.common" : [ "BaseActivity", "BaseFragment", "BaseFragmentPresenter" ],
+  "com.spengilley.activityfragmentmvp.ui.main" : [ "DetailsFragment", "DetailsFragment$$InjectAdapter", "DetailsFragment$1", "DetailsFragment$2", "FragmentCallback", "IntroFragment", "IntroFragment$$InjectAdapter", "IntroFragment$1", "MainActivity", "MainActivity$$InjectAdapter", "MainActivity$1", "MainModule", "MainModule$$ModuleAdapter", "MainModule$$ModuleAdapter$ProvideDetailsPresenterProvidesAdapter", "MainModule$$ModuleAdapter$ProvideIntroPresenterProvidesAdapter", "MainModule$$ModuleAdapter$ProvideMainPresenterProvidesAdapter", "MainModule$$ModuleAdapter$ProvideMainViewProvidesAdapter" ],
+  "com.spengilley.activityfragmentmvp.ui.main.presenters" : [ "DetailsPresenter", "DetailsPresenterImpl", "DetailsPresenterImpl$$InjectAdapter", "IntroPresenter", "IntroPresenterImpl", "IntroPresenterImpl$$InjectAdapter", "MainPresenter", "MainPresenterImpl", "MainPresenterImpl$$InjectAdapter" ],
+  "com.spengilley.activityfragmentmvp.ui.main.views" : [ "DetailsView", "IntroView", "MainView" ],
+  "com.squareup.java" : [ "JavaWriter", "JavaWriter$Scope" ],
+  "dagger" : [ "Lazy", "MembersInjector", "Module", "ObjectGraph", "ObjectGraph$DaggerObjectGraph", "Provides", "Provides$Type" ],
+  "dagger.internal" : [ "Binding", "Binding$1", "BuiltInBinding", "Keys", "Keys$1", "LazyBinding", "LazyBinding$1", "Linker", "Linker$1", "Linker$DeferredBinding", "Linker$ErrorHandler", "Linker$ErrorHandler$1", "Linker$SingletonBinding", "LruCache", "ModuleAdapter", "Plugin", "ProblemDetector", "ProblemDetector$ArraySet", "RuntimeAggregatingPlugin", "SetBinding", "StaticInjection", "ThrowingErrorHandler", "UniqueMap" ],
+  "dagger.internal.codegen" : [ "AtInjectBinding", "AtInjectBinding$1", "CodeGen", "CodeGen$1", "CodeGen$2", "CodeGen$3", "CodeGenStaticInjection", "CompileTimePlugin", "DotWriter", "FullGraphProcessor", "FullGraphProcessor$1", "FullGraphProcessor$ModuleValidationException", "FullGraphProcessor$ProviderMethodBinding", "GeneratorKeys", "GraphVisualizer", "InjectProcessor", "InjectProcessor$1", "InjectProcessor$InjectedClass", "ProcessorJavadocs", "ProvidesProcessor", "ProvidesProcessor$1", "ReportingErrorHandler" ],
+  "dagger.internal.plugins.loading" : [ "ClassloadingPlugin" ],
+  "dagger.internal.plugins.reflect" : [ "ReflectiveAtInjectBinding", "ReflectiveModuleAdapter", "ReflectiveModuleAdapter$1", "ReflectiveModuleAdapter$ProviderMethodBinding", "ReflectivePlugin", "ReflectiveStaticInjection" ],
+  "javax.inject" : [ "Inject", "Named", "Provider", "Qualifier", "Scope", "Singleton" ]
+}

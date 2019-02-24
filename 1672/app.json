@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "io.kimo.exampels.gameoflifeview",
+    "label" : "Game of Life",
+    "icon" : "res/mipmap-hdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-hdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAANlBMVEUAAAD///////////////////////+/v7+AgIDPz8/f39+vr68AAACfn59gYGDb29vn5+fDw8PgsAnwAAAAEnRSTlMAPsX6/z/E//////////////9w3YSTAAAAnUlEQVRYw+3YwRJAIBSFYSoqFN7/Zc1YcLJA3WzM+bfxzbQpbtOwd7VKm8K06k6nK2Z26pR6I6o/IC2D9AEZYYT+AlkH+fT5AdfGB8hNUEghi2uRECFCEsgHaE6hBdfWrGNkxle9AAq4GZe1NUKECGVAHi9pm3VlXw4OCw2Cr5F0a4QIEfoKWiM08qeG0C1UbYCgZJCqP2SpNvZht21ljV0XAgUlgAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1211,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.kimo.exampels.gameoflifeview\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"Game of Life\" android:icon=\"res/mipmap-hdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Game of Life\" android:name=\"io.kimo.examples.gameoflifeview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"io.kimo.examples.gameoflifeview.ThroughCodeActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"io.kimo.examples.gameoflifeview.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:name=\"io.kimo.examples.gameoflifeview.ThroughXMLActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"io.kimo.examples.gameoflifeview.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:name=\"io.kimo.examples.gameoflifeview.CustomParamsActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"io.kimo.examples.gameoflifeview.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 981928,
+  "crc32" : 723735224,
+  "sha256" : "971d9f4307ce8cbeb614152e7110022ed61e33adb17bdc2c176f8df378687fbc",
+  "buildTime" : 1522956504000
+}

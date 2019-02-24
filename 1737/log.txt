@@ -1,0 +1,421 @@
+2018-04-04 15:39:59,533 INFO  DownloadService - Downloading "https://github.com/martino2k6/StoreBox/archive/master.zip", attempt 3
+2018-04-04 15:40:00,095 INFO  DownloadService - Downloaded https://github.com/martino2k6/StoreBox/archive/master.zip, attempt 3
+2018-04-04 15:40:00,096 INFO  DownloadService - Size of file "/tmp/rdisk/1737/master.zip": 167 KB
+2018-04-04 15:40:00,096 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:40:00,096 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1737/master.zip: true
+2018-04-04 15:40:00,096 DEBUG ZipUtil - Extracting '/tmp/rdisk/1737/master.zip' into '/tmp/rdisk/1737/src'.
+2018-04-04 15:40:00,116 INFO  FullProcessService - Size of directory with sources: 264 KB
+2018-04-04 15:40:00,116 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1737/src]
+2018-04-04 15:40:00,121 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1737/src/.git/
+
+2018-04-04 15:40:00,126 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1737/src/StoreBox-master/gradlew
+2018-04-04 15:40:00,130 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build.gradle /tmp/rdisk/1737/src/StoreBox-master/storebox-harness/build.gradle /tmp/rdisk/1737/src/StoreBox-master/storebox-lib/build.gradle /tmp/rdisk/1737/src/StoreBox-master/build.gradle
+2018-04-04 15:40:00,134 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1737/src/StoreBox-master/storebox-lib/build.gradle /tmp/rdisk/1737/src/StoreBox-master/storebox-harness/build.gradle /tmp/rdisk/1737/src/StoreBox-master/settings.gradle /tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build.gradle /tmp/rdisk/1737/src/StoreBox-master/build.gradle
+2018-04-04 15:40:00,135 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:40:00,135 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:40:00,145 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1737/src/StoreBox-master/examples/proguard/local.properties
+2018-04-04 15:40:00,149 INFO  ProjectFixService - Build info for "/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-04 15:40:00,150 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1737/src/StoreBox-master/storebox-harness/local.properties
+2018-04-04 15:40:00,154 INFO  ProjectFixService - Build info for "/tmp/rdisk/1737/src/StoreBox-master/storebox-harness/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-04 15:40:00,154 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1737/src/StoreBox-master/storebox-lib/local.properties
+2018-04-04 15:40:00,158 INFO  ProjectFixService - Build info for "/tmp/rdisk/1737/src/StoreBox-master/storebox-lib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-04 15:40:00,158 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1737/src/StoreBox-master/local.properties
+2018-04-04 15:40:00,158 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-bin.zip
+2018-04-04 15:40:00,159 INFO  ProjectFixService - Build info for "/tmp/rdisk/1737/src/StoreBox-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-04 15:40:00,159 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:40:00,159 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:40:00,159 INFO  SysUtils - Execute command: [/tmp/rdisk/1737/src/StoreBox-master/gradlew, -b, /tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:40:13,031 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-04 15:40:13,031 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-04 15:40:13,031 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-04 15:40:13,032 INFO  SysUtils - Execute command: [/tmp/rdisk/1737/src/StoreBox-master/gradlew, -b, /tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-04 15:40:37,634 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:example-proguard:preBuild UP-TO-DATE
+:example-proguard:preDebugBuild UP-TO-DATE
+:example-proguard:checkDebugManifest
+:example-proguard:preReleaseBuild UP-TO-DATE
+:example-proguard:preReleaseOptimizeBuild UP-TO-DATE
+:storebox-lib:preBuild UP-TO-DATE
+:storebox-lib:preReleaseBuild UP-TO-DATE
+:storebox-lib:compileReleaseNdk UP-TO-DATE
+:storebox-lib:compileLint
+:storebox-lib:copyReleaseLint UP-TO-DATE
+:storebox-lib:checkReleaseManifest
+:storebox-lib:prepareReleaseDependencies
+:storebox-lib:compileReleaseAidl
+:storebox-lib:compileReleaseRenderscript
+:storebox-lib:generateReleaseBuildConfig
+:storebox-lib:generateReleaseAssets UP-TO-DATE
+:storebox-lib:mergeReleaseAssets
+:storebox-lib:generateReleaseResValues
+:storebox-lib:generateReleaseResources
+:storebox-lib:packageReleaseResources
+:storebox-lib:processReleaseManifest
+:storebox-lib:processReleaseResources
+:storebox-lib:generateReleaseSources
+:storebox-lib:compileReleaseJavaWithJavacNote: /tmp/rdisk/1737/src/StoreBox-master/storebox-lib/src/main/java/net/orange_box/storebox/enums/PreferencesMode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:storebox-lib:extractReleaseAnnotations
+:storebox-lib:mergeReleaseProguardFiles
+:storebox-lib:packageReleaseRenderscript UP-TO-DATE
+:storebox-lib:processReleaseJavaRes UP-TO-DATE
+:storebox-lib:transformResourcesWithMergeJavaResForRelease
+:storebox-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:storebox-lib:mergeReleaseJniLibFolders
+:storebox-lib:transformNative_libsWithMergeJniLibsForRelease
+:storebox-lib:transformNative_libsWithSyncJniLibsForRelease
+:storebox-lib:bundleRelease
+:example-proguard:prepareNetOrangeBoxStoreboxStoreboxLib140Library
+:example-proguard:prepareDebugDependencies
+:example-proguard:compileDebugAidl
+:example-proguard:compileDebugRenderscript
+:example-proguard:generateDebugBuildConfig
+:example-proguard:generateDebugAssets UP-TO-DATE
+:example-proguard:mergeDebugAssets
+:example-proguard:generateDebugResValues
+:example-proguard:generateDebugResources
+:example-proguard:mergeDebugResources
+:example-proguard:processDebugManifest
+:example-proguard:processDebugResources
+:example-proguard:generateDebugSources
+:example-proguard:compileDebugJavaWithJavac
+:example-proguard:compileDebugNdk UP-TO-DATE
+:example-proguard:compileDebugSources
+:example-proguard:prePackageMarkerForDebug
+:example-proguard:transformClassesWithDexForDebug
+:example-proguard:mergeDebugJniLibFolders
+:example-proguard:transformNative_libsWithMergeJniLibsForDebug
+:example-proguard:processDebugJavaRes UP-TO-DATE
+:example-proguard:transformResourcesWithMergeJavaResForDebug
+:example-proguard:validateDebugSigning
+:example-proguard:packageDebug
+:example-proguard:zipalignDebug
+:example-proguard:assembleDebug
+:example-proguard:checkReleaseManifest
+:example-proguard:prepareReleaseDependencies
+:example-proguard:compileReleaseAidl
+:example-proguard:compileReleaseRenderscript
+:example-proguard:generateReleaseBuildConfig
+:example-proguard:generateReleaseAssets UP-TO-DATE
+:example-proguard:mergeReleaseAssets
+:example-proguard:generateReleaseResValues
+:example-proguard:generateReleaseResources
+:example-proguard:mergeReleaseResources
+:example-proguard:processReleaseManifest
+:example-proguard:processReleaseResources
+:example-proguard:generateReleaseSources
+:example-proguard:compileReleaseJavaWithJavac
+:example-proguard:compileReleaseNdk UP-TO-DATE
+:example-proguard:compileReleaseSources
+:example-proguard:lintVitalRelease
+:example-proguard:prePackageMarkerForRelease
+:example-proguard:processReleaseJavaRes UP-TO-DATE
+:example-proguard:transformResourcesWithMergeJavaResForRelease
+:example-proguard:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.2.1
+Reading input...
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.4.6/cb8a10cc90e67618734ff6a470cda85daedfd54d/typetools-0.4.6.jar] (filtered)
+Reading program jar [/root/Applications/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar] (filtered)
+Reading program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/exploded-aar/net.orange-box.storebox/storebox-lib/1.4.0/jars/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar] (filtered)
+Reading program directory [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/classes/release] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-23/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-23/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: there were 7 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: there were 2 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Ignoring unused library classes...
+  Original number of library classes: 3880
+  Final number of library classes:    243
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 99
+  Final number of program classes:    59
+Obfuscating...
+Printing mapping to [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar]
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.4.6/cb8a10cc90e67618734ff6a470cda85daedfd54d/typetools-0.4.6.jar] (filtered)
+  Copying resources from program jar [/root/Applications/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/exploded-aar/net.orange-box.storebox/storebox-lib/1.4.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/classes/release] (filtered)
+Printing classes to [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/mapping/release/dump.txt]...
+:example-proguard:transformClassesWithDexForReleasewarning: Ignoring InnerClasses attribute for an anonymous inner class
+(net.orange_box.storebox.StoreBoxInvocationHandler$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(net.orange_box.storebox.example.proguard.MainActivity$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(net.orange_box.storebox.utils.PreferenceUtils$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+:example-proguard:mergeReleaseJniLibFolders
+:example-proguard:transformNative_libsWithMergeJniLibsForRelease
+:example-proguard:validateReleaseSigning
+:example-proguard:packageRelease
+:example-proguard:zipalignRelease
+:example-proguard:assembleRelease
+:example-proguard:checkReleaseOptimizeManifest
+:example-proguard:prepareReleaseOptimizeDependencies
+:example-proguard:compileReleaseOptimizeAidl
+:example-proguard:compileReleaseOptimizeRenderscript
+:example-proguard:generateReleaseOptimizeBuildConfig
+:example-proguard:generateReleaseOptimizeAssets UP-TO-DATE
+:example-proguard:mergeReleaseOptimizeAssets
+:example-proguard:generateReleaseOptimizeResValues
+:example-proguard:generateReleaseOptimizeResources
+:example-proguard:mergeReleaseOptimizeResources
+:example-proguard:processReleaseOptimizeManifest
+:example-proguard:processReleaseOptimizeResources
+:example-proguard:generateReleaseOptimizeSources
+:example-proguard:compileReleaseOptimizeJavaWithJavac
+:example-proguard:compileReleaseOptimizeNdk UP-TO-DATE
+:example-proguard:compileReleaseOptimizeSources
+:example-proguard:lintVitalReleaseOptimize
+:example-proguard:prePackageMarkerForReleaseOptimize
+:example-proguard:processReleaseOptimizeJavaRes UP-TO-DATE
+:example-proguard:transformResourcesWithMergeJavaResForReleaseOptimize
+:example-proguard:transformClassesAndResourcesWithProguardForReleaseOptimize
+ProGuard, version 5.2.1
+Reading input...
+Reading program jar [/root/Applications/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.4.6/cb8a10cc90e67618734ff6a470cda85daedfd54d/typetools-0.4.6.jar] (filtered)
+Reading program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/exploded-aar/net.orange-box.storebox/storebox-lib/1.4.0/jars/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/transforms/mergeJavaRes/releaseOptimize/jars/2/1f/main.jar] (filtered)
+Reading program directory [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/classes/releaseOptimize] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-23/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-23/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: there were 7 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: there were 2 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Ignoring unused library classes...
+  Original number of library classes: 3880
+  Final number of library classes:    243
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/mapping/releaseOptimize/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 99
+  Final number of program classes:    59
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                6
+  Number of staticized methods:                0
+  Number of finalized methods:                 12
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        2
+  Number of inlined unique method calls:       3
+  Number of inlined tail recursion calls:      1
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   62
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      2
+  Number of branch peephole optimizations:     21
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           2
+  Number of removed instructions:              3
+  Number of removed local variables:           0
+  Number of removed exception blocks:          9
+  Number of optimized local variable frames:   23
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 59
+  Final number of program classes:    59
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   2
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           0
+  Number of removed instructions:              18
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 59
+  Final number of program classes:    59
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   0
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           0
+  Number of removed instructions:              0
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Obfuscating...
+Printing mapping to [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/mapping/releaseOptimize/mapping.txt]...
+Writing output...
+Preparing output jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/transforms/proguard/releaseOptimize/jars/3/1f/main.jar]
+  Copying resources from program jar [/root/Applications/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.4.6/cb8a10cc90e67618734ff6a470cda85daedfd54d/typetools-0.4.6.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/exploded-aar/net.orange-box.storebox/storebox-lib/1.4.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/transforms/mergeJavaRes/releaseOptimize/jars/2/1f/main.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/intermediates/classes/releaseOptimize] (filtered)
+Printing classes to [/tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/mapping/releaseOptimize/dump.txt]...
+:example-proguard:transformClassesWithDexForReleaseOptimizewarning: Ignoring InnerClasses attribute for an anonymous inner class
+(net.orange_box.storebox.StoreBoxInvocationHandler$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(net.orange_box.storebox.example.proguard.MainActivity$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(net.orange_box.storebox.utils.PreferenceUtils$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+:example-proguard:mergeReleaseOptimizeJniLibFolders
+:example-proguard:transformNative_libsWithMergeJniLibsForReleaseOptimize
+:example-proguard:packageReleaseOptimize
+:example-proguard:zipalignReleaseOptimize
+:example-proguard:assembleReleaseOptimize
+:example-proguard:assemble
+:example-proguard:compileLint
+:example-proguard:lint
+Ran lint on variant releaseOptimize: 1 issues found
+Ran lint on variant debug: 1 issues found
+Ran lint on variant release: 1 issues found
+Wrote HTML report to file:///tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/lint-results-debug.xml
+:example-proguard:preDebugUnitTestBuild UP-TO-DATE
+:example-proguard:prepareDebugUnitTestDependencies
+:example-proguard:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:example-proguard:processDebugUnitTestJavaRes UP-TO-DATE
+:example-proguard:compileDebugUnitTestSources UP-TO-DATE
+:example-proguard:mockableAndroidJar
+:example-proguard:assembleDebugUnitTest
+:example-proguard:testDebugUnitTest
+:example-proguard:preReleaseOptimizeUnitTestBuild UP-TO-DATE
+:example-proguard:prepareReleaseOptimizeUnitTestDependencies
+:example-proguard:compileReleaseOptimizeUnitTestJavaWithJavac UP-TO-DATE
+:example-proguard:processReleaseOptimizeUnitTestJavaRes UP-TO-DATE
+:example-proguard:compileReleaseOptimizeUnitTestSources UP-TO-DATE
+:example-proguard:assembleReleaseOptimizeUnitTest
+:example-proguard:testReleaseOptimizeUnitTest
+:example-proguard:preReleaseUnitTestBuild UP-TO-DATE
+:example-proguard:prepareReleaseUnitTestDependencies
+:example-proguard:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:example-proguard:processReleaseUnitTestJavaRes UP-TO-DATE
+:example-proguard:compileReleaseUnitTestSources UP-TO-DATE
+:example-proguard:assembleReleaseUnitTest
+:example-proguard:testReleaseUnitTest
+:example-proguard:test
+:example-proguard:check
+:example-proguard:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.187 secs
+
+2018-04-04 15:40:37,653 INFO  FullProcessService - Found APK file: /tmp/rdisk/1737/src/StoreBox-master/examples/proguard/build/outputs/apk/example-proguard-releaseOptimize.apk

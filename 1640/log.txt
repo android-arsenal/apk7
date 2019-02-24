@@ -1,0 +1,125 @@
+2018-04-05 19:50:01,656 INFO  DownloadService - Downloading "https://github.com/dmytrodanylyk/shadow-layout/archive/master.zip", attempt 3
+2018-04-05 19:50:02,046 INFO  DownloadService - Downloaded https://github.com/dmytrodanylyk/shadow-layout/archive/master.zip, attempt 3
+2018-04-05 19:50:02,046 INFO  DownloadService - Size of file "/tmp/rdisk/1640/master.zip": 134 KB
+2018-04-05 19:50:02,047 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:50:02,047 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1640/master.zip: true
+2018-04-05 19:50:02,047 DEBUG ZipUtil - Extracting '/tmp/rdisk/1640/master.zip' into '/tmp/rdisk/1640/src'.
+2018-04-05 19:50:02,055 INFO  FullProcessService - Size of directory with sources: 148 KB
+2018-04-05 19:50:02,055 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1640/src]
+2018-04-05 19:50:02,062 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1640/src/.git/
+
+2018-04-05 19:50:02,064 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1640/src/shadow-layout-master/gradlew
+2018-04-05 19:50:02,066 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1640/src/shadow-layout-master/app/build.gradle /tmp/rdisk/1640/src/shadow-layout-master/library/build.gradle /tmp/rdisk/1640/src/shadow-layout-master/build.gradle
+2018-04-05 19:50:02,068 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1640/src/shadow-layout-master/settings.gradle /tmp/rdisk/1640/src/shadow-layout-master/maven_push.gradle /tmp/rdisk/1640/src/shadow-layout-master/library/build.gradle /tmp/rdisk/1640/src/shadow-layout-master/build.gradle /tmp/rdisk/1640/src/shadow-layout-master/app/build.gradle
+2018-04-05 19:50:02,069 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:50:02,069 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:50:02,075 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1640/src/shadow-layout-master/app/local.properties
+2018-04-05 19:50:02,075 INFO  ProjectFixService - Build info for "/tmp/rdisk/1640/src/shadow-layout-master/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-04-05 19:50:02,075 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1640/src/shadow-layout-master/library/local.properties
+2018-04-05 19:50:02,076 INFO  ProjectFixService - Build info for "/tmp/rdisk/1640/src/shadow-layout-master/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-04-05 19:50:02,076 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1640/src/shadow-layout-master/local.properties
+2018-04-05 19:50:02,076 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:50:02,076 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:50:02,078 INFO  ProjectFixService - Build info for "/tmp/rdisk/1640/src/shadow-layout-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-04-05 19:50:02,078 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:50:02,078 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:50:02,079 INFO  SysUtils - Execute command: [/tmp/rdisk/1640/src/shadow-layout-master/gradlew, -b, /tmp/rdisk/1640/src/shadow-layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:50:11,734 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 19:50:11,734 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:50:11,734 INFO  SysUtils - Execute command: [/tmp/rdisk/1640/src/shadow-layout-master/gradlew, -b, /tmp/rdisk/1640/src/shadow-layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:50:33,152 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72103Library
+:app:prepareComAndroidSupportSupportV42103Library
+:app:prepareComGithubDmytrodanylykShadowLayoutLibrary103Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1640/src/shadow-layout-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.999 secs
+
+2018-04-05 19:50:33,186 INFO  FullProcessService - Found APK file: /tmp/rdisk/1640/src/shadow-layout-master/app/build/outputs/apk/app-debug.apk

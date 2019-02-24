@@ -1,0 +1,578 @@
+2018-04-05 20:42:24,451 INFO  DownloadService - Downloading "https://github.com/novoda/gradle-android-command-plugin/archive/master.zip", attempt 3
+2018-04-05 20:43:25,294 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 20:43:25,369 INFO  GithubDownloadService - Default branch of this repository: null
+2018-04-05 20:43:25,369 ERROR GithubDownloadService - Could not detect default branch for Github repository
+2018-04-05 20:43:26,391 DEBUG FullProcessService - Repository https://github.com/novoda/gradle-android-command-plugin available: true
+2018-04-05 20:43:26,391 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 20:43:26,391 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/novoda/gradle-android-command-plugin, /tmp/rdisk/1586/src]
+2018-04-05 20:43:30,905 INFO  SysUtils - 
+2018-04-05 20:43:30,910 INFO  GitService - Deleted "/tmp/rdisk/1586/src/.git": true
+2018-04-05 20:43:30,913 INFO  FullProcessService - Size of directory with sources: 244 KB
+2018-04-05 20:43:30,913 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1586/src]
+2018-04-05 20:43:30,917 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1586/src/.git/
+
+2018-04-05 20:43:30,920 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1586/src/sample/gradlew /tmp/rdisk/1586/src/gradlew
+2018-04-05 20:43:30,923 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1586/src/sample/app/build.gradle /tmp/rdisk/1586/src/build.gradle /tmp/rdisk/1586/src/sample/build.gradle /tmp/rdisk/1586/src/plugin/build.gradle /tmp/rdisk/1586/src/sample/buildSrc/build.gradle
+2018-04-05 20:43:30,926 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1586/src/settings.gradle /tmp/rdisk/1586/src/sample/settings.gradle /tmp/rdisk/1586/src/sample/buildSrc/build.gradle /tmp/rdisk/1586/src/sample/build.gradle /tmp/rdisk/1586/src/sample/app/build.gradle /tmp/rdisk/1586/src/plugin/build.gradle /tmp/rdisk/1586/src/build.gradle
+2018-04-05 20:43:30,926 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:43:30,926 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:43:30,932 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1586/src/sample/app/local.properties
+2018-04-05 20:43:30,934 INFO  ProjectFixService - Build info for "/tmp/rdisk/1586/src/sample/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,934 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1586/src/sample/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,935 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1586/src/local.properties
+2018-04-05 20:43:30,935 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2018-04-05 20:43:30,935 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2018-04-05 20:43:30,938 INFO  ProjectFixService - Build info for "/tmp/rdisk/1586/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,938 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1586/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,938 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1586/src/sample/local.properties
+2018-04-05 20:43:30,938 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2018-04-05 20:43:30,938 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2018-04-05 20:43:30,940 INFO  ProjectFixService - Build info for "/tmp/rdisk/1586/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,941 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1586/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,941 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1586/src/plugin/local.properties
+2018-04-05 20:43:30,943 INFO  ProjectFixService - Build info for "/tmp/rdisk/1586/src/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,943 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1586/src/plugin/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,944 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1586/src/sample/buildSrc/local.properties
+2018-04-05 20:43:30,946 INFO  ProjectFixService - Build info for "/tmp/rdisk/1586/src/sample/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,946 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1586/src/sample/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:43:30,946 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:43:30,946 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:43:30,946 INFO  SysUtils - Execute command: [/tmp/rdisk/1586/src/sample/gradlew, -b, /tmp/rdisk/1586/src/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:43:54,251 INFO  ProjectTaskService - Detected possible tasks: 302
+2018-04-05 20:43:54,251 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck test check uninstallAll connectedAndroidTest
+2018-04-05 20:43:54,251 INFO  SysUtils - Execute command: [/tmp/rdisk/1586/src/sample/gradlew, -b, /tmp/rdisk/1586/src/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
+2018-04-05 20:44:19,076 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava NO-SOURCE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
+	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
+	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:77)
+	at com.android.build.gradle.tasks.factory.JavaCompileConfigAction.execute(JavaCompileConfigAction.java:31)
+	at org.gradle.api.internal.tasks.DefaultTaskContainer.create(DefaultTaskContainer.java:148)
+	at com.android.build.gradle.internal.TaskContainerAdaptor.create(TaskContainerAdaptor.java:58)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:45)
+	at com.android.build.gradle.internal.scope.AndroidTaskRegistry.create(AndroidTaskRegistry.java:87)
+	at com.android.build.gradle.internal.TaskManager.createJavacTask(TaskManager.java:1510)
+	at com.android.build.gradle.internal.ApplicationTaskManager.addCompileTask(ApplicationTaskManager.java:263)
+	at com.android.build.gradle.internal.ApplicationTaskManager.lambda$createTasksForVariantScope$12(ApplicationTaskManager.java:224)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:220)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+:app:preBuild UP-TO-DATE
+:app:preFreeBetaDebugBuild
+:app:compileFreeBetaDebugAidl
+:app:compileFreeBetaDebugRenderscript
+:app:checkFreeBetaDebugManifest
+:app:generateFreeBetaDebugBuildConfig
+:app:prepareLintJar
+:app:generateFreeBetaDebugResValues
+:app:generateFreeBetaDebugResources
+:app:mergeFreeBetaDebugResources
+:app:createFreeBetaDebugCompatibleScreenManifests
+:app:processFreeBetaDebugManifest
+:app:splitsDiscoveryTaskFreeBetaDebug
+:app:processFreeBetaDebugResources
+:app:generateFreeBetaDebugSources
+:app:javaPreCompileFreeBetaDebug
+:app:compileFreeBetaDebugJavaWithJavac
+:app:compileFreeBetaDebugNdk NO-SOURCE
+:app:compileFreeBetaDebugSources
+:app:mergeFreeBetaDebugShaders
+:app:compileFreeBetaDebugShaders
+:app:generateFreeBetaDebugAssets
+:app:mergeFreeBetaDebugAssets
+:app:transformClassesWithDexBuilderForFreeBetaDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForFreeBetaDebug
+:app:transformDexArchiveWithDexMergerForFreeBetaDebug
+:app:mergeFreeBetaDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForFreeBetaDebug
+:app:transformNativeLibsWithStripDebugSymbolForFreeBetaDebug
+:app:processFreeBetaDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForFreeBetaDebug
+:app:validateSigningFreeBetaDebug
+:app:packageFreeBetaDebug
+:app:assembleFreeBetaDebug
+:app:preFreeNormalDebugBuild
+:app:compileFreeNormalDebugAidl
+:app:compileFreeNormalDebugRenderscript
+:app:checkFreeNormalDebugManifest
+:app:generateFreeNormalDebugBuildConfig
+:app:generateFreeNormalDebugResValues
+:app:generateFreeNormalDebugResources
+:app:mergeFreeNormalDebugResources
+:app:createFreeNormalDebugCompatibleScreenManifests
+:app:processFreeNormalDebugManifest
+:app:splitsDiscoveryTaskFreeNormalDebug
+:app:processFreeNormalDebugResources
+:app:generateFreeNormalDebugSources
+:app:javaPreCompileFreeNormalDebug
+:app:compileFreeNormalDebugJavaWithJavac
+:app:compileFreeNormalDebugNdk NO-SOURCE
+:app:compileFreeNormalDebugSources
+:app:mergeFreeNormalDebugShaders
+:app:compileFreeNormalDebugShaders
+:app:generateFreeNormalDebugAssets
+:app:mergeFreeNormalDebugAssets
+:app:transformClassesWithDexBuilderForFreeNormalDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForFreeNormalDebug
+:app:transformDexArchiveWithDexMergerForFreeNormalDebug
+:app:mergeFreeNormalDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForFreeNormalDebug
+:app:transformNativeLibsWithStripDebugSymbolForFreeNormalDebug
+:app:processFreeNormalDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForFreeNormalDebug
+:app:validateSigningFreeNormalDebug
+:app:packageFreeNormalDebug
+:app:assembleFreeNormalDebug
+:app:prePaidBetaDebugBuild
+:app:compilePaidBetaDebugAidl
+:app:compilePaidBetaDebugRenderscript
+:app:checkPaidBetaDebugManifest
+:app:generatePaidBetaDebugBuildConfig
+:app:generatePaidBetaDebugResValues
+:app:generatePaidBetaDebugResources
+:app:mergePaidBetaDebugResources
+:app:createPaidBetaDebugCompatibleScreenManifests
+:app:processPaidBetaDebugManifest
+:app:splitsDiscoveryTaskPaidBetaDebug
+:app:processPaidBetaDebugResources
+:app:generatePaidBetaDebugSources
+:app:javaPreCompilePaidBetaDebug
+:app:compilePaidBetaDebugJavaWithJavac
+:app:compilePaidBetaDebugNdk NO-SOURCE
+:app:compilePaidBetaDebugSources
+:app:mergePaidBetaDebugShaders
+:app:compilePaidBetaDebugShaders
+:app:generatePaidBetaDebugAssets
+:app:mergePaidBetaDebugAssets
+:app:transformClassesWithDexBuilderForPaidBetaDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForPaidBetaDebug
+:app:transformDexArchiveWithDexMergerForPaidBetaDebug
+:app:mergePaidBetaDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForPaidBetaDebug
+:app:transformNativeLibsWithStripDebugSymbolForPaidBetaDebug
+:app:processPaidBetaDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForPaidBetaDebug
+:app:validateSigningPaidBetaDebug
+:app:packagePaidBetaDebug
+:app:assemblePaidBetaDebug
+:app:prePaidNormalDebugBuild
+:app:compilePaidNormalDebugAidl
+:app:compilePaidNormalDebugRenderscript
+:app:checkPaidNormalDebugManifest
+:app:generatePaidNormalDebugBuildConfig
+:app:generatePaidNormalDebugResValues
+:app:generatePaidNormalDebugResources
+:app:mergePaidNormalDebugResources
+:app:createPaidNormalDebugCompatibleScreenManifests
+:app:processPaidNormalDebugManifest
+:app:splitsDiscoveryTaskPaidNormalDebug
+:app:processPaidNormalDebugResources
+:app:generatePaidNormalDebugSources
+:app:javaPreCompilePaidNormalDebug
+:app:compilePaidNormalDebugJavaWithJavac
+:app:compilePaidNormalDebugNdk NO-SOURCE
+:app:compilePaidNormalDebugSources
+:app:mergePaidNormalDebugShaders
+:app:compilePaidNormalDebugShaders
+:app:generatePaidNormalDebugAssets
+:app:mergePaidNormalDebugAssets
+:app:transformClassesWithDexBuilderForPaidNormalDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForPaidNormalDebug
+:app:transformDexArchiveWithDexMergerForPaidNormalDebug
+:app:mergePaidNormalDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForPaidNormalDebug
+:app:transformNativeLibsWithStripDebugSymbolForPaidNormalDebug
+:app:processPaidNormalDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForPaidNormalDebug
+:app:validateSigningPaidNormalDebug
+:app:packagePaidNormalDebug
+:app:assemblePaidNormalDebug
+:app:assembleDebug
+:app:preFreeBetaQABuild
+:app:compileFreeBetaQAAidl
+:app:compileFreeBetaQARenderscript
+:app:checkFreeBetaQAManifest
+:app:generateFreeBetaQABuildConfig
+:app:generateFreeBetaQAResValues
+:app:generateFreeBetaQAResources
+:app:mergeFreeBetaQAResources
+:app:createFreeBetaQACompatibleScreenManifests
+:app:processFreeBetaQAManifest
+:app:splitsDiscoveryTaskFreeBetaQA
+:app:processFreeBetaQAResources
+:app:generateFreeBetaQASources
+:app:javaPreCompileFreeBetaQA
+:app:compileFreeBetaQAJavaWithJavac
+:app:compileFreeBetaQANdk NO-SOURCE
+:app:compileFreeBetaQASources
+:app:lintVitalFreeBetaQA
+:app:mergeFreeBetaQAShaders
+:app:compileFreeBetaQAShaders
+:app:generateFreeBetaQAAssets
+:app:mergeFreeBetaQAAssets
+:app:transformClassesWithPreDexForFreeBetaQA
+:app:transformDexWithDexForFreeBetaQA
+:app:mergeFreeBetaQAJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForFreeBetaQA
+:app:transformNativeLibsWithStripDebugSymbolForFreeBetaQA
+:app:processFreeBetaQAJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForFreeBetaQA
+:app:validateSigningFreeBetaQA
+:app:packageFreeBetaQA
+:app:assembleFreeBetaQA
+:app:assembleFreeBeta
+:app:preFreeNormalQABuild
+:app:compileFreeNormalQAAidl
+:app:compileFreeNormalQARenderscript
+:app:checkFreeNormalQAManifest
+:app:generateFreeNormalQABuildConfig
+:app:generateFreeNormalQAResValues
+:app:generateFreeNormalQAResources
+:app:mergeFreeNormalQAResources
+:app:createFreeNormalQACompatibleScreenManifests
+:app:processFreeNormalQAManifest
+:app:splitsDiscoveryTaskFreeNormalQA
+:app:processFreeNormalQAResources
+:app:generateFreeNormalQASources
+:app:javaPreCompileFreeNormalQA
+:app:compileFreeNormalQAJavaWithJavac
+:app:compileFreeNormalQANdk NO-SOURCE
+:app:compileFreeNormalQASources
+:app:lintVitalFreeNormalQA
+:app:mergeFreeNormalQAShaders
+:app:compileFreeNormalQAShaders
+:app:generateFreeNormalQAAssets
+:app:mergeFreeNormalQAAssets
+:app:transformClassesWithPreDexForFreeNormalQA
+:app:transformDexWithDexForFreeNormalQA
+:app:mergeFreeNormalQAJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForFreeNormalQA
+:app:transformNativeLibsWithStripDebugSymbolForFreeNormalQA
+:app:processFreeNormalQAJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForFreeNormalQA
+:app:validateSigningFreeNormalQA
+:app:packageFreeNormalQA
+:app:assembleFreeNormalQA
+:app:assembleFreeNormal
+:app:prePaidBetaQABuild
+:app:compilePaidBetaQAAidl
+:app:compilePaidBetaQARenderscript
+:app:checkPaidBetaQAManifest
+:app:generatePaidBetaQABuildConfig
+:app:generatePaidBetaQAResValues
+:app:generatePaidBetaQAResources
+:app:mergePaidBetaQAResources
+:app:createPaidBetaQACompatibleScreenManifests
+:app:processPaidBetaQAManifest
+:app:splitsDiscoveryTaskPaidBetaQA
+:app:processPaidBetaQAResources
+:app:generatePaidBetaQASources
+:app:javaPreCompilePaidBetaQA
+:app:compilePaidBetaQAJavaWithJavac
+:app:compilePaidBetaQANdk NO-SOURCE
+:app:compilePaidBetaQASources
+:app:lintVitalPaidBetaQA
+:app:mergePaidBetaQAShaders
+:app:compilePaidBetaQAShaders
+:app:generatePaidBetaQAAssets
+:app:mergePaidBetaQAAssets
+:app:transformClassesWithPreDexForPaidBetaQA
+:app:transformDexWithDexForPaidBetaQA
+:app:mergePaidBetaQAJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForPaidBetaQA
+:app:transformNativeLibsWithStripDebugSymbolForPaidBetaQA
+:app:processPaidBetaQAJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForPaidBetaQA
+:app:validateSigningPaidBetaQA
+:app:packagePaidBetaQA
+:app:assemblePaidBetaQA
+:app:assemblePaidBeta
+:app:prePaidNormalQABuild
+:app:compilePaidNormalQAAidl
+:app:compilePaidNormalQARenderscript
+:app:checkPaidNormalQAManifest
+:app:generatePaidNormalQABuildConfig
+:app:generatePaidNormalQAResValues
+:app:generatePaidNormalQAResources
+:app:mergePaidNormalQAResources
+:app:createPaidNormalQACompatibleScreenManifests
+:app:processPaidNormalQAManifest
+:app:splitsDiscoveryTaskPaidNormalQA
+:app:processPaidNormalQAResources
+:app:generatePaidNormalQASources
+:app:javaPreCompilePaidNormalQA
+:app:compilePaidNormalQAJavaWithJavac
+:app:compilePaidNormalQANdk NO-SOURCE
+:app:compilePaidNormalQASources
+:app:lintVitalPaidNormalQA
+:app:mergePaidNormalQAShaders
+:app:compilePaidNormalQAShaders
+:app:generatePaidNormalQAAssets
+:app:mergePaidNormalQAAssets
+:app:transformClassesWithPreDexForPaidNormalQA
+:app:transformDexWithDexForPaidNormalQA
+:app:mergePaidNormalQAJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForPaidNormalQA
+:app:transformNativeLibsWithStripDebugSymbolForPaidNormalQA
+:app:processPaidNormalQAJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForPaidNormalQA
+:app:validateSigningPaidNormalQA
+:app:packagePaidNormalQA
+:app:assemblePaidNormalQA
+:app:assemblePaidNormal
+:app:assembleQA
+:app:preFreeBetaReleaseBuild
+:app:compileFreeBetaReleaseAidl
+:app:compileFreeBetaReleaseRenderscript
+:app:checkFreeBetaReleaseManifest
+:app:generateFreeBetaReleaseBuildConfig
+:app:generateFreeBetaReleaseResValues
+:app:generateFreeBetaReleaseResources
+:app:mergeFreeBetaReleaseResources
+:app:createFreeBetaReleaseCompatibleScreenManifests
+:app:processFreeBetaReleaseManifest
+:app:splitsDiscoveryTaskFreeBetaRelease
+:app:processFreeBetaReleaseResources
+:app:generateFreeBetaReleaseSources
+:app:javaPreCompileFreeBetaRelease
+:app:compileFreeBetaReleaseJavaWithJavac
+:app:compileFreeBetaReleaseNdk NO-SOURCE
+:app:compileFreeBetaReleaseSources
+:app:lintVitalFreeBetaRelease
+:app:mergeFreeBetaReleaseShaders
+:app:compileFreeBetaReleaseShaders
+:app:generateFreeBetaReleaseAssets
+:app:mergeFreeBetaReleaseAssets
+:app:transformClassesWithPreDexForFreeBetaRelease
+:app:transformDexWithDexForFreeBetaRelease
+:app:mergeFreeBetaReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForFreeBetaRelease
+:app:transformNativeLibsWithStripDebugSymbolForFreeBetaRelease
+:app:processFreeBetaReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForFreeBetaRelease
+:app:validateSigningFreeBetaRelease
+:app:packageFreeBetaRelease
+:app:assembleFreeBetaRelease
+:app:preFreeNormalReleaseBuild
+:app:compileFreeNormalReleaseAidl
+:app:compileFreeNormalReleaseRenderscript
+:app:checkFreeNormalReleaseManifest
+:app:generateFreeNormalReleaseBuildConfig
+:app:generateFreeNormalReleaseResValues
+:app:generateFreeNormalReleaseResources
+:app:mergeFreeNormalReleaseResources
+:app:createFreeNormalReleaseCompatibleScreenManifests
+:app:processFreeNormalReleaseManifest
+:app:splitsDiscoveryTaskFreeNormalRelease
+:app:processFreeNormalReleaseResources
+:app:generateFreeNormalReleaseSources
+:app:javaPreCompileFreeNormalRelease
+:app:compileFreeNormalReleaseJavaWithJavac
+:app:compileFreeNormalReleaseNdk NO-SOURCE
+:app:compileFreeNormalReleaseSources
+:app:lintVitalFreeNormalRelease
+:app:mergeFreeNormalReleaseShaders
+:app:compileFreeNormalReleaseShaders
+:app:generateFreeNormalReleaseAssets
+:app:mergeFreeNormalReleaseAssets
+:app:transformClassesWithPreDexForFreeNormalRelease
+:app:transformDexWithDexForFreeNormalRelease
+:app:mergeFreeNormalReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForFreeNormalRelease
+:app:transformNativeLibsWithStripDebugSymbolForFreeNormalRelease
+:app:processFreeNormalReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForFreeNormalRelease
+:app:validateSigningFreeNormalRelease
+:app:packageFreeNormalRelease
+:app:assembleFreeNormalRelease
+:app:prePaidBetaReleaseBuild
+:app:compilePaidBetaReleaseAidl
+:app:compilePaidBetaReleaseRenderscript
+:app:checkPaidBetaReleaseManifest
+:app:generatePaidBetaReleaseBuildConfig
+:app:generatePaidBetaReleaseResValues
+:app:generatePaidBetaReleaseResources
+:app:mergePaidBetaReleaseResources
+:app:createPaidBetaReleaseCompatibleScreenManifests
+:app:processPaidBetaReleaseManifest
+:app:splitsDiscoveryTaskPaidBetaRelease
+:app:processPaidBetaReleaseResources
+:app:generatePaidBetaReleaseSources
+:app:javaPreCompilePaidBetaRelease
+:app:compilePaidBetaReleaseJavaWithJavac
+:app:compilePaidBetaReleaseNdk NO-SOURCE
+:app:compilePaidBetaReleaseSources
+:app:lintVitalPaidBetaRelease
+:app:mergePaidBetaReleaseShaders
+:app:compilePaidBetaReleaseShaders
+:app:generatePaidBetaReleaseAssets
+:app:mergePaidBetaReleaseAssets
+:app:transformClassesWithPreDexForPaidBetaRelease
+:app:transformDexWithDexForPaidBetaRelease
+:app:mergePaidBetaReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForPaidBetaRelease
+:app:transformNativeLibsWithStripDebugSymbolForPaidBetaRelease
+:app:processPaidBetaReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForPaidBetaRelease
+:app:validateSigningPaidBetaRelease
+:app:packagePaidBetaRelease
+:app:assemblePaidBetaRelease
+:app:prePaidNormalReleaseBuild
+:app:compilePaidNormalReleaseAidl
+:app:compilePaidNormalReleaseRenderscript
+:app:checkPaidNormalReleaseManifest
+:app:generatePaidNormalReleaseBuildConfig
+:app:generatePaidNormalReleaseResValues
+:app:generatePaidNormalReleaseResources
+:app:mergePaidNormalReleaseResources
+:app:createPaidNormalReleaseCompatibleScreenManifests
+:app:processPaidNormalReleaseManifest
+:app:splitsDiscoveryTaskPaidNormalRelease
+:app:processPaidNormalReleaseResources
+:app:generatePaidNormalReleaseSources
+:app:javaPreCompilePaidNormalRelease
+:app:compilePaidNormalReleaseJavaWithJavac
+:app:compilePaidNormalReleaseNdk NO-SOURCE
+:app:compilePaidNormalReleaseSources
+:app:lintVitalPaidNormalRelease
+:app:mergePaidNormalReleaseShaders
+:app:compilePaidNormalReleaseShaders
+:app:generatePaidNormalReleaseAssets
+:app:mergePaidNormalReleaseAssets
+:app:transformClassesWithPreDexForPaidNormalRelease
+:app:transformDexWithDexForPaidNormalRelease
+:app:mergePaidNormalReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForPaidNormalRelease
+:app:transformNativeLibsWithStripDebugSymbolForPaidNormalRelease
+:app:processPaidNormalReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForPaidNormalRelease
+:app:validateSigningPaidNormalRelease
+:app:packagePaidNormalRelease
+:app:assemblePaidNormalRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 24s
+301 actionable tasks: 301 executed
+
+2018-04-05 20:44:19,127 INFO  FullProcessService - Found APK file: /tmp/rdisk/1586/src/sample/app/build/outputs/apk/paidNormal/release/app-paid-normal-release.apk

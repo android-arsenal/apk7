@@ -1,0 +1,303 @@
+2018-04-05 19:42:33,863 INFO  DownloadService - Downloading "https://github.com/PaNaVTEC/Clean-Contacts/archive/master.zip", attempt 3
+2018-04-05 19:42:35,625 INFO  DownloadService - Downloaded https://github.com/PaNaVTEC/Clean-Contacts/archive/master.zip, attempt 3
+2018-04-05 19:42:35,625 INFO  DownloadService - Size of file "/tmp/rdisk/1649/master.zip": 468 KB
+2018-04-05 19:42:35,625 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:42:35,626 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1649/master.zip: true
+2018-04-05 19:42:35,626 DEBUG ZipUtil - Extracting '/tmp/rdisk/1649/master.zip' into '/tmp/rdisk/1649/src'.
+2018-04-05 19:42:35,671 INFO  FullProcessService - Size of directory with sources: 540 KB
+2018-04-05 19:42:35,671 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1649/src]
+2018-04-05 19:42:35,676 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1649/src/.git/
+
+2018-04-05 19:42:35,686 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1649/src/Clean-Contacts-master/gradlew /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/gradlew
+2018-04-05 19:42:35,697 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1649/src/Clean-Contacts-master/app/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/data/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/data/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/desktopapp/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/domain/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-common/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-compiler/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/presentation/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/repository/build.gradle
+2018-04-05 19:42:35,707 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1649/src/Clean-Contacts-master/settings.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/repository/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/presentation/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-compiler/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-common/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/domain/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/settings.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/desktopapp/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/data/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/data/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/build.gradle /tmp/rdisk/1649/src/Clean-Contacts-master/app/build.gradle
+2018-04-05 19:42:35,708 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:42:35,708 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:42:35,730 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/app/local.properties
+2018-04-05 19:42:35,734 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,734 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,735 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/data/local.properties
+2018-04-05 19:42:35,739 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/data/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,739 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/data/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,740 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/local.properties
+2018-04-05 19:42:35,740 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:42:35,740 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:42:35,744 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,744 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,745 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/local.properties
+2018-04-05 19:42:35,745 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.1-all.zip
+2018-04-05 19:42:35,745 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2018-04-05 19:42:35,750 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/desktop/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,750 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/desktop/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,750 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/data/local.properties
+2018-04-05 19:42:35,759 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/desktop/data/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,759 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/desktop/data/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,759 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/desktop/desktopapp/local.properties
+2018-04-05 19:42:35,764 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/desktop/desktopapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,764 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/desktop/desktopapp/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,764 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/domain/local.properties
+2018-04-05 19:42:35,768 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/domain/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,768 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/domain/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,769 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-common/local.properties
+2018-04-05 19:42:35,773 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/presentation-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,773 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/presentation-common/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,773 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-compiler/local.properties
+2018-04-05 19:42:35,778 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/presentation-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,778 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/presentation-compiler/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,778 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/presentation/local.properties
+2018-04-05 19:42:35,782 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/presentation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,783 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/presentation/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,783 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1649/src/Clean-Contacts-master/repository/local.properties
+2018-04-05 19:42:35,787 INFO  ProjectFixService - Build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/repository/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:42:35,787 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1649/src/Clean-Contacts-master/repository/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:42:35,788 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:42:35,788 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:42:35,788 INFO  SysUtils - Execute command: [/tmp/rdisk/1649/src/Clean-Contacts-master/gradlew, -b, /tmp/rdisk/1649/src/Clean-Contacts-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:42:45,233 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 19:42:45,233 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 19:42:45,234 INFO  SysUtils - Execute command: [/tmp/rdisk/1649/src/Clean-Contacts-master/gradlew, -b, /tmp/rdisk/1649/src/Clean-Contacts-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 19:43:32,666 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:data:compileLint
+:data:copyReleaseLint UP-TO-DATE
+:data:mergeReleaseProguardFiles
+:data:preBuild UP-TO-DATE
+:data:preReleaseBuild UP-TO-DATE
+:data:checkReleaseManifest
+:data:prepareReleaseDependencies
+:data:compileReleaseAidl
+:data:compileReleaseRenderscript
+:data:generateReleaseBuildConfig
+:data:generateReleaseAssets UP-TO-DATE
+:data:mergeReleaseAssets
+:data:generateReleaseResValues
+:data:generateReleaseResources
+:data:packageReleaseResources
+:data:processReleaseManifest
+:data:processReleaseResources
+:data:generateReleaseSources
+:domain:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:domain:processResources UP-TO-DATE
+:domain:classes
+:domain:jar
+:repository:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:repository:processResources UP-TO-DATE
+:repository:classes
+:repository:jar
+:data:compileReleaseJavaNote: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiContactMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddContactMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddNameMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddPictureMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiPictureMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiNameMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiLocationMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddLocationMapper
+Note: Generating source file for Transformer class with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.transformer.Transformer
+Note: Generating source file for Transformer class with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.transformer.Transformer
+
+:data:processReleaseJavaRes UP-TO-DATE
+:data:packageReleaseJar
+:data:compileReleaseNdk UP-TO-DATE
+:data:packageReleaseJniLibs UP-TO-DATE
+:data:packageReleaseLocalJar UP-TO-DATE
+:data:packageReleaseRenderscript UP-TO-DATE
+:data:bundleRelease
+:presentation-common:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /tmp/rdisk/1649/src/Clean-Contacts-master/presentation-common/src/main/java/me/panavtec/presentation/common/views/ViewInjector.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:presentation-common:processResources UP-TO-DATE
+:presentation-common:classes
+:presentation-common:jar
+:presentation-compiler:addAptCompilerArgs
+:presentation-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:presentation-compiler:processResources
+:presentation-compiler:classes
+:presentation-compiler:jar
+:presentation:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+#########################
+Starting Output Processor
+#########################
+Processing element : output
+Parent class name : MainPresenter
+Processing enclosing: onViewAttached()
+Processing enclosing: onResume()
+Processing enclosing: onRefresh()
+Processing enclosing: refreshContactList()
+Processing enclosing: onContactsInteractor(java.util.List<me.panavtec.cleancontacts.domain.entities.Contact>)
+Element: onContactsInteractor
+It maches!!!ActionModel{type=java.util.List<me.panavtec.cleancontacts.domain.entities.Contact>, methodName='onContactsInteractor'}
+Processing enclosing: onContactsInteractorError(me.panavtec.cleancontacts.domain.interactors.contacts.exceptions.RetrieveContactsException)
+Element: onContactsInteractorError
+It maches!!!ActionModel{type=me.panavtec.cleancontacts.domain.interactors.contacts.exceptions.RetrieveContactsException, methodName='onContactsInteractorError'}
+Processing element : getContactOutput
+Parent class name : DetailPresenter
+Processing enclosing: onViewAttached()
+Processing enclosing: onResume()
+Processing enclosing: obtainContact()
+Processing enclosing: onContactInteractor(me.panavtec.cleancontacts.domain.entities.Contact)
+Element: onContactInteractor
+It maches!!!ActionModel{type=me.panavtec.cleancontacts.domain.entities.Contact, methodName='onContactInteractor'}
+Processing enclosing: onContactInteractorError(me.panavtec.cleancontacts.domain.interactors.contacts.exceptions.ObtainContactException)
+Element: onContactInteractorError
+It maches!!!ActionModel{type=me.panavtec.cleancontacts.domain.interactors.contacts.exceptions.ObtainContactException, methodName='onContactInteractorError'}
+#######################
+Starting View Processor
+#######################
+Processing: me.panavtec.cleancontacts.presentation.modules.main.MainView
+Method process: initUi()
+Method process: showGetContactsError()
+Method process: refreshContactsList(java.util.List<me.panavtec.cleancontacts.presentation.model.PresentationContact>)
+Method process: refreshUi()
+Processing: me.panavtec.cleancontacts.presentation.modules.detail.DetailView
+Method process: initUi()
+Method process: showContactData(me.panavtec.cleancontacts.presentation.model.PresentationContact)
+Method process: showGetContactError()
+#########################
+Starting Output Processor
+#########################
+#######################
+Starting View Processor
+#######################
+#########################
+Starting Output Processor
+#########################
+#######################
+Starting View Processor
+#######################
+:presentation:processResources UP-TO-DATE
+:presentation:classes
+:presentation:jar
+:app:prepareCleanContactsMasterDataUnspecifiedLibrary
+:app:prepareComAndroidSupportAppcompatV72103Library
+:app:prepareComAndroidSupportRecyclerviewV72103Library
+:app:prepareComAndroidSupportSupportV42103Library
+:app:prepareComGithubCmc00022Easyrecycleradapters102Library
+:app:prepareComMelnykovFloatingactionbutton120Library
+:app:prepareComNispokSnackbar275Library
+:app:prepareJpWasabeefRecyclerviewAnimators110Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:data:copyDebugLint UP-TO-DATE
+:data:mergeDebugProguardFiles
+:data:preDebugBuild UP-TO-DATE
+:data:checkDebugManifest
+:data:prepareDebugDependencies
+:data:compileDebugAidl
+:data:compileDebugRenderscript
+:data:generateDebugBuildConfig
+:data:generateDebugAssets UP-TO-DATE
+:data:mergeDebugAssets
+:data:generateDebugResValues
+:data:generateDebugResources
+:data:packageDebugResources
+:data:processDebugManifest
+:data:processDebugResources
+:data:generateDebugSources
+:data:compileDebugJavaNote: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiContactMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddContactMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddNameMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddPictureMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiPictureMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiNameMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.mapper.ApiLocationMapper
+Note: Generating source file for Mapper with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.mapper.BddLocationMapper
+Note: Generating source file for Transformer class with name me.panavtec.cleancontacts.data.repository.contacts.datasources.bdd.entities.transformer.Transformer
+Note: Generating source file for Transformer class with name me.panavtec.cleancontacts.data.repository.contacts.datasources.api.entities.transformer.Transformer
+
+:data:processDebugJavaRes UP-TO-DATE
+:data:packageDebugJar
+:data:compileDebugNdk UP-TO-DATE
+:data:packageDebugJniLibs UP-TO-DATE
+:data:packageDebugLocalJar UP-TO-DATE
+:data:packageDebugRenderscript UP-TO-DATE
+:data:bundleDebug
+:app:compileDebugJava
+Starting Coordinator Annotation processor.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1649/src/Clean-Contacts-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+Starting Coordinator Annotation processor.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:app:lintVitalRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 46.986 secs
+
+2018-04-05 19:43:32,729 INFO  FullProcessService - Found APK file: /tmp/rdisk/1649/src/Clean-Contacts-master/app/build/outputs/apk/app-debug.apk

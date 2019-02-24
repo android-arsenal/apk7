@@ -1,0 +1,180 @@
+2018-04-05 23:30:54,846 INFO  DownloadService - Downloading "https://github.com/jjobes/HtmlDialog/archive/master.zip", attempt 3
+2018-04-05 23:31:55,463 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 23:31:56,269 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 23:31:56,270 INFO  DownloadService - Downloading "https://github.com/jjobes/HtmlDialog/archive/master.zip", attempt 3
+2018-04-05 23:32:57,483 DEBUG FullProcessService - Repository https://github.com/jjobes/HtmlDialog available: true
+2018-04-05 23:32:57,484 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 23:32:57,484 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jjobes/HtmlDialog, /tmp/rdisk/1523/src]
+2018-04-05 23:32:59,076 INFO  SysUtils - 
+2018-04-05 23:32:59,088 INFO  GitService - Deleted "/tmp/rdisk/1523/src/.git": true
+2018-04-05 23:32:59,091 INFO  FullProcessService - Size of directory with sources: 214 KB
+2018-04-05 23:32:59,091 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1523/src]
+2018-04-05 23:32:59,097 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1523/src/.git/
+
+2018-04-05 23:32:59,099 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1523/src/gradlew
+2018-04-05 23:32:59,102 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1523/src/htmlDialog/build.gradle /tmp/rdisk/1523/src/htmlDialogSample/build.gradle /tmp/rdisk/1523/src/build.gradle
+2018-04-05 23:32:59,104 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1523/src/settings.gradle /tmp/rdisk/1523/src/htmlDialogSample/build.gradle /tmp/rdisk/1523/src/htmlDialog/build.gradle /tmp/rdisk/1523/src/build.gradle
+2018-04-05 23:32:59,104 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 23:32:59,104 INFO  ProjectFixService - Fixing project...
+2018-04-05 23:32:59,109 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1523/src/htmlDialog/local.properties
+2018-04-05 23:32:59,110 INFO  ProjectFixService - Build info for "/tmp/rdisk/1523/src/htmlDialog/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 23:32:59,110 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1523/src/htmlDialogSample/local.properties
+2018-04-05 23:32:59,110 INFO  ProjectFixService - Build info for "/tmp/rdisk/1523/src/htmlDialogSample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 23:32:59,110 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1523/src/local.properties
+2018-04-05 23:32:59,110 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 23:32:59,111 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 23:32:59,111 INFO  ProjectFixService - Build info for "/tmp/rdisk/1523/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 23:32:59,112 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 23:32:59,112 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:32:59,112 INFO  SysUtils - Execute command: [/tmp/rdisk/1523/src/gradlew, -b, /tmp/rdisk/1523/src/htmlDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:33:07,144 INFO  ProjectTaskService - Detected possible tasks: 51
+2018-04-05 23:33:07,145 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 23:33:07,145 INFO  SysUtils - Execute command: [/tmp/rdisk/1523/src/gradlew, -b, /tmp/rdisk/1523/src/htmlDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 23:33:13,777 INFO  SysUtils - Configuration on demand is an incubating feature.
+:htmlDialog:compileLint
+:htmlDialog:copyDebugLint UP-TO-DATE
+:htmlDialog:mergeDebugProguardFiles
+:htmlDialog:preBuild
+:htmlDialog:preDebugBuild
+:htmlDialog:checkDebugManifest
+:htmlDialog:prepareDebugDependencies
+:htmlDialog:compileDebugAidl
+:htmlDialog:compileDebugRenderscript
+:htmlDialog:generateDebugBuildConfig
+:htmlDialog:generateDebugAssets UP-TO-DATE
+:htmlDialog:mergeDebugAssets
+:htmlDialog:generateDebugResValues
+:htmlDialog:generateDebugResources
+:htmlDialog:packageDebugResources
+:htmlDialog:processDebugManifest
+:htmlDialog:processDebugResources
+:htmlDialog:generateDebugSources
+:htmlDialog:compileDebugJava
+:htmlDialog:processDebugJavaRes UP-TO-DATE
+:htmlDialog:packageDebugJar
+:htmlDialog:compileDebugNdk
+:htmlDialog:packageDebugJniLibs UP-TO-DATE
+:htmlDialog:packageDebugLocalJar UP-TO-DATE
+:htmlDialog:packageDebugRenderscript UP-TO-DATE
+:htmlDialog:bundleDebug
+:htmlDialog:assembleDebug
+:htmlDialog:copyReleaseLint UP-TO-DATE
+:htmlDialog:mergeReleaseProguardFiles
+:htmlDialog:preReleaseBuild
+:htmlDialog:checkReleaseManifest
+:htmlDialog:prepareReleaseDependencies
+:htmlDialog:compileReleaseAidl
+:htmlDialog:compileReleaseRenderscript
+:htmlDialog:generateReleaseBuildConfig
+:htmlDialog:generateReleaseAssets UP-TO-DATE
+:htmlDialog:mergeReleaseAssets
+:htmlDialog:generateReleaseResValues
+:htmlDialog:generateReleaseResources
+:htmlDialog:packageReleaseResources
+:htmlDialog:processReleaseManifest
+:htmlDialog:processReleaseResources
+:htmlDialog:generateReleaseSources
+:htmlDialog:compileReleaseJava
+:htmlDialog:processReleaseJavaRes UP-TO-DATE
+:htmlDialog:packageReleaseJar
+:htmlDialog:compileReleaseNdk
+:htmlDialog:packageReleaseJniLibs UP-TO-DATE
+:htmlDialog:packageReleaseLocalJar UP-TO-DATE
+:htmlDialog:packageReleaseRenderscript UP-TO-DATE
+:htmlDialog:bundleRelease
+:htmlDialog:assembleRelease
+:htmlDialog:assemble
+:htmlDialog:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.185 secs
+
+2018-04-05 23:33:13,784 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:33:13,784 INFO  SysUtils - Execute command: [/tmp/rdisk/1523/src/gradlew, -b, /tmp/rdisk/1523/src/htmlDialogSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:33:19,484 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 23:33:19,484 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 23:33:19,484 INFO  SysUtils - Execute command: [/tmp/rdisk/1523/src/gradlew, -b, /tmp/rdisk/1523/src/htmlDialogSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 23:33:36,358 INFO  SysUtils - Configuration on demand is an incubating feature.
+:htmlDialogSample:preBuild
+:htmlDialogSample:compileDebugNdk
+:htmlDialog:compileLint
+:htmlDialog:copyReleaseLint UP-TO-DATE
+:htmlDialog:mergeReleaseProguardFiles UP-TO-DATE
+:htmlDialog:preBuild
+:htmlDialog:preReleaseBuild
+:htmlDialog:checkReleaseManifest
+:htmlDialog:prepareReleaseDependencies
+:htmlDialog:compileReleaseAidl UP-TO-DATE
+:htmlDialog:compileReleaseRenderscript UP-TO-DATE
+:htmlDialog:generateReleaseBuildConfig UP-TO-DATE
+:htmlDialog:generateReleaseAssets UP-TO-DATE
+:htmlDialog:mergeReleaseAssets UP-TO-DATE
+:htmlDialog:generateReleaseResValues UP-TO-DATE
+:htmlDialog:generateReleaseResources UP-TO-DATE
+:htmlDialog:packageReleaseResources UP-TO-DATE
+:htmlDialog:processReleaseManifest UP-TO-DATE
+:htmlDialog:processReleaseResources UP-TO-DATE
+:htmlDialog:generateReleaseSources UP-TO-DATE
+:htmlDialog:compileReleaseJava UP-TO-DATE
+:htmlDialog:processReleaseJavaRes UP-TO-DATE
+:htmlDialog:packageReleaseJar UP-TO-DATE
+:htmlDialog:compileReleaseNdk UP-TO-DATE
+:htmlDialog:packageReleaseJniLibs UP-TO-DATE
+:htmlDialog:packageReleaseLocalJar UP-TO-DATE
+:htmlDialog:packageReleaseRenderscript UP-TO-DATE
+:htmlDialog:bundleRelease UP-TO-DATE
+:htmlDialogSample:preDebugBuild
+:htmlDialogSample:checkDebugManifest
+:htmlDialogSample:preReleaseBuild
+:htmlDialogSample:prepareComAndroidSupportSupportV42311Library
+:htmlDialogSample:prepareSrcHtmlDialogUnspecifiedLibrary
+:htmlDialogSample:prepareDebugDependencies
+:htmlDialogSample:compileDebugAidl
+:htmlDialogSample:compileDebugRenderscript
+:htmlDialogSample:generateDebugBuildConfig
+:htmlDialogSample:generateDebugAssets UP-TO-DATE
+:htmlDialogSample:mergeDebugAssets
+:htmlDialogSample:generateDebugResValues
+:htmlDialogSample:generateDebugResources
+:htmlDialogSample:mergeDebugResources
+:htmlDialogSample:processDebugManifest
+:htmlDialogSample:processDebugResources
+:htmlDialogSample:generateDebugSources
+:htmlDialogSample:compileDebugJava
+:htmlDialogSample:preDexDebug
+:htmlDialogSample:dexDebug
+:htmlDialogSample:processDebugJavaRes UP-TO-DATE
+:htmlDialogSample:validateDebugSigning
+:htmlDialogSample:packageDebug
+:htmlDialogSample:zipalignDebug
+:htmlDialogSample:assembleDebug
+:htmlDialogSample:checkReleaseManifest
+:htmlDialogSample:prepareReleaseDependencies
+:htmlDialogSample:compileReleaseAidl
+:htmlDialogSample:compileReleaseRenderscript
+:htmlDialogSample:generateReleaseBuildConfig
+:htmlDialogSample:generateReleaseAssets UP-TO-DATE
+:htmlDialogSample:mergeReleaseAssets
+:htmlDialogSample:generateReleaseResValues
+:htmlDialogSample:generateReleaseResources
+:htmlDialogSample:mergeReleaseResources
+:htmlDialogSample:processReleaseManifest
+:htmlDialogSample:processReleaseResources
+:htmlDialogSample:generateReleaseSources
+:htmlDialogSample:compileReleaseJava
+:htmlDialogSample:lintVitalRelease
+:htmlDialogSample:compileReleaseNdk
+:htmlDialogSample:preDexRelease
+:htmlDialogSample:dexRelease
+:htmlDialogSample:processReleaseJavaRes UP-TO-DATE
+:htmlDialogSample:packageRelease
+:htmlDialogSample:assembleRelease
+:htmlDialogSample:assemble
+:htmlDialogSample:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.427 secs
+
+2018-04-05 23:33:36,372 INFO  FullProcessService - Found APK file: /tmp/rdisk/1523/src/htmlDialogSample/build/outputs/apk/htmlDialogSample-release-unsigned.apk

@@ -1,0 +1,255 @@
+2018-04-05 23:23:58,420 INFO  DownloadService - Downloading "https://github.com/lsjwzh/MaterialLoadingProgressBar/archive/master.zip", attempt 3
+2018-04-05 23:24:59,010 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 23:24:59,675 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 23:24:59,675 INFO  DownloadService - Downloading "https://github.com/lsjwzh/MaterialLoadingProgressBar/archive/master.zip", attempt 3
+2018-04-05 23:26:00,959 DEBUG FullProcessService - Repository https://github.com/lsjwzh/MaterialLoadingProgressBar available: true
+2018-04-05 23:26:00,959 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 23:26:00,959 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lsjwzh/MaterialLoadingProgressBar, /tmp/rdisk/1525/src]
+2018-04-05 23:26:05,199 INFO  SysUtils - 
+2018-04-05 23:26:05,211 INFO  GitService - Deleted "/tmp/rdisk/1525/src/.git": true
+2018-04-05 23:26:05,213 INFO  FullProcessService - Size of directory with sources: 221 KB
+2018-04-05 23:26:05,213 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1525/src]
+2018-04-05 23:26:05,218 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1525/src/.git/
+
+2018-04-05 23:26:05,220 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1525/src/gradlew
+2018-04-05 23:26:05,222 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1525/src/materialloadingprogressbar/build.gradle /tmp/rdisk/1525/src/materialloadingprogressbardemo/build.gradle /tmp/rdisk/1525/src/build.gradle
+2018-04-05 23:26:05,224 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1525/src/settings.gradle /tmp/rdisk/1525/src/materialloadingprogressbardemo/build.gradle /tmp/rdisk/1525/src/materialloadingprogressbar/build.gradle /tmp/rdisk/1525/src/build.gradle
+2018-04-05 23:26:05,224 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 23:26:05,224 INFO  ProjectFixService - Fixing project...
+2018-04-05 23:26:05,229 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1525/src/materialloadingprogressbar/local.properties
+2018-04-05 23:26:05,229 INFO  ProjectFixService - Build info for "/tmp/rdisk/1525/src/materialloadingprogressbar/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 23:26:05,229 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1525/src/materialloadingprogressbardemo/local.properties
+2018-04-05 23:26:05,230 INFO  ProjectFixService - Build info for "/tmp/rdisk/1525/src/materialloadingprogressbardemo/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 23:26:05,230 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1525/src/local.properties
+2018-04-05 23:26:05,230 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 23:26:05,230 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 23:26:05,231 INFO  ProjectFixService - Build info for "/tmp/rdisk/1525/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 23:26:05,231 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 23:26:05,231 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:26:05,231 INFO  SysUtils - Execute command: [/tmp/rdisk/1525/src/gradlew, -b, /tmp/rdisk/1525/src/materialloadingprogressbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:26:13,534 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 23:26:13,534 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 23:26:13,534 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 23:26:13,534 INFO  SysUtils - Execute command: [/tmp/rdisk/1525/src/gradlew, -b, /tmp/rdisk/1525/src/materialloadingprogressbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 23:26:32,326 INFO  SysUtils - Configuration on demand is an incubating feature.
+:materialloadingprogressbar:compileLint
+:materialloadingprogressbar:copyDebugLint UP-TO-DATE
+:materialloadingprogressbar:preBuild UP-TO-DATE
+:materialloadingprogressbar:preDebugBuild UP-TO-DATE
+:materialloadingprogressbar:checkDebugManifest
+:materialloadingprogressbar:preDebugAndroidTestBuild UP-TO-DATE
+:materialloadingprogressbar:preDebugUnitTestBuild UP-TO-DATE
+:materialloadingprogressbar:preReleaseBuild UP-TO-DATE
+:materialloadingprogressbar:preReleaseUnitTestBuild UP-TO-DATE
+:materialloadingprogressbar:prepareComAndroidSupportAppcompatV72103Library
+:materialloadingprogressbar:prepareComAndroidSupportSupportV42103Library
+:materialloadingprogressbar:prepareDebugDependencies
+:materialloadingprogressbar:compileDebugAidl
+:materialloadingprogressbar:compileDebugRenderscript
+:materialloadingprogressbar:generateDebugBuildConfig
+:materialloadingprogressbar:generateDebugAssets UP-TO-DATE
+:materialloadingprogressbar:mergeDebugAssets
+:materialloadingprogressbar:generateDebugResValues
+:materialloadingprogressbar:generateDebugResources
+:materialloadingprogressbar:mergeDebugResources
+:materialloadingprogressbar:processDebugManifest
+:materialloadingprogressbar:processDebugResources
+:materialloadingprogressbar:generateDebugSources
+:materialloadingprogressbar:processDebugJavaRes UP-TO-DATE
+:materialloadingprogressbar:compileDebugJavaNote: /tmp/rdisk/1525/src/materialloadingprogressbar/src/main/java/com/lsjwzh/widget/materialloadingprogressbar/CircleProgressBar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:materialloadingprogressbar:extractDebugAnnotations
+Warning: /tmp/rdisk/1525/src/materialloadingprogressbar/src/main/java/com/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable.java: The typedef annotation com.lsjwzh.widget.materialloadingprogressbar.MaterialProgressDrawable.ProgressDrawableSize should have @Retention(RetentionPolicy.SOURCE)
+:materialloadingprogressbar:mergeDebugProguardFiles
+:materialloadingprogressbar:packageDebugJar
+:materialloadingprogressbar:compileDebugNdk UP-TO-DATE
+:materialloadingprogressbar:packageDebugJniLibs UP-TO-DATE
+:materialloadingprogressbar:packageDebugLocalJar UP-TO-DATE
+:materialloadingprogressbar:packageDebugRenderscript UP-TO-DATE
+:materialloadingprogressbar:packageDebugResources
+:materialloadingprogressbar:bundleDebug
+:materialloadingprogressbar:compileDebugSources
+:materialloadingprogressbar:assembleDebug
+:materialloadingprogressbar:copyReleaseLint UP-TO-DATE
+:materialloadingprogressbar:checkReleaseManifest
+:materialloadingprogressbar:prepareReleaseDependencies
+:materialloadingprogressbar:compileReleaseAidl
+:materialloadingprogressbar:compileReleaseRenderscript
+:materialloadingprogressbar:generateReleaseBuildConfig
+:materialloadingprogressbar:generateReleaseAssets UP-TO-DATE
+:materialloadingprogressbar:mergeReleaseAssets
+:materialloadingprogressbar:generateReleaseResValues
+:materialloadingprogressbar:generateReleaseResources
+:materialloadingprogressbar:mergeReleaseResources
+:materialloadingprogressbar:processReleaseManifest
+:materialloadingprogressbar:processReleaseResources
+:materialloadingprogressbar:generateReleaseSources
+:materialloadingprogressbar:processReleaseJavaRes UP-TO-DATE
+:materialloadingprogressbar:compileReleaseJavaNote: /tmp/rdisk/1525/src/materialloadingprogressbar/src/main/java/com/lsjwzh/widget/materialloadingprogressbar/CircleProgressBar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:materialloadingprogressbar:extractReleaseAnnotations
+Warning: /tmp/rdisk/1525/src/materialloadingprogressbar/src/main/java/com/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable.java: The typedef annotation com.lsjwzh.widget.materialloadingprogressbar.MaterialProgressDrawable.ProgressDrawableSize should have @Retention(RetentionPolicy.SOURCE)
+:materialloadingprogressbar:mergeReleaseProguardFiles
+:materialloadingprogressbar:packageReleaseJar
+:materialloadingprogressbar:compileReleaseNdk UP-TO-DATE
+:materialloadingprogressbar:packageReleaseJniLibs UP-TO-DATE
+:materialloadingprogressbar:packageReleaseLocalJar UP-TO-DATE
+:materialloadingprogressbar:packageReleaseRenderscript UP-TO-DATE
+:materialloadingprogressbar:packageReleaseResources
+:materialloadingprogressbar:bundleRelease
+:materialloadingprogressbar:compileReleaseSources
+:materialloadingprogressbar:assembleRelease
+:materialloadingprogressbar:assemble
+:materialloadingprogressbar:lint
+Ran lint on variant release: 7 issues found
+Ran lint on variant debug: 7 issues found
+Wrote HTML report to file:/tmp/rdisk/1525/src/materialloadingprogressbar/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1525/src/materialloadingprogressbar/build/outputs/lint-results.xml
+:materialloadingprogressbar:preCompileDebugUnitTestJava
+:materialloadingprogressbar:prepareDebugUnitTestDependencies
+:materialloadingprogressbar:processDebugUnitTestJavaRes UP-TO-DATE
+:materialloadingprogressbar:compileDebugUnitTestJava UP-TO-DATE
+:materialloadingprogressbar:compileDebugUnitTestSources UP-TO-DATE
+:materialloadingprogressbar:mockableAndroidJar
+:materialloadingprogressbar:assembleDebugUnitTest
+:materialloadingprogressbar:testDebug
+:materialloadingprogressbar:preCompileReleaseUnitTestJava
+:materialloadingprogressbar:prepareReleaseUnitTestDependencies
+:materialloadingprogressbar:processReleaseUnitTestJavaRes UP-TO-DATE
+:materialloadingprogressbar:compileReleaseUnitTestJava UP-TO-DATE
+:materialloadingprogressbar:compileReleaseUnitTestSources UP-TO-DATE
+:materialloadingprogressbar:assembleReleaseUnitTest
+:materialloadingprogressbar:testRelease
+:materialloadingprogressbar:test
+:materialloadingprogressbar:check
+:materialloadingprogressbar:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.345 secs
+
+2018-04-05 23:26:32,359 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:26:32,359 INFO  SysUtils - Execute command: [/tmp/rdisk/1525/src/gradlew, -b, /tmp/rdisk/1525/src/materialloadingprogressbardemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:26:38,681 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-04-05 23:26:38,681 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-04-05 23:26:38,681 INFO  SysUtils - Execute command: [/tmp/rdisk/1525/src/gradlew, -b, /tmp/rdisk/1525/src/materialloadingprogressbardemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-04-05 23:27:02,393 INFO  SysUtils - Configuration on demand is an incubating feature.
+:materialloadingprogressbar:compileLint
+:materialloadingprogressbar:copyReleaseLint UP-TO-DATE
+:materialloadingprogressbar:preBuild UP-TO-DATE
+:materialloadingprogressbar:preReleaseBuild UP-TO-DATE
+:materialloadingprogressbar:checkReleaseManifest
+:materialloadingprogressbar:preDebugAndroidTestBuild UP-TO-DATE
+:materialloadingprogressbar:preDebugBuild UP-TO-DATE
+:materialloadingprogressbar:preDebugUnitTestBuild UP-TO-DATE
+:materialloadingprogressbar:preReleaseUnitTestBuild UP-TO-DATE
+:materialloadingprogressbar:prepareComAndroidSupportAppcompatV72103Library UP-TO-DATE
+:materialloadingprogressbar:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:materialloadingprogressbar:prepareReleaseDependencies
+:materialloadingprogressbar:compileReleaseAidl UP-TO-DATE
+:materialloadingprogressbar:compileReleaseRenderscript UP-TO-DATE
+:materialloadingprogressbar:generateReleaseBuildConfig UP-TO-DATE
+:materialloadingprogressbar:generateReleaseAssets UP-TO-DATE
+:materialloadingprogressbar:mergeReleaseAssets UP-TO-DATE
+:materialloadingprogressbar:generateReleaseResValues UP-TO-DATE
+:materialloadingprogressbar:generateReleaseResources UP-TO-DATE
+:materialloadingprogressbar:mergeReleaseResources UP-TO-DATE
+:materialloadingprogressbar:processReleaseManifest UP-TO-DATE
+:materialloadingprogressbar:processReleaseResources UP-TO-DATE
+:materialloadingprogressbar:generateReleaseSources UP-TO-DATE
+:materialloadingprogressbar:processReleaseJavaRes UP-TO-DATE
+:materialloadingprogressbar:compileReleaseJava UP-TO-DATE
+:materialloadingprogressbar:extractReleaseAnnotations UP-TO-DATE
+:materialloadingprogressbar:mergeReleaseProguardFiles UP-TO-DATE
+:materialloadingprogressbar:packageReleaseJar UP-TO-DATE
+:materialloadingprogressbar:compileReleaseNdk UP-TO-DATE
+:materialloadingprogressbar:packageReleaseJniLibs UP-TO-DATE
+:materialloadingprogressbar:packageReleaseLocalJar UP-TO-DATE
+:materialloadingprogressbar:packageReleaseRenderscript UP-TO-DATE
+:materialloadingprogressbar:packageReleaseResources UP-TO-DATE
+:materialloadingprogressbar:bundleRelease UP-TO-DATE
+:materialloadingprogressbardemo:preBuild UP-TO-DATE
+:materialloadingprogressbardemo:preDebugBuild UP-TO-DATE
+:materialloadingprogressbardemo:checkDebugManifest
+:materialloadingprogressbardemo:preReleaseBuild UP-TO-DATE
+:materialloadingprogressbardemo:prepareComAndroidSupportAppcompatV72103Library
+:materialloadingprogressbardemo:prepareComAndroidSupportSupportV42103Library
+:materialloadingprogressbardemo:prepareSrcMaterialloadingprogressbarUnspecifiedLibrary
+:materialloadingprogressbardemo:prepareDebugDependencies
+:materialloadingprogressbardemo:compileDebugAidl
+:materialloadingprogressbardemo:compileDebugRenderscript
+:materialloadingprogressbardemo:generateDebugBuildConfig
+:materialloadingprogressbardemo:generateDebugAssets UP-TO-DATE
+:materialloadingprogressbardemo:mergeDebugAssets
+:materialloadingprogressbardemo:generateDebugResValues
+:materialloadingprogressbardemo:generateDebugResources
+:materialloadingprogressbardemo:mergeDebugResources/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:materialloadingprogressbardemo:processDebugManifest
+:materialloadingprogressbardemo:processDebugResources
+:materialloadingprogressbardemo:generateDebugSources
+:materialloadingprogressbardemo:processDebugJavaRes UP-TO-DATE
+:materialloadingprogressbardemo:compileDebugJava
+:materialloadingprogressbardemo:compileDebugNdk UP-TO-DATE
+:materialloadingprogressbardemo:compileDebugSources
+:materialloadingprogressbardemo:preDexDebug
+:materialloadingprogressbardemo:dexDebug
+:materialloadingprogressbardemo:validateDebugSigning
+:materialloadingprogressbardemo:packageDebug
+:materialloadingprogressbardemo:zipalignDebug
+:materialloadingprogressbardemo:assembleDebug
+:materialloadingprogressbardemo:checkReleaseManifest
+:materialloadingprogressbardemo:prepareReleaseDependencies
+:materialloadingprogressbardemo:compileReleaseAidl
+:materialloadingprogressbardemo:compileReleaseRenderscript
+:materialloadingprogressbardemo:generateReleaseBuildConfig
+:materialloadingprogressbardemo:generateReleaseAssets UP-TO-DATE
+:materialloadingprogressbardemo:mergeReleaseAssets
+:materialloadingprogressbardemo:generateReleaseResValues
+:materialloadingprogressbardemo:generateReleaseResources
+:materialloadingprogressbardemo:mergeReleaseResources/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1525/src/materialloadingprogressbardemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:materialloadingprogressbardemo:processReleaseManifest
+:materialloadingprogressbardemo:processReleaseResources
+:materialloadingprogressbardemo:generateReleaseSources
+:materialloadingprogressbardemo:processReleaseJavaRes UP-TO-DATE
+:materialloadingprogressbardemo:compileReleaseJava
+:materialloadingprogressbardemo:compileReleaseNdk UP-TO-DATE
+:materialloadingprogressbardemo:compileReleaseSources
+:materialloadingprogressbardemo:lintVitalRelease
+:materialloadingprogressbardemo:preDexRelease
+:materialloadingprogressbardemo:dexRelease
+:materialloadingprogressbardemo:packageRelease
+:materialloadingprogressbardemo:assembleRelease
+:materialloadingprogressbardemo:assemble
+:materialloadingprogressbardemo:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.263 secs
+
+2018-04-05 23:27:02,460 INFO  FullProcessService - Found APK file: /tmp/rdisk/1525/src/materialloadingprogressbardemo/build/outputs/apk/materialloadingprogressbardemo-release-unsigned.apk

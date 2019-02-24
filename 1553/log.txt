@@ -1,0 +1,58 @@
+2018-04-05 22:06:18,269 INFO  DownloadService - Downloading "https://github.com/j2objc-contrib/j2objc-gradle/archive/master.zip", attempt 3
+2018-04-05 22:07:18,854 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 22:07:19,586 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 22:07:19,586 INFO  DownloadService - Downloading "https://github.com/j2objc-contrib/j2objc-gradle/archive/master.zip", attempt 3
+2018-04-05 22:08:20,794 DEBUG FullProcessService - Repository https://github.com/j2objc-contrib/j2objc-gradle available: true
+2018-04-05 22:08:20,794 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 22:08:20,794 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/j2objc-contrib/j2objc-gradle, /tmp/rdisk/1553/src]
+2018-04-05 22:08:22,538 INFO  SysUtils - 
+2018-04-05 22:08:22,548 INFO  GitService - Deleted "/tmp/rdisk/1553/src/.git": true
+2018-04-05 22:08:22,559 INFO  FullProcessService - Size of directory with sources: 813 KB
+2018-04-05 22:08:22,560 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1553/src]
+2018-04-05 22:08:22,563 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1553/src/.git/
+
+2018-04-05 22:08:22,572 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1553/src/systemTests/simple1/gradlew /tmp/rdisk/1553/src/systemTests/multiProject1/gradlew /tmp/rdisk/1553/src/systemTests/externalLibrary1/gradlew /tmp/rdisk/1553/src/systemTests/allPlatforms/gradlew /tmp/rdisk/1553/src/gradlew
+2018-04-05 22:08:22,583 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1553/src/systemTests/allPlatforms/app/build.gradle /tmp/rdisk/1553/src/build.gradle /tmp/rdisk/1553/src/systemTests/allPlatforms/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/build.gradle /tmp/rdisk/1553/src/systemTests/simple1/build.gradle /tmp/rdisk/1553/src/systemTests/allPlatforms/shared/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/base/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/extended/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/third_party_gson/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/third_party_guava/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/base/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/extended/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/testLib/build.gradle
+2018-04-05 22:08:22,591 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1553/src/systemTests/simple1/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/testLib/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/settings.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/extended/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/build.gradle /tmp/rdisk/1553/src/systemTests/multiProject1/base/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/third_party_guava/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/third_party_gson/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/settings.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/extended/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/build.gradle /tmp/rdisk/1553/src/systemTests/externalLibrary1/base/build.gradle /tmp/rdisk/1553/src/systemTests/allPlatforms/shared/build.gradle /tmp/rdisk/1553/src/systemTests/allPlatforms/settings.gradle /tmp/rdisk/1553/src/systemTests/allPlatforms/build.gradle /tmp/rdisk/1553/src/systemTests/allPlatforms/app/build.gradle /tmp/rdisk/1553/src/build.gradle
+2018-04-05 22:08:22,592 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 22:08:22,592 INFO  ProjectFixService - Fixing project...
+2018-04-05 22:08:22,615 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1553/src/systemTests/allPlatforms/app/local.properties
+2018-04-05 22:08:22,616 INFO  ProjectFixService - Build info for "/tmp/rdisk/1553/src/systemTests/allPlatforms/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-05 22:08:22,616 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1553/src/local.properties
+2018-04-05 22:08:22,616 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-05 22:08:22,616 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-05 22:08:22,624 INFO  ProjectFixService - Build info for "/tmp/rdisk/1553/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-05 22:08:22,648 ERROR FullProcessService - Error during build
+org.apache.commons.configuration.ConfigurationException: Unable to save to file /tmp/rdisk/1553/src/systemTests/allPlatforms/local.properties
+	at org.apache.commons.configuration.DefaultFileSystem.getOutputStream(DefaultFileSystem.java:143)
+	at org.apache.commons.configuration.AbstractFileConfiguration.save(AbstractFileConfiguration.java:505)
+	at com.github.vbauer.apkmaster.service.assembly.fix.LocalPropertiesFixService.fixLocalProperties(LocalPropertiesFixService.java:40)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectFixService.fixBuildScript(ProjectFixService.java:49)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectFixService.fixProject(ProjectFixService.java:41)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:83)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /tmp/rdisk/1553/src/systemTests/allPlatforms/local.properties (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.commons.configuration.DefaultFileSystem.getOutputStream(DefaultFileSystem.java:139)
+	... 22 common frames omitted
+2018-04-05 22:08:22,648 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 22:08:22,657 ERROR FullProcessService - Could not find generated or existed APK file

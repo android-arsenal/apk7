@@ -1,0 +1,4 @@
+{
+  "de.hdodenhof.circleimageview" : [ "BuildConfig", "CircleImageView", "CircleImageView$1", "CircleImageView$OutlineProvider", "R", "R$attr", "R$styleable" ],
+  "de.hdodenhof.circleimageview.sample" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$color", "R$dimen", "R$drawable", "R$layout", "R$string", "R$style", "R$styleable" ]
+}

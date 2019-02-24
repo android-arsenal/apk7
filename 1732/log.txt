@@ -1,0 +1,162 @@
+2018-05-11 13:37:21,835 INFO  DownloadService - Downloading "https://github.com/robertoestivill/intentbuilder/archive/master.zip", attempt 3
+2018-05-11 13:37:23,454 INFO  DownloadService - Downloaded https://github.com/robertoestivill/intentbuilder/archive/master.zip, attempt 3
+2018-05-11 13:37:23,454 INFO  DownloadService - Size of file "/tmp/rdisk/1732/master.zip": 65 KB
+2018-05-11 13:37:23,454 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:37:23,455 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1732/master.zip: true
+2018-05-11 13:37:23,455 DEBUG ZipUtil - Extracting '/tmp/rdisk/1732/master.zip' into '/tmp/rdisk/1732/src'.
+2018-05-11 13:37:23,459 INFO  FullProcessService - Size of directory with sources: 118 KB
+2018-05-11 13:37:23,459 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1732/src]
+2018-05-11 13:37:23,465 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1732/src/.git/
+
+2018-05-11 13:37:23,467 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1732/src/intentbuilder-master/gradlew
+2018-05-11 13:37:23,468 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1732/src/intentbuilder-master/intentbuilder/build.gradle /tmp/rdisk/1732/src/intentbuilder-master/build.gradle
+2018-05-11 13:37:23,470 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1732/src/intentbuilder-master/settings.gradle /tmp/rdisk/1732/src/intentbuilder-master/intentbuilder/build.gradle /tmp/rdisk/1732/src/intentbuilder-master/gradle/setup.gradle /tmp/rdisk/1732/src/intentbuilder-master/gradle/jacoco.gradle /tmp/rdisk/1732/src/intentbuilder-master/gradle/gradle-mvn-push.gradle /tmp/rdisk/1732/src/intentbuilder-master/build.gradle
+2018-05-11 13:37:23,470 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:37:23,470 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:37:23,478 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1732/src/intentbuilder-master/intentbuilder/local.properties
+2018-05-11 13:37:23,478 INFO  ProjectFixService - Build info for "/tmp/rdisk/1732/src/intentbuilder-master/intentbuilder/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-05-11 13:37:23,479 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1732/src/intentbuilder-master/local.properties
+2018-05-11 13:37:23,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-11 13:37:23,479 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-11 13:37:23,480 INFO  ProjectFixService - Build info for "/tmp/rdisk/1732/src/intentbuilder-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-05-11 13:37:23,481 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:37:23,481 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:37:23,481 INFO  SysUtils - Execute command: [/tmp/rdisk/1732/src/intentbuilder-master/gradlew, -b, /tmp/rdisk/1732/src/intentbuilder-master/intentbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:37:33,488 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-05-11 13:37:33,489 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck coveralls lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug jacoco
+2018-05-11 13:37:33,489 INFO  SysUtils - Execute command: [/tmp/rdisk/1732/src/intentbuilder-master/gradlew, -b, /tmp/rdisk/1732/src/intentbuilder-master/intentbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, coveralls, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, jacoco, build]
+2018-05-11 13:37:42,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+:intentbuilder:androidJavadocs
+:intentbuilder:androidJavadocsJar
+:intentbuilder:androidSourcesJar
+:intentbuilder:compileLint
+:intentbuilder:copyDebugLint UP-TO-DATE
+:intentbuilder:mergeDebugProguardFiles
+:intentbuilder:preBuild UP-TO-DATE
+:intentbuilder:preDebugBuild UP-TO-DATE
+:intentbuilder:checkDebugManifest
+:intentbuilder:prepareDebugDependencies
+:intentbuilder:compileDebugAidl
+:intentbuilder:compileDebugRenderscript
+:intentbuilder:generateDebugBuildConfig
+:intentbuilder:generateDebugAssets UP-TO-DATE
+:intentbuilder:mergeDebugAssets
+:intentbuilder:generateDebugResValues
+:intentbuilder:generateDebugResources
+:intentbuilder:packageDebugResources
+:intentbuilder:processDebugManifest
+:intentbuilder:processDebugResources
+:intentbuilder:generateDebugSources
+:intentbuilder:compileDebugJava
+:intentbuilder:processDebugJavaRes UP-TO-DATE
+:intentbuilder:packageDebugJar
+:intentbuilder:compileDebugNdk UP-TO-DATE
+:intentbuilder:packageDebugJniLibs UP-TO-DATE
+:intentbuilder:packageDebugLocalJar UP-TO-DATE
+:intentbuilder:packageDebugRenderscript UP-TO-DATE
+:intentbuilder:bundleDebug
+:intentbuilder:assembleDebug
+:intentbuilder:copyReleaseLint UP-TO-DATE
+:intentbuilder:mergeReleaseProguardFiles
+:intentbuilder:preReleaseBuild UP-TO-DATE
+:intentbuilder:checkReleaseManifest
+:intentbuilder:prepareReleaseDependencies
+:intentbuilder:compileReleaseAidl
+:intentbuilder:compileReleaseRenderscript
+:intentbuilder:generateReleaseBuildConfig
+:intentbuilder:generateReleaseAssets UP-TO-DATE
+:intentbuilder:mergeReleaseAssets
+:intentbuilder:generateReleaseResValues
+:intentbuilder:generateReleaseResources
+:intentbuilder:packageReleaseResources
+:intentbuilder:processReleaseManifest
+:intentbuilder:processReleaseResources
+:intentbuilder:generateReleaseSources
+:intentbuilder:compileReleaseJava
+:intentbuilder:processReleaseJavaRes UP-TO-DATE
+:intentbuilder:packageReleaseJar
+:intentbuilder:compileReleaseNdk UP-TO-DATE
+:intentbuilder:packageReleaseJniLibs UP-TO-DATE
+:intentbuilder:packageReleaseLocalJar UP-TO-DATE
+:intentbuilder:packageReleaseRenderscript UP-TO-DATE
+:intentbuilder:bundleRelease
+:intentbuilder:assembleRelease
+:intentbuilder:signArchives SKIPPED
+:intentbuilder:assemble
+:intentbuilder:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.76 secs
+
+2018-05-11 13:37:42,676 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:37:42,676 INFO  SysUtils - Execute command: [/tmp/rdisk/1732/src/intentbuilder-master/gradlew, -b, /tmp/rdisk/1732/src/intentbuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:37:49,042 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-05-11 13:37:49,043 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck coveralls lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug jacoco
+2018-05-11 13:37:49,043 INFO  SysUtils - Execute command: [/tmp/rdisk/1732/src/intentbuilder-master/gradlew, -b, /tmp/rdisk/1732/src/intentbuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, coveralls, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, jacoco, build]
+2018-05-11 13:37:55,290 INFO  SysUtils - Configuration on demand is an incubating feature.
+:intentbuilder:androidJavadocs UP-TO-DATE
+:intentbuilder:androidJavadocsJar UP-TO-DATE
+:intentbuilder:androidSourcesJar UP-TO-DATE
+:intentbuilder:compileLint
+:intentbuilder:copyDebugLint UP-TO-DATE
+:intentbuilder:mergeDebugProguardFiles UP-TO-DATE
+:intentbuilder:preBuild UP-TO-DATE
+:intentbuilder:preDebugBuild UP-TO-DATE
+:intentbuilder:checkDebugManifest
+:intentbuilder:prepareDebugDependencies
+:intentbuilder:compileDebugAidl UP-TO-DATE
+:intentbuilder:compileDebugRenderscript UP-TO-DATE
+:intentbuilder:generateDebugBuildConfig UP-TO-DATE
+:intentbuilder:generateDebugAssets UP-TO-DATE
+:intentbuilder:mergeDebugAssets UP-TO-DATE
+:intentbuilder:generateDebugResValues UP-TO-DATE
+:intentbuilder:generateDebugResources UP-TO-DATE
+:intentbuilder:packageDebugResources UP-TO-DATE
+:intentbuilder:processDebugManifest UP-TO-DATE
+:intentbuilder:processDebugResources UP-TO-DATE
+:intentbuilder:generateDebugSources UP-TO-DATE
+:intentbuilder:compileDebugJava UP-TO-DATE
+:intentbuilder:processDebugJavaRes UP-TO-DATE
+:intentbuilder:packageDebugJar UP-TO-DATE
+:intentbuilder:compileDebugNdk UP-TO-DATE
+:intentbuilder:packageDebugJniLibs UP-TO-DATE
+:intentbuilder:packageDebugLocalJar UP-TO-DATE
+:intentbuilder:packageDebugRenderscript UP-TO-DATE
+:intentbuilder:bundleDebug UP-TO-DATE
+:intentbuilder:assembleDebug UP-TO-DATE
+:intentbuilder:copyReleaseLint UP-TO-DATE
+:intentbuilder:mergeReleaseProguardFiles UP-TO-DATE
+:intentbuilder:preReleaseBuild UP-TO-DATE
+:intentbuilder:checkReleaseManifest
+:intentbuilder:prepareReleaseDependencies
+:intentbuilder:compileReleaseAidl UP-TO-DATE
+:intentbuilder:compileReleaseRenderscript UP-TO-DATE
+:intentbuilder:generateReleaseBuildConfig UP-TO-DATE
+:intentbuilder:generateReleaseAssets UP-TO-DATE
+:intentbuilder:mergeReleaseAssets UP-TO-DATE
+:intentbuilder:generateReleaseResValues UP-TO-DATE
+:intentbuilder:generateReleaseResources UP-TO-DATE
+:intentbuilder:packageReleaseResources UP-TO-DATE
+:intentbuilder:processReleaseManifest UP-TO-DATE
+:intentbuilder:processReleaseResources UP-TO-DATE
+:intentbuilder:generateReleaseSources UP-TO-DATE
+:intentbuilder:compileReleaseJava UP-TO-DATE
+:intentbuilder:processReleaseJavaRes UP-TO-DATE
+:intentbuilder:packageReleaseJar UP-TO-DATE
+:intentbuilder:compileReleaseNdk UP-TO-DATE
+:intentbuilder:packageReleaseJniLibs UP-TO-DATE
+:intentbuilder:packageReleaseLocalJar UP-TO-DATE
+:intentbuilder:packageReleaseRenderscript UP-TO-DATE
+:intentbuilder:bundleRelease UP-TO-DATE
+:intentbuilder:assembleRelease UP-TO-DATE
+:intentbuilder:signArchives SKIPPED
+:intentbuilder:assemble UP-TO-DATE
+:intentbuilder:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.818 secs
+
+2018-05-11 13:37:55,295 ERROR FullProcessService - Project build has not produced APK file
+2018-05-11 13:37:55,300 ERROR FullProcessService - Could not find generated or existed APK file

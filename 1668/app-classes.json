@@ -1,0 +1,7 @@
+{
+  "com.facebook.network.connectionclass" : [ "BuildConfig", "ByteArrayScanner", "ConnectionClassManager", "ConnectionClassManager$1", "ConnectionClassManager$ConnectionClassManagerHolder", "ConnectionClassManager$ConnectionClassStateChangeListener", "ConnectionQuality", "DeviceBandwidthSampler", "DeviceBandwidthSampler$1", "DeviceBandwidthSampler$DeviceBandwidthSamplerHolder", "DeviceBandwidthSampler$SamplingHandler", "ExponentialGeometricAverage" ],
+  "com.facebook.network.connectionclass.sample" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$ConnectionChangedListener", "MainActivity$ConnectionChangedListener$1", "MainActivity$DownloadImage", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string" ],
+  "javax.annotation" : [ "CheckForNull", "CheckForSigned", "CheckReturnValue", "Detainted", "MatchesPattern", "MatchesPattern$Checker", "Nonnegative", "Nonnegative$Checker", "Nonnull", "Nonnull$Checker", "Nullable", "OverridingMethodsMustInvokeSuper", "ParametersAreNonnullByDefault", "PropertyKey", "RegEx", "RegEx$Checker", "Signed", "Syntax", "Tainted", "Untainted", "WillClose", "WillCloseWhenClosed", "WillNotClose" ],
+  "javax.annotation.concurrent" : [ "GuardedBy", "Immutable", "NotThreadSafe", "ThreadSafe" ],
+  "javax.annotation.meta" : [ "Exclusive", "Exhaustive", "TypeQualifier", "TypeQualifierDefault", "TypeQualifierNickname", "TypeQualifierValidator", "When" ]
+}

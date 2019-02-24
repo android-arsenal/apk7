@@ -1,0 +1,642 @@
+2018-04-05 19:48:21,843 INFO  DownloadService - Downloading "https://github.com/denley/WearPreferenceActivity/archive/master.zip", attempt 3
+2018-04-05 19:48:23,501 INFO  DownloadService - Downloaded https://github.com/denley/WearPreferenceActivity/archive/master.zip, attempt 3
+2018-04-05 19:48:23,501 INFO  DownloadService - Size of file "/tmp/rdisk/1643/master.zip": 211 KB
+2018-04-05 19:48:23,501 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:48:23,573 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1643/master.zip: true
+2018-04-05 19:48:23,573 DEBUG ZipUtil - Extracting '/tmp/rdisk/1643/master.zip' into '/tmp/rdisk/1643/src'.
+2018-04-05 19:48:23,586 INFO  FullProcessService - Size of directory with sources: 243 KB
+2018-04-05 19:48:23,586 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1643/src]
+2018-04-05 19:48:23,637 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1643/src/.git/
+
+2018-04-05 19:48:23,639 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1643/src/WearPreferenceActivity-master/gradlew
+2018-04-05 19:48:23,642 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build.gradle /tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/build.gradle /tmp/rdisk/1643/src/WearPreferenceActivity-master/build.gradle
+2018-04-05 19:48:23,644 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1643/src/WearPreferenceActivity-master/settings.gradle /tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/build.gradle /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build.gradle /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/android-release-aar.gradle /tmp/rdisk/1643/src/WearPreferenceActivity-master/build.gradle
+2018-04-05 19:48:23,645 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:48:23,645 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:48:23,651 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/local.properties
+2018-04-05 19:48:23,651 INFO  ProjectFixService - Build info for "/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:48:23,651 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/local.properties
+2018-04-05 19:48:23,652 INFO  ProjectFixService - Build info for "/tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:48:23,652 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1643/src/WearPreferenceActivity-master/local.properties
+2018-04-05 19:48:23,652 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:48:23,652 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:48:23,653 INFO  ProjectFixService - Build info for "/tmp/rdisk/1643/src/WearPreferenceActivity-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:48:23,653 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:48:23,653 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:48:23,653 INFO  SysUtils - Execute command: [/tmp/rdisk/1643/src/WearPreferenceActivity-master/gradlew, -b, /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:48:34,946 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 19:48:34,946 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 19:48:34,946 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 19:48:34,947 INFO  SysUtils - Execute command: [/tmp/rdisk/1643/src/WearPreferenceActivity-master/gradlew, -b, /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 19:48:55,489 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocs/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.XmlRes;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceScreen.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:11: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreference.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreference.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:12: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.XmlRes;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:6: error: package android.support.wearable.view does not exist
+import android.support.wearable.view.WearableListView;
+                                    ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:12: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/TitledWearActivity.java:7: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:25: error: cannot find symbol
+    private WearableListView list;
+            ^
+  symbol:   class WearableListView
+  location: class WearPreferenceActivity
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:71: error: package WearableListView does not exist
+    private class SettingsAdapter extends WearableListView.Adapter {
+                                                          ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:72: error: package WearableListView does not exist
+        @Override public WearableListView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+                                         ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:77: error: package WearableListView does not exist
+        @Override public void onBindViewHolder(WearableListView.ViewHolder holder, int position) {
+                                                               ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:88: error: package WearableListView does not exist
+        @Override public void onViewRecycled(WearableListView.ViewHolder holder) {
+                                                             ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearListPreference.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearListPreference.java:11: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:29: error: package android.support.wearable.view does not exist
+import android.support.wearable.view.CircledImageView;
+                                    ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:30: error: package android.support.wearable.view does not exist
+import android.support.wearable.view.WearableListView;
+                                    ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:37: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:41: error: package WearableListView does not exist
+public class ListItemLayout extends FrameLayout implements WearableListView.OnCenterProximityListener, SharedPreferences.OnSharedPreferenceChangeListener {
+                                                                           ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListItemLayout.java:55: error: cannot find symbol
+    @Nullable private CircledImageView icon;
+                      ^
+  symbol:   class CircledImageView
+  location: class ListItemLayout
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/CircleSizeAnimation.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/CircleSizeAnimation.java:4: error: package android.support.wearable.view does not exist
+import android.support.wearable.view.CircledImageView;
+                                    ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/CircleSizeAnimation.java:14: error: cannot find symbol
+    @NonNull private final CircledImageView circledView;
+                           ^
+  symbol:   class CircledImageView
+  location: class CircleSizeAnimation
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/CircleSizeAnimation.java:18: error: cannot find symbol
+    public CircleSizeAnimation(@NonNull CircledImageView circledView,
+                                        ^
+  symbol:   class CircledImageView
+  location: class CircleSizeAnimation
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:9: error: package android.support.wearable.view does not exist
+import android.support.wearable.view.WearableListView;
+                                    ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:12: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:14: error: package WearableListView does not exist
+public class ListChooserActivity extends TitledWearActivity implements WearableListView.ClickListener {
+                                                                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:82: error: package WearableListView does not exist
+    @Override public void onClick(WearableListView.ViewHolder viewHolder) {
+                                                  ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:92: error: package WearableListView does not exist
+    private class PreferenceEntriesAdapter extends WearableListView.Adapter {
+                                                                   ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:95: error: package WearableListView does not exist
+        public WearableListView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+                               ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/ListChooserActivity.java:100: error: package WearableListView does not exist
+        @Override public void onBindViewHolder(WearableListView.ViewHolder holder, int position) {
+                                                               ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/HeadingListView.java:6: error: package android.support.wearable.view does not exist
+import android.support.wearable.view.WearableListView;
+                                    ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/HeadingListView.java:13: error: package me.denley.wearpreferenceactivity does not exist
+import me.denley.wearpreferenceactivity.R;
+                                       ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/HeadingListView.java:15: error: package WearableListView does not exist
+public class HeadingListView extends RelativeLayout implements WearableListView.OnScrollListener {
+                                                                               ^
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/HeadingListView.java:18: error: cannot find symbol
+    WearableListView list;
+    ^
+  symbol:   class WearableListView
+  location: class HeadingListView
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:26: error: cannot find symbol
+    WearPreferenceScreen parse(@NonNull final Context context, @XmlRes final int prefsResId) {
+                                ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:26: error: cannot find symbol
+    WearPreferenceScreen parse(@NonNull final Context context, @XmlRes final int prefsResId) {
+                                                                ^
+  symbol:   class XmlRes
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:25: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:36: error: cannot find symbol
+    private WearPreferenceScreen parseScreen(@NonNull final Context context, @NonNull final XmlResourceParser parser)
+                                              ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:36: error: cannot find symbol
+    private WearPreferenceScreen parseScreen(@NonNull final Context context, @NonNull final XmlResourceParser parser)
+                                                                              ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:35: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:52: error: cannot find symbol
+    private void parsePreferences(@NonNull final Context context, @NonNull final XmlResourceParser parser, @NonNull final WearPreferenceScreen screen)
+                                   ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:52: error: cannot find symbol
+    private void parsePreferences(@NonNull final Context context, @NonNull final XmlResourceParser parser, @NonNull final WearPreferenceScreen screen)
+                                                                   ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:52: error: cannot find symbol
+    private void parsePreferences(@NonNull final Context context, @NonNull final XmlResourceParser parser, @NonNull final WearPreferenceScreen screen)
+                                                                                                            ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:78: error: cannot find symbol
+    private void parsePreference(@NonNull final Context context, @NonNull final XmlResourceParser parser, @NonNull final WearPreferenceScreen screen)
+                                  ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:78: error: cannot find symbol
+    private void parsePreference(@NonNull final Context context, @NonNull final XmlResourceParser parser, @NonNull final WearPreferenceScreen screen)
+                                                                  ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:78: error: cannot find symbol
+    private void parsePreference(@NonNull final Context context, @NonNull final XmlResourceParser parser, @NonNull final WearPreferenceScreen screen)
+                                                                                                           ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:97: error: cannot find symbol
+    private WearPreference parsePreferenceInternal(@NonNull final Context context, @NonNull final String name, @NonNull final XmlResourceParser parser) {
+                                                    ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:97: error: cannot find symbol
+    private WearPreference parsePreferenceInternal(@NonNull final Context context, @NonNull final String name, @NonNull final XmlResourceParser parser) {
+                                                                                    ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:97: error: cannot find symbol
+    private WearPreference parsePreferenceInternal(@NonNull final Context context, @NonNull final String name, @NonNull final XmlResourceParser parser) {
+                                                                                                                ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:96: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:110: error: cannot find symbol
+    private WearPreference parsePreferenceUsingReflection(@NonNull final Context context, @NonNull final String name, @NonNull final XmlResourceParser parser) {
+                                                           ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:110: error: cannot find symbol
+    private WearPreference parsePreferenceUsingReflection(@NonNull final Context context, @NonNull final String name, @NonNull final XmlResourceParser parser) {
+                                                                                           ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:110: error: cannot find symbol
+    private WearPreference parsePreferenceUsingReflection(@NonNull final Context context, @NonNull final String name, @NonNull final XmlResourceParser parser) {
+                                                                                                                       ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:109: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:136: error: cannot find symbol
+    protected WearPreference parsePreference(@NonNull final Context context, @NonNull final String preferenceType, @NonNull final AttributeSet attrs) {
+                                              ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:136: error: cannot find symbol
+    protected WearPreference parsePreference(@NonNull final Context context, @NonNull final String preferenceType, @NonNull final AttributeSet attrs) {
+                                                                              ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:136: error: cannot find symbol
+    protected WearPreference parsePreference(@NonNull final Context context, @NonNull final String preferenceType, @NonNull final AttributeSet attrs) {
+                                                                                                                    ^
+  symbol:   class NonNull
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/XmlPreferenceParser.java:135: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class XmlPreferenceParser
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceScreen.java:16: error: cannot find symbol
+    public WearPreferenceScreen(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                 ^
+  symbol:   class NonNull
+  location: class WearPreferenceScreen
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceScreen.java:16: error: cannot find symbol
+    public WearPreferenceScreen(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                                                 ^
+  symbol:   class NonNull
+  location: class WearPreferenceScreen
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceScreen.java:28: error: cannot find symbol
+    @Override public void onPreferenceClick(@NonNull final Context context) {
+                                             ^
+  symbol:   class NonNull
+  location: class WearPreferenceScreen
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:18: error: cannot find symbol
+    @DrawableRes private int icon;
+     ^
+  symbol:   class DrawableRes
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:22: error: cannot find symbol
+    public WearPreferenceItem(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                               ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:22: error: cannot find symbol
+    public WearPreferenceItem(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                                               ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:27: error: cannot find symbol
+    private void obtainAndroidAttributes(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                          ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:27: error: cannot find symbol
+    private void obtainAndroidAttributes(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                                                          ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:33: error: cannot find symbol
+    private void obtainCustomAttributes(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                         ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:33: error: cannot find symbol
+    private void obtainCustomAttributes(@NonNull final Context context, @NonNull final AttributeSet attrs) {
+                                                                         ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:51: error: cannot find symbol
+    protected String loadAndroidStringAttr(@NonNull final Context context, @NonNull final AttributeSet attrs, @NonNull final String name) {
+                                            ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:51: error: cannot find symbol
+    protected String loadAndroidStringAttr(@NonNull final Context context, @NonNull final AttributeSet attrs, @NonNull final String name) {
+                                                                            ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:51: error: cannot find symbol
+    protected String loadAndroidStringAttr(@NonNull final Context context, @NonNull final AttributeSet attrs, @NonNull final String name) {
+                                                                                                               ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:63: error: cannot find symbol
+    public abstract void onPreferenceClick(@NonNull final Context context);
+                                            ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:69: error: cannot find symbol
+    @DrawableRes public int getIcon(@NonNull final Context context) {
+                                     ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:69: error: cannot find symbol
+    @DrawableRes public int getIcon(@NonNull final Context context) {
+     ^
+  symbol:   class DrawableRes
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:81: error: cannot find symbol
+    public CharSequence getTitle(@NonNull final Context context) {
+                                  ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/internal/WearPreferenceItem.java:89: error: cannot find symbol
+    public CharSequence getSummary(@NonNull final Context context) {
+                                    ^
+  symbol:   class NonNull
+  location: class WearPreferenceItem
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreference.java:38: error: cannot find symbol
+    @NonNull public String getKey(){
+     ^
+  symbol:   class NonNull
+  location: class WearPreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreference.java:45: error: cannot find symbol
+    @Nullable public String getDefaultValue() {
+     ^
+  symbol:   class Nullable
+  location: class WearPreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:23: error: cannot find symbol
+    @Nullable private CharSequence summaryOn, summaryOff;
+     ^
+  symbol:   class Nullable
+  location: class WearTwoStatePreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:24: error: cannot find symbol
+    @DrawableRes private int iconOn, iconOff;
+     ^
+  symbol:   class DrawableRes
+  location: class WearTwoStatePreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:60: error: cannot find symbol
+    @Override public int getIcon(@NonNull final Context context) {
+                                  ^
+  symbol:   class NonNull
+  location: class WearTwoStatePreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:73: error: cannot find symbol
+    @Override public CharSequence getSummary(@NonNull final Context context) {
+                                              ^
+  symbol:   class NonNull
+  location: class WearTwoStatePreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:81: error: cannot find symbol
+    @Override public void onPreferenceClick(@NonNull final Context context) {
+                                             ^
+  symbol:   class NonNull
+  location: class WearTwoStatePreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearTwoStatePreference.java:88: error: cannot find symbol
+    private boolean getPreferenceValue(@NonNull final Context context){
+                                        ^
+  symbol:   class NonNull
+  location: class WearTwoStatePreference
+/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/src/main/java/preference/WearPreferenceActivity.java:39: error: cannot find symbol
+    protected void addPreferencesFromResource(@XmlRes int prefsResId) {
+                                               ^
+  symbol:   class XmlRes
+  location: class WearPreferenceActivity
+
+100 warnings
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportRecyclerviewV72200Library
+:library:prepareComAndroidSupportSupportV42200Library
+:library:prepareComGoogleAndroidSupportWearable130Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugProguardFiles
+:library:packageDebugJar
+:library:compileDebugNdk UP-TO-DATE
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:lint
+Ran lint on variant debug: 4 issues found
+Ran lint on variant release: 4 issues found
+Wrote HTML report to file:/tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1643/src/WearPreferenceActivity-master/library/build/outputs/lint-results.xml
+:library:prepareDebugUnitTestDependencies
+:library:processDebugUnitTestJavaRes UP-TO-DATE
+:library:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:library:compileDebugUnitTestSources UP-TO-DATE
+:library:mockableAndroidJar
+:library:assembleDebugUnitTest
+:library:testDebugUnitTest
+:library:prepareReleaseUnitTestDependencies
+:library:processReleaseUnitTestJavaRes UP-TO-DATE
+:library:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:library:compileReleaseUnitTestSources UP-TO-DATE
+:library:assembleReleaseUnitTest
+:library:testReleaseUnitTest
+:library:test
+:library:check
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.103 secs
+
+2018-04-05 19:48:55,507 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:48:55,507 INFO  SysUtils - Execute command: [/tmp/rdisk/1643/src/WearPreferenceActivity-master/gradlew, -b, /tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:49:02,103 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-05 19:49:02,103 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:49:02,103 INFO  SysUtils - Execute command: [/tmp/rdisk/1643/src/WearPreferenceActivity-master/gradlew, -b, /tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:49:20,334 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportRecyclerviewV72200Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42200Library UP-TO-DATE
+:library:prepareComGoogleAndroidSupportWearable130Library UP-TO-DATE
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportRecyclerviewV72200Library
+:sample:prepareComAndroidSupportSupportV42200Library
+:sample:prepareComGoogleAndroidSupportWearable130Library
+:sample:prepareWearPreferenceActivityMasterLibraryUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:preDexDebug
+:sample:dexDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:preDexRelease
+:sample:dexRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.772 secs
+
+2018-04-05 19:49:20,366 INFO  FullProcessService - Found APK file: /tmp/rdisk/1643/src/WearPreferenceActivity-master/sample/build/outputs/apk/sample-release-unsigned.apk

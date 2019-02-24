@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.eccyan.widget.sample",
+    "label" : "SpinningTabStrip",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1458,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0.1\" package=\"com.eccyan.widget.sample\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f07002e\" android:label=\"SpinningTabStrip\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SpinningTabStrip\" android:name=\"com.eccyan.widget.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2118223,
+  "crc32" : 4128285572,
+  "sha256" : "26d64814846b437fd95ecb38cee28ab29bb88de37d27a1459ecce4e95b0b982c",
+  "buildTime" : 1522857223000
+}

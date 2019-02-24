@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.thefinestartist.ytpa.sample",
+    "label" : "Youtube Player",
+    "icon" : "res/drawable-xxxhdpi-v4/ic_launcher.png",
+    "versionName" : "1.6.2",
+    "versionCode" : 9,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-xxxhdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 4060,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" android:versionName=\"1.6.2\" package=\"com.thefinestartist.ytpa.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2166767\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f070082\" android:label=\"Youtube Player\" android:icon=\"res/drawable-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Youtube Player\" android:name=\"com.thefinestartist.ytpa.sample.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\" android:name=\"com.thefinestartist.ytpa.YouTubePlayerActivity\" android:screenOrientation=\"sensor\" android:configChanges=\"0x4a0\" />\n\t\t<meta-data android:name=\"com.thefinestartist.ytpa.YouTubePlayerActivity.ApiKey\" android:value=\"AIzaSyAOfxiG4aV66h3XmssCEkP3qCvCqMbDGDI\" />\n\t\t<meta-data android:name=\"com.crashlytics.ApiKey\" android:value=\"286eb9845a463270ba6a058f160c64043f7639e9\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent\" android:name=\"com.google.android.gms.ads.AdActivity\" android:configChanges=\"0xfb0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0700f0\" android:name=\"com.google.android.gms.ads.purchase.InAppPurchaseActivity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"8115000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2529024,
+  "crc32" : 1377259602,
+  "sha256" : "cb32fb13d99b314aea7c065433dc9aa54d2bb303f539a916dda3d80036b6afbf",
+  "buildTime" : 1522968075000
+}

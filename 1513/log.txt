@@ -1,0 +1,138 @@
+2018-04-05 23:54:30,860 INFO  DownloadService - Downloading "https://github.com/glomadrian/dashed-circular-progress/archive/master.zip", attempt 3
+2018-04-05 23:55:31,319 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 23:55:32,005 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 23:55:32,005 INFO  DownloadService - Downloading "https://github.com/glomadrian/dashed-circular-progress/archive/master.zip", attempt 3
+2018-04-05 23:56:33,233 DEBUG FullProcessService - Repository https://github.com/glomadrian/dashed-circular-progress available: true
+2018-04-05 23:56:33,234 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 23:56:33,234 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/glomadrian/dashed-circular-progress, /tmp/rdisk/1513/src]
+2018-04-05 23:56:35,715 INFO  SysUtils - 
+2018-04-05 23:56:35,720 INFO  GitService - Deleted "/tmp/rdisk/1513/src/.git": true
+2018-04-05 23:56:35,724 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-04-05 23:56:35,724 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1513/src]
+2018-04-05 23:56:35,727 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1513/src/.git/
+
+2018-04-05 23:56:35,732 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1513/src/gradlew
+2018-04-05 23:56:35,735 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1513/src/app/build.gradle /tmp/rdisk/1513/src/library/build.gradle /tmp/rdisk/1513/src/build.gradle
+2018-04-05 23:56:35,738 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1513/src/settings.gradle /tmp/rdisk/1513/src/library/build.gradle /tmp/rdisk/1513/src/build.gradle /tmp/rdisk/1513/src/app/build.gradle
+2018-04-05 23:56:35,738 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 23:56:35,738 INFO  ProjectFixService - Fixing project...
+2018-04-05 23:56:35,745 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1513/src/app/local.properties
+2018-04-05 23:56:35,745 INFO  ProjectFixService - Build info for "/tmp/rdisk/1513/src/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=16,targetSdkVersion=21]
+2018-04-05 23:56:35,745 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1513/src/library/local.properties
+2018-04-05 23:56:35,746 INFO  ProjectFixService - Build info for "/tmp/rdisk/1513/src/library/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-05 23:56:35,746 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1513/src/local.properties
+2018-04-05 23:56:35,746 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 23:56:35,746 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 23:56:35,747 INFO  ProjectFixService - Build info for "/tmp/rdisk/1513/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-05 23:56:35,747 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 23:56:35,747 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 23:56:35,747 INFO  SysUtils - Execute command: [/tmp/rdisk/1513/src/gradlew, -b, /tmp/rdisk/1513/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 23:56:43,721 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 23:56:43,721 INFO  ProjectTaskService - Excluded tasks (7): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll check connectedAndroidTest
+2018-04-05 23:56:43,721 INFO  SysUtils - Execute command: [/tmp/rdisk/1513/src/gradlew, -b, /tmp/rdisk/1513/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, build]
+2018-04-05 23:57:09,603 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild
+:app:compilePlayDebugNdk
+:app:prePlayDebugBuild
+:app:checkPlayDebugManifest
+:app:prePlayReleaseBuild
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:preDebugBuild
+:library:preDebugTestBuild
+:library:prepareComAndroidSupportAppcompatV72103Library
+:library:prepareComAndroidSupportSupportV42103Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72103Library
+:app:prepareComAndroidSupportSupportV42103Library
+:app:prepareSrcLibraryUnspecifiedLibrary
+:app:preparePlayDebugDependencies
+:app:compilePlayDebugAidl
+:app:compilePlayDebugRenderscript
+:app:generatePlayDebugBuildConfig
+:app:generatePlayDebugAssets UP-TO-DATE
+:app:mergePlayDebugAssets
+:app:generatePlayDebugResValues
+:app:generatePlayDebugResources
+:app:mergePlayDebugResources/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/src/main/res/drawable-hdpi/goku.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processPlayDebugManifest
+:app:processPlayDebugResources
+:app:generatePlayDebugSources
+:app:compilePlayDebugJava
+:app:preDexPlayDebug
+:app:dexPlayDebug
+:app:processPlayDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packagePlayDebug
+:app:zipalignPlayDebug
+:app:assemblePlayDebug
+:app:assembleDebug
+:app:checkPlayReleaseManifest
+:app:preparePlayReleaseDependencies
+:app:compilePlayReleaseAidl
+:app:compilePlayReleaseRenderscript
+:app:generatePlayReleaseBuildConfig
+:app:generatePlayReleaseAssets UP-TO-DATE
+:app:mergePlayReleaseAssets
+:app:generatePlayReleaseResValues
+:app:generatePlayReleaseResources
+:app:mergePlayReleaseResources/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/src/main/res/drawable-hdpi/goku.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1513/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:app:processPlayReleaseManifest
+:app:processPlayReleaseResources
+:app:generatePlayReleaseSources
+:app:compilePlayReleaseJava
+:app:lintVitalPlayRelease
+:app:compilePlayReleaseNdk
+:app:preDexPlayRelease
+:app:dexPlayRelease
+:app:processPlayReleaseJavaRes UP-TO-DATE
+:app:packagePlayRelease
+:app:assemblePlayRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.136 secs
+
+2018-04-05 23:57:09,656 INFO  FullProcessService - Found APK file: /tmp/rdisk/1513/src/app/build/outputs/apk/app-play-release-unsigned.apk

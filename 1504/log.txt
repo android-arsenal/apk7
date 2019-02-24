@@ -1,0 +1,195 @@
+2018-04-06 00:24:11,971 INFO  DownloadService - Downloading "https://github.com/jjobes/SlideDayTimePicker/archive/master.zip", attempt 3
+2018-04-06 00:25:12,435 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-06 00:25:13,109 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-06 00:25:13,109 INFO  DownloadService - Downloading "https://github.com/jjobes/SlideDayTimePicker/archive/master.zip", attempt 3
+2018-04-06 00:26:14,482 DEBUG FullProcessService - Repository https://github.com/jjobes/SlideDayTimePicker available: true
+2018-04-06 00:26:14,482 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-06 00:26:14,482 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jjobes/SlideDayTimePicker, /tmp/rdisk/1504/src]
+2018-04-06 00:26:15,998 INFO  SysUtils - 
+2018-04-06 00:26:16,011 INFO  GitService - Deleted "/tmp/rdisk/1504/src/.git": true
+2018-04-06 00:26:16,013 INFO  FullProcessService - Size of directory with sources: 230 KB
+2018-04-06 00:26:16,013 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1504/src]
+2018-04-06 00:26:16,017 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1504/src/.git/
+
+2018-04-06 00:26:16,020 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1504/src/gradlew
+2018-04-06 00:26:16,022 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1504/src/slideDayTimePicker/build.gradle /tmp/rdisk/1504/src/slideDayTimePickerSample/build.gradle /tmp/rdisk/1504/src/build.gradle
+2018-04-06 00:26:16,024 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1504/src/slideDayTimePickerSample/build.gradle /tmp/rdisk/1504/src/slideDayTimePicker/build.gradle /tmp/rdisk/1504/src/settings.gradle /tmp/rdisk/1504/src/build.gradle
+2018-04-06 00:26:16,025 INFO  ProjectBuildService - Remote scripts: none
+2018-04-06 00:26:16,025 INFO  ProjectFixService - Fixing project...
+2018-04-06 00:26:16,030 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1504/src/slideDayTimePicker/local.properties
+2018-04-06 00:26:16,030 INFO  ProjectFixService - Build info for "/tmp/rdisk/1504/src/slideDayTimePicker/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-06 00:26:16,030 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1504/src/slideDayTimePickerSample/local.properties
+2018-04-06 00:26:16,031 INFO  ProjectFixService - Build info for "/tmp/rdisk/1504/src/slideDayTimePickerSample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-06 00:26:16,031 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1504/src/local.properties
+2018-04-06 00:26:16,031 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-06 00:26:16,031 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-06 00:26:16,032 INFO  ProjectFixService - Build info for "/tmp/rdisk/1504/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-06 00:26:16,032 INFO  ProjectFixService - Project was maybe fixed
+2018-04-06 00:26:16,032 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:26:16,032 INFO  SysUtils - Execute command: [/tmp/rdisk/1504/src/gradlew, -b, /tmp/rdisk/1504/src/slideDayTimePicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:26:23,800 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-06 00:26:23,800 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-06 00:26:23,801 INFO  SysUtils - Execute command: [/tmp/rdisk/1504/src/gradlew, -b, /tmp/rdisk/1504/src/slideDayTimePicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-06 00:26:31,978 INFO  SysUtils - Configuration on demand is an incubating feature.
+:slideDayTimePicker:compileLint
+:slideDayTimePicker:copyDebugLint UP-TO-DATE
+:slideDayTimePicker:preBuild
+:slideDayTimePicker:preDebugBuild
+:slideDayTimePicker:checkDebugManifest
+:slideDayTimePicker:preDebugTestBuild
+:slideDayTimePicker:preReleaseBuild
+:slideDayTimePicker:prepareComAndroidSupportSupportV42311Library
+:slideDayTimePicker:prepareDebugDependencies
+:slideDayTimePicker:compileDebugAidl
+:slideDayTimePicker:compileDebugRenderscript
+:slideDayTimePicker:generateDebugBuildConfig
+:slideDayTimePicker:generateDebugAssets UP-TO-DATE
+:slideDayTimePicker:mergeDebugAssets
+:slideDayTimePicker:generateDebugResValues
+:slideDayTimePicker:generateDebugResources
+:slideDayTimePicker:mergeDebugResources
+:slideDayTimePicker:processDebugManifest
+:slideDayTimePicker:processDebugResources
+:slideDayTimePicker:generateDebugSources
+:slideDayTimePicker:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slideDayTimePicker:extractDebugAnnotations
+:slideDayTimePicker:mergeDebugProguardFiles
+:slideDayTimePicker:processDebugJavaRes UP-TO-DATE
+:slideDayTimePicker:packageDebugJar
+:slideDayTimePicker:compileDebugNdk
+:slideDayTimePicker:packageDebugJniLibs UP-TO-DATE
+:slideDayTimePicker:packageDebugLocalJar UP-TO-DATE
+:slideDayTimePicker:packageDebugRenderscript UP-TO-DATE
+:slideDayTimePicker:packageDebugResources
+:slideDayTimePicker:bundleDebug
+:slideDayTimePicker:assembleDebug
+:slideDayTimePicker:copyReleaseLint UP-TO-DATE
+:slideDayTimePicker:checkReleaseManifest
+:slideDayTimePicker:prepareReleaseDependencies
+:slideDayTimePicker:compileReleaseAidl
+:slideDayTimePicker:compileReleaseRenderscript
+:slideDayTimePicker:generateReleaseBuildConfig
+:slideDayTimePicker:generateReleaseAssets UP-TO-DATE
+:slideDayTimePicker:mergeReleaseAssets
+:slideDayTimePicker:generateReleaseResValues
+:slideDayTimePicker:generateReleaseResources
+:slideDayTimePicker:mergeReleaseResources
+:slideDayTimePicker:processReleaseManifest
+:slideDayTimePicker:processReleaseResources
+:slideDayTimePicker:generateReleaseSources
+:slideDayTimePicker:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slideDayTimePicker:extractReleaseAnnotations
+:slideDayTimePicker:mergeReleaseProguardFiles
+:slideDayTimePicker:processReleaseJavaRes UP-TO-DATE
+:slideDayTimePicker:packageReleaseJar
+:slideDayTimePicker:compileReleaseNdk
+:slideDayTimePicker:packageReleaseJniLibs UP-TO-DATE
+:slideDayTimePicker:packageReleaseLocalJar UP-TO-DATE
+:slideDayTimePicker:packageReleaseRenderscript UP-TO-DATE
+:slideDayTimePicker:packageReleaseResources
+:slideDayTimePicker:bundleRelease
+:slideDayTimePicker:assembleRelease
+:slideDayTimePicker:assemble
+:slideDayTimePicker:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.74 secs
+
+2018-04-06 00:26:31,989 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:26:31,989 INFO  SysUtils - Execute command: [/tmp/rdisk/1504/src/gradlew, -b, /tmp/rdisk/1504/src/slideDayTimePickerSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:26:38,026 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-06 00:26:38,026 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-06 00:26:38,026 INFO  SysUtils - Execute command: [/tmp/rdisk/1504/src/gradlew, -b, /tmp/rdisk/1504/src/slideDayTimePickerSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-06 00:26:55,207 INFO  SysUtils - Configuration on demand is an incubating feature.
+:slideDayTimePickerSample:preBuild
+:slideDayTimePickerSample:compileDebugNdk
+:slideDayTimePicker:compileLint
+:slideDayTimePicker:copyReleaseLint UP-TO-DATE
+:slideDayTimePicker:preBuild
+:slideDayTimePicker:preReleaseBuild
+:slideDayTimePicker:checkReleaseManifest
+:slideDayTimePicker:preDebugBuild
+:slideDayTimePicker:preDebugTestBuild
+:slideDayTimePicker:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:slideDayTimePicker:prepareReleaseDependencies
+:slideDayTimePicker:compileReleaseAidl UP-TO-DATE
+:slideDayTimePicker:compileReleaseRenderscript UP-TO-DATE
+:slideDayTimePicker:generateReleaseBuildConfig UP-TO-DATE
+:slideDayTimePicker:generateReleaseAssets UP-TO-DATE
+:slideDayTimePicker:mergeReleaseAssets UP-TO-DATE
+:slideDayTimePicker:generateReleaseResValues UP-TO-DATE
+:slideDayTimePicker:generateReleaseResources UP-TO-DATE
+:slideDayTimePicker:mergeReleaseResources UP-TO-DATE
+:slideDayTimePicker:processReleaseManifest UP-TO-DATE
+:slideDayTimePicker:processReleaseResources UP-TO-DATE
+:slideDayTimePicker:generateReleaseSources UP-TO-DATE
+:slideDayTimePicker:compileReleaseJava UP-TO-DATE
+:slideDayTimePicker:extractReleaseAnnotations UP-TO-DATE
+:slideDayTimePicker:mergeReleaseProguardFiles UP-TO-DATE
+:slideDayTimePicker:processReleaseJavaRes UP-TO-DATE
+:slideDayTimePicker:packageReleaseJar UP-TO-DATE
+:slideDayTimePicker:compileReleaseNdk UP-TO-DATE
+:slideDayTimePicker:packageReleaseJniLibs UP-TO-DATE
+:slideDayTimePicker:packageReleaseLocalJar UP-TO-DATE
+:slideDayTimePicker:packageReleaseRenderscript UP-TO-DATE
+:slideDayTimePicker:packageReleaseResources UP-TO-DATE
+:slideDayTimePicker:bundleRelease UP-TO-DATE
+:slideDayTimePickerSample:preDebugBuild
+:slideDayTimePickerSample:checkDebugManifest
+:slideDayTimePickerSample:preReleaseBuild
+:slideDayTimePickerSample:prepareComAndroidSupportSupportV42311Library
+:slideDayTimePickerSample:prepareSrcSlideDayTimePickerUnspecifiedLibrary
+:slideDayTimePickerSample:prepareDebugDependencies
+:slideDayTimePickerSample:compileDebugAidl
+:slideDayTimePickerSample:compileDebugRenderscript
+:slideDayTimePickerSample:generateDebugBuildConfig
+:slideDayTimePickerSample:generateDebugAssets UP-TO-DATE
+:slideDayTimePickerSample:mergeDebugAssets
+:slideDayTimePickerSample:generateDebugResValues
+:slideDayTimePickerSample:generateDebugResources
+:slideDayTimePickerSample:mergeDebugResources
+:slideDayTimePickerSample:processDebugManifest
+:slideDayTimePickerSample:processDebugResources
+:slideDayTimePickerSample:generateDebugSources
+:slideDayTimePickerSample:compileDebugJava
+:slideDayTimePickerSample:preDexDebug
+:slideDayTimePickerSample:dexDebug
+:slideDayTimePickerSample:processDebugJavaRes UP-TO-DATE
+:slideDayTimePickerSample:validateDebugSigning
+:slideDayTimePickerSample:packageDebug
+:slideDayTimePickerSample:zipalignDebug
+:slideDayTimePickerSample:assembleDebug
+:slideDayTimePickerSample:checkReleaseManifest
+:slideDayTimePickerSample:prepareReleaseDependencies
+:slideDayTimePickerSample:compileReleaseAidl
+:slideDayTimePickerSample:compileReleaseRenderscript
+:slideDayTimePickerSample:generateReleaseBuildConfig
+:slideDayTimePickerSample:generateReleaseAssets UP-TO-DATE
+:slideDayTimePickerSample:mergeReleaseAssets
+:slideDayTimePickerSample:generateReleaseResValues
+:slideDayTimePickerSample:generateReleaseResources
+:slideDayTimePickerSample:mergeReleaseResources
+:slideDayTimePickerSample:processReleaseManifest
+:slideDayTimePickerSample:processReleaseResources
+:slideDayTimePickerSample:generateReleaseSources
+:slideDayTimePickerSample:compileReleaseJava
+:slideDayTimePickerSample:lintVitalRelease
+:slideDayTimePickerSample:compileReleaseNdk
+:slideDayTimePickerSample:preDexRelease
+:slideDayTimePickerSample:dexRelease
+:slideDayTimePickerSample:processReleaseJavaRes UP-TO-DATE
+:slideDayTimePickerSample:packageRelease
+:slideDayTimePickerSample:assembleRelease
+:slideDayTimePickerSample:assemble
+:slideDayTimePickerSample:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.751 secs
+
+2018-04-06 00:26:55,226 INFO  FullProcessService - Found APK file: /tmp/rdisk/1504/src/slideDayTimePickerSample/build/outputs/apk/slideDayTimePickerSample-release-unsigned.apk

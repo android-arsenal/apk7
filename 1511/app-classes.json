@@ -1,0 +1,11 @@
+{
+  "com.m039.beacon.keeper" : [ "C", "L", "U", "U$BLE", "U$IBeacon", "U$Service", "U$SharedPreferences" ],
+  "com.m039.beacon.keeper.activity" : [ "MainActivity" ],
+  "com.m039.beacon.keeper.app" : [ "MainApplication" ],
+  "com.m039.beacon.keeper.background_sample" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$integer", "R$layout", "R$string" ],
+  "com.m039.beacon.keeper.content" : [ "BeaconEntity", "BeaconEntity$1", "BeaconFactory", "IBeacon", "IBeacon$1" ],
+  "com.m039.beacon.keeper.library" : [ "BuildConfig", "R", "R$integer", "R$string" ],
+  "com.m039.beacon.keeper.receiver" : [ "BeaconReceiver", "MainReceiver" ],
+  "com.m039.beacon.keeper.service" : [ "BeaconService", "BeaconService$1", "BeaconService$2", "BeaconService$3", "BeaconService$4", "BeaconService$5" ],
+  "com.m039.beacon.keeper.util" : [ "OnEnableBluetoothCallback", "SimpleLeScanner", "SimpleLeScanner$LeScanCallback" ]
+}

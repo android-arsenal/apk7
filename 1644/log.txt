@@ -1,0 +1,668 @@
+2018-04-05 19:46:50,724 INFO  DownloadService - Downloading "https://github.com/denley/courier/archive/master.zip", attempt 3
+2018-04-05 19:46:51,687 INFO  DownloadService - Downloaded https://github.com/denley/courier/archive/master.zip, attempt 3
+2018-04-05 19:46:51,687 INFO  DownloadService - Size of file "/tmp/rdisk/1644/master.zip": 211 KB
+2018-04-05 19:46:51,687 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:46:51,687 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1644/master.zip: true
+2018-04-05 19:46:51,687 DEBUG ZipUtil - Extracting '/tmp/rdisk/1644/master.zip' into '/tmp/rdisk/1644/src'.
+2018-04-05 19:46:51,702 INFO  FullProcessService - Size of directory with sources: 322 KB
+2018-04-05 19:46:51,702 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1644/src]
+2018-04-05 19:46:51,706 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1644/src/.git/
+
+2018-04-05 19:46:51,710 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1644/src/courier-master/gradlew
+2018-04-05 19:46:51,714 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1644/src/courier-master/courier-api/build.gradle /tmp/rdisk/1644/src/courier-master/sample-handheld/build.gradle /tmp/rdisk/1644/src/courier-master/sample-wearable/build.gradle /tmp/rdisk/1644/src/courier-master/build.gradle /tmp/rdisk/1644/src/courier-master/courier-annotations/build.gradle /tmp/rdisk/1644/src/courier-master/courier-compiler/build.gradle
+2018-04-05 19:46:51,717 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1644/src/courier-master/settings.gradle /tmp/rdisk/1644/src/courier-master/sample-wearable/build.gradle /tmp/rdisk/1644/src/courier-master/sample-handheld/build.gradle /tmp/rdisk/1644/src/courier-master/courier-compiler/release.gradle /tmp/rdisk/1644/src/courier-master/courier-compiler/build.gradle /tmp/rdisk/1644/src/courier-master/courier-api/build.gradle /tmp/rdisk/1644/src/courier-master/courier-api/android-release-aar.gradle /tmp/rdisk/1644/src/courier-master/courier-annotations/build.gradle /tmp/rdisk/1644/src/courier-master/build.gradle
+2018-04-05 19:46:51,718 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:46:51,718 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:46:51,726 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1644/src/courier-master/courier-api/local.properties
+2018-04-05 19:46:51,726 INFO  ProjectFixService - Build info for "/tmp/rdisk/1644/src/courier-master/courier-api/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-04-05 19:46:51,727 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1644/src/courier-master/sample-handheld/local.properties
+2018-04-05 19:46:51,727 INFO  ProjectFixService - Build info for "/tmp/rdisk/1644/src/courier-master/sample-handheld/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2018-04-05 19:46:51,727 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1644/src/courier-master/sample-wearable/local.properties
+2018-04-05 19:46:51,727 INFO  ProjectFixService - Build info for "/tmp/rdisk/1644/src/courier-master/sample-wearable/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:46:51,727 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1644/src/courier-master/local.properties
+2018-04-05 19:46:51,728 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:46:51,728 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:46:51,729 INFO  ProjectFixService - Build info for "/tmp/rdisk/1644/src/courier-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:46:51,729 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1644/src/courier-master/courier-annotations/local.properties
+2018-04-05 19:46:51,730 INFO  ProjectFixService - Build info for "/tmp/rdisk/1644/src/courier-master/courier-annotations/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:46:51,730 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1644/src/courier-master/courier-compiler/local.properties
+2018-04-05 19:46:51,731 INFO  ProjectFixService - Build info for "/tmp/rdisk/1644/src/courier-master/courier-compiler/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 19:46:51,731 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:46:51,731 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:46:51,731 INFO  SysUtils - Execute command: [/tmp/rdisk/1644/src/courier-master/gradlew, -b, /tmp/rdisk/1644/src/courier-master/courier-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:47:07,811 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 19:47:07,812 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 19:47:07,812 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 19:47:07,812 INFO  SysUtils - Execute command: [/tmp/rdisk/1644/src/courier-master/gradlew, -b, /tmp/rdisk/1644/src/courier-master/courier-api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 19:47:29,207 INFO  SysUtils - Configuration on demand is an incubating feature.
+:courier-api:androidJavadocs/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:7: error: package com.google.android.gms.common does not exist
+import com.google.android.gms.common.ConnectionResult;
+                                    ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:8: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:9: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataApi;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:10: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageApi;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:11: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.NodeApi;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:12: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Wearable;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:29: error: cannot find symbol
+    @Nullable public static GoogleApiClient googleApiClient = null;
+                            ^
+  symbol:   class GoogleApiClient
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:32: error: cannot find symbol
+    @NonNull static DataApi DataApi = Wearable.DataApi;
+                    ^
+  symbol:   class DataApi
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:35: error: cannot find symbol
+    @NonNull static MessageApi MessageApi = Wearable.MessageApi;
+                    ^
+  symbol:   class MessageApi
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:38: error: cannot find symbol
+    @NonNull static NodeApi NodeApi = Wearable.NodeApi;
+                    ^
+  symbol:   class NodeApi
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:41: error: cannot find symbol
+    @NonNull public static DataApi getDataApi() {
+                           ^
+  symbol:   class DataApi
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:46: error: cannot find symbol
+    @NonNull public static MessageApi getMessageApi() {
+                           ^
+  symbol:   class MessageApi
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:51: error: cannot find symbol
+    @NonNull public static NodeApi getNodeApi() {
+                           ^
+  symbol:   class NodeApi
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:97: error: cannot find symbol
+        public void run(GoogleApiClient apiClient);
+                        ^
+  symbol:   class GoogleApiClient
+  location: interface WearableApiRunnable
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:5: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataItem;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:6: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataMap;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:7: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataMapItem;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:8: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.PutDataMapRequest;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:9: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.PutDataRequest;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:57: error: cannot find symbol
+    public static PutDataRequest pack(String path, Object data) {
+                  ^
+  symbol:   class PutDataRequest
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:85: error: cannot find symbol
+    public static ArrayList<DataMap> pack(ArrayList<?> deliverables) {
+                            ^
+  symbol:   class DataMap
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:136: error: cannot find symbol
+    public static DataMap pack(Object deliverable) {
+                  ^
+  symbol:   class DataMap
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:221: error: cannot find symbol
+    public static <T> ArrayList<T> unpack(Context context, ArrayList<DataMap> maps, Class<T> targetClass) {
+                                                                     ^
+  symbol:   class DataMap
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:257: error: cannot find symbol
+    public static <T> T unpack(Context context, DataItem data, Class<T> targetClass) {
+                                                ^
+  symbol:   class DataItem
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:307: error: cannot find symbol
+    public static <T> T unpack(Context context, DataMap map, Class<T> targetClass) {
+                                                ^
+  symbol:   class DataMap
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:339: error: cannot find symbol
+    public static <T> T unpack(DataItem data, Class<T> targetClass) {
+                               ^
+  symbol:   class DataItem
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:380: error: cannot find symbol
+    public static <T> T unpack(DataMap map, Class<T> targetClass) {
+                               ^
+  symbol:   class DataMap
+  location: class Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:33: error: cannot find symbol
+        public DataMap pack(T target);
+               ^
+  symbol:   class DataMap
+  location: interface DataPackager<T>
+  where T is a type-variable:
+    T extends Object declared in interface DataPackager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:34: error: cannot find symbol
+        public void pack(T target, DataMap map);
+                                   ^
+  symbol:   class DataMap
+  location: interface DataPackager<T>
+  where T is a type-variable:
+    T extends Object declared in interface DataPackager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:35: error: cannot find symbol
+        public T unpack(Context context, DataMap map);
+                                         ^
+  symbol:   class DataMap
+  location: interface DataPackager<T>
+  where T is a type-variable:
+    T extends Object declared in interface DataPackager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:11: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:12: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:15: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:16: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Asset;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:17: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataApi;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:18: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageApi;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:19: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Node;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:20: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.NodeApi;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:21: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.PutDataRequest;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:22: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Wearable;
+                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:181: error: cannot find symbol
+    @Nullable public static Node getLocalNode(final Context context) {
+                            ^
+  symbol:   class Node
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:206: error: cannot find symbol
+    @Nullable public static InputStream getAssetInputStream(final Context context, final Asset asset) {
+                                                                                         ^
+  symbol:   class Asset
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:251: error: cannot find symbol
+    public static void startReceiving(final Fragment target) {
+                                            ^
+  symbol:   class Fragment
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:342: error: cannot find symbol
+    public static void attachMockDataApi(@Nullable final DataApi mockDataApi) {
+                                                         ^
+  symbol:   class DataApi
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:355: error: cannot find symbol
+    public static void attachMockMessageApi(@Nullable final MessageApi mockMessageApi) {
+                                                            ^
+  symbol:   class MessageApi
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:368: error: cannot find symbol
+    public static void attachMockNodeApi(@Nullable final NodeApi mockNodeApi) {
+                                                         ^
+  symbol:   class NodeApi
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:29: error: cannot find symbol
+    @Nullable public static GoogleApiClient googleApiClient = null;
+     ^
+  symbol:   class Nullable
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:32: error: cannot find symbol
+    @NonNull static DataApi DataApi = Wearable.DataApi;
+     ^
+  symbol:   class NonNull
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:35: error: cannot find symbol
+    @NonNull static MessageApi MessageApi = Wearable.MessageApi;
+     ^
+  symbol:   class NonNull
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:38: error: cannot find symbol
+    @NonNull static NodeApi NodeApi = Wearable.NodeApi;
+     ^
+  symbol:   class NonNull
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:41: error: cannot find symbol
+    @NonNull public static DataApi getDataApi() {
+     ^
+  symbol:   class NonNull
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:46: error: cannot find symbol
+    @NonNull public static MessageApi getMessageApi() {
+     ^
+  symbol:   class NonNull
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:51: error: cannot find symbol
+    @NonNull public static NodeApi getNodeApi() {
+     ^
+  symbol:   class NonNull
+  location: class WearableApis
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:181: error: cannot find symbol
+    @Nullable public static Node getLocalNode(final Context context) {
+     ^
+  symbol:   class Nullable
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:206: error: cannot find symbol
+    @Nullable public static InputStream getAssetInputStream(final Context context, final Asset asset) {
+     ^
+  symbol:   class Nullable
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:342: error: cannot find symbol
+    public static void attachMockDataApi(@Nullable final DataApi mockDataApi) {
+                                          ^
+  symbol:   class Nullable
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:355: error: cannot find symbol
+    public static void attachMockMessageApi(@Nullable final MessageApi mockMessageApi) {
+                                             ^
+  symbol:   class Nullable
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:368: error: cannot find symbol
+    public static void attachMockNodeApi(@Nullable final NodeApi mockNodeApi) {
+                                          ^
+  symbol:   class Nullable
+  location: class Courier
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:230: warning: no @param for <T>
+    public static <T> void startReceiving(final Context context, final T target) {
+                           ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Courier.java:303: warning: no @param for <T>
+    public static <T> void stopReceiving(final T target) {
+                           ^
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:45: error: reference not found
+     * the {@link Deliverable} annotation.
+                  ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:47: error: reference not found
+     * If that fails (e.g. if the object's class was not annotated with {@link Deliverable}),
+                                                                               ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:77: error: reference not found
+     * the {@link Deliverable} annotation.
+                  ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:81: error: @param name not found
+     * @param deliverablse  The objectn to serialize into DataMaps.
+              ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:85: warning: no @param for deliverables
+    public static ArrayList<DataMap> pack(ArrayList<?> deliverables) {
+                                     ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:102: error: reference not found
+     * the {@link Deliverable} annotation (and then converted to a byte array from the DataMap).
+                  ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:104: error: reference not found
+     * If that fails (e.g. if the object's class was not annotated with {@link Deliverable}),
+                                                                               ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:127: error: reference not found
+     * the {@link Deliverable} annotation.
+                  ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:191: warning: no @param for <T>
+    public static <T> T unpackSerializable(byte[] data) {
+                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:212: error: reference not found
+     * This method will attempt to use generated code from the {@link Deliverable}
+                                                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:221: warning: no @param for <T>
+    public static <T> ArrayList<T> unpack(Context context, ArrayList<DataMap> maps, Class<T> targetClass) {
+                                   ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:247: error: reference not found
+     * the {@link Deliverable} annotation to convert it to an object of the given class.
+                  ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:257: warning: no @param for <T>
+    public static <T> T unpack(Context context, DataItem data, Class<T> targetClass) {
+                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:298: error: reference not found
+     * This method will attempt to use generated code from the {@link Deliverable}
+                                                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:307: warning: no @param for <T>
+    public static <T> T unpack(Context context, DataMap map, Class<T> targetClass) {
+                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:328: error: reference not found
+     * the {@link Deliverable} annotation to convert it to an object of the given class.
+                  ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:336: error: reference not found
+     * @deprecated Use {@link #unpack(android.content.Context, com.google.android.gms.wearable.DataItem, Class)} instead to allow automatic Asset loading.
+                              ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:339: warning: no @param for <T>
+    public static <T> T unpack(DataItem data, Class<T> targetClass) {
+                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:371: error: reference not found
+     * This method will attempt to use generated code from the {@link Deliverable}
+                                                                      ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:377: error: reference not found
+     * @deprecated Use {@link #unpack(android.content.Context, com.google.android.gms.wearable.DataMap, Class)} instead to allow automatic Asset loading.
+                              ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:380: warning: no @param for <T>
+    public static <T> T unpack(DataMap map, Class<T> targetClass) {
+                        ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:339: warning - Tag @link: can't find unpack(android.content.Context, com.google.android.gms.wearable.DataItem, Class) in me.denley.courier.Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/Packager.java:380: warning - Tag @link: can't find unpack(android.content.Context, com.google.android.gms.wearable.DataMap, Class) in me.denley.courier.Packager
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:56: warning: no @return
+    public static boolean hasMockDataApi() {
+                          ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:61: warning: no @return
+    public static boolean hasMockMessageApi() {
+                          ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:66: warning: no @return
+    public static boolean hasMockNodeApi() {
+                          ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:71: warning: no @return
+    public static boolean hasAllMockApis() {
+                          ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:101: warning: no @param for context
+    public static void makeWearableApiCall(final Context context, final int apis, final WearableApiRunnable task) {
+                       ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:101: warning: no @param for apis
+    public static void makeWearableApiCall(final Context context, final int apis, final WearableApiRunnable task) {
+                       ^
+/tmp/rdisk/1644/src/courier-master/courier-api/src/main/java/me/denley/courier/WearableApis.java:101: warning: no @param for task
+    public static void makeWearableApiCall(final Context context, final int apis, final WearableApiRunnable task) {
+                       ^
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+
+14 errors
+100 warnings
+:courier-api:androidJavadocsJar
+:courier-api:androidSourcesJar
+:courier-api:compileLint
+:courier-api:copyDebugLint UP-TO-DATE
+:courier-api:preBuild UP-TO-DATE
+:courier-api:preDebugBuild UP-TO-DATE
+:courier-api:checkDebugManifest
+:courier-api:preDebugAndroidTestBuild UP-TO-DATE
+:courier-api:preDebugUnitTestBuild UP-TO-DATE
+:courier-api:preReleaseBuild UP-TO-DATE
+:courier-api:preReleaseUnitTestBuild UP-TO-DATE
+:courier-api:prepareComAndroidSupportSupportV42220Library
+:courier-api:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:courier-api:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:courier-api:prepareComGoogleAndroidGmsPlayServicesWearable810Library
+:courier-api:prepareDebugDependencies
+:courier-api:compileDebugAidl
+:courier-api:compileDebugRenderscript
+:courier-api:generateDebugBuildConfig
+:courier-api:generateDebugAssets UP-TO-DATE
+:courier-api:mergeDebugAssets
+:courier-api:generateDebugResValues
+:courier-api:generateDebugResources
+:courier-api:mergeDebugResources
+:courier-api:processDebugManifest
+:courier-api:processDebugResources
+:courier-api:generateDebugSources
+:courier-api:processDebugJavaRes UP-TO-DATE
+:courier-api:compileDebugJavaWithJavac
+:courier-api:extractDebugAnnotations
+:courier-api:mergeDebugProguardFiles
+:courier-api:packageDebugJar
+:courier-api:compileDebugNdk UP-TO-DATE
+:courier-api:packageDebugJniLibs UP-TO-DATE
+:courier-api:packageDebugLocalJar UP-TO-DATE
+:courier-api:packageDebugRenderscript UP-TO-DATE
+:courier-api:packageDebugResources
+:courier-api:bundleDebug
+:courier-api:compileDebugSources
+:courier-api:assembleDebug
+:courier-api:copyReleaseLint UP-TO-DATE
+:courier-api:checkReleaseManifest
+:courier-api:prepareReleaseDependencies
+:courier-api:compileReleaseAidl
+:courier-api:compileReleaseRenderscript
+:courier-api:generateReleaseBuildConfig
+:courier-api:generateReleaseAssets UP-TO-DATE
+:courier-api:mergeReleaseAssets
+:courier-api:generateReleaseResValues
+:courier-api:generateReleaseResources
+:courier-api:mergeReleaseResources
+:courier-api:processReleaseManifest
+:courier-api:processReleaseResources
+:courier-api:generateReleaseSources
+:courier-api:processReleaseJavaRes UP-TO-DATE
+:courier-api:compileReleaseJavaWithJavac
+:courier-api:extractReleaseAnnotations
+:courier-api:mergeReleaseProguardFiles
+:courier-api:packageReleaseJar
+:courier-api:compileReleaseNdk UP-TO-DATE
+:courier-api:packageReleaseJniLibs UP-TO-DATE
+:courier-api:packageReleaseLocalJar UP-TO-DATE
+:courier-api:packageReleaseRenderscript UP-TO-DATE
+:courier-api:packageReleaseResources
+:courier-api:bundleRelease
+:courier-api:compileReleaseSources
+:courier-api:assembleRelease
+:courier-api:assemble
+:courier-api:lint
+Ran lint on variant release: 5 issues found
+Ran lint on variant debug: 5 issues found
+Wrote HTML report to file:/tmp/rdisk/1644/src/courier-master/courier-api/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1644/src/courier-master/courier-api/build/outputs/lint-results.xml
+:courier-api:prepareDebugUnitTestDependencies
+:courier-api:processDebugUnitTestJavaRes UP-TO-DATE
+:courier-api:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:courier-api:compileDebugUnitTestSources UP-TO-DATE
+:courier-api:mockableAndroidJar
+:courier-api:assembleDebugUnitTest
+:courier-api:testDebugUnitTest
+:courier-api:prepareReleaseUnitTestDependencies
+:courier-api:processReleaseUnitTestJavaRes UP-TO-DATE
+:courier-api:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:courier-api:compileReleaseUnitTestSources UP-TO-DATE
+:courier-api:assembleReleaseUnitTest
+:courier-api:testReleaseUnitTest
+:courier-api:test
+:courier-api:check
+:courier-api:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.976 secs
+
+2018-04-05 19:47:29,237 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:47:29,237 INFO  SysUtils - Execute command: [/tmp/rdisk/1644/src/courier-master/gradlew, -b, /tmp/rdisk/1644/src/courier-master/sample-handheld/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:47:36,382 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-05 19:47:36,383 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:47:36,383 INFO  SysUtils - Execute command: [/tmp/rdisk/1644/src/courier-master/gradlew, -b, /tmp/rdisk/1644/src/courier-master/sample-handheld/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:48:17,621 INFO  SysUtils - Configuration on demand is an incubating feature.
+:courier-api:compileLint
+:courier-api:copyReleaseLint UP-TO-DATE
+:courier-api:preBuild UP-TO-DATE
+:courier-api:preReleaseBuild UP-TO-DATE
+:courier-api:checkReleaseManifest
+:courier-api:preDebugAndroidTestBuild UP-TO-DATE
+:courier-api:preDebugBuild UP-TO-DATE
+:courier-api:preDebugUnitTestBuild UP-TO-DATE
+:courier-api:preReleaseUnitTestBuild UP-TO-DATE
+:courier-api:prepareComAndroidSupportSupportV42220Library UP-TO-DATE
+:courier-api:prepareComGoogleAndroidGmsPlayServicesBase810Library UP-TO-DATE
+:courier-api:prepareComGoogleAndroidGmsPlayServicesBasement810Library UP-TO-DATE
+:courier-api:prepareComGoogleAndroidGmsPlayServicesWearable810Library UP-TO-DATE
+:courier-api:prepareReleaseDependencies
+:courier-api:compileReleaseAidl UP-TO-DATE
+:courier-api:compileReleaseRenderscript UP-TO-DATE
+:courier-api:generateReleaseBuildConfig UP-TO-DATE
+:courier-api:generateReleaseAssets UP-TO-DATE
+:courier-api:mergeReleaseAssets UP-TO-DATE
+:courier-api:generateReleaseResValues UP-TO-DATE
+:courier-api:generateReleaseResources UP-TO-DATE
+:courier-api:mergeReleaseResources UP-TO-DATE
+:courier-api:processReleaseManifest UP-TO-DATE
+:courier-api:processReleaseResources UP-TO-DATE
+:courier-api:generateReleaseSources UP-TO-DATE
+:courier-api:processReleaseJavaRes UP-TO-DATE
+:courier-api:compileReleaseJavaWithJavac UP-TO-DATE
+:courier-api:extractReleaseAnnotations UP-TO-DATE
+:courier-api:mergeReleaseProguardFiles UP-TO-DATE
+:courier-api:packageReleaseJar UP-TO-DATE
+:courier-api:compileReleaseNdk UP-TO-DATE
+:courier-api:packageReleaseJniLibs UP-TO-DATE
+:courier-api:packageReleaseLocalJar UP-TO-DATE
+:courier-api:packageReleaseRenderscript UP-TO-DATE
+:courier-api:packageReleaseResources UP-TO-DATE
+:courier-api:bundleRelease UP-TO-DATE
+:courier-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:courier-compiler:processResources
+:courier-compiler:classes
+:courier-compiler:jar
+:sample-handheld:preBuild UP-TO-DATE
+:sample-handheld:preDebugBuild UP-TO-DATE
+:sample-handheld:checkDebugManifest
+:sample-handheld:preReleaseBuild UP-TO-DATE
+:sample-handheld:prepareComAndroidSupportAppcompatV72301Library
+:sample-handheld:prepareComAndroidSupportSupportV42301Library
+:sample-handheld:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:sample-handheld:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:sample-handheld:prepareComGoogleAndroidGmsPlayServicesWearable810Library
+:sample-handheld:prepareCourierMasterCourierApiUnspecifiedLibrary
+:sample-handheld:prepareDebugDependencies
+:sample-handheld:compileDebugAidl
+:sample-handheld:compileDebugRenderscript
+:sample-handheld:generateDebugBuildConfig
+:sample-handheld:generateDebugAssets UP-TO-DATE
+:sample-handheld:mergeDebugAssets
+:sample-handheld:generateDebugResValues
+:sample-handheld:generateDebugResources
+:sample-handheld:mergeDebugResources
+:sample-handheld:processDebugManifest
+:sample-handheld:processDebugResources
+:sample-handheld:generateDebugSources
+:sample-handheld:processDebugJavaRes UP-TO-DATE
+:sample-handheld:compileDebugJavaWithJavacwarning: No SupportedSourceVersion annotation found on me.denley.courier.compiler.DataMapProcessor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'me.denley.courier.compiler.DataMapProcessor' less than -source '1.7'
+warning: No SupportedSourceVersion annotation found on me.denley.courier.compiler.Processor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'me.denley.courier.compiler.Processor' less than -source '1.7'
+Note: /tmp/rdisk/1644/src/courier-master/sample-handheld/src/main/java/me/denley/courier/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+
+:sample-handheld:compileDebugNdk UP-TO-DATE
+:sample-handheld:compileDebugSources
+:sample-handheld:preDexDebug
+:sample-handheld:dexDebug
+:sample-handheld:validateDebugSigning
+:sample-handheld:packageDebug
+:sample-handheld:zipalignDebug
+:sample-handheld:assembleDebug
+:sample-handheld:checkReleaseManifest
+:sample-handheld:prepareReleaseDependencies
+:sample-handheld:compileReleaseAidl
+:sample-handheld:compileReleaseRenderscript
+:sample-handheld:generateReleaseBuildConfig
+:sample-handheld:generateReleaseAssets UP-TO-DATE
+:sample-handheld:mergeReleaseAssets
+:sample-handheld:generateReleaseResValues
+:sample-wearable:preBuild UP-TO-DATE
+:sample-wearable:preReleaseBuild UP-TO-DATE
+:sample-wearable:checkReleaseManifest
+:sample-wearable:preDebugBuild UP-TO-DATE
+:sample-wearable:prepareComAndroidSupportRecyclerviewV72200Library
+:sample-wearable:prepareComAndroidSupportSupportV42220Library
+:sample-wearable:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:sample-wearable:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:sample-wearable:prepareComGoogleAndroidGmsPlayServicesWearable810Library
+:sample-wearable:prepareComGoogleAndroidSupportWearable130Library
+:sample-wearable:prepareCourierMasterCourierApiUnspecifiedLibrary
+:sample-wearable:prepareReleaseDependencies
+:sample-wearable:compileReleaseAidl
+:sample-wearable:compileReleaseRenderscript
+:sample-wearable:generateReleaseBuildConfig
+:sample-wearable:generateReleaseAssets UP-TO-DATE
+:sample-wearable:mergeReleaseAssets
+:sample-wearable:generateReleaseResValues
+:sample-wearable:generateReleaseResources
+:sample-wearable:mergeReleaseResources
+:sample-wearable:processReleaseManifest
+:sample-wearable:processReleaseResources
+:sample-wearable:generateReleaseSources
+:sample-wearable:processReleaseJavaRes UP-TO-DATE
+:sample-wearable:compileReleaseJavaWithJavacwarning: No SupportedSourceVersion annotation found on me.denley.courier.compiler.DataMapProcessor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'me.denley.courier.compiler.DataMapProcessor' less than -source '1.7'
+warning: No SupportedSourceVersion annotation found on me.denley.courier.compiler.Processor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'me.denley.courier.compiler.Processor' less than -source '1.7'
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:sample-wearable:compileReleaseNdk UP-TO-DATE
+:sample-wearable:proguardRelease
+:sample-wearable:dexRelease
+:sample-wearable:packageRelease
+:sample-handheld:handleReleaseMicroApk
+:sample-handheld:generateReleaseResources
+:sample-handheld:mergeReleaseResources
+:sample-handheld:processReleaseManifest
+:sample-handheld:processReleaseResources
+:sample-handheld:generateReleaseSources
+:sample-handheld:processReleaseJavaRes UP-TO-DATE
+:sample-handheld:compileReleaseJavaWithJavacwarning: No SupportedSourceVersion annotation found on me.denley.courier.compiler.DataMapProcessor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'me.denley.courier.compiler.DataMapProcessor' less than -source '1.7'
+warning: No SupportedSourceVersion annotation found on me.denley.courier.compiler.Processor, returning RELEASE_6.
+warning: Supported source version 'RELEASE_6' from annotation processor 'me.denley.courier.compiler.Processor' less than -source '1.7'
+Note: /tmp/rdisk/1644/src/courier-master/sample-handheld/src/main/java/me/denley/courier/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+
+:sample-handheld:compileReleaseNdk UP-TO-DATE
+:sample-handheld:compileReleaseSources
+:sample-handheld:proguardRelease
+:sample-handheld:dexRelease
+:sample-handheld:packageRelease
+:sample-handheld:assembleRelease
+:sample-handheld:assemble
+:sample-handheld:build
+
+BUILD SUCCESSFUL
+
+Total time: 40.799 secs
+
+2018-04-05 19:48:17,713 INFO  FullProcessService - Found APK file: /tmp/rdisk/1644/src/courier-master/sample-wearable/build/outputs/apk/sample-wearable-release-unsigned.apk

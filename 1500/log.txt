@@ -1,0 +1,502 @@
+2018-04-06 00:35:43,443 INFO  DownloadService - Downloading "https://github.com/Almeros/android-gesture-detectors/archive/master.zip", attempt 3
+2018-04-06 00:36:43,876 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-06 00:36:44,571 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-06 00:36:44,571 INFO  DownloadService - Downloading "https://github.com/Almeros/android-gesture-detectors/archive/master.zip", attempt 3
+2018-04-06 00:37:46,959 DEBUG FullProcessService - Repository https://github.com/Almeros/android-gesture-detectors available: true
+2018-04-06 00:37:46,959 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-06 00:37:46,959 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Almeros/android-gesture-detectors, /tmp/rdisk/1500/src]
+2018-04-06 00:37:49,544 INFO  SysUtils - 
+2018-04-06 00:37:49,552 INFO  GitService - Deleted "/tmp/rdisk/1500/src/.git": true
+2018-04-06 00:37:49,553 INFO  FullProcessService - Size of directory with sources: 94 KB
+2018-04-06 00:37:49,553 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1500/src]
+2018-04-06 00:37:49,557 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1500/src/.git/
+
+2018-04-06 00:37:49,559 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1500/src/gradlew
+2018-04-06 00:37:49,560 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1500/src/library/build.gradle /tmp/rdisk/1500/src/build.gradle
+2018-04-06 00:37:49,561 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1500/src/settings.gradle /tmp/rdisk/1500/src/library/build.gradle /tmp/rdisk/1500/src/build.gradle
+2018-04-06 00:37:49,562 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-06 00:38:49,563 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-06 00:38:49,563 INFO  ProjectBuildService - Remote scripts: none
+2018-04-06 00:38:49,563 INFO  ProjectFixService - Fixing project...
+2018-04-06 00:38:49,567 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1500/src/library/local.properties
+2018-04-06 00:38:49,569 INFO  ProjectFixService - Build info for "/tmp/rdisk/1500/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-06 00:38:49,569 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1500/src/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-06 00:38:49,569 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1500/src/local.properties
+2018-04-06 00:38:49,569 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-06 00:38:49,570 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-06 00:38:49,570 INFO  ProjectFixService - Build info for "/tmp/rdisk/1500/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-06 00:38:49,571 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1500/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-06 00:38:49,571 INFO  ProjectFixService - Project was maybe fixed
+2018-04-06 00:38:49,571 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:38:49,571 INFO  SysUtils - Execute command: [/tmp/rdisk/1500/src/gradlew, -b, /tmp/rdisk/1500/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:38:57,977 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-06 00:38:57,978 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-06 00:38:57,978 INFO  SysUtils - Execute command: [/tmp/rdisk/1500/src/gradlew, -b, /tmp/rdisk/1500/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-06 00:39:09,064 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:library:androidJavadocs/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:3: error: package android.content does not exist
+import android.content.Context;
+                      ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:4: error: package android.util does not exist
+import android.util.DisplayMetrics;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:5: error: package android.util does not exist
+import android.util.FloatMath;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:6: error: package android.view does not exist
+import android.view.MotionEvent;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:7: error: package android.view does not exist
+import android.view.ViewConfiguration;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:3: error: package android.content does not exist
+import android.content.Context;
+                      ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:4: error: package android.view does not exist
+import android.view.MotionEvent;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:43: error: cannot find symbol
+    public TwoFingerGestureDetector(Context context) {
+                                    ^
+  symbol:   class Context
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:51: error: cannot find symbol
+	protected abstract void handleStartProgressEvent(int actionCode, MotionEvent event);
+	                                                                 ^
+  symbol:   class MotionEvent
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:54: error: cannot find symbol
+	protected abstract void handleInProgressEvent(int actionCode, MotionEvent event);
+	                                                              ^
+  symbol:   class MotionEvent
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:56: error: cannot find symbol
+	protected void updateStateByEvent(MotionEvent curr){
+	                                  ^
+  symbol:   class MotionEvent
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:121: error: cannot find symbol
+    protected static float getRawX(MotionEvent event, int pointerIndex) {
+                                   ^
+  symbol:   class MotionEvent
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:135: error: cannot find symbol
+    protected static float getRawY(MotionEvent event, int pointerIndex) {
+                                   ^
+  symbol:   class MotionEvent
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:150: error: cannot find symbol
+    protected boolean isSloppyGesture(MotionEvent event){
+                                      ^
+  symbol:   class MotionEvent
+  location: class TwoFingerGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:27: error: cannot find symbol
+    protected final Context mContext;
+                    ^
+  symbol:   class Context
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:30: error: cannot find symbol
+    protected MotionEvent mPrevEvent;
+              ^
+  symbol:   class MotionEvent
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:31: error: cannot find symbol
+    protected MotionEvent mCurrEvent;
+              ^
+  symbol:   class MotionEvent
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:48: error: cannot find symbol
+    public BaseGestureDetector(Context context) {
+                               ^
+  symbol:   class Context
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:61: error: cannot find symbol
+    public boolean onTouchEvent(MotionEvent event){
+                                ^
+  symbol:   class MotionEvent
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:78: error: cannot find symbol
+    protected abstract void handleStartProgressEvent(int actionCode, MotionEvent event);
+                                                                     ^
+  symbol:   class MotionEvent
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:87: error: cannot find symbol
+    protected abstract void handleInProgressEvent(int actionCode, MotionEvent event);
+                                                                  ^
+  symbol:   class MotionEvent
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:90: error: cannot find symbol
+    protected void updateStateByEvent(MotionEvent curr){
+                                      ^
+  symbol:   class MotionEvent
+  location: class BaseGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:3: error: package android.content does not exist
+import android.content.Context;
+                      ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:4: error: package android.view does not exist
+import android.view.MotionEvent;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:67: error: cannot find symbol
+    public ShoveGestureDetector(Context context, OnShoveGestureListener listener) {
+                                ^
+  symbol:   class Context
+  location: class ShoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:73: error: cannot find symbol
+    protected void handleStartProgressEvent(int actionCode, MotionEvent event){
+                                                            ^
+  symbol:   class MotionEvent
+  location: class ShoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:117: error: cannot find symbol
+    protected void handleInProgressEvent(int actionCode, MotionEvent event){ 	
+                                                         ^
+  symbol:   class MotionEvent
+  location: class ShoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:165: error: cannot find symbol
+    protected void updateStateByEvent(MotionEvent curr){
+                                      ^
+  symbol:   class MotionEvent
+  location: class ShoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/ShoveGestureDetector.java:179: error: cannot find symbol
+    protected boolean isSloppyGesture(MotionEvent event){
+                                      ^
+  symbol:   class MotionEvent
+  location: class ShoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/RotateGestureDetector.java:3: error: package android.content does not exist
+import android.content.Context;
+                      ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/RotateGestureDetector.java:4: error: package android.view does not exist
+import android.view.MotionEvent;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/RotateGestureDetector.java:64: error: cannot find symbol
+    public RotateGestureDetector(Context context, OnRotateGestureListener listener) {
+                                 ^
+  symbol:   class Context
+  location: class RotateGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/RotateGestureDetector.java:70: error: cannot find symbol
+    protected void handleStartProgressEvent(int actionCode, MotionEvent event){
+                                                            ^
+  symbol:   class MotionEvent
+  location: class RotateGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/RotateGestureDetector.java:114: error: cannot find symbol
+    protected void handleInProgressEvent(int actionCode, MotionEvent event){ 	
+                                                         ^
+  symbol:   class MotionEvent
+  location: class RotateGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:3: error: package android.content does not exist
+import android.content.Context;
+                      ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:4: error: package android.graphics does not exist
+import android.graphics.PointF;
+                       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:5: error: package android.view does not exist
+import android.view.MotionEvent;
+                   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:62: error: cannot find symbol
+    private static final PointF FOCUS_DELTA_ZERO = new PointF();
+                         ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:66: error: cannot find symbol
+    private PointF mCurrFocusInternal;
+            ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:67: error: cannot find symbol
+    private PointF mPrevFocusInternal;  
+            ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:68: error: cannot find symbol
+    private PointF mFocusExternal = new PointF();
+            ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:69: error: cannot find symbol
+    private PointF mFocusDeltaExternal = new PointF();
+            ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:72: error: cannot find symbol
+    public MoveGestureDetector(Context context, OnMoveGestureListener listener) {
+                               ^
+  symbol:   class Context
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:78: error: cannot find symbol
+    protected void handleStartProgressEvent(int actionCode, MotionEvent event){
+                                                            ^
+  symbol:   class MotionEvent
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:96: error: cannot find symbol
+    protected void handleInProgressEvent(int actionCode, MotionEvent event){ 	
+                                                         ^
+  symbol:   class MotionEvent
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:127: error: cannot find symbol
+    protected void updateStateByEvent(MotionEvent curr) {
+                                      ^
+  symbol:   class MotionEvent
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:154: error: cannot find symbol
+    private PointF determineFocalPoint(MotionEvent e){
+                                       ^
+  symbol:   class MotionEvent
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:154: error: cannot find symbol
+    private PointF determineFocalPoint(MotionEvent e){
+            ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/MoveGestureDetector.java:176: error: cannot find symbol
+    public PointF getFocusDelta() {
+           ^
+  symbol:   class PointF
+  location: class MoveGestureDetector
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:58: warning: no description for @param
+	 * @param event
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:59: warning: no description for @return
+	 * @return
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:75: warning: no description for @param
+	 * @param actionCode
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:76: warning: no description for @param
+	 * @param event
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:84: warning: no description for @param
+	 * @param actionCode
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/BaseGestureDetector.java:85: warning: no description for @param
+	 * @param event
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:117: warning: no description for @param
+     * @param event
+       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:118: warning: no description for @param
+     * @param pointerIndex
+       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:119: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:131: warning: no description for @param
+     * @param event
+       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:132: warning: no description for @param
+     * @param pointerIndex
+       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:133: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:147: warning: no description for @param
+	 * @param event
+	   ^
+/tmp/rdisk/1500/src/library/src/main/java/com/almeros/android/multitouch/TwoFingerGestureDetector.java:148: warning: no description for @return
+	 * @return
+	   ^
+
+63 warnings
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:generateDebugBuildConfig
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseBuildConfig
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:signArchives SKIPPED
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.864 secs
+
+2018-04-06 00:39:09,072 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-06 00:39:09,072 INFO  SysUtils - Execute command: [/tmp/rdisk/1500/src/gradlew, -b, /tmp/rdisk/1500/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-06 00:39:17,502 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-06 00:39:17,502 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-06 00:39:17,502 INFO  SysUtils - Execute command: [/tmp/rdisk/1500/src/gradlew, -b, /tmp/rdisk/1500/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-06 00:39:25,583 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:library:androidJavadocs UP-TO-DATE
+:library:androidJavadocsJar UP-TO-DATE
+:library:androidSourcesJar UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint UP-TO-DATE
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:library:mergeDebugProguardFiles UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:library:bundleDebug UP-TO-DATE
+:library:compileDebugSources UP-TO-DATE
+:library:assembleDebug UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:library:compileReleaseSources UP-TO-DATE
+:library:assembleRelease UP-TO-DATE
+:library:signArchives SKIPPED
+:library:assemble UP-TO-DATE
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.751 secs
+
+2018-04-06 00:39:25,590 ERROR FullProcessService - Project build has not produced APK file
+2018-04-06 00:39:25,597 ERROR FullProcessService - Could not find generated or existed APK file

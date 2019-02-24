@@ -1,0 +1,3 @@
+{
+  "com.scurab.android.colorpicker" : [ "BuildConfig", "GradientView", "GradientView$1", "GradientView$OnColorChangedListener", "GradientView$SavedState", "GradientView$SavedState$1", "MainActivity", "MainActivity$1", "R", "R$attr", "R$color", "R$dimen", "R$drawable", "R$id", "R$layout", "R$mipmap", "R$string", "R$styleable" ]
+}

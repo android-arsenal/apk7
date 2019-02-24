@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.weiwangcn.betterspinner.sample",
+    "label" : "BetterSpinner Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.0",
+    "versionCode" : 110,
+    "installLocation" : null,
+    "minSdkVersion" : "7",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACglBMVEUAAAD//0D/9zv/9Dz/9zz/8jv/30D/9j7/9jz//D3/9zz/9Dv/8zv/4zn/8zr//j7/9jv/9Dv//j7/9Uf/8zv/9zz/8jn/+zz/9Tr/+Tz/9Tv/8zr/+Dz/+T357jpuaRlSThJVURJTTxJcWRTp3zX/9jz57TpnYBdKRhFNSBFLRxFVTxPo3TX/8jvLwi69tS2/ti2+ti3AuC306Dn98To4NAwMCwLTyTH+8jpsaBhIRBFNShHf1TTi2DTb0DPb0TPc0jM6NwwGBgELCgEKCQEPDgLUyjEzMAoAAAACAQABAAAGBQBAPA4NDQMSEQMREAMWFATVyzLp3jbj2DTj2TX88Dr/9Tvw5Dfv4zf16jn26jnx5jjs4Tf+8jvEvC08OA0bGQYjIQcdGwYqJwminCX89Dva0zNNSREBAQAuLAq/uCyRiyERDwMFBAAEAwDv5zj/+z3//T3MxTA7OA0iIAevqCn/+j307TmBfB4CAgADAgAJCQJiXhbk3TX//D3/9Ty8tiw1MwwGBQEEBAAhHwegmiXp4jZqZxgLCQIIBwFPTBLW0DKnoicmJAgEBAEXFQSLhiD48Drc1DNWUhMICAI9Ow7GwC778zuSjCEaGQUDAwAODQJ3chvw6DjLxDBDPw8JCAIuKwq0rirx5zialCP+8Trt3zj/9Dz+8jzMuTH/9j23piz67Tv+8TymlSfi0zb+9D2fjyO1qCnw4zn+8T398T2jmSmhkiS6rCrr3zn67z398D3+8D2jlSWpmSeunyfPwTDm2jbu4jru4zqqqhyilySqmyajlCWomSatnye/nyCmmSammSaomianlyailiWjlSWmmRqnlySlliWmmCajlSTtuFnpAAAA1nRSTlMAFEGJt7cIc9Hr9///CZrw/XT1GeH/UP2r//f9///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/f///f/3//+r//9Q/f///xnh//////909f//////CZrw/f//CHPR6/b//xRAg7e3yf57zwAAAjJJREFUSMdjYAACRiZmFlYCgIWZiZEBAtjYOTi5uHkIAG4uTg52NpB6Xj5+AW6C6oE6uAX4+XiBGgSFiFAN1SMkyMAgLCLKQzQQFRFmEBPnIQGIizFISJKiQVKCQYqbFA3cUgzSPCQB6eGlQUYWN5DkxtDALSevoIgLKCmrqGJoUFPX0MQFtLR1MDTw6OrpG+AChkbG3Bg2mJia4QHmMhgaLCyttHACaxtMJ/HY2tnjBA5qWJzk6OSMC7i4umE6ycTdwxMX8PLG4gcTH18/XMA/IBBTA3eQbTBOEBIahq4hPCIyCg+IjolF1SAaF5+QiBskJaekotkgmZbu4eGZgQ14enhkZsGSHyIeZFKzczxysQGPPPn8AizJm7uwqNgjD4v6ktIyVewZqKy8wq8STXlVdU1tHc4cV1/X0NiEYklzS6uqKL4sWtDW3oGwpKqzq7uQG3+eFpXp6e2Dqe+fMFGSYCHAXThp8pQqoPI8p6nT6sKIKTVkps+YOSu3cvacuQVEFjPchfPmL1i4CCkwCZZLZYuX2NbhKJeW6mID3AWqWMV1lzIsW76CBLB8GcPKVaRoWLWSYfWaFWuJBivWrGZYt34D8Ro2rF/HsHHT5i1biQRbNm/ayLBt+46du3bvIQLs3rVzx/ZtDAx79+0/cPDQYYLg0MED+/ftBbYEjhw9dvzEyf0EwckTx48dPQJqbJw6febsufMXCIDz586eOX0K2p65eOnylasEwJXLly6C1AIADZhPMIyP4QgAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1645,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"110\" android:versionName=\"1.1.0\" package=\"com.weiwangcn.betterspinner.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090082\" android:label=\"BetterSpinner Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"BetterSpinner Demo\" android:name=\"com.weiwangcn.betterspinner.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1321348,
+  "crc32" : 2470138929,
+  "sha256" : "f19e32c861fdc50a8ec5fcb4296262eb204c9bb5f3d7b4e2628c04e0e0da8158",
+  "buildTime" : 1522954313000
+}

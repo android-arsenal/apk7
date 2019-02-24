@@ -1,0 +1,726 @@
+2018-04-05 19:00:25,066 INFO  DownloadService - Downloading "https://github.com/negusoft/GreenMatter/archive/master.zip", attempt 3
+2018-04-05 19:00:26,857 INFO  DownloadService - Downloaded https://github.com/negusoft/GreenMatter/archive/master.zip, attempt 3
+2018-04-05 19:00:26,857 INFO  DownloadService - Size of file "/tmp/rdisk/1700/master.zip": 574 KB
+2018-04-05 19:00:26,857 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:00:26,858 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1700/master.zip: true
+2018-04-05 19:00:26,858 DEBUG ZipUtil - Extracting '/tmp/rdisk/1700/master.zip' into '/tmp/rdisk/1700/src'.
+2018-04-05 19:00:26,898 INFO  FullProcessService - Size of directory with sources: 825 KB
+2018-04-05 19:00:26,898 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1700/src]
+2018-04-05 19:00:26,906 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1700/src/.git/
+
+2018-04-05 19:00:26,912 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1700/src/GreenMatter-master/gradlew
+2018-04-05 19:00:26,918 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build.gradle /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build.gradle /tmp/rdisk/1700/src/GreenMatter-master/build.gradle
+2018-04-05 19:00:26,923 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1700/src/GreenMatter-master/settings.gradle /tmp/rdisk/1700/src/GreenMatter-master/build.gradle /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build.gradle /tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build.gradle
+2018-04-05 19:00:26,923 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:00:26,923 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:00:26,936 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/local.properties
+2018-04-05 19:00:26,936 INFO  ProjectFixService - Build info for "/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-05 19:00:26,936 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/local.properties
+2018-04-05 19:00:26,937 INFO  ProjectFixService - Build info for "/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-05 19:00:26,937 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1700/src/GreenMatter-master/local.properties
+2018-04-05 19:00:26,937 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:00:26,937 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:00:26,938 INFO  ProjectFixService - Build info for "/tmp/rdisk/1700/src/GreenMatter-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-05 19:00:26,938 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:00:26,938 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:00:26,938 INFO  SysUtils - Execute command: [/tmp/rdisk/1700/src/GreenMatter-master/gradlew, -b, /tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:00:37,509 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-04-05 19:00:37,509 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 19:00:37,509 INFO  SysUtils - Execute command: [/tmp/rdisk/1700/src/GreenMatter-master/gradlew, -b, /tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 19:00:55,220 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 19:00:55,220 INFO  SysUtils - Configuration on demand is an incubating feature.
+:GreenMatter:compileLint
+:GreenMatter:copyDebugLint UP-TO-DATE
+:GreenMatter:preBuild
+:GreenMatter:preDebugBuild
+:GreenMatter:checkDebugManifest
+:GreenMatter:preDebugTestBuild
+:GreenMatter:preReleaseBuild
+:GreenMatter:prepareComAndroidSupportAppcompatV72210Library
+:GreenMatter:prepareComAndroidSupportSupportV42210Library
+:GreenMatter:prepareDebugDependencies
+:GreenMatter:compileDebugAidl
+:GreenMatter:compileDebugRenderscript
+:GreenMatter:generateDebugBuildConfig
+:GreenMatter:generateDebugAssets UP-TO-DATE
+:GreenMatter:mergeDebugAssets
+:GreenMatter:generateDebugResValues
+:GreenMatter:generateDebugResources
+:GreenMatter:mergeDebugResources
+:GreenMatter:processDebugManifest
+:GreenMatter:processDebugResources
+:GreenMatter:generateDebugSources
+:GreenMatter:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:GreenMatter:extractDebugAnnotations
+:GreenMatter:mergeDebugProguardFiles
+:GreenMatter:processDebugJavaRes UP-TO-DATE
+:GreenMatter:packageDebugJar
+:GreenMatter:compileDebugNdk
+:GreenMatter:packageDebugJniLibs UP-TO-DATE
+:GreenMatter:packageDebugLocalJar UP-TO-DATE
+:GreenMatter:packageDebugRenderscript UP-TO-DATE
+:GreenMatter:packageDebugResources
+:GreenMatter:bundleDebug
+:GreenMatter:assembleDebug
+:GreenMatter:copyReleaseLint UP-TO-DATE
+:GreenMatter:checkReleaseManifest
+:GreenMatter:prepareReleaseDependencies
+:GreenMatter:compileReleaseAidl
+:GreenMatter:compileReleaseRenderscript
+:GreenMatter:generateReleaseBuildConfig
+:GreenMatter:generateReleaseAssets UP-TO-DATE
+:GreenMatter:mergeReleaseAssets
+:GreenMatter:generateReleaseResValues
+:GreenMatter:generateReleaseResources
+:GreenMatter:mergeReleaseResources
+:GreenMatter:processReleaseManifest
+:GreenMatter:processReleaseResources
+:GreenMatter:generateReleaseSources
+:GreenMatter:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:GreenMatter:extractReleaseAnnotations
+:GreenMatter:mergeReleaseProguardFiles
+:GreenMatter:processReleaseJavaRes UP-TO-DATE
+:GreenMatter:packageReleaseJar
+:GreenMatter:compileReleaseNdk
+:GreenMatter:packageReleaseJniLibs UP-TO-DATE
+:GreenMatter:packageReleaseLocalJar UP-TO-DATE
+:GreenMatter:packageReleaseRenderscript UP-TO-DATE
+:GreenMatter:packageReleaseResources
+:GreenMatter:bundleRelease
+:GreenMatter:assembleRelease
+:GreenMatter:javadoc/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/color/ColorInterceptorHelper.java:13: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/widget/MatNumberPicker.java:23: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/widget/MatDatePicker.java:25: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/DrawableWrapper.java:25: error: package android.support.v4.graphics.drawable does not exist
+import android.support.v4.graphics.drawable.DrawableCompat;
+                                           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.SwitchCompat;
+                                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:29: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/MultiSelectListPreference.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/MultiSelectListPreference.java:29: error: package android.support.v7.internal.view does not exist
+import android.support.v7.internal.view.ContextThemeWrapper;
+                                       ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/MultiSelectListPreference.java:41: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/ListPreference.java:40: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/CheckBoxPreference.java:26: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.SwitchCompat;
+                                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/CheckBoxPreference.java:37: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/UnderlineDrawableInterceptorProvider.java:24: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/TintDrawableDrawableInterceptorProvider.java:12: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/SolidDrawableInterceptorProvider.java:26: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/ScrubberHorizontalInterceptorProvider.java:23: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/ScrollbarInterceptorProvider.java:24: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/RoundRectDrawableInterceptorProvider.java:24: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/ProgressInterceptorProvider.java:24: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/OverScrollDrawableIterceptorProvider.java:25: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/DialogBackgroundDrawableInterceptorProvider.java:26: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/CircleDrawableInterceptorProvider.java:25: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/CompoundDrawableWrapper.java:23: error: package android.support.v4.graphics.drawable does not exist
+import android.support.v4.graphics.drawable.DrawableCompat;
+                                           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/DialogUtils.java:35: error: cannot find symbol
+import com.negusoft.greenmatter.R;
+                               ^
+  symbol:   class R
+  location: package com.negusoft.greenmatter
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:6: error: package android.support.v7.app does not exist
+import android.support.v7.app.ActionBarActivity;
+                             ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:7: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:19: error: cannot find symbol
+public abstract class MatActivity extends AppCompatActivity {
+                                          ^
+  symbol: class AppCompatActivity
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:273: error: cannot find symbol
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                                         ^
+  symbol:   class NonNull
+  location: class MatResources
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:273: error: cannot find symbol
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                                                                   ^
+  symbol:   class NonNull
+  location: class MatResources
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:66: error: cannot find symbol
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                                         ^
+  symbol:   class NonNull
+  location: class ViewInterceptorHelper
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:66: error: cannot find symbol
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                                                                   ^
+  symbol:   class NonNull
+  location: class ViewInterceptorHelper
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:14: error: cannot find symbol
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs);
+                                         ^
+  symbol:   class NonNull
+  location: interface ViewInterceptor
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:14: error: cannot find symbol
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs);
+                                                                   ^
+  symbol:   class NonNull
+  location: interface ViewInterceptor
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:65: error: cannot find symbol
+    public View onCreateView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                                           ^
+  symbol:   class NonNull
+  location: class MatActivity
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:65: error: cannot find symbol
+    public View onCreateView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                                                                     ^
+  symbol:   class NonNull
+  location: class MatActivity
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:36: error: unknown tag: attr
+ * @attr ref android.R.styleable#SwitchPreference_summaryOff
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:37: error: unknown tag: attr
+ * @attr ref android.R.styleable#SwitchPreference_summaryOn
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:38: error: unknown tag: attr
+ * @attr ref android.R.styleable#SwitchPreference_switchTextOff
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:39: error: unknown tag: attr
+ * @attr ref android.R.styleable#SwitchPreference_switchTextOn
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/preference/SwitchPreference.java:40: error: unknown tag: attr
+ * @attr ref android.R.styleable#SwitchPreference_disableDependentsState
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:14: warning: no @param for name
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs);
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:14: warning: no @param for context
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs);
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:14: warning: no @param for attrs
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs);
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptor.java:14: warning: no @return
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs);
+                ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:66: warning: no @param for name
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:66: warning: no @param for context
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:66: warning: no @param for attrs
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/view/ViewInterceptorHelper.java:66: warning: no @return
+    public View createView(String name, @NonNull Context context, @NonNull AttributeSet attrs) {
+                ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/HorizontalLineDrawable.java:50: warning: no @param for color
+    public HorizontalLineDrawable(int color, float lineWidthRelative) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/HorizontalLineDrawable.java:50: warning: no @param for lineWidthRelative
+    public HorizontalLineDrawable(int color, float lineWidthRelative) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/HorizontalLineDrawable.java:42: warning: no @param for res
+    public HorizontalLineDrawable(Resources res, int color, float lineWidthDp) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/HorizontalLineDrawable.java:42: warning: no @param for color
+    public HorizontalLineDrawable(Resources res, int color, float lineWidthDp) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/HorizontalLineDrawable.java:42: warning: no @param for lineWidthDp
+    public HorizontalLineDrawable(Resources res, int color, float lineWidthDp) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/IndeterminateProgressBarDrawable.java:35: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/IndeterminateProgressBarDrawable.java:35: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/ProgressBarCircleDrawable.java:35: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/ProgressBarCircleDrawable.java:35: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/RoundRectDrawable.java:36: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/RoundRectDrawable.java:36: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/ScrubberHorizontalDrawable.java:44: warning: no @param for res
+    public ScrubberHorizontalDrawable(Resources res, int color, float lineWidthDp, Type type) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/ScrubberHorizontalDrawable.java:44: warning: no @param for color
+    public ScrubberHorizontalDrawable(Resources res, int color, float lineWidthDp, Type type) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/ScrubberHorizontalDrawable.java:44: warning: no @param for lineWidthDp
+    public ScrubberHorizontalDrawable(Resources res, int color, float lineWidthDp, Type type) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/drawable/ScrubberHorizontalDrawable.java:44: warning: no @param for type
+    public ScrubberHorizontalDrawable(Resources res, int color, float lineWidthDp, Type type) {
+           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:38: warning: no @return
+    public MatHelper getMatHelper() {
+                     ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/activity/MatActivity.java:46: warning: no @param for resources
+    public void onInitMatResources(MatResources resources) {
+                ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/widget/MatButton.java:82: warning: no @param for color
+    public void setColor(int color) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/widget/MatButton.java:90: warning: no @param for colorStateList
+    public void setColor(ColorStateList colorStateList) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/widget/MatImageButton.java:67: warning: no @param for color
+    public void setColor(int color) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/widget/MatImageButton.java:75: warning: no @param for colorStateList
+    public void setColor(ColorStateList colorStateList) {
+                ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/BitmapUtils.java:217: warning: no @param for bitmap
+	public static void writeToFile(Bitmap bitmap, String dir, String filename) throws FileNotFoundException, IOException {
+	                   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/BitmapUtils.java:217: warning: no @param for dir
+	public static void writeToFile(Bitmap bitmap, String dir, String filename) throws FileNotFoundException, IOException {
+	                   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/BitmapUtils.java:217: warning: no @param for filename
+	public static void writeToFile(Bitmap bitmap, String dir, String filename) throws FileNotFoundException, IOException {
+	                   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/BitmapUtils.java:217: warning: no @throws for java.io.FileNotFoundException
+	public static void writeToFile(Bitmap bitmap, String dir, String filename) throws FileNotFoundException, IOException {
+	                   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/BitmapUtils.java:217: warning: no @throws for java.io.IOException
+	public static void writeToFile(Bitmap bitmap, String dir, String filename) throws FileNotFoundException, IOException {
+	                   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:32: warning: no @param for color
+    public static int applyColorAlpha(int color, float alpha) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:32: warning: no @param for alpha
+    public static int applyColorAlpha(int color, float alpha) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:32: warning: no @return
+    public static int applyColorAlpha(int color, float alpha) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:39: warning: no @param for color
+    public static int replaceColorAlpha(int color, int alpha) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:39: warning: no @param for alpha
+    public static int replaceColorAlpha(int color, int alpha) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:39: warning: no @return
+    public static int replaceColorAlpha(int color, int alpha) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:44: warning: no @param for alpha
+    public static int calculateAlpha(int alpha, int originalColor) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:44: warning: no @param for originalColor
+    public static int calculateAlpha(int alpha, int originalColor) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/ColorUtils.java:44: warning: no @return
+    public static int calculateAlpha(int alpha, int originalColor) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:18: warning: no @param for name
+    public static int getIdentifier(String name) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:18: warning: no @return
+    public static int getIdentifier(String name) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:24: warning: no @param for name
+    public static int getStringIdentifier(String name) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:24: warning: no @return
+    public static int getStringIdentifier(String name) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:30: warning: no @param for name
+    public static String getString(String name) {
+                         ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:30: warning: no @return
+    public static String getString(String name) {
+                         ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:37: warning: no @param for name
+    public static int getDrawableIdentifier(String name) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:37: warning: no @return
+    public static int getDrawableIdentifier(String name) {
+                      ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:43: warning: no @param for name
+    public static Drawable getDrawable(String name) {
+                           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/util/NativeResources.java:43: warning: no @return
+    public static Drawable getDrawable(String name) {
+                           ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/DrawableInterceptor.java:14: warning: no @param for res
+    public Drawable getDrawable(Resources res, MatPalette palette, int resId);
+                    ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/DrawableInterceptor.java:14: warning: no @param for palette
+    public Drawable getDrawable(Resources res, MatPalette palette, int resId);
+                    ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/drawable/DrawableInterceptor.java:14: warning: no @param for resId
+    public Drawable getDrawable(Resources res, MatPalette palette, int resId);
+                    ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/color/ColorInterceptor.java:12: warning: no @param for res
+    public int getColor(Resources res, MatPalette palette, int resId);
+               ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/color/ColorInterceptor.java:12: warning: no @param for palette
+    public int getColor(Resources res, MatPalette palette, int resId);
+               ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/interceptor/color/ColorInterceptor.java:12: warning: no @param for resId
+    public int getColor(Resources res, MatPalette palette, int resId);
+               ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/DialogUtils.java:59: warning: no @param for window
+    public static void removeDivider(Window window) {
+                       ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/DialogUtils.java:67: warning: no @param for context
+    public static void arrangeButtons(Context context, Window window) {
+                       ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/MatAlertDialog.java:31: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/MatAlertDialog.java:31: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/MatAlertDialog.java:35: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/dialog/MatAlertDialog.java:35: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:50: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:50: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:54: error: self-closing element not allowed
+ * <br/><br/>
+   ^
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/src/main/java/com/negusoft/greenmatter/MatResources.java:54: error: self-closing element not allowed
+ * <br/><br/>
+        ^
+
+19 errors
+100 warnings
+:GreenMatter:javadoc FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':GreenMatter:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build/tmp/javadoc/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':GreenMatter:javadoc'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/1700/src/GreenMatter-master/GreenMatter/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:55)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:140)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:128)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 17.275 secs
+
+2018-04-05 19:00:55,268 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:00:55,268 INFO  SysUtils - Execute command: [/tmp/rdisk/1700/src/GreenMatter-master/gradlew, -b, /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:01:02,658 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 19:01:02,658 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:01:02,658 INFO  SysUtils - Execute command: [/tmp/rdisk/1700/src/GreenMatter-master/gradlew, -b, /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:01:31,745 INFO  SysUtils - Configuration on demand is an incubating feature.
+:GreenMatterExample:preBuild
+:GreenMatterExample:compileDebugNdk
+:GreenMatter:compileLint
+:GreenMatter:copyReleaseLint UP-TO-DATE
+:GreenMatter:preBuild
+:GreenMatter:preReleaseBuild
+:GreenMatter:checkReleaseManifest
+:GreenMatter:preDebugBuild
+:GreenMatter:preDebugTestBuild
+:GreenMatter:prepareComAndroidSupportAppcompatV72210Library UP-TO-DATE
+:GreenMatter:prepareComAndroidSupportSupportV42210Library UP-TO-DATE
+:GreenMatter:prepareReleaseDependencies
+:GreenMatter:compileReleaseAidl UP-TO-DATE
+:GreenMatter:compileReleaseRenderscript UP-TO-DATE
+:GreenMatter:generateReleaseBuildConfig UP-TO-DATE
+:GreenMatter:generateReleaseAssets UP-TO-DATE
+:GreenMatter:mergeReleaseAssets UP-TO-DATE
+:GreenMatter:generateReleaseResValues UP-TO-DATE
+:GreenMatter:generateReleaseResources UP-TO-DATE
+:GreenMatter:mergeReleaseResources UP-TO-DATE
+:GreenMatter:processReleaseManifest UP-TO-DATE
+:GreenMatter:processReleaseResources UP-TO-DATE
+:GreenMatter:generateReleaseSources UP-TO-DATE
+:GreenMatter:compileReleaseJava UP-TO-DATE
+:GreenMatter:extractReleaseAnnotations UP-TO-DATE
+:GreenMatter:mergeReleaseProguardFiles UP-TO-DATE
+:GreenMatter:processReleaseJavaRes UP-TO-DATE
+:GreenMatter:packageReleaseJar UP-TO-DATE
+:GreenMatter:compileReleaseNdk UP-TO-DATE
+:GreenMatter:packageReleaseJniLibs UP-TO-DATE
+:GreenMatter:packageReleaseLocalJar UP-TO-DATE
+:GreenMatter:packageReleaseRenderscript UP-TO-DATE
+:GreenMatter:packageReleaseResources UP-TO-DATE
+:GreenMatter:bundleRelease UP-TO-DATE
+:GreenMatterExample:preDebugBuild
+:GreenMatterExample:checkDebugManifest
+:GreenMatterExample:preReleaseBuild
+:GreenMatterExample:prepareComAndroidSupportAppcompatV72210Library
+:GreenMatterExample:prepareComAndroidSupportSupportV42210Library
+:GreenMatterExample:prepareComNegusoftGreenmatterGreenMatter07AlphaLibrary
+:GreenMatterExample:prepareDebugDependencies
+:GreenMatterExample:compileDebugAidl
+:GreenMatterExample:compileDebugRenderscript
+:GreenMatterExample:generateDebugBuildConfig
+:GreenMatterExample:generateDebugAssets UP-TO-DATE
+:GreenMatterExample:mergeDebugAssets
+:GreenMatterExample:generateDebugResValues
+:GreenMatterExample:generateDebugResources
+:GreenMatterExample:mergeDebugResources/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-mdpi-v4/gm__overscroll_glow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xxhdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xhdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xhdpi-v4/gm__overscroll_edge.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-mdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-hdpi-v4/gm__overscroll_edge.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-mdpi-v4/gm__overscroll_edge.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xhdpi-v4/gm__overscroll_glow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-hdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-hdpi-v4/gm__overscroll_glow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:GreenMatterExample:processDebugManifest
+:GreenMatterExample:processDebugResources
+:GreenMatterExample:generateDebugSources
+:GreenMatterExample:compileDebugJavaNote: /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/src/main/java/com/negusoft/greenmatter/example/activity/TabbedActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:GreenMatterExample:preDexDebug
+:GreenMatterExample:dexDebug
+:GreenMatterExample:processDebugJavaRes UP-TO-DATE
+:GreenMatterExample:validateDebugSigning
+:GreenMatterExample:packageDebug
+:GreenMatterExample:zipalignDebug
+:GreenMatterExample:assembleDebug
+:GreenMatterExample:checkReleaseManifest
+:GreenMatterExample:prepareReleaseDependencies
+:GreenMatterExample:compileReleaseAidl
+:GreenMatterExample:compileReleaseRenderscript
+:GreenMatterExample:generateReleaseBuildConfig
+:GreenMatterExample:generateReleaseAssets UP-TO-DATE
+:GreenMatterExample:mergeReleaseAssets
+:GreenMatterExample:generateReleaseResValues
+:GreenMatterExample:generateReleaseResources
+:GreenMatterExample:mergeReleaseResources/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-mdpi-v4/gm__overscroll_glow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xxhdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xhdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xhdpi-v4/gm__overscroll_edge.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-mdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-hdpi-v4/gm__overscroll_edge.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-mdpi-v4/gm__overscroll_edge.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-xhdpi-v4/gm__overscroll_glow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-hdpi-v4/gm__btn_default_frame.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/intermediates/exploded-aar/com.negusoft.greenmatter/GreenMatter/0.7-alpha/res/drawable-hdpi-v4/gm__overscroll_glow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:GreenMatterExample:processReleaseManifest
+:GreenMatterExample:processReleaseResources
+:GreenMatterExample:generateReleaseSources
+:GreenMatterExample:compileReleaseJavaNote: /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/src/main/java/com/negusoft/greenmatter/example/activity/TabbedActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:GreenMatterExample:lintVitalRelease
+:GreenMatterExample:compileReleaseNdk
+:GreenMatterExample:preDexRelease
+:GreenMatterExample:dexRelease
+:GreenMatterExample:processReleaseJavaRes UP-TO-DATE
+:GreenMatterExample:packageRelease
+:GreenMatterExample:assembleRelease
+:GreenMatterExample:assemble
+:GreenMatterExample:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.626 secs
+
+2018-04-05 19:01:31,828 INFO  FullProcessService - Found APK file: /tmp/rdisk/1700/src/GreenMatter-master/GreenMatterExample/build/outputs/apk/GreenMatterExample-release-unsigned.apk

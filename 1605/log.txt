@@ -1,0 +1,281 @@
+2018-04-05 20:15:04,361 INFO  DownloadService - Downloading "https://github.com/thyrlian/AwesomeValidation/archive/master.zip", attempt 3
+2018-04-05 20:15:04,834 INFO  DownloadService - Downloaded https://github.com/thyrlian/AwesomeValidation/archive/master.zip, attempt 3
+2018-04-05 20:15:04,834 INFO  DownloadService - Size of file "/tmp/rdisk/1605/master.zip": 591 KB
+2018-04-05 20:15:04,834 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 20:15:04,834 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1605/master.zip: true
+2018-04-05 20:15:04,834 DEBUG ZipUtil - Extracting '/tmp/rdisk/1605/master.zip' into '/tmp/rdisk/1605/src'.
+2018-04-05 20:15:04,854 INFO  FullProcessService - Size of directory with sources: 821 KB
+2018-04-05 20:15:04,854 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1605/src]
+2018-04-05 20:15:04,859 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1605/src/.git/
+
+2018-04-05 20:15:04,863 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1605/src/AwesomeValidation-master/gradlew
+2018-04-05 20:15:04,866 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1605/src/AwesomeValidation-master/demo/build.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/library/build.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/build.gradle
+2018-04-05 20:15:04,869 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1605/src/AwesomeValidation-master/settings.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/publish.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/library/gradle/script/coverage.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/library/build.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/demo/build.gradle /tmp/rdisk/1605/src/AwesomeValidation-master/build.gradle
+2018-04-05 20:15:04,870 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:15:04,870 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:15:04,878 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1605/src/AwesomeValidation-master/demo/local.properties
+2018-04-05 20:15:04,882 INFO  ProjectFixService - Build info for "/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:15:04,882 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1605/src/AwesomeValidation-master/library/local.properties
+2018-04-05 20:15:04,886 INFO  ProjectFixService - Build info for "/tmp/rdisk/1605/src/AwesomeValidation-master/library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:15:04,886 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1605/src/AwesomeValidation-master/local.properties
+2018-04-05 20:15:04,886 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-05 20:15:04,886 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-05 20:15:04,887 INFO  ProjectFixService - Build info for "/tmp/rdisk/1605/src/AwesomeValidation-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-05 20:15:04,887 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:15:04,887 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:15:04,887 INFO  SysUtils - Execute command: [/tmp/rdisk/1605/src/AwesomeValidation-master/gradlew, -b, /tmp/rdisk/1605/src/AwesomeValidation-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:15:13,701 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-05 20:15:13,702 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 20:15:13,702 INFO  SysUtils - Execute command: [/tmp/rdisk/1605/src/AwesomeValidation-master/gradlew, -b, /tmp/rdisk/1605/src/AwesomeValidation-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 20:16:20,456 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+:demo:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:demo:preDebugBuild
+:library:compileDebugAidl
+:demo:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugJavaRes
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:demo:mergeDebugAssets
+:demo:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:demo:extractProguardFiles
+:library:extractProguardFiles
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:demo:preReleaseBuild
+:library:compileReleaseAidl
+:demo:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:library:generateReleaseBuildConfig
+:library:javaPreCompileRelease
+:library:processReleaseJavaRes
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:demo:mergeReleaseAssets
+:demo:processReleaseJavaRes NO-SOURCE
+:library:mergeReleaseConsumerProguardFiles
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:library:processDebugResources
+:demo:processDebugResources
+:demo:generateDebugSources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavacNote: /tmp/rdisk/1605/src/AwesomeValidation-master/library/src/main/java/com/basgeekball/awesomevalidation/model/NumericRange.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:transformClassesWithJacocoForDebug
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugSources
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:library:processReleaseResources
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavacNote: /tmp/rdisk/1605/src/AwesomeValidation-master/library/src/main/java/com/basgeekball/awesomevalidation/model/NumericRange.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e4d80901ad25f58ef00052312dad1763/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/5c263463a9e1b2e802cfed1c48c57928/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/4b4aa147f10e26233532719d53f46856/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d196d3957272a497ea6eeeeb0b50c57e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/24.0-android/bfc941bd9285e7534ebde47236f14e5c7396a90c/guava-24.0-android.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/42d183f47d1d92ccc0c59440b7f5afc1/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2ea94f73b3bc3ba058caae4f747d6c42/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/8fd320f9591c34a70e5a98d537d142cb/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f8f9ced2e2ed4daf1d84b89369e68a41/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/794e82f77288e015ba419a631e378a23/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/011f6b0f1a99c73c938b61d48537d6a1/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/da5de4b94ba34096f08432e2b0ce0d5b/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/e34bd1382d61fcd48d015b41215c1cb0/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/4011dff570ae7357f3c6f358af3a7c7e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading program jar [/root/Applications/android-sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.0.0/fc89b03860d11d6213d0154a62bcd1c2f69b9efa/checker-compat-qual-2.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.1.3/39b109f2cd352b2d71b52a3b5a1a9850e1dc304b/error_prone_annotations-2.1.3.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/976d8d30bebc251db406f2bdb3eb01962b5685b3/j2objc-annotations-1.1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2be7bb440a7fe322ca9b268902e4eaef/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/tmp/rdisk/1605/src/AwesomeValidation-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/intermediates/classes/release] (filtered)
+Reading program jar [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.appengine.api.ThreadManager'
+Note: the configuration refers to the unknown class 'com.google.apphosting.api.ApiProxy'
+Note: com.google.common.util.concurrent.MoreExecutors: can't find dynamically referenced class com.google.appengine.api.ThreadManager
+Note: com.google.common.util.concurrent.MoreExecutors: can't find dynamically referenced class com.google.apphosting.api.ApiProxy
+Note: the configuration keeps the entry point 'com.google.common.collect.Ordering { com.google.common.collect.Ordering from(com.google.common.collect.Ordering); }', but not the descriptor class 'com.google.common.collect.Ordering'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range create(com.google.common.collect.Cut,com.google.common.collect.Cut); }', but not the descriptor class 'com.google.common.collect.Cut'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range create(com.google.common.collect.Cut,com.google.common.collect.Cut); }', but not the descriptor class 'com.google.common.collect.Cut'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range range(java.lang.Comparable,com.google.common.collect.BoundType,java.lang.Comparable,com.google.common.collect.BoundType); }', but not the descriptor class 'com.google.common.collect.BoundType'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range range(java.lang.Comparable,com.google.common.collect.BoundType,java.lang.Comparable,com.google.common.collect.BoundType); }', but not the descriptor class 'com.google.common.collect.BoundType'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range upTo(java.lang.Comparable,com.google.common.collect.BoundType); }', but not the descriptor class 'com.google.common.collect.BoundType'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range downTo(java.lang.Comparable,com.google.common.collect.BoundType); }', but not the descriptor class 'com.google.common.collect.BoundType'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { Range(com.google.common.collect.Cut,com.google.common.collect.Cut); }', but not the descriptor class 'com.google.common.collect.Cut'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { Range(com.google.common.collect.Cut,com.google.common.collect.Cut); }', but not the descriptor class 'com.google.common.collect.Cut'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { com.google.common.collect.Range canonical(com.google.common.collect.DiscreteDomain); }', but not the descriptor class 'com.google.common.collect.DiscreteDomain'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { java.lang.String toString(com.google.common.collect.Cut,com.google.common.collect.Cut); }', but not the descriptor class 'com.google.common.collect.Cut'
+Note: the configuration keeps the entry point 'com.google.common.collect.Range { java.lang.String toString(com.google.common.collect.Cut,com.google.common.collect.Cut); }', but not the descriptor class 'com.google.common.collect.Cut'
+Note: the configuration keeps the entry point 'com.google.common.collect.RangeMap { void putAll(com.google.common.collect.RangeMap); }', but not the descriptor class 'com.google.common.collect.RangeMap'
+Note: the configuration keeps the entry point 'com.google.common.collect.RangeSet { boolean enclosesAll(com.google.common.collect.RangeSet); }', but not the descriptor class 'com.google.common.collect.RangeSet'
+Note: the configuration keeps the entry point 'com.google.common.collect.RangeSet { void addAll(com.google.common.collect.RangeSet); }', but not the descriptor class 'com.google.common.collect.RangeSet'
+Note: the configuration keeps the entry point 'com.google.common.collect.RangeSet { void removeAll(com.google.common.collect.RangeSet); }', but not the descriptor class 'com.google.common.collect.RangeSet'
+Note: there were 2 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 16 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 2 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1228
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 4073
+  Final number of program classes:    1422
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e4d80901ad25f58ef00052312dad1763/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/5c263463a9e1b2e802cfed1c48c57928/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/4b4aa147f10e26233532719d53f46856/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d196d3957272a497ea6eeeeb0b50c57e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/24.0-android/bfc941bd9285e7534ebde47236f14e5c7396a90c/guava-24.0-android.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/42d183f47d1d92ccc0c59440b7f5afc1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2ea94f73b3bc3ba058caae4f747d6c42/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/8fd320f9591c34a70e5a98d537d142cb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f8f9ced2e2ed4daf1d84b89369e68a41/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/794e82f77288e015ba419a631e378a23/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/011f6b0f1a99c73c938b61d48537d6a1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/da5de4b94ba34096f08432e2b0ce0d5b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/e34bd1382d61fcd48d015b41215c1cb0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/4011dff570ae7357f3c6f358af3a7c7e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+  Copying resources from program jar [/root/Applications/android-sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.0.0/fc89b03860d11d6213d0154a62bcd1c2f69b9efa/checker-compat-qual-2.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.1.3/39b109f2cd352b2d71b52a3b5a1a9850e1dc304b/error_prone_annotations-2.1.3.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/976d8d30bebc251db406f2bdb3eb01962b5685b3/j2objc-annotations-1.1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2be7bb440a7fe322ca9b268902e4eaef/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1605/src/AwesomeValidation-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/outputs/mapping/release/dump.txt]...
+:demo:transformClassesWithDexForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 1m 6s
+94 actionable tasks: 94 executed
+
+2018-04-05 20:16:20,522 INFO  FullProcessService - Found APK file: /tmp/rdisk/1605/src/AwesomeValidation-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

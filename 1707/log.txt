@@ -1,0 +1,205 @@
+2018-04-05 18:51:17,353 INFO  DownloadService - Downloading "https://github.com/Lesilva/BetterSpinner/archive/master.zip", attempt 3
+2018-04-05 18:51:18,333 INFO  DownloadService - Downloaded https://github.com/Lesilva/BetterSpinner/archive/master.zip, attempt 3
+2018-04-05 18:51:18,334 INFO  DownloadService - Size of file "/tmp/rdisk/1707/master.zip": 1 MB
+2018-04-05 18:51:18,334 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 18:51:18,334 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1707/master.zip: true
+2018-04-05 18:51:18,334 DEBUG ZipUtil - Extracting '/tmp/rdisk/1707/master.zip' into '/tmp/rdisk/1707/src'.
+2018-04-05 18:51:18,354 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 18:51:18,354 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1707/src]
+2018-04-05 18:51:18,365 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1707/src/.git/
+
+2018-04-05 18:51:18,369 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1707/src/BetterSpinner-master/gradlew
+2018-04-05 18:51:18,373 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1707/src/BetterSpinner-master/app/build.gradle /tmp/rdisk/1707/src/BetterSpinner-master/library-material/build.gradle /tmp/rdisk/1707/src/BetterSpinner-master/library/build.gradle /tmp/rdisk/1707/src/BetterSpinner-master/build.gradle
+2018-04-05 18:51:18,376 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1707/src/BetterSpinner-master/settings.gradle /tmp/rdisk/1707/src/BetterSpinner-master/maven_push.gradle /tmp/rdisk/1707/src/BetterSpinner-master/library/build.gradle /tmp/rdisk/1707/src/BetterSpinner-master/library-material/build.gradle /tmp/rdisk/1707/src/BetterSpinner-master/build.gradle /tmp/rdisk/1707/src/BetterSpinner-master/app/build.gradle
+2018-04-05 18:51:18,377 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 18:51:18,377 INFO  ProjectFixService - Fixing project...
+2018-04-05 18:51:18,387 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1707/src/BetterSpinner-master/app/local.properties
+2018-04-05 18:51:18,390 INFO  ProjectFixService - Build info for "/tmp/rdisk/1707/src/BetterSpinner-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=7,targetSdkVersion=<null>]
+2018-04-05 18:51:18,390 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1707/src/BetterSpinner-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-04-05 18:51:18,391 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1707/src/BetterSpinner-master/library-material/local.properties
+2018-04-05 18:51:18,393 INFO  ProjectFixService - Build info for "/tmp/rdisk/1707/src/BetterSpinner-master/library-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=7,targetSdkVersion=<null>]
+2018-04-05 18:51:18,393 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1707/src/BetterSpinner-master/library-material/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-04-05 18:51:18,394 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1707/src/BetterSpinner-master/library/local.properties
+2018-04-05 18:51:18,397 INFO  ProjectFixService - Build info for "/tmp/rdisk/1707/src/BetterSpinner-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=7,targetSdkVersion=<null>]
+2018-04-05 18:51:18,397 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1707/src/BetterSpinner-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-04-05 18:51:18,397 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1707/src/BetterSpinner-master/local.properties
+2018-04-05 18:51:18,398 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-05 18:51:18,398 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-05 18:51:18,401 INFO  ProjectFixService - Build info for "/tmp/rdisk/1707/src/BetterSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=7,targetSdkVersion=<null>]
+2018-04-05 18:51:18,401 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1707/src/BetterSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-04-05 18:51:18,401 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 18:51:18,401 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 18:51:18,402 INFO  SysUtils - Execute command: [/tmp/rdisk/1707/src/BetterSpinner-master/gradlew, -b, /tmp/rdisk/1707/src/BetterSpinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 18:51:27,199 INFO  ProjectTaskService - Detected possible tasks: 75
+2018-04-05 18:51:27,199 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 18:51:27,199 INFO  SysUtils - Execute command: [/tmp/rdisk/1707/src/BetterSpinner-master/gradlew, -b, /tmp/rdisk/1707/src/BetterSpinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 18:51:59,020 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+RELEASE BUILD
+Incremental java compilation is an incubating feature.
+RELEASE BUILD
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAppcompatV72311Library
+:library:prepareComAndroidSupportSupportV42311Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library-material:preBuild UP-TO-DATE
+:library-material:preReleaseBuild UP-TO-DATE
+:library-material:compileReleaseNdk UP-TO-DATE
+:library-material:compileLint
+:library-material:copyReleaseLint UP-TO-DATE
+:library-material:checkReleaseManifest
+:library-material:preDebugAndroidTestBuild UP-TO-DATE
+:library-material:preDebugBuild UP-TO-DATE
+:library-material:preDebugUnitTestBuild UP-TO-DATE
+:library-material:preReleaseUnitTestBuild UP-TO-DATE
+:library-material:prepareComAndroidSupportAppcompatV72311Library
+:library-material:prepareComAndroidSupportSupportV42311Library
+:library-material:prepareComRengwuxianMaterialedittextLibrary214Library
+:library-material:prepareReleaseDependencies
+:library-material:compileReleaseAidl
+:library-material:compileReleaseRenderscript
+:library-material:generateReleaseBuildConfig
+:library-material:mergeReleaseShaders
+:library-material:compileReleaseShaders
+:library-material:generateReleaseAssets
+:library-material:mergeReleaseAssets
+:library-material:generateReleaseResValues
+:library-material:generateReleaseResources
+:library-material:mergeReleaseResources
+:library-material:processReleaseManifest
+:library-material:processReleaseResources
+:library-material:generateReleaseSources
+:library-material:incrementalReleaseJavaCompilationSafeguard
+:library-material:compileReleaseJavaWithJavac
+:library-material:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library-material:extractReleaseAnnotations
+:library-material:mergeReleaseProguardFiles
+:library-material:packageReleaseRenderscript UP-TO-DATE
+:library-material:packageReleaseResources
+:library-material:processReleaseJavaRes UP-TO-DATE
+:library-material:transformResourcesWithMergeJavaResForRelease
+:library-material:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library-material:mergeReleaseJniLibFolders
+:library-material:transformNative_libsWithMergeJniLibsForRelease
+:library-material:transformNative_libsWithSyncJniLibsForRelease
+:library-material:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareComRengwuxianMaterialedittextLibrary214Library
+:app:prepareComWeiwangcnBetterspinnerLibrary110Library
+:app:prepareComWeiwangcnBetterspinnerLibraryMaterial110Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1707/src/BetterSpinner-master/app/src/main/java/com/weiwangcn/betterspinner/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1707/src/BetterSpinner-master/app/src/main/java/com/weiwangcn/betterspinner/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:prePackageMarkerForRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 31.379 secs
+
+2018-04-05 18:51:59,120 INFO  FullProcessService - Found APK file: /tmp/rdisk/1707/src/BetterSpinner-master/app/build/outputs/apk/app-debug.apk

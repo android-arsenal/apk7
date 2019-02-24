@@ -1,0 +1,21 @@
+2018-04-05 23:01:05,991 INFO  DownloadService - Downloading "https://github.com/danialgoodwin/android--one-time-alert-dialog/archive/master.zip", attempt 3
+2018-04-05 23:02:06,646 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 23:02:08,598 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 23:02:08,598 INFO  DownloadService - Downloading "https://github.com/danialgoodwin/android--one-time-alert-dialog/archive/master.zip", attempt 3
+2018-04-05 23:03:09,889 DEBUG FullProcessService - Repository https://github.com/danialgoodwin/android--one-time-alert-dialog available: true
+2018-04-05 23:03:09,889 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 23:03:09,889 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/danialgoodwin/android--one-time-alert-dialog, /tmp/rdisk/1533/src]
+2018-04-05 23:03:11,174 INFO  SysUtils - 
+2018-04-05 23:03:11,178 INFO  GitService - Deleted "/tmp/rdisk/1533/src/.git": true
+2018-04-05 23:03:11,178 INFO  FullProcessService - Size of directory with sources: 11 KB
+2018-04-05 23:03:11,178 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1533/src]
+2018-04-05 23:03:11,183 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1533/src/.git/
+
+2018-04-05 23:03:11,184 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-05 23:03:11,184 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-05 23:03:11,184 INFO  ProjectBuildService - Build script(s): none
+2018-04-05 23:03:11,185 INFO  ProjectBuildService - All script(s): none
+2018-04-05 23:03:11,185 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 23:03:11,185 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-05 23:03:11,185 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 23:03:11,185 ERROR FullProcessService - Could not find generated or existed APK file

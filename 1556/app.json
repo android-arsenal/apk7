@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.phillipcalvin.iconbuttondemo",
+    "label" : "IconButton",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "20",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAACu1BMVEUAAAA3NzdOTk5SUlJYWFhdXV1OTk4AAABAQEBSUlJXV1dSUlJHR0c+Pj40NDQvLy87OztOTk5QUFBEREQzMzMqKiopKSlGmrxQYWhOTk5AVFoAAABFps5QvelFsd0tQ0wpKywuaoItZ34qKywsLCw9VmBQtd9AoslMvOlBu+s0tuozqtorQUowiKsyrt8zrt4vhKYrRlE0rd02jK9IueYztuorQ00qNzwqNjsrR1Izrd02lbokJCQ2SVJDsNwytOcsTVosTFlDu+s+pMwnNz0AAAAlJSU7OzstQkstYnc0qtg8T1YlJSUhISExMTEyMjIveJUud5QyqdgrQEgAAAAhISE4ODgwjrMwjbIzs+YLCwslJSUxMTExo9Ayo9AdHR0qLi8pLS4AAAAgICAuZXsyqNcrQksyrNwtZnwAAAAhISEqMTQsXG4uco0xncgyseQsV2gtV2gztOcxoc0wi68vdpMtYHUrSlYqNTkiIiIAAAAjIyMuLi4rPEMsUWAqQ0wsVWUqP0gpLC4iIiIAAAAjIyMrKysAAAAiIiIoKCgAAAAfHx8eHh4nJycrPEIpKisdHR0aGholJSUucYwAAAAXFxcjIyMyp9YAAAANDQ0fHx8QEBAAAAAAAAAaGhoaGhoAAAASEhIeHh4mJiYAAAAZGRkiIiIQEBAbGxsmOD8xptQysuUtlb8dKzEAAAAVHyUjdZUtoM4jfqIYVGwAAAAAAAAbX3sje58sncoxsOMztekzqdkAAAAaXHcgdJcqlcAwoc4qRVAyrd4oPUUqi7MAAAAAAAAXUWoeZoMgMzsuaH8oKiseHh4ZJisXTWQAAAAOFBkWFhYZGRkfHx8ODg4AAAAAAAAQEBAVFRUXFxcaGhogICAhISEAAAAHBwcTExMWFhYWFhYWFhYWFhYAAAAAAAAAAAAAAAAAAACsTVWHAAAA6XRSTlMADmKr2f1mATy9+f//////K7D//////1jy8lgCgfz///////////yE//////////////9Z/P///////1kq9P//////9C4Esv//////s0X9//////8Fv/////8Y+f///2r//wa2//////8L2P//////////////////2g/x//////////MR+/8S+/8T9N/////hwv//DJD//wc7/j8DF9HSDWT+/xzM/1D5//////kYkv///5UJIbP//////yWq/v///////w4kh/j/////+IcfWtH//1oIK3Ha/f///yxGlMno6v8VKTA0OL/UA1UAAAMCSURBVDjLY2AgFTAyMbOwsLKysDCzMWJXwc7BycXNw8vHz8/Hy8PNxcnBjqlEQFBIWERUDApERYSFBAXQlLGLSwiLiKEAEWFJKRRV0jKycvJACQVFqAolZTExFVU1GWkkNeoamlraOmIKunpQRfoGymKGRpoa6nBV7MYmmqamptpmuqam5mA1FqamBpZWpqaaJtZQG9ltbO20gIpM7YHYAazIEcrTcnJ2gahydXP30DaFAk+wIk8Y18vbxxVskK+fv5gOTFUAWFEglBcU7O/nCzIqJDQMGDxm9hDhcLCiCAgnUkdMNCw0BKgoKjoG6HddqN5YsKI4KA/ox5joKKD348VEEWpM7ROAahLtTeGqRMXipRmSkvnFxFJSYaKmaUBFOnBeeoYYf3ISQ2YWP8iCbMOcXN28fFPTAiCn0NS0qLiktKy8Asjhr8xkqKquQcSXcm0dyKT6hsYmuFhNcxVDS2ubGF7Q1trO0N7RiV9RZ0cXQ1c3IUXdXQztPb0IgabGBjMglVbX1w8X653QzlA1cRKIWVFeVlpSXGRqWgjkFJia5ufpTs4xzAZyJk2sYpgydZqYWEY6PGR0QCbBedNTxKZNncIwY+asXjFlA5QQT4CHuK5C76zZMxjmzJ03rROhChJ3sXA1ndPmz53DwLBg4aLFwJiIhAhHgBWFQ401E1u8aOECYFoJWbJ0WWdwEFRvIFhRAJSn3bhs6RJQUmFfsHzFylXYU+bqNWuXLwCnX9d16zdsXA1N1Y5gRQ4Q3uqNmzavc4VkhC1bt23fsXOXlSXQ9RZgReZAN5vt3rlj+7atW6DZRXrBnr379h84CPTjIWgw6wH9dfjIvr17FsAznvTRY8dPnJzW26l8CqpI8XTvtDNnzx07ipyFp5y/cPHS5WWTFvcCo7uzd/GkZZcvXbxyfoo0SmFwdd216zdu3jpz+86yZXdun7l188b1a+uuSqMVK64Llty9d//Bw0ePHz96+OD+vbtLFrhiKaFCFjw5//TZ8xcvnj97ev7JghCEEgCEfSYsxLBbIwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 828,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.phillipcalvin.iconbuttondemo\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"20\" />\n\t<application android:theme=\"resourceId:0x7f050001\" android:label=\"IconButton\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"IconButton\" android:name=\"com.phillipcalvin.iconbuttondemo.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 373283,
+  "crc32" : 712485770,
+  "sha256" : "e51a513c87882947a98aec4846a17d1820a20067785c83bb98c4596cbec14c13",
+  "buildTime" : 1522965634000
+}

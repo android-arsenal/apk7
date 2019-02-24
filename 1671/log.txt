@@ -1,0 +1,218 @@
+2018-04-05 19:28:35,263 INFO  DownloadService - Downloading "https://github.com/Serchinastico/CoolSwitch/archive/master.zip", attempt 3
+2018-04-05 19:28:36,005 INFO  DownloadService - Downloaded https://github.com/Serchinastico/CoolSwitch/archive/master.zip, attempt 3
+2018-04-05 19:28:36,006 INFO  DownloadService - Size of file "/tmp/rdisk/1671/master.zip": 621 KB
+2018-04-05 19:28:36,006 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:28:36,006 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1671/master.zip: true
+2018-04-05 19:28:36,006 DEBUG ZipUtil - Extracting '/tmp/rdisk/1671/master.zip' into '/tmp/rdisk/1671/src'.
+2018-04-05 19:28:36,017 INFO  FullProcessService - Size of directory with sources: 655 KB
+2018-04-05 19:28:36,017 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1671/src]
+2018-04-05 19:28:36,022 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1671/src/.git/
+
+2018-04-05 19:28:36,024 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1671/src/CoolSwitch-master/gradlew
+2018-04-05 19:28:36,026 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1671/src/CoolSwitch-master/coolswitch/build.gradle /tmp/rdisk/1671/src/CoolSwitch-master/sample/build.gradle /tmp/rdisk/1671/src/CoolSwitch-master/build.gradle
+2018-04-05 19:28:36,028 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1671/src/CoolSwitch-master/settings.gradle /tmp/rdisk/1671/src/CoolSwitch-master/sample/build.gradle /tmp/rdisk/1671/src/CoolSwitch-master/coolswitch/build.gradle /tmp/rdisk/1671/src/CoolSwitch-master/build.gradle
+2018-04-05 19:28:36,028 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:28:36,028 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:28:36,033 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1671/src/CoolSwitch-master/coolswitch/local.properties
+2018-04-05 19:28:36,033 INFO  ProjectFixService - Build info for "/tmp/rdisk/1671/src/CoolSwitch-master/coolswitch/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:28:36,034 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1671/src/CoolSwitch-master/sample/local.properties
+2018-04-05 19:28:36,034 INFO  ProjectFixService - Build info for "/tmp/rdisk/1671/src/CoolSwitch-master/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:28:36,034 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1671/src/CoolSwitch-master/local.properties
+2018-04-05 19:28:36,038 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:28:36,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:28:36,039 INFO  ProjectFixService - Build info for "/tmp/rdisk/1671/src/CoolSwitch-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:28:36,039 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:28:36,039 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:28:36,039 INFO  SysUtils - Execute command: [/tmp/rdisk/1671/src/CoolSwitch-master/gradlew, -b, /tmp/rdisk/1671/src/CoolSwitch-master/coolswitch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:28:51,494 INFO  ProjectTaskService - Detected possible tasks: 61
+2018-04-05 19:28:51,494 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-04-05 19:28:51,494 INFO  SysUtils - Execute command: [/tmp/rdisk/1671/src/CoolSwitch-master/gradlew, -b, /tmp/rdisk/1671/src/CoolSwitch-master/coolswitch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-05 19:29:01,524 INFO  SysUtils - Configuration on demand is an incubating feature.
+:coolswitch:compileLint
+:coolswitch:copyDebugLint UP-TO-DATE
+:coolswitch:preBuild UP-TO-DATE
+:coolswitch:preDebugBuild UP-TO-DATE
+:coolswitch:checkDebugManifest
+:coolswitch:preDebugAndroidTestBuild UP-TO-DATE
+:coolswitch:preReleaseBuild UP-TO-DATE
+:coolswitch:prepareComAndroidSupportAppcompatV72103Library
+:coolswitch:prepareComAndroidSupportSupportV42103Library
+:coolswitch:prepareComGithubOzodrukhCircularReveal104Library
+:coolswitch:prepareDebugDependencies
+:coolswitch:compileDebugAidl
+:coolswitch:compileDebugRenderscript
+:coolswitch:generateDebugBuildConfig
+:coolswitch:generateDebugAssets UP-TO-DATE
+:coolswitch:mergeDebugAssets
+:coolswitch:generateDebugResValues
+:coolswitch:generateDebugResources
+:coolswitch:mergeDebugResources
+:coolswitch:processDebugManifest
+:coolswitch:processDebugResources
+:coolswitch:generateDebugSources
+:coolswitch:compileDebugJava
+:coolswitch:extractDebugAnnotations
+:coolswitch:mergeDebugProguardFiles
+:coolswitch:processDebugJavaRes UP-TO-DATE
+:coolswitch:packageDebugJar
+:coolswitch:compileDebugNdk UP-TO-DATE
+:coolswitch:packageDebugJniLibs UP-TO-DATE
+:coolswitch:packageDebugLocalJar UP-TO-DATE
+:coolswitch:packageDebugRenderscript UP-TO-DATE
+:coolswitch:packageDebugResources
+:coolswitch:bundleDebug
+:coolswitch:assembleDebug
+:coolswitch:copyReleaseLint UP-TO-DATE
+:coolswitch:checkReleaseManifest
+:coolswitch:prepareReleaseDependencies
+:coolswitch:compileReleaseAidl
+:coolswitch:compileReleaseRenderscript
+:coolswitch:generateReleaseBuildConfig
+:coolswitch:generateReleaseAssets UP-TO-DATE
+:coolswitch:mergeReleaseAssets
+:coolswitch:generateReleaseResValues
+:coolswitch:generateReleaseResources
+:coolswitch:mergeReleaseResources
+:coolswitch:processReleaseManifest
+:coolswitch:processReleaseResources
+:coolswitch:generateReleaseSources
+:coolswitch:compileReleaseJava
+:coolswitch:extractReleaseAnnotations
+:coolswitch:mergeReleaseProguardFiles
+:coolswitch:processReleaseJavaRes UP-TO-DATE
+:coolswitch:packageReleaseJar
+:coolswitch:compileReleaseNdk UP-TO-DATE
+:coolswitch:packageReleaseJniLibs UP-TO-DATE
+:coolswitch:packageReleaseLocalJar UP-TO-DATE
+:coolswitch:packageReleaseRenderscript UP-TO-DATE
+:coolswitch:packageReleaseResources
+:coolswitch:bundleRelease
+:coolswitch:assembleRelease
+:coolswitch:assemble
+:coolswitch:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.224 secs
+
+2018-04-05 19:29:01,558 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:29:01,558 INFO  SysUtils - Execute command: [/tmp/rdisk/1671/src/CoolSwitch-master/gradlew, -b, /tmp/rdisk/1671/src/CoolSwitch-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:29:07,580 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 19:29:07,580 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 19:29:07,580 INFO  SysUtils - Execute command: [/tmp/rdisk/1671/src/CoolSwitch-master/gradlew, -b, /tmp/rdisk/1671/src/CoolSwitch-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 19:29:30,878 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:compileDebugNdk UP-TO-DATE
+:coolswitch:compileLint
+:coolswitch:copyReleaseLint UP-TO-DATE
+:coolswitch:preBuild UP-TO-DATE
+:coolswitch:preReleaseBuild UP-TO-DATE
+:coolswitch:checkReleaseManifest
+:coolswitch:preDebugAndroidTestBuild UP-TO-DATE
+:coolswitch:preDebugBuild UP-TO-DATE
+:coolswitch:prepareComAndroidSupportAppcompatV72103Library UP-TO-DATE
+:coolswitch:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:coolswitch:prepareComGithubOzodrukhCircularReveal104Library UP-TO-DATE
+:coolswitch:prepareReleaseDependencies
+:coolswitch:compileReleaseAidl UP-TO-DATE
+:coolswitch:compileReleaseRenderscript UP-TO-DATE
+:coolswitch:generateReleaseBuildConfig UP-TO-DATE
+:coolswitch:generateReleaseAssets UP-TO-DATE
+:coolswitch:mergeReleaseAssets UP-TO-DATE
+:coolswitch:generateReleaseResValues UP-TO-DATE
+:coolswitch:generateReleaseResources UP-TO-DATE
+:coolswitch:mergeReleaseResources UP-TO-DATE
+:coolswitch:processReleaseManifest UP-TO-DATE
+:coolswitch:processReleaseResources UP-TO-DATE
+:coolswitch:generateReleaseSources UP-TO-DATE
+:coolswitch:compileReleaseJava UP-TO-DATE
+:coolswitch:extractReleaseAnnotations UP-TO-DATE
+:coolswitch:mergeReleaseProguardFiles UP-TO-DATE
+:coolswitch:processReleaseJavaRes UP-TO-DATE
+:coolswitch:packageReleaseJar UP-TO-DATE
+:coolswitch:compileReleaseNdk UP-TO-DATE
+:coolswitch:packageReleaseJniLibs UP-TO-DATE
+:coolswitch:packageReleaseLocalJar UP-TO-DATE
+:coolswitch:packageReleaseRenderscript UP-TO-DATE
+:coolswitch:packageReleaseResources UP-TO-DATE
+:coolswitch:bundleRelease UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72103Library
+:sample:prepareComAndroidSupportSupportV42103Library
+:sample:prepareComGithubOzodrukhCircularReveal104Library
+:sample:prepareCoolSwitchMasterCoolswitchUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1671/src/CoolSwitch-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJava
+:sample:lintVitalRelease
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.885 secs
+
+2018-04-05 19:29:30,939 INFO  FullProcessService - Found APK file: /tmp/rdisk/1671/src/CoolSwitch-master/sample/build/outputs/apk/sample-release-unsigned.apk

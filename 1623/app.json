@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.macroyau.blue2serial.demo",
+    "label" : "Blue2Serial",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.5",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.BLUETOOTH" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABv1BMVEUAAABVVapAQL8AgIBDUa48VbM+T7kzTbM/UrQ+ULQ+ULQ9ULM+UbI+ULQ+ULM6TKsAAAA9ULM9ULI+ULM+ULM7TawsN4U3RZg9T7I7Ta0kN3kwPpE9T7IkMXl8iMvv8fhhcMH9/f36+vydptju7/fa3e5LWqzx8vhGVq1ca7/W2uzb3u5MW623vd6GkMmfp9RicLo6S6iKlMs6S6dkcbpjcLpJWazX2+1NXK6krNaFj8lZZ7VMW6/4+fupsNk7TKk6Sqapsdk7TKr29/pNXK/19fpkcrqFkMlaaLb3+PuLlMtlcrtjcbv19vq3vd+GkMqfqNU7TatHV65AUKz5+vxFVrbJzebk5vN0f8JAUa48Taw8Ta08Ta08Ta48Tq86S6g8Tq48Tq46S6k9TrA9Tq89Tq86TKo0QZAkNXcuN3Y9T7E7Tas8Taw9Tq88Tq8+T7E5S6YeJloAAFUAAAA1RZo9T7E/UbU8Tq09Tq49T7AxP44AAAAGDCQxQI45Sqc6S6o7TKo4SKQ4SKU4SaU5SaY6S6Y5Sqc4SqUwPokGDCMAAAAAAAAPEy4XHkYUG0QUG0MUG0AAMzMAAAAAAAAAAIAWMm1tAAAAlXRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir///////////////////////////////////////////////////////////////////////////////////z//+/8/+///P/vJysc7Pz8/fn/7CIDCKn//////60DKrDt8O/w8PDw7/DtsSwJIEJNS0xMBQsOBN2fST8AAAIOSURBVEjHY2CgF2BkIgAYUZQzMxM2ElkNkMnCyoYXsLKAlcHUs3NwchEAnNzscB3MDDy8fIQBvwBUAyMDiyCfkLAIXiAsxCsqxgDxORODuASfCCHzRXglpYBKIRqkZYjSIIvQIDGqYRBpkJNXgEgqgoCSMkENKoqqaggNiuoahDRoailq60A06OrpKyoaGBLyg46qoqoOWIORsYmioqmhISFPm5kraluANFiaWCkqWhsi6cARSjraiqo2ED/Y2gHV29sT0KAA0uAA0eAIUm/vhFeDprOitouDsauipZu7oqIHSL2TEx4NCp4g842BGrwMvRUVfcDqoTqwBqsv2HyQBj//AGCwQtQ7BeKJOJD5xoaukIgLCg6BRKFtKI6kEQY23xCiITzCCa4hMgq7Hxwg6g0NIeEDcU9gYFRUVHQ09lDCrT46Bns84FQfHROLPT/gUh8dExePPQPhUB+dgEsDH3b1iQlxSbiyKFb1iQnJODXwYVOfmIKiAa0wxqI+NSU5DaEhHb3UwFQP0pAB1cDIkJnFi1ahZGdn5+TkxIBBQkJCSkpuXn5BIUMRtMoqLikt4y1DAeUVFRWpYFBZWZmfn5+cH1VVDK/jqmtq6+ob6lFAY2NTU1MzGLS0tLS2tXd0ViOq0a7unt6+vr5+ZDABBvr7gVK9Pd1dyBX1xEmTCYBJE1Er/6IpBEAR3VoxACSMI5mvktMpAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1556,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.5\" package=\"com.macroyau.blue2serial.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH\" />\n\t<application android:theme=\"resourceId:0x7f09008a\" android:label=\"Blue2Serial\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Blue2Serial\" android:name=\"com.macroyau.blue2serial.demo.TerminalActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1239491,
+  "crc32" : 4147496942,
+  "sha256" : "992a86032859a9d8b2ec1ceff9d34df0c0982207661eccaa9863916b2ad6faad",
+  "buildTime" : 1522958407000
+}

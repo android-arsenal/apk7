@@ -1,0 +1,145 @@
+2018-04-05 19:37:23,378 INFO  DownloadService - Downloading "https://github.com/PaNaVTEC/Coordinator-java/archive/master.zip", attempt 3
+2018-04-05 19:37:23,770 INFO  DownloadService - Downloaded https://github.com/PaNaVTEC/Coordinator-java/archive/master.zip, attempt 3
+2018-04-05 19:37:23,770 INFO  DownloadService - Size of file "/tmp/rdisk/1656/master.zip": 158 KB
+2018-04-05 19:37:23,770 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:37:23,770 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1656/master.zip: true
+2018-04-05 19:37:23,770 DEBUG ZipUtil - Extracting '/tmp/rdisk/1656/master.zip' into '/tmp/rdisk/1656/src'.
+2018-04-05 19:37:23,782 INFO  FullProcessService - Size of directory with sources: 170 KB
+2018-04-05 19:37:23,782 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1656/src]
+2018-04-05 19:37:23,790 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1656/src/.git/
+
+2018-04-05 19:37:23,793 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1656/src/Coordinator-java-master/gradlew
+2018-04-05 19:37:23,797 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1656/src/Coordinator-java-master/sample/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/coordinator-common/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/coordinator-compiler/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/library/build.gradle
+2018-04-05 19:37:23,800 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1656/src/Coordinator-java-master/settings.gradle /tmp/rdisk/1656/src/Coordinator-java-master/sample/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/maven_push.gradle /tmp/rdisk/1656/src/Coordinator-java-master/library/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/coordinator-compiler/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/coordinator-common/build.gradle /tmp/rdisk/1656/src/Coordinator-java-master/build.gradle
+2018-04-05 19:37:23,800 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:37:23,800 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:37:23,810 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1656/src/Coordinator-java-master/sample/local.properties
+2018-04-05 19:37:23,811 INFO  ProjectFixService - Build info for "/tmp/rdisk/1656/src/Coordinator-java-master/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:37:23,811 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1656/src/Coordinator-java-master/local.properties
+2018-04-05 19:37:23,811 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:37:23,811 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:37:23,812 INFO  ProjectFixService - Build info for "/tmp/rdisk/1656/src/Coordinator-java-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:37:23,812 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1656/src/Coordinator-java-master/coordinator-common/local.properties
+2018-04-05 19:37:23,813 INFO  ProjectFixService - Build info for "/tmp/rdisk/1656/src/Coordinator-java-master/coordinator-common/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:37:23,813 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1656/src/Coordinator-java-master/coordinator-compiler/local.properties
+2018-04-05 19:37:23,814 INFO  ProjectFixService - Build info for "/tmp/rdisk/1656/src/Coordinator-java-master/coordinator-compiler/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:37:23,815 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1656/src/Coordinator-java-master/library/local.properties
+2018-04-05 19:37:23,815 INFO  ProjectFixService - Build info for "/tmp/rdisk/1656/src/Coordinator-java-master/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=10,targetSdkVersion=21]
+2018-04-05 19:37:23,816 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:37:23,816 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:37:23,816 INFO  SysUtils - Execute command: [/tmp/rdisk/1656/src/Coordinator-java-master/gradlew, -b, /tmp/rdisk/1656/src/Coordinator-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:37:36,963 INFO  ProjectTaskService - Detected possible tasks: 60
+2018-04-05 19:37:36,963 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 19:37:36,964 INFO  SysUtils - Execute command: [/tmp/rdisk/1656/src/Coordinator-java-master/gradlew, -b, /tmp/rdisk/1656/src/Coordinator-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 19:37:59,984 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+RELEASE BUILD
+RELEASE BUILD
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:compileDebugNdk UP-TO-DATE
+:coordinator-common:addAptCompilerArgs
+:coordinator-common:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:coordinator-common:processResources UP-TO-DATE
+:coordinator-common:classes
+:coordinator-common:jar
+:coordinator-compiler:addAptCompilerArgs
+:coordinator-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+/tmp/rdisk/1656/src/Coordinator-java-master/coordinator-compiler/src/main/java/me/panavtec/coordinator/compiler/writters/CoordinatorWriter.java:112: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            .addStatement(format, parameters)
+                                  ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+2 warnings
+
+:coordinator-compiler:processResources
+:coordinator-compiler:classes
+:coordinator-compiler:jar
+:library:addAptCompilerArgs
+:library:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:library:processResources UP-TO-DATE
+:library:classes
+:library:jar
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72103Library
+:sample:prepareComAndroidSupportSupportV42103Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava
+Starting Coordinator Annotation processor.
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/tmp/rdisk/1656/src/Coordinator-java-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJava
+Starting Coordinator Annotation processor.
+:sample:lintVitalRelease
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.587 secs
+
+2018-04-05 19:38:00,018 INFO  FullProcessService - Found APK file: /tmp/rdisk/1656/src/Coordinator-java-master/sample/build/outputs/apk/sample-release-unsigned.apk

@@ -1,0 +1,157 @@
+2018-04-05 19:40:52,473 INFO  DownloadService - Downloading "https://github.com/falnatsheh/MarkdownView/archive/master.zip", attempt 3
+2018-04-05 19:40:52,864 INFO  DownloadService - Downloaded https://github.com/falnatsheh/MarkdownView/archive/master.zip, attempt 3
+2018-04-05 19:40:52,864 INFO  DownloadService - Size of file "/tmp/rdisk/1650/master.zip": 114 KB
+2018-04-05 19:40:52,864 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:40:52,865 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1650/master.zip: true
+2018-04-05 19:40:52,865 DEBUG ZipUtil - Extracting '/tmp/rdisk/1650/master.zip' into '/tmp/rdisk/1650/src'.
+2018-04-05 19:40:52,875 INFO  FullProcessService - Size of directory with sources: 135 KB
+2018-04-05 19:40:52,875 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1650/src]
+2018-04-05 19:40:52,879 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1650/src/.git/
+
+2018-04-05 19:40:52,882 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/gradlew
+2018-04-05 19:40:52,885 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/build.gradle /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/markdownview/build.gradle /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/build.gradle
+2018-04-05 19:40:52,887 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/settings.gradle /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/markdownview/build.gradle /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/build.gradle /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/build.gradle
+2018-04-05 19:40:52,888 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-04-05 19:41:52,889 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 19:41:52,889 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:41:52,889 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:41:52,900 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/local.properties
+2018-04-05 19:41:52,900 INFO  ProjectFixService - Build info for "/tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 19:41:52,900 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/markdownview/local.properties
+2018-04-05 19:41:52,900 INFO  ProjectFixService - Build info for "/tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/markdownview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 19:41:52,901 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/local.properties
+2018-04-05 19:41:52,901 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-05 19:41:52,901 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-05 19:41:52,902 INFO  ProjectFixService - Build info for "/tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 19:41:52,902 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:41:52,902 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:41:52,902 INFO  SysUtils - Execute command: [/tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/gradlew, -b, /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:42:04,577 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-05 19:42:04,577 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:42:04,577 INFO  SysUtils - Execute command: [/tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/gradlew, -b, /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:42:28,668 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:markdownview:compileLint
+:markdownview:copyReleaseLint UP-TO-DATE
+:markdownview:preBuild UP-TO-DATE
+:markdownview:preReleaseBuild UP-TO-DATE
+:markdownview:checkReleaseManifest
+:markdownview:preDebugAndroidTestBuild UP-TO-DATE
+:markdownview:preDebugBuild UP-TO-DATE
+:markdownview:preDebugUnitTestBuild UP-TO-DATE
+:markdownview:preReleaseUnitTestBuild UP-TO-DATE
+:markdownview:prepareComAndroidSupportAppcompatV72310Library
+:markdownview:prepareComAndroidSupportSupportV42310Library
+:markdownview:prepareReleaseDependencies
+:markdownview:compileReleaseAidl
+:markdownview:compileReleaseRenderscript
+:markdownview:generateReleaseBuildConfig
+:markdownview:generateReleaseAssets UP-TO-DATE
+:markdownview:mergeReleaseAssets
+:markdownview:generateReleaseResValues
+:markdownview:generateReleaseResources
+:markdownview:mergeReleaseResources
+:markdownview:processReleaseManifest
+:markdownview:processReleaseResources
+:markdownview:generateReleaseSources
+:markdownview:processReleaseJavaRes UP-TO-DATE
+:markdownview:compileReleaseJavaWithJavac
+:markdownview:extractReleaseAnnotations
+:markdownview:mergeReleaseProguardFiles
+:markdownview:packageReleaseJar
+:markdownview:compileReleaseNdk UP-TO-DATE
+:markdownview:packageReleaseJniLibs UP-TO-DATE
+:markdownview:packageReleaseLocalJar UP-TO-DATE
+:markdownview:packageReleaseRenderscript UP-TO-DATE
+:markdownview:packageReleaseResources
+:markdownview:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72310Library
+:app:prepareComAndroidSupportSupportV42310Library
+:app:prepareMarkdownViewMarkdownviewUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.664 secs
+
+2018-04-05 19:42:28,728 INFO  FullProcessService - Found APK file: /tmp/rdisk/1650/src/MarkdownView-master/MarkdownView/app/build/outputs/apk/app-debug.apk

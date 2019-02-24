@@ -1,0 +1,21 @@
+2018-04-05 21:28:35,117 INFO  DownloadService - Downloading "https://github.com/inloop/apk-method-count/archive/master.zip", attempt 3
+2018-04-05 21:29:35,734 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 21:29:36,560 INFO  GithubDownloadService - Default branch of this repository: gh-pages
+2018-04-05 21:29:36,560 INFO  DownloadService - Downloading "https://github.com/inloop/apk-method-count/archive/gh-pages.zip", attempt 3
+2018-04-05 21:30:37,889 DEBUG FullProcessService - Repository https://github.com/inloop/apk-method-count available: true
+2018-04-05 21:30:37,889 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 21:30:37,889 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/inloop/apk-method-count, /tmp/rdisk/1567/src]
+2018-04-05 21:30:39,666 INFO  SysUtils - 
+2018-04-05 21:30:39,675 INFO  GitService - Deleted "/tmp/rdisk/1567/src/.git": true
+2018-04-05 21:30:39,677 INFO  FullProcessService - Size of directory with sources: 1007 KB
+2018-04-05 21:30:39,677 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1567/src]
+2018-04-05 21:30:39,681 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1567/src/.git/
+
+2018-04-05 21:30:39,682 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-05 21:30:39,682 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-05 21:30:39,683 INFO  ProjectBuildService - Build script(s): none
+2018-04-05 21:30:39,685 INFO  ProjectBuildService - All script(s): none
+2018-04-05 21:30:39,685 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 21:30:39,685 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-05 21:30:39,685 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 21:30:39,686 ERROR FullProcessService - Could not find generated or existed APK file

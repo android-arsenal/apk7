@@ -1,0 +1,221 @@
+2018-04-05 19:24:51,868 INFO  DownloadService - Downloading "https://github.com/jparkie/HawleyRetainer/archive/master.zip", attempt 3
+2018-04-05 19:24:54,254 INFO  DownloadService - Downloaded https://github.com/jparkie/HawleyRetainer/archive/master.zip, attempt 3
+2018-04-05 19:24:54,255 INFO  DownloadService - Size of file "/tmp/rdisk/1675/master.zip": 83 KB
+2018-04-05 19:24:54,255 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:24:54,255 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1675/master.zip: true
+2018-04-05 19:24:54,255 DEBUG ZipUtil - Extracting '/tmp/rdisk/1675/master.zip' into '/tmp/rdisk/1675/src'.
+2018-04-05 19:24:54,263 INFO  FullProcessService - Size of directory with sources: 124 KB
+2018-04-05 19:24:54,264 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1675/src]
+2018-04-05 19:24:54,270 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1675/src/.git/
+
+2018-04-05 19:24:54,273 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1675/src/HawleyRetainer-master/gradlew
+2018-04-05 19:24:54,275 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1675/src/HawleyRetainer-master/api/build.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/build.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/compiler/build.gradle
+2018-04-05 19:24:54,277 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1675/src/HawleyRetainer-master/settings.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/compiler/build.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/build.gradle /tmp/rdisk/1675/src/HawleyRetainer-master/api/build.gradle
+2018-04-05 19:24:54,278 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:24:54,278 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:24:54,284 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1675/src/HawleyRetainer-master/api/local.properties
+2018-04-05 19:24:54,284 INFO  ProjectFixService - Build info for "/tmp/rdisk/1675/src/HawleyRetainer-master/api/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=11,targetSdkVersion=22]
+2018-04-05 19:24:54,284 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1675/src/HawleyRetainer-master/sample/local.properties
+2018-04-05 19:24:54,284 INFO  ProjectFixService - Build info for "/tmp/rdisk/1675/src/HawleyRetainer-master/sample/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-05 19:24:54,285 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1675/src/HawleyRetainer-master/local.properties
+2018-04-05 19:24:54,285 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:24:54,285 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:24:54,286 INFO  ProjectFixService - Build info for "/tmp/rdisk/1675/src/HawleyRetainer-master/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-05 19:24:54,286 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1675/src/HawleyRetainer-master/compiler/local.properties
+2018-04-05 19:24:54,287 INFO  ProjectFixService - Build info for "/tmp/rdisk/1675/src/HawleyRetainer-master/compiler/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-05 19:24:54,287 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:24:54,287 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:24:54,287 INFO  SysUtils - Execute command: [/tmp/rdisk/1675/src/HawleyRetainer-master/gradlew, -b, /tmp/rdisk/1675/src/HawleyRetainer-master/api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:25:03,665 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 19:25:03,665 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-04-05 19:25:03,666 INFO  SysUtils - Execute command: [/tmp/rdisk/1675/src/HawleyRetainer-master/gradlew, -b, /tmp/rdisk/1675/src/HawleyRetainer-master/api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-05 19:25:10,374 INFO  SysUtils - Configuration on demand is an incubating feature.
+:api:compileLint
+:api:copyDebugLint UP-TO-DATE
+:api:mergeDebugProguardFiles
+:api:preBuild UP-TO-DATE
+:api:preDebugBuild UP-TO-DATE
+:api:checkDebugManifest
+:api:prepareDebugDependencies
+:api:compileDebugAidl
+:api:compileDebugRenderscript
+:api:generateDebugBuildConfig
+:api:generateDebugAssets UP-TO-DATE
+:api:mergeDebugAssets
+:api:generateDebugResValues
+:api:generateDebugResources
+:api:packageDebugResources
+:api:processDebugManifest
+:api:processDebugResources
+:api:generateDebugSources
+:api:compileDebugJavaNote: /tmp/rdisk/1675/src/HawleyRetainer-master/api/src/main/java/com/jparkie/hawleyretainer/HawleyRetainer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:api:processDebugJavaRes UP-TO-DATE
+:api:packageDebugJar
+:api:compileDebugNdk UP-TO-DATE
+:api:packageDebugJniLibs UP-TO-DATE
+:api:packageDebugLocalJar UP-TO-DATE
+:api:packageDebugRenderscript UP-TO-DATE
+:api:bundleDebug
+:api:assembleDebug
+:api:copyReleaseLint UP-TO-DATE
+:api:mergeReleaseProguardFiles
+:api:preReleaseBuild UP-TO-DATE
+:api:checkReleaseManifest
+:api:prepareReleaseDependencies
+:api:compileReleaseAidl
+:api:compileReleaseRenderscript
+:api:generateReleaseBuildConfig
+:api:generateReleaseAssets UP-TO-DATE
+:api:mergeReleaseAssets
+:api:generateReleaseResValues
+:api:generateReleaseResources
+:api:packageReleaseResources
+:api:processReleaseManifest
+:api:processReleaseResources
+:api:generateReleaseSources
+:api:compileReleaseJavaNote: /tmp/rdisk/1675/src/HawleyRetainer-master/api/src/main/java/com/jparkie/hawleyretainer/HawleyRetainer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:api:processReleaseJavaRes UP-TO-DATE
+:api:packageReleaseJar
+:api:compileReleaseNdk UP-TO-DATE
+:api:packageReleaseJniLibs UP-TO-DATE
+:api:packageReleaseLocalJar UP-TO-DATE
+:api:packageReleaseRenderscript UP-TO-DATE
+:api:bundleRelease
+:api:assembleRelease
+:api:assemble
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.281 secs
+
+2018-04-05 19:25:10,380 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:25:10,380 INFO  SysUtils - Execute command: [/tmp/rdisk/1675/src/HawleyRetainer-master/gradlew, -b, /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:25:16,759 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 19:25:16,759 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 19:25:16,759 INFO  SysUtils - Execute command: [/tmp/rdisk/1675/src/HawleyRetainer-master/gradlew, -b, /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 19:25:42,906 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:compileDebugNdk UP-TO-DATE
+:api:compileLint
+:api:copyDebugLint UP-TO-DATE
+:api:mergeDebugProguardFiles UP-TO-DATE
+:api:preBuild UP-TO-DATE
+:api:preDebugBuild UP-TO-DATE
+:api:checkDebugManifest
+:api:prepareDebugDependencies
+:api:compileDebugAidl UP-TO-DATE
+:api:compileDebugRenderscript UP-TO-DATE
+:api:generateDebugBuildConfig UP-TO-DATE
+:api:generateDebugAssets UP-TO-DATE
+:api:mergeDebugAssets UP-TO-DATE
+:api:generateDebugResValues UP-TO-DATE
+:api:generateDebugResources UP-TO-DATE
+:api:packageDebugResources UP-TO-DATE
+:api:processDebugManifest UP-TO-DATE
+:api:processDebugResources UP-TO-DATE
+:api:generateDebugSources UP-TO-DATE
+:api:compileDebugJava UP-TO-DATE
+:api:processDebugJavaRes UP-TO-DATE
+:api:packageDebugJar UP-TO-DATE
+:api:compileDebugNdk UP-TO-DATE
+:api:packageDebugJniLibs UP-TO-DATE
+:api:packageDebugLocalJar UP-TO-DATE
+:api:packageDebugRenderscript UP-TO-DATE
+:api:bundleDebug UP-TO-DATE
+:api:copyReleaseLint UP-TO-DATE
+:api:mergeReleaseProguardFiles UP-TO-DATE
+:api:preReleaseBuild UP-TO-DATE
+:api:checkReleaseManifest
+:api:prepareReleaseDependencies
+:api:compileReleaseAidl UP-TO-DATE
+:api:compileReleaseRenderscript UP-TO-DATE
+:api:generateReleaseBuildConfig UP-TO-DATE
+:api:generateReleaseAssets UP-TO-DATE
+:api:mergeReleaseAssets UP-TO-DATE
+:api:generateReleaseResValues UP-TO-DATE
+:api:generateReleaseResources UP-TO-DATE
+:api:packageReleaseResources UP-TO-DATE
+:api:processReleaseManifest UP-TO-DATE
+:api:processReleaseResources UP-TO-DATE
+:api:generateReleaseSources UP-TO-DATE
+:api:compileReleaseJava UP-TO-DATE
+:api:processReleaseJavaRes UP-TO-DATE
+:api:packageReleaseJar UP-TO-DATE
+:api:compileReleaseNdk UP-TO-DATE
+:api:packageReleaseJniLibs UP-TO-DATE
+:api:packageReleaseLocalJar UP-TO-DATE
+:api:packageReleaseRenderscript UP-TO-DATE
+:api:bundleRelease UP-TO-DATE
+:compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /tmp/rdisk/1675/src/HawleyRetainer-master/api/src/main/java/com/jparkie/hawleyretainer/HawleyRetainer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:compiler:processResources
+:compiler:classes
+:compiler:jar
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72200Library
+:sample:prepareComAndroidSupportSupportV42200Library
+:sample:prepareHawleyRetainerMasterApi101Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+AAPT warning(Job{title=Cruncher abc_spinner_mtrl_am_alpha.9.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJavaNote: /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build/generated/source/apt/debug/com/jparkie/hawleyretainer/sample/MainActivity$$HawleyRetainer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+AAPT warning(Job{title=Cruncher abc_spinner_mtrl_am_alpha.9.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJavaNote: /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build/generated/source/apt/release/com/jparkie/hawleyretainer/sample/MainActivity$$HawleyRetainer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sample:lintVitalRelease
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.683 secs
+
+2018-04-05 19:25:42,944 INFO  FullProcessService - Found APK file: /tmp/rdisk/1675/src/HawleyRetainer-master/sample/build/outputs/apk/sample-release-unsigned.apk

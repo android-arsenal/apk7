@@ -1,0 +1,168 @@
+2018-04-05 19:34:31,776 INFO  DownloadService - Downloading "https://github.com/omegasoft7/FSLogger/archive/master.zip", attempt 3
+2018-04-05 19:34:32,180 INFO  DownloadService - Downloaded https://github.com/omegasoft7/FSLogger/archive/master.zip, attempt 3
+2018-04-05 19:34:32,180 INFO  DownloadService - Size of file "/tmp/rdisk/1661/master.zip": 150 KB
+2018-04-05 19:34:32,180 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:34:32,180 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1661/master.zip: true
+2018-04-05 19:34:32,180 DEBUG ZipUtil - Extracting '/tmp/rdisk/1661/master.zip' into '/tmp/rdisk/1661/src'.
+2018-04-05 19:34:32,188 INFO  FullProcessService - Size of directory with sources: 250 KB
+2018-04-05 19:34:32,188 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1661/src]
+2018-04-05 19:34:32,192 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1661/src/.git/
+
+2018-04-05 19:34:32,195 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1661/src/FSLogger-master/gradlew /tmp/rdisk/1661/src/FSLogger-master/fslogger/gradlew
+2018-04-05 19:34:32,197 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1661/src/FSLogger-master/fslogger/build.gradle /tmp/rdisk/1661/src/FSLogger-master/app/build.gradle /tmp/rdisk/1661/src/FSLogger-master/build.gradle
+2018-04-05 19:34:32,199 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1661/src/FSLogger-master/settings.gradle /tmp/rdisk/1661/src/FSLogger-master/fslogger/build.gradle /tmp/rdisk/1661/src/FSLogger-master/build.gradle /tmp/rdisk/1661/src/FSLogger-master/app/build.gradle
+2018-04-05 19:34:32,200 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:34:32,200 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:34:32,205 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1661/src/FSLogger-master/fslogger/local.properties
+2018-04-05 19:34:32,205 INFO  ProjectFixService - Build info for "/tmp/rdisk/1661/src/FSLogger-master/fslogger/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-05 19:34:32,206 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1661/src/FSLogger-master/app/local.properties
+2018-04-05 19:34:32,206 INFO  ProjectFixService - Build info for "/tmp/rdisk/1661/src/FSLogger-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-05 19:34:32,206 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1661/src/FSLogger-master/local.properties
+2018-04-05 19:34:32,206 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-05 19:34:32,207 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-05 19:34:32,207 INFO  ProjectFixService - Build info for "/tmp/rdisk/1661/src/FSLogger-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2018-04-05 19:34:32,207 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:34:32,208 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:34:32,208 INFO  SysUtils - Execute command: [/tmp/rdisk/1661/src/FSLogger-master/fslogger/gradlew, -b, /tmp/rdisk/1661/src/FSLogger-master/fslogger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:34:32,314 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 19:34:32,314 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 19:34:32,314 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 19:34:32,314 INFO  SysUtils - Execute command: [/tmp/rdisk/1661/src/FSLogger-master/fslogger/gradlew, -b, /tmp/rdisk/1661/src/FSLogger-master/fslogger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 19:34:32,426 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 19:34:32,426 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2018-04-05 19:34:32,428 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:34:32,428 INFO  SysUtils - Execute command: [/tmp/rdisk/1661/src/FSLogger-master/gradlew, -b, /tmp/rdisk/1661/src/FSLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:34:49,929 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 19:34:49,929 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 19:34:49,929 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 19:34:49,929 INFO  SysUtils - Execute command: [/tmp/rdisk/1661/src/FSLogger-master/gradlew, -b, /tmp/rdisk/1661/src/FSLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 19:35:23,167 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:app:prepareComAndroidSupportAppcompatV72340Library
+:app:prepareComAndroidSupportConstraintConstraintLayout100Alpha3Library
+:app:prepareComAndroidSupportSupportV42340Library
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library
+:app:prepareComGithubOmegasoft7FSLoggerFslogger191Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:prePackageMarkerForRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant debug: 5 issues found
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///tmp/rdisk/1661/src/FSLogger-master/app/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/1661/src/FSLogger-master/app/build/outputs/lint-results-debug.xml
+:app:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:prepareDebugUnitTestDependencies
+:app:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:app:processDebugUnitTestJavaRes UP-TO-DATE
+:app:compileDebugUnitTestSources UP-TO-DATE
+:app:mockableAndroidJar
+:app:assembleDebugUnitTest
+:app:testDebugUnitTest
+:app:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareReleaseUnitTestDependencies
+:app:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:app:processReleaseUnitTestJavaRes UP-TO-DATE
+:app:compileReleaseUnitTestSources UP-TO-DATE
+:app:assembleReleaseUnitTest
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 32.757 secs
+
+2018-04-05 19:35:23,216 INFO  FullProcessService - Found APK file: /tmp/rdisk/1661/src/FSLogger-master/app/build/outputs/apk/app-debug.apk

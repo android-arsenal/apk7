@@ -1,0 +1,238 @@
+2018-04-04 15:49:45,665 INFO  DownloadService - Downloading "https://github.com/Kennyc1012/MultiStateView/archive/master.zip", attempt 3
+2018-04-04 15:49:47,526 INFO  DownloadService - Downloaded https://github.com/Kennyc1012/MultiStateView/archive/master.zip, attempt 3
+2018-04-04 15:49:47,526 INFO  DownloadService - Size of file "/tmp/rdisk/1726/master.zip": 146 KB
+2018-04-04 15:49:47,526 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:49:47,526 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1726/master.zip: true
+2018-04-04 15:49:47,526 DEBUG ZipUtil - Extracting '/tmp/rdisk/1726/master.zip' into '/tmp/rdisk/1726/src'.
+2018-04-04 15:49:47,533 INFO  FullProcessService - Size of directory with sources: 177 KB
+2018-04-04 15:49:47,534 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1726/src]
+2018-04-04 15:49:47,539 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1726/src/.git/
+
+2018-04-04 15:49:47,541 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1726/src/MultiStateView-master/gradlew
+2018-04-04 15:49:47,543 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1726/src/MultiStateView-master/library/build.gradle /tmp/rdisk/1726/src/MultiStateView-master/sample/build.gradle /tmp/rdisk/1726/src/MultiStateView-master/build.gradle
+2018-04-04 15:49:47,545 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1726/src/MultiStateView-master/settings.gradle /tmp/rdisk/1726/src/MultiStateView-master/sample/build.gradle /tmp/rdisk/1726/src/MultiStateView-master/library/build.gradle /tmp/rdisk/1726/src/MultiStateView-master/build.gradle
+2018-04-04 15:49:47,546 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:49:47,546 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:49:47,550 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1726/src/MultiStateView-master/library/local.properties
+2018-04-04 15:49:47,551 INFO  ProjectFixService - Build info for "/tmp/rdisk/1726/src/MultiStateView-master/library/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=11,targetSdkVersion=<null>]
+2018-04-04 15:49:47,552 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1726/src/MultiStateView-master/library/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2018-04-04 15:49:47,552 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1726/src/MultiStateView-master/sample/local.properties
+2018-04-04 15:49:47,553 INFO  ProjectFixService - Build info for "/tmp/rdisk/1726/src/MultiStateView-master/sample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=11,targetSdkVersion=<null>]
+2018-04-04 15:49:47,554 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1726/src/MultiStateView-master/sample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2018-04-04 15:49:47,554 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1726/src/MultiStateView-master/local.properties
+2018-04-04 15:49:47,554 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-04 15:49:47,554 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-04 15:49:47,555 INFO  ProjectFixService - Build info for "/tmp/rdisk/1726/src/MultiStateView-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=11,targetSdkVersion=<null>]
+2018-04-04 15:49:47,556 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1726/src/MultiStateView-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2018-04-04 15:49:47,556 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:49:47,556 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:49:47,556 INFO  SysUtils - Execute command: [/tmp/rdisk/1726/src/MultiStateView-master/gradlew, -b, /tmp/rdisk/1726/src/MultiStateView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:49:55,103 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-04 15:49:55,104 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-04 15:49:55,104 INFO  SysUtils - Execute command: [/tmp/rdisk/1726/src/MultiStateView-master/gradlew, -b, /tmp/rdisk/1726/src/MultiStateView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-04 15:50:06,246 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.687 secs
+
+2018-04-04 15:50:06,254 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:50:06,254 INFO  SysUtils - Execute command: [/tmp/rdisk/1726/src/MultiStateView-master/gradlew, -b, /tmp/rdisk/1726/src/MultiStateView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:50:13,837 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-04 15:50:13,837 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-04 15:50:13,838 INFO  SysUtils - Execute command: [/tmp/rdisk/1726/src/MultiStateView-master/gradlew, -b, /tmp/rdisk/1726/src/MultiStateView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-04 15:50:36,257 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sample:prepareComAndroidSupportAppcompatV72531Library
+:sample:prepareComAndroidSupportSupportCompat2531Library
+:sample:prepareComAndroidSupportSupportCoreUi2531Library
+:sample:prepareComAndroidSupportSupportCoreUtils2531Library
+:sample:prepareComAndroidSupportSupportFragment2531Library
+:sample:prepareComAndroidSupportSupportMediaCompat2531Library
+:sample:prepareComAndroidSupportSupportV42531Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.079 secs
+
+2018-04-04 15:50:36,308 INFO  FullProcessService - Found APK file: /tmp/rdisk/1726/src/MultiStateView-master/sample/build/outputs/apk/sample-release-unsigned.apk

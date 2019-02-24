@@ -1,0 +1,228 @@
+2018-04-05 18:53:51,209 INFO  DownloadService - Downloading "https://github.com/pawegio/KAndroid/archive/master.zip", attempt 3
+2018-04-05 18:53:52,756 INFO  DownloadService - Downloaded https://github.com/pawegio/KAndroid/archive/master.zip, attempt 3
+2018-04-05 18:53:52,757 INFO  DownloadService - Size of file "/tmp/rdisk/1705/master.zip": 119 KB
+2018-04-05 18:53:52,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 18:53:52,757 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1705/master.zip: true
+2018-04-05 18:53:52,757 DEBUG ZipUtil - Extracting '/tmp/rdisk/1705/master.zip' into '/tmp/rdisk/1705/src'.
+2018-04-05 18:53:52,768 INFO  FullProcessService - Size of directory with sources: 167 KB
+2018-04-05 18:53:52,769 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1705/src]
+2018-04-05 18:53:52,773 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1705/src/.git/
+
+2018-04-05 18:53:52,775 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1705/src/KAndroid-master/gradlew
+2018-04-05 18:53:52,793 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1705/src/KAndroid-master/kandroid/build.gradle /tmp/rdisk/1705/src/KAndroid-master/build.gradle
+2018-04-05 18:53:52,794 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1705/src/KAndroid-master/settings.gradle /tmp/rdisk/1705/src/KAndroid-master/kandroid/build.gradle /tmp/rdisk/1705/src/KAndroid-master/build.gradle
+2018-04-05 18:53:52,795 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 18:53:52,795 INFO  ProjectFixService - Fixing project...
+2018-04-05 18:53:52,800 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1705/src/KAndroid-master/kandroid/local.properties
+2018-04-05 18:53:52,801 INFO  ProjectFixService - Build info for "/tmp/rdisk/1705/src/KAndroid-master/kandroid/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-04-05 18:53:52,801 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1705/src/KAndroid-master/local.properties
+2018-04-05 18:53:52,801 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-04-05 18:53:52,802 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-04-05 18:53:52,803 INFO  ProjectFixService - Build info for "/tmp/rdisk/1705/src/KAndroid-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-04-05 18:53:52,803 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 18:53:52,803 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 18:53:52,803 INFO  SysUtils - Execute command: [/tmp/rdisk/1705/src/KAndroid-master/gradlew, -b, /tmp/rdisk/1705/src/KAndroid-master/kandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 18:54:06,420 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-04-05 18:54:06,420 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-05 18:54:06,420 INFO  SysUtils - Execute command: [/tmp/rdisk/1705/src/KAndroid-master/gradlew, -b, /tmp/rdisk/1705/src/KAndroid-master/kandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 18:54:42,484 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+:kandroid:preBuild UP-TO-DATE
+:kandroid:preDebugBuild UP-TO-DATE
+:kandroid:compileDebugAidl
+:kandroid:compileDebugNdk NO-SOURCE
+:kandroid:compileDebugRenderscript
+:kandroid:checkDebugManifest
+:kandroid:generateDebugBuildConfig
+:kandroid:generateDebugResValues
+:kandroid:generateDebugResources
+:kandroid:packageDebugResources
+:kandroid:platformAttrExtractor
+:kandroid:processDebugManifest
+:kandroid:prepareLintJar
+:kandroid:mergeDebugShaders
+:kandroid:compileDebugShaders
+:kandroid:generateDebugAssets
+:kandroid:mergeDebugAssets
+:kandroid:mergeDebugConsumerProguardFiles
+:kandroid:packageDebugRenderscript NO-SOURCE
+:kandroid:processDebugJavaRes NO-SOURCE
+:kandroid:mergeDebugJniLibFolders
+:kandroid:transformNativeLibsWithMergeJniLibsForDebug
+:kandroid:transformNativeLibsWithStripDebugSymbolForDebug
+:kandroid:transformNativeLibsWithSyncJniLibsForDebug
+:kandroid:preReleaseBuild UP-TO-DATE
+:kandroid:compileReleaseAidl
+:kandroid:compileReleaseNdk NO-SOURCE
+:kandroid:compileReleaseRenderscript
+:kandroid:checkReleaseManifest
+:kandroid:generateReleaseBuildConfig
+:kandroid:generateReleaseResValues
+:kandroid:generateReleaseResources
+:kandroid:packageReleaseResources
+:kandroid:processReleaseManifest
+:kandroid:mergeReleaseShaders
+:kandroid:compileReleaseShaders
+:kandroid:generateReleaseAssets
+:kandroid:mergeReleaseAssets
+:kandroid:mergeReleaseConsumerProguardFiles
+:kandroid:packageReleaseRenderscript NO-SOURCE
+:kandroid:processReleaseJavaRes NO-SOURCE
+:kandroid:mergeReleaseJniLibFolders
+:kandroid:transformNativeLibsWithMergeJniLibsForRelease
+:kandroid:transformNativeLibsWithStripDebugSymbolForRelease
+:kandroid:transformNativeLibsWithSyncJniLibsForRelease
+:kandroid:mergeReleaseResources
+:kandroid:verifyReleaseResources
+:kandroid:classesJar
+:kandroid:javadoc NO-SOURCE
+:kandroid:javadocJar
+:kandroid:sourcesJar
+:kandroid:processDebugResources
+:kandroid:compileDebugKotlin
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (20, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (70, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (76, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (82, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (88, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (94, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (100, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (106, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (112, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (119, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (120, 5): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (122, 42): 'ProgressDialog' is deprecated. Deprecated in Java
+:kandroid:generateDebugSources
+:kandroid:javaPreCompileDebug
+:kandroid:compileDebugJavaWithJavac
+:kandroid:extractDebugAnnotations
+:kandroid:transformResourcesWithMergeJavaResForDebug
+:kandroid:transformClassesAndResourcesWithSyncLibJarsForDebug
+:kandroid:bundleDebug
+:kandroid:compileDebugSources
+:kandroid:assembleDebug
+:kandroid:processReleaseResources
+:kandroid:compileReleaseKotlin
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (20, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (70, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (76, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (82, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (88, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (94, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (100, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (106, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (112, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (119, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (120, 5): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /tmp/rdisk/1705/src/KAndroid-master/kandroid/src/main/kotlin/com/pawegio/kandroid/KDialog.kt: (122, 42): 'ProgressDialog' is deprecated. Deprecated in Java
+:kandroid:generateReleaseSources
+:kandroid:javaPreCompileRelease
+:kandroid:compileReleaseJavaWithJavac
+:kandroid:extractReleaseAnnotations
+:kandroid:transformResourcesWithMergeJavaResForRelease
+:kandroid:transformClassesAndResourcesWithSyncLibJarsForRelease
+:kandroid:bundleRelease
+:kandroid:compileReleaseSources
+:kandroid:assembleRelease
+:kandroid:assemble
+:kandroid:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 35s
+53 actionable tasks: 53 executed
+
+2018-04-05 18:54:42,524 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 18:54:42,525 INFO  SysUtils - Execute command: [/tmp/rdisk/1705/src/KAndroid-master/gradlew, -b, /tmp/rdisk/1705/src/KAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 18:54:51,420 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-04-05 18:54:51,420 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-05 18:54:51,420 INFO  SysUtils - Execute command: [/tmp/rdisk/1705/src/KAndroid-master/gradlew, -b, /tmp/rdisk/1705/src/KAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 18:55:01,729 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+:kandroid:preBuild UP-TO-DATE
+:kandroid:preDebugBuild UP-TO-DATE
+:kandroid:compileDebugAidl UP-TO-DATE
+:kandroid:compileDebugNdk NO-SOURCE
+:kandroid:compileDebugRenderscript UP-TO-DATE
+:kandroid:checkDebugManifest UP-TO-DATE
+:kandroid:generateDebugBuildConfig UP-TO-DATE
+:kandroid:generateDebugResValues UP-TO-DATE
+:kandroid:generateDebugResources UP-TO-DATE
+:kandroid:packageDebugResources UP-TO-DATE
+:kandroid:platformAttrExtractor UP-TO-DATE
+:kandroid:processDebugManifest UP-TO-DATE
+:kandroid:processDebugResources UP-TO-DATE
+:kandroid:compileDebugKotlin UP-TO-DATE
+:kandroid:prepareLintJar UP-TO-DATE
+:kandroid:generateDebugSources UP-TO-DATE
+:kandroid:javaPreCompileDebug UP-TO-DATE
+:kandroid:compileDebugJavaWithJavac UP-TO-DATE
+:kandroid:extractDebugAnnotations UP-TO-DATE
+:kandroid:mergeDebugShaders UP-TO-DATE
+:kandroid:compileDebugShaders UP-TO-DATE
+:kandroid:generateDebugAssets UP-TO-DATE
+:kandroid:mergeDebugAssets UP-TO-DATE
+:kandroid:mergeDebugConsumerProguardFiles UP-TO-DATE
+:kandroid:packageDebugRenderscript NO-SOURCE
+:kandroid:processDebugJavaRes NO-SOURCE
+:kandroid:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:kandroid:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:kandroid:mergeDebugJniLibFolders UP-TO-DATE
+:kandroid:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:kandroid:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:kandroid:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:kandroid:bundleDebug UP-TO-DATE
+:kandroid:compileDebugSources UP-TO-DATE
+:kandroid:assembleDebug UP-TO-DATE
+:kandroid:preReleaseBuild UP-TO-DATE
+:kandroid:compileReleaseAidl UP-TO-DATE
+:kandroid:compileReleaseNdk NO-SOURCE
+:kandroid:compileReleaseRenderscript UP-TO-DATE
+:kandroid:checkReleaseManifest UP-TO-DATE
+:kandroid:generateReleaseBuildConfig UP-TO-DATE
+:kandroid:generateReleaseResValues UP-TO-DATE
+:kandroid:generateReleaseResources UP-TO-DATE
+:kandroid:packageReleaseResources UP-TO-DATE
+:kandroid:processReleaseManifest UP-TO-DATE
+:kandroid:processReleaseResources UP-TO-DATE
+:kandroid:compileReleaseKotlin UP-TO-DATE
+:kandroid:generateReleaseSources UP-TO-DATE
+:kandroid:javaPreCompileRelease UP-TO-DATE
+:kandroid:compileReleaseJavaWithJavac UP-TO-DATE
+:kandroid:extractReleaseAnnotations UP-TO-DATE
+:kandroid:mergeReleaseShaders UP-TO-DATE
+:kandroid:compileReleaseShaders UP-TO-DATE
+:kandroid:generateReleaseAssets UP-TO-DATE
+:kandroid:mergeReleaseAssets UP-TO-DATE
+:kandroid:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:kandroid:packageReleaseRenderscript NO-SOURCE
+:kandroid:processReleaseJavaRes NO-SOURCE
+:kandroid:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:kandroid:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:kandroid:mergeReleaseJniLibFolders UP-TO-DATE
+:kandroid:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:kandroid:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:kandroid:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:kandroid:bundleRelease UP-TO-DATE
+:kandroid:compileReleaseSources UP-TO-DATE
+:kandroid:mergeReleaseResources UP-TO-DATE
+:kandroid:verifyReleaseResources UP-TO-DATE
+:kandroid:assembleRelease UP-TO-DATE
+:kandroid:classesJar
+:kandroid:javadoc NO-SOURCE
+:kandroid:javadocJar UP-TO-DATE
+:kandroid:sourcesJar UP-TO-DATE
+:kandroid:assemble
+:kandroid:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+53 actionable tasks: 1 executed, 52 up-to-date
+
+2018-04-05 18:55:01,767 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 18:55:01,806 ERROR FullProcessService - Could not find generated or existed APK file

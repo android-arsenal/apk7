@@ -1,0 +1,190 @@
+2018-04-05 19:50:37,585 INFO  DownloadService - Downloading "https://github.com/cymcsg/UltimateRecyclerView/archive/master.zip", attempt 3
+2018-04-05 19:50:39,748 INFO  DownloadService - Downloaded https://github.com/cymcsg/UltimateRecyclerView/archive/master.zip, attempt 3
+2018-04-05 19:50:39,748 INFO  DownloadService - Size of file "/tmp/rdisk/1639/master.zip": 4 MB
+2018-04-05 19:50:39,748 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:50:39,749 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1639/master.zip: true
+2018-04-05 19:50:39,749 DEBUG ZipUtil - Extracting '/tmp/rdisk/1639/master.zip' into '/tmp/rdisk/1639/src'.
+2018-04-05 19:50:39,808 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-05 19:50:39,809 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1639/src]
+2018-04-05 19:50:39,814 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1639/src/.git/
+
+2018-04-05 19:50:39,821 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/gradlew
+2018-04-05 19:50:39,828 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/build.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/build.gradle
+2018-04-05 19:50:39,835 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/maven-push.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/build.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/bintray_3_4.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/bintray-release-aar.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/android-release-aar.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/settings.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/build.gradle /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build.gradle
+2018-04-05 19:50:39,835 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:50:39,835 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:50:39,861 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/local.properties
+2018-04-05 19:50:39,866 INFO  ProjectFixService - Build info for "/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:50:39,866 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:50:39,866 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/local.properties
+2018-04-05 19:50:39,871 INFO  ProjectFixService - Build info for "/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:50:39,871 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/ultimaterecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:50:39,872 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/local.properties
+2018-04-05 19:50:39,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-05 19:50:39,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-05 19:50:39,877 INFO  ProjectFixService - Build info for "/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:50:39,877 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:50:39,877 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:50:39,877 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:50:39,878 INFO  SysUtils - Execute command: [/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/gradlew, -b, /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:50:49,164 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-05 19:50:49,164 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:50:49,164 INFO  SysUtils - Execute command: [/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/gradlew, -b, /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:52:55,263 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'debugCompile' in project ':app' is deprecated. Use 'debugImplementation' instead.
+Configuration 'releaseCompile' in project ':app' is deprecated. Use 'releaseImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Configuration 'compile' in project ':ultimaterecyclerview' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:ultimaterecyclerview:preBuild UP-TO-DATE
+:ultimaterecyclerview:preDebugBuild UP-TO-DATE
+:ultimaterecyclerview:checkDebugManifest
+:ultimaterecyclerview:processDebugManifest
+:app:preDebugBuild
+:ultimaterecyclerview:compileDebugAidl
+:app:compileDebugAidl
+:ultimaterecyclerview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:ultimaterecyclerview:compileDebugRenderscript
+:ultimaterecyclerview:generateDebugResValues
+:ultimaterecyclerview:generateDebugResources
+:ultimaterecyclerview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/src/main/AndroidManifest.xml:13:5-90:19 Warning:
+	application@android:icon was tagged at AndroidManifest.xml:13 to replace other declarations but no other declaration present
+/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/src/main/AndroidManifest.xml:13:5-90:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:13 to replace other declarations but no other declaration present
+:app:splitsDiscoveryTaskDebug
+:ultimaterecyclerview:platformAttrExtractor
+:ultimaterecyclerview:generateDebugBuildConfig
+:ultimaterecyclerview:prepareLintJar
+:ultimaterecyclerview:javaPreCompileDebug
+:ultimaterecyclerview:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:ultimaterecyclerview:mergeDebugShaders
+:ultimaterecyclerview:compileDebugShaders
+:ultimaterecyclerview:generateDebugAssets
+:ultimaterecyclerview:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:ultimaterecyclerview:compileDebugNdk NO-SOURCE
+:ultimaterecyclerview:mergeDebugJniLibFolders
+:ultimaterecyclerview:transformNativeLibsWithMergeJniLibsForDebug
+:ultimaterecyclerview:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:ultimaterecyclerview:generateDebugSources
+:ultimaterecyclerview:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ultimaterecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:ultimaterecyclerview:transformNativeLibsWithStripDebugSymbolForDebug
+:ultimaterecyclerview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:ultimaterecyclerview:preReleaseBuild UP-TO-DATE
+:ultimaterecyclerview:checkReleaseManifest
+:ultimaterecyclerview:processReleaseManifest
+:app:preReleaseBuild
+:ultimaterecyclerview:compileReleaseAidl
+:app:compileReleaseAidl
+:ultimaterecyclerview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:ultimaterecyclerview:compileReleaseRenderscript
+:ultimaterecyclerview:generateReleaseResValues
+:ultimaterecyclerview:generateReleaseResources
+:ultimaterecyclerview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/src/main/AndroidManifest.xml:13:5-90:19 Warning:
+	application@android:icon was tagged at AndroidManifest.xml:13 to replace other declarations but no other declaration present
+/tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/src/main/AndroidManifest.xml:13:5-90:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:13 to replace other declarations but no other declaration present
+:app:splitsDiscoveryTaskRelease
+:ultimaterecyclerview:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:ultimaterecyclerview:generateReleaseBuildConfig
+:ultimaterecyclerview:generateReleaseSources
+:ultimaterecyclerview:javaPreCompileRelease
+:ultimaterecyclerview:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ultimaterecyclerview:processReleaseJavaRes NO-SOURCE
+:ultimaterecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:ultimaterecyclerview:mergeReleaseShaders
+:ultimaterecyclerview:compileReleaseShaders
+:ultimaterecyclerview:generateReleaseAssets
+:ultimaterecyclerview:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithJarMergingForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:ultimaterecyclerview:compileReleaseNdk NO-SOURCE
+:ultimaterecyclerview:mergeReleaseJniLibFolders
+:ultimaterecyclerview:transformNativeLibsWithMergeJniLibsForRelease
+:ultimaterecyclerview:transformNativeLibsWithStripDebugSymbolForRelease
+:ultimaterecyclerview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 2m 5s
+89 actionable tasks: 89 executed
+
+2018-04-05 19:52:55,417 INFO  FullProcessService - Found APK file: /tmp/rdisk/1639/src/UltimateRecyclerView-master/UltimateRecyclerView/app/build/outputs/apk/debug/app-debug.apk

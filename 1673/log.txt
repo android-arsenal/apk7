@@ -1,0 +1,132 @@
+2018-05-11 13:46:03,943 INFO  DownloadService - Downloading "https://github.com/ppamorim/Dragger/archive/master.zip", attempt 3
+2018-05-11 13:46:05,207 INFO  DownloadService - Downloaded https://github.com/ppamorim/Dragger/archive/master.zip, attempt 3
+2018-05-11 13:46:05,207 INFO  DownloadService - Size of file "/tmp/rdisk/1673/master.zip": 3 MB
+2018-05-11 13:46:05,207 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:46:05,208 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1673/master.zip: true
+2018-05-11 13:46:05,208 DEBUG ZipUtil - Extracting '/tmp/rdisk/1673/master.zip' into '/tmp/rdisk/1673/src'.
+2018-05-11 13:46:05,252 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-05-11 13:46:05,252 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1673/src]
+2018-05-11 13:46:05,257 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1673/src/.git/
+
+2018-05-11 13:46:05,261 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1673/src/Dragger-master/gradlew
+2018-05-11 13:46:05,264 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1673/src/Dragger-master/app/build.gradle /tmp/rdisk/1673/src/Dragger-master/dragger/build.gradle /tmp/rdisk/1673/src/Dragger-master/build.gradle
+2018-05-11 13:46:05,267 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1673/src/Dragger-master/settings.gradle /tmp/rdisk/1673/src/Dragger-master/dragger/build.gradle /tmp/rdisk/1673/src/Dragger-master/build.gradle /tmp/rdisk/1673/src/Dragger-master/app/build.gradle
+2018-05-11 13:46:05,267 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:46:05,267 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:46:05,276 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1673/src/Dragger-master/app/local.properties
+2018-05-11 13:46:05,278 INFO  ProjectFixService - Build info for "/tmp/rdisk/1673/src/Dragger-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 13:46:05,278 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1673/src/Dragger-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 13:46:05,278 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1673/src/Dragger-master/dragger/local.properties
+2018-05-11 13:46:05,280 INFO  ProjectFixService - Build info for "/tmp/rdisk/1673/src/Dragger-master/dragger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 13:46:05,280 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1673/src/Dragger-master/dragger/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 13:46:05,281 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1673/src/Dragger-master/local.properties
+2018-05-11 13:46:05,281 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-05-11 13:46:05,281 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-05-11 13:46:05,283 INFO  ProjectFixService - Build info for "/tmp/rdisk/1673/src/Dragger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 13:46:05,283 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1673/src/Dragger-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 13:46:05,283 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:46:05,284 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:46:05,284 INFO  SysUtils - Execute command: [/tmp/rdisk/1673/src/Dragger-master/gradlew, -b, /tmp/rdisk/1673/src/Dragger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:46:13,055 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-11 13:46:13,055 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 13:46:13,055 INFO  SysUtils - Execute command: [/tmp/rdisk/1673/src/Dragger-master/gradlew, -b, /tmp/rdisk/1673/src/Dragger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 13:46:49,897 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:dragger:compileLint
+:dragger:copyReleaseLint UP-TO-DATE
+:dragger:preBuild UP-TO-DATE
+:dragger:preReleaseBuild UP-TO-DATE
+:dragger:checkReleaseManifest
+:dragger:preDebugAndroidTestBuild UP-TO-DATE
+:dragger:preDebugBuild UP-TO-DATE
+:dragger:preDebugUnitTestBuild UP-TO-DATE
+:dragger:preReleaseUnitTestBuild UP-TO-DATE
+:dragger:prepareComAndroidSupportAppcompatV72310Library
+:dragger:prepareComAndroidSupportSupportV42310Library
+:dragger:prepareReleaseDependencies
+:dragger:compileReleaseAidl
+:dragger:compileReleaseRenderscript
+:dragger:generateReleaseBuildConfig
+:dragger:generateReleaseAssets UP-TO-DATE
+:dragger:mergeReleaseAssets
+:dragger:generateReleaseResValues
+:dragger:generateReleaseResources
+:dragger:mergeReleaseResources
+:dragger:processReleaseManifest
+:dragger:processReleaseResources
+:dragger:generateReleaseSources
+:dragger:processReleaseJavaRes UP-TO-DATE
+:dragger:compileReleaseJavaWithJavac
+:dragger:extractReleaseAnnotations
+:dragger:mergeReleaseProguardFiles
+:dragger:packageReleaseJar
+:dragger:compileReleaseNdk UP-TO-DATE
+:dragger:packageReleaseJniLibs UP-TO-DATE
+:dragger:packageReleaseLocalJar UP-TO-DATE
+:dragger:packageReleaseRenderscript UP-TO-DATE
+:dragger:packageReleaseResources
+:dragger:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72310Library
+:app:prepareComAndroidSupportRecyclerviewV72210Library
+:app:prepareComAndroidSupportSupportV42310Library
+:app:prepareComFacebookFrescoDrawee081Library
+:app:prepareComFacebookFrescoFbcore081Library
+:app:prepareComFacebookFrescoFresco081Library
+:app:prepareComFacebookFrescoImagepipeline081Library
+:app:prepareComGithubKsoichiroAndroidObservablescrollview151Library
+:app:prepareComGithubPpamorimRecyclerrenderers122Library
+:app:prepareDraggerMasterDraggerUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 36.41 secs
+
+2018-05-11 13:46:49,968 INFO  FullProcessService - Found APK file: /tmp/rdisk/1673/src/Dragger-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,123 @@
+2018-04-05 18:58:40,836 INFO  DownloadService - Downloading "https://github.com/IvanWooll/FloatingLabelValidator/archive/master.zip", attempt 3
+2018-04-05 18:58:41,265 INFO  DownloadService - Downloaded https://github.com/IvanWooll/FloatingLabelValidator/archive/master.zip, attempt 3
+2018-04-05 18:58:41,265 INFO  DownloadService - Size of file "/tmp/rdisk/1702/master.zip": 90 KB
+2018-04-05 18:58:41,265 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 18:58:41,265 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1702/master.zip: true
+2018-04-05 18:58:41,265 DEBUG ZipUtil - Extracting '/tmp/rdisk/1702/master.zip' into '/tmp/rdisk/1702/src'.
+2018-04-05 18:58:41,274 INFO  FullProcessService - Size of directory with sources: 110 KB
+2018-04-05 18:58:41,274 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1702/src]
+2018-04-05 18:58:41,279 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1702/src/.git/
+
+2018-04-05 18:58:41,282 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1702/src/FloatingLabelValidator-master/gradlew
+2018-04-05 18:58:41,284 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build.gradle /tmp/rdisk/1702/src/FloatingLabelValidator-master/lib/build.gradle /tmp/rdisk/1702/src/FloatingLabelValidator-master/build.gradle
+2018-04-05 18:58:41,286 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1702/src/FloatingLabelValidator-master/settings.gradle /tmp/rdisk/1702/src/FloatingLabelValidator-master/lib/build.gradle /tmp/rdisk/1702/src/FloatingLabelValidator-master/build.gradle /tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build.gradle
+2018-04-05 18:58:41,286 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 18:58:41,286 INFO  ProjectFixService - Fixing project...
+2018-04-05 18:58:41,292 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1702/src/FloatingLabelValidator-master/app/local.properties
+2018-04-05 18:58:41,292 INFO  ProjectFixService - Build info for "/tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-05 18:58:41,292 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1702/src/FloatingLabelValidator-master/lib/local.properties
+2018-04-05 18:58:41,293 INFO  ProjectFixService - Build info for "/tmp/rdisk/1702/src/FloatingLabelValidator-master/lib/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-05 18:58:41,293 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1702/src/FloatingLabelValidator-master/local.properties
+2018-04-05 18:58:41,293 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 18:58:41,293 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 18:58:41,294 INFO  ProjectFixService - Build info for "/tmp/rdisk/1702/src/FloatingLabelValidator-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2018-04-05 18:58:41,295 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 18:58:41,295 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 18:58:41,295 INFO  SysUtils - Execute command: [/tmp/rdisk/1702/src/FloatingLabelValidator-master/gradlew, -b, /tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 18:58:49,376 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 18:58:49,376 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 18:58:49,376 INFO  SysUtils - Execute command: [/tmp/rdisk/1702/src/FloatingLabelValidator-master/gradlew, -b, /tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 18:59:14,550 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAppcompatV72200Library
+:lib:prepareComAndroidSupportSupportV42200Library
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:compileReleaseJava
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseProguardFiles
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72200Library
+:app:prepareComAndroidSupportSupportV42200Library
+:app:prepareFloatingLabelValidatorMasterLibUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources/tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.763 secs
+
+2018-04-05 18:59:14,602 INFO  FullProcessService - Found APK file: /tmp/rdisk/1702/src/FloatingLabelValidator-master/app/build/outputs/apk/app-debug.apk

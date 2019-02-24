@@ -1,0 +1,21 @@
+2018-04-05 23:18:06,170 INFO  DownloadService - Downloading "https://github.com/AizazAZ/Android-Ultra-Photo-Selector/archive/master.zip", attempt 3
+2018-04-05 23:19:06,782 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 23:19:07,474 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 23:19:07,474 INFO  DownloadService - Downloading "https://github.com/AizazAZ/Android-Ultra-Photo-Selector/archive/master.zip", attempt 3
+2018-04-05 23:20:08,762 DEBUG FullProcessService - Repository https://github.com/AizazAZ/Android-Ultra-Photo-Selector available: true
+2018-04-05 23:20:08,762 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 23:20:08,763 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AizazAZ/Android-Ultra-Photo-Selector, /tmp/rdisk/1527/src]
+2018-04-05 23:20:11,969 INFO  SysUtils - 
+2018-04-05 23:20:11,973 INFO  GitService - Deleted "/tmp/rdisk/1527/src/.git": true
+2018-04-05 23:20:11,976 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-05 23:20:11,976 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1527/src]
+2018-04-05 23:20:11,982 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1527/src/.git/
+
+2018-04-05 23:20:11,984 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-05 23:20:11,984 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-05 23:20:11,987 INFO  ProjectBuildService - Build script(s): none
+2018-04-05 23:20:11,989 INFO  ProjectBuildService - All script(s): none
+2018-04-05 23:20:11,989 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 23:20:11,989 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-05 23:20:11,989 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 23:20:11,991 ERROR FullProcessService - Could not find generated or existed APK file

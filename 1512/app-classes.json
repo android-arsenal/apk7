@@ -1,0 +1,4 @@
+{
+  "com.pascalwelsch.circularprogressbarsample" : [ "BuildConfig", "CircularProgressBarSample", "CircularProgressBarSample$1", "CircularProgressBarSample$2", "CircularProgressBarSample$3", "CircularProgressBarSample$4", "CircularProgressBarSample$4$1", "CircularProgressBarSample$5", "CircularProgressBarSample$6", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ],
+  "com.pascalwelsch.holocircularprogressbar" : [ "BuildConfig", "HoloCircularProgressBar", "R", "R$attr", "R$style", "R$styleable" ]
+}

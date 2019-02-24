@@ -1,0 +1,151 @@
+2018-04-05 18:52:05,008 INFO  DownloadService - Downloading "https://github.com/airk000/SoBitmap/archive/master.zip", attempt 3
+2018-04-05 18:52:05,415 INFO  DownloadService - Downloaded https://github.com/airk000/SoBitmap/archive/master.zip, attempt 3
+2018-04-05 18:52:05,415 INFO  DownloadService - Size of file "/tmp/rdisk/1706/master.zip": 112 KB
+2018-04-05 18:52:05,415 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 18:52:05,415 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1706/master.zip: true
+2018-04-05 18:52:05,415 DEBUG ZipUtil - Extracting '/tmp/rdisk/1706/master.zip' into '/tmp/rdisk/1706/src'.
+2018-04-05 18:52:05,424 INFO  FullProcessService - Size of directory with sources: 177 KB
+2018-04-05 18:52:05,424 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1706/src]
+2018-04-05 18:52:05,438 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1706/src/.git/
+
+2018-04-05 18:52:05,441 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1706/src/SoBitmap-master/gradlew
+2018-04-05 18:52:05,443 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1706/src/SoBitmap-master/sample/build.gradle /tmp/rdisk/1706/src/SoBitmap-master/sobitmap/build.gradle /tmp/rdisk/1706/src/SoBitmap-master/build.gradle
+2018-04-05 18:52:05,446 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1706/src/SoBitmap-master/sobitmap/build.gradle /tmp/rdisk/1706/src/SoBitmap-master/settings.gradle /tmp/rdisk/1706/src/SoBitmap-master/sample/build.gradle /tmp/rdisk/1706/src/SoBitmap-master/build.gradle
+2018-04-05 18:52:05,446 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-05 18:53:05,752 ERROR RemoteScriptService - Could not download content from "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 18:53:05,752 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 18:53:05,752 INFO  ProjectFixService - Fixing project...
+2018-04-05 18:53:05,759 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1706/src/SoBitmap-master/sample/local.properties
+2018-04-05 18:53:05,760 INFO  ProjectFixService - Build info for "/tmp/rdisk/1706/src/SoBitmap-master/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 18:53:05,760 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1706/src/SoBitmap-master/sobitmap/local.properties
+2018-04-05 18:53:05,760 INFO  ProjectFixService - Build info for "/tmp/rdisk/1706/src/SoBitmap-master/sobitmap/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 18:53:05,760 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1706/src/SoBitmap-master/local.properties
+2018-04-05 18:53:05,761 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 18:53:05,761 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 18:53:05,761 INFO  ProjectFixService - Build info for "/tmp/rdisk/1706/src/SoBitmap-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 18:53:05,762 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 18:53:05,762 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 18:53:05,762 INFO  SysUtils - Execute command: [/tmp/rdisk/1706/src/SoBitmap-master/gradlew, -b, /tmp/rdisk/1706/src/SoBitmap-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 18:53:17,379 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 18:53:17,379 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 18:53:17,379 INFO  SysUtils - Execute command: [/tmp/rdisk/1706/src/SoBitmap-master/gradlew, -b, /tmp/rdisk/1706/src/SoBitmap-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 18:53:46,297 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild
+:sample:compileDebugNdk
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:preReleaseBuild
+:sobitmap:compileLint
+:sobitmap:copyReleaseLint UP-TO-DATE
+:sobitmap:preBuild
+:sobitmap:preReleaseBuild
+:sobitmap:checkReleaseManifest
+:sobitmap:prepareReleaseDependencies
+:sobitmap:compileReleaseAidl
+:sobitmap:compileReleaseRenderscript
+:sobitmap:generateReleaseBuildConfig
+:sobitmap:generateReleaseAssets UP-TO-DATE
+:sobitmap:mergeReleaseAssets
+:sobitmap:generateReleaseResValues
+:sobitmap:generateReleaseResources
+:sobitmap:packageReleaseResources
+:sobitmap:processReleaseManifest
+:sobitmap:processReleaseResources
+:sobitmap:generateReleaseSources
+:sobitmap:compileReleaseJava
+:sobitmap:extractReleaseAnnotations
+:sobitmap:mergeReleaseProguardFiles
+:sobitmap:processReleaseJavaRes UP-TO-DATE
+:sobitmap:packageReleaseJar
+:sobitmap:compileReleaseNdk
+:sobitmap:packageReleaseJniLibs UP-TO-DATE
+:sobitmap:packageReleaseLocalJar UP-TO-DATE
+:sobitmap:packageReleaseRenderscript UP-TO-DATE
+:sobitmap:bundleRelease
+:sample:prepareComAndroidSupportAppcompatV72200Library
+:sample:prepareComAndroidSupportSupportV42200Library
+:sample:prepareSoBitmapMasterSobitmapUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1706/src/SoBitmap-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources/tmp/rdisk/1706/src/SoBitmap-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJava
+:sample:lintVitalRelease
+:sample:compileReleaseNdk
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.484 secs
+
+2018-04-05 18:53:46,333 INFO  FullProcessService - Found APK file: /tmp/rdisk/1706/src/SoBitmap-master/sample/build/outputs/apk/sample-release-unsigned.apk

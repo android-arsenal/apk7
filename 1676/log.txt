@@ -1,0 +1,12 @@
+2018-04-05 19:24:18,760 INFO  DownloadService - Downloading "https://github.com/multidots/android-common-tasks/archive/master.zip", attempt 3
+2018-04-05 19:24:26,268 INFO  DownloadService - Downloaded https://github.com/multidots/android-common-tasks/archive/master.zip, attempt 3
+2018-04-05 19:24:26,268 INFO  DownloadService - Size of file "/tmp/rdisk/1676/master.zip": 50 MB
+2018-04-05 19:24:26,268 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:24:26,274 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1676/master.zip: true
+2018-04-05 19:24:26,274 DEBUG ZipUtil - Extracting '/tmp/rdisk/1676/master.zip' into '/tmp/rdisk/1676/src'.
+2018-04-05 19:24:27,132 INFO  FullProcessService - Size of directory with sources: 56 MB
+2018-04-05 19:24:27,132 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-04-05 19:24:27,132 ERROR FullProcessService - Project will not be processed
+2018-04-05 19:24:27,132 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 19:24:27,212 INFO  FullProcessService - Found existed APK file in the project: /tmp/rdisk/1676/src/android-app-common-tasks-master/docs/CommonTaskDemo.apk
+2018-04-05 19:24:27,212 INFO  FullProcessService - Found APK file: /tmp/rdisk/1676/src/android-app-common-tasks-master/docs/CommonTaskDemo.apk

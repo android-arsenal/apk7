@@ -1,0 +1,154 @@
+2018-04-05 19:59:34,285 INFO  DownloadService - Downloading "https://github.com/MacroYau/Blue2Serial/archive/master.zip", attempt 3
+2018-04-05 19:59:34,983 INFO  DownloadService - Downloaded https://github.com/MacroYau/Blue2Serial/archive/master.zip, attempt 3
+2018-04-05 19:59:34,983 INFO  DownloadService - Size of file "/tmp/rdisk/1623/master.zip": 1 MB
+2018-04-05 19:59:34,983 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:59:34,984 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1623/master.zip: true
+2018-04-05 19:59:34,984 DEBUG ZipUtil - Extracting '/tmp/rdisk/1623/master.zip' into '/tmp/rdisk/1623/src'.
+2018-04-05 19:59:35,000 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 19:59:35,000 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1623/src]
+2018-04-05 19:59:35,005 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1623/src/.git/
+
+2018-04-05 19:59:35,008 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1623/src/Blue2Serial-master/gradlew
+2018-04-05 19:59:35,011 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1623/src/Blue2Serial-master/app/build.gradle /tmp/rdisk/1623/src/Blue2Serial-master/library/build.gradle /tmp/rdisk/1623/src/Blue2Serial-master/build.gradle
+2018-04-05 19:59:35,013 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1623/src/Blue2Serial-master/settings.gradle /tmp/rdisk/1623/src/Blue2Serial-master/library/build.gradle /tmp/rdisk/1623/src/Blue2Serial-master/build.gradle /tmp/rdisk/1623/src/Blue2Serial-master/app/build.gradle
+2018-04-05 19:59:35,013 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:59:35,013 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:59:35,020 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1623/src/Blue2Serial-master/app/local.properties
+2018-04-05 19:59:35,020 INFO  ProjectFixService - Build info for "/tmp/rdisk/1623/src/Blue2Serial-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-05 19:59:35,020 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1623/src/Blue2Serial-master/library/local.properties
+2018-04-05 19:59:35,020 INFO  ProjectFixService - Build info for "/tmp/rdisk/1623/src/Blue2Serial-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-05 19:59:35,020 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1623/src/Blue2Serial-master/local.properties
+2018-04-05 19:59:35,021 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-05 19:59:35,021 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-05 19:59:35,022 INFO  ProjectFixService - Build info for "/tmp/rdisk/1623/src/Blue2Serial-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-05 19:59:35,022 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:59:35,022 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:59:35,022 INFO  SysUtils - Execute command: [/tmp/rdisk/1623/src/Blue2Serial-master/gradlew, -b, /tmp/rdisk/1623/src/Blue2Serial-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:59:43,078 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-04-05 19:59:43,078 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:59:43,078 INFO  SysUtils - Execute command: [/tmp/rdisk/1623/src/Blue2Serial-master/gradlew, -b, /tmp/rdisk/1623/src/Blue2Serial-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 20:00:14,371 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:library:prepareComAndroidSupportAppcompatV72340Library
+:library:prepareComAndroidSupportSupportV42340Library
+:library:prepareComAndroidSupportSupportVectorDrawable2340Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:app:prepareBlue2SerialMasterLibraryUnspecifiedLibrary
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:app:prepareComAndroidSupportAppcompatV72340Library
+:app:prepareComAndroidSupportSupportV42340Library
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:prePackageMarkerForRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 30.853 secs
+
+2018-04-05 20:00:14,445 INFO  FullProcessService - Found APK file: /tmp/rdisk/1623/src/Blue2Serial-master/app/build/outputs/apk/app-debug.apk

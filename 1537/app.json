@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.thefinestartist.movingbutton.sample",
+    "label" : "Moving Button",
+    "icon" : "res/drawable-xxxhdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.VIBRATE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-xxxhdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1468,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0.0\" package=\"com.thefinestartist.movingbutton.sample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"Moving Button\" android:icon=\"res/drawable-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Moving Button\" android:name=\"com.thefinestartist.movingbutton.sample.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.crashlytics.ApiKey\" android:value=\"286eb9845a463270ba6a058f160c64043f7639e9\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1218718,
+  "crc32" : 1097095060,
+  "sha256" : "85f3a19b63d3357cb87bcf049da582c90f1285b15d5ee68da7520ed70a4eb8a3",
+  "buildTime" : 1526047160000
+}

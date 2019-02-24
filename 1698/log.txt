@@ -1,0 +1,796 @@
+2018-04-05 19:03:17,817 INFO  DownloadService - Downloading "https://github.com/AAkira/OkWear/archive/master.zip", attempt 3
+2018-04-05 19:03:19,289 INFO  DownloadService - Downloaded https://github.com/AAkira/OkWear/archive/master.zip, attempt 3
+2018-04-05 19:03:19,289 INFO  DownloadService - Size of file "/tmp/rdisk/1698/master.zip": 138 KB
+2018-04-05 19:03:19,289 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:03:19,289 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1698/master.zip: true
+2018-04-05 19:03:19,289 DEBUG ZipUtil - Extracting '/tmp/rdisk/1698/master.zip' into '/tmp/rdisk/1698/src'.
+2018-04-05 19:03:19,302 INFO  FullProcessService - Size of directory with sources: 169 KB
+2018-04-05 19:03:19,302 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1698/src]
+2018-04-05 19:03:19,306 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1698/src/.git/
+
+2018-04-05 19:03:19,310 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1698/src/OkWear-master/gradlew
+2018-04-05 19:03:19,314 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1698/src/OkWear-master/library/okwear/build.gradle /tmp/rdisk/1698/src/OkWear-master/mobile/build.gradle /tmp/rdisk/1698/src/OkWear-master/wear/build.gradle /tmp/rdisk/1698/src/OkWear-master/build.gradle
+2018-04-05 19:03:19,317 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1698/src/OkWear-master/wear/build.gradle /tmp/rdisk/1698/src/OkWear-master/settings.gradle /tmp/rdisk/1698/src/OkWear-master/mobile/build.gradle /tmp/rdisk/1698/src/OkWear-master/library/okwear/build.gradle /tmp/rdisk/1698/src/OkWear-master/build.gradle
+2018-04-05 19:03:19,318 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:03:19,318 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:03:19,326 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1698/src/OkWear-master/library/okwear/local.properties
+2018-04-05 19:03:19,326 INFO  ProjectFixService - Build info for "/tmp/rdisk/1698/src/OkWear-master/library/okwear/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-05 19:03:19,327 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1698/src/OkWear-master/mobile/local.properties
+2018-04-05 19:03:19,327 INFO  ProjectFixService - Build info for "/tmp/rdisk/1698/src/OkWear-master/mobile/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-05 19:03:19,327 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1698/src/OkWear-master/wear/local.properties
+2018-04-05 19:03:19,327 INFO  ProjectFixService - Build info for "/tmp/rdisk/1698/src/OkWear-master/wear/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=20,targetSdkVersion=22]
+2018-04-05 19:03:19,328 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1698/src/OkWear-master/local.properties
+2018-04-05 19:03:19,328 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:03:19,328 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:03:19,329 INFO  ProjectFixService - Build info for "/tmp/rdisk/1698/src/OkWear-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=20,targetSdkVersion=22]
+2018-04-05 19:03:19,329 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:03:19,329 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:03:19,329 INFO  SysUtils - Execute command: [/tmp/rdisk/1698/src/OkWear-master/gradlew, -b, /tmp/rdisk/1698/src/OkWear-master/library/okwear/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:03:27,094 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-04-05 19:03:27,095 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-04-05 19:03:27,095 INFO  SysUtils - Execute command: [/tmp/rdisk/1698/src/OkWear-master/gradlew, -b, /tmp/rdisk/1698/src/OkWear-master/library/okwear/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-05 19:03:38,798 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:okwear:compileLint
+:library:okwear:copyDebugLint UP-TO-DATE
+:library:okwear:preBuild UP-TO-DATE
+:library:okwear:preDebugBuild UP-TO-DATE
+:library:okwear:checkDebugManifest
+:library:okwear:preDebugAndroidTestBuild UP-TO-DATE
+:library:okwear:preReleaseBuild UP-TO-DATE
+:library:okwear:prepareComAndroidSupportSupportV42200Library
+:library:okwear:prepareComGoogleAndroidGmsPlayServicesBase750Library
+:library:okwear:prepareComGoogleAndroidGmsPlayServicesWearable750Library
+:library:okwear:prepareDebugDependencies
+:library:okwear:compileDebugAidl
+:library:okwear:compileDebugRenderscript
+:library:okwear:generateDebugBuildConfig
+:library:okwear:generateDebugAssets UP-TO-DATE
+:library:okwear:mergeDebugAssets
+:library:okwear:generateDebugResValues
+:library:okwear:generateDebugResources
+:library:okwear:mergeDebugResources
+:library:okwear:processDebugManifest
+:library:okwear:processDebugResources
+:library:okwear:generateDebugSources
+:library:okwear:compileDebugJavaNote: /tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:okwear:extractDebugAnnotations
+:library:okwear:mergeDebugProguardFiles
+:library:okwear:processDebugJavaRes UP-TO-DATE
+:library:okwear:packageDebugJar
+:library:okwear:compileDebugNdk UP-TO-DATE
+:library:okwear:packageDebugJniLibs UP-TO-DATE
+:library:okwear:packageDebugLocalJar UP-TO-DATE
+:library:okwear:packageDebugRenderscript UP-TO-DATE
+:library:okwear:packageDebugResources
+:library:okwear:bundleDebug
+:library:okwear:assembleDebug
+:library:okwear:copyReleaseLint UP-TO-DATE
+:library:okwear:checkReleaseManifest
+:library:okwear:prepareReleaseDependencies
+:library:okwear:compileReleaseAidl
+:library:okwear:compileReleaseRenderscript
+:library:okwear:generateReleaseBuildConfig
+:library:okwear:generateReleaseAssets UP-TO-DATE
+:library:okwear:mergeReleaseAssets
+:library:okwear:generateReleaseResValues
+:library:okwear:generateReleaseResources
+:library:okwear:mergeReleaseResources
+:library:okwear:processReleaseManifest
+:library:okwear:processReleaseResources
+:library:okwear:generateReleaseSources
+:library:okwear:compileReleaseJavaNote: /tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:okwear:extractReleaseAnnotations
+:library:okwear:mergeReleaseProguardFiles
+:library:okwear:processReleaseJavaRes UP-TO-DATE
+:library:okwear:packageReleaseJar
+:library:okwear:compileReleaseNdk UP-TO-DATE
+:library:okwear:packageReleaseJniLibs UP-TO-DATE
+:library:okwear:packageReleaseLocalJar UP-TO-DATE
+:library:okwear:packageReleaseRenderscript UP-TO-DATE
+:library:okwear:packageReleaseResources
+:library:okwear:bundleRelease
+:library:okwear:assembleRelease
+:library:okwear:javadoc/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWearBase.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWearBase.java:7: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataEventBuffer;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWearBase.java:8: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageEvent;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:9: error: package com.google.android.gms.common does not exist
+import com.google.android.gms.common.ConnectionResult;
+                                    ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:10: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:11: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.PendingResult;
+                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:12: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.ResultCallback;
+                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:13: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:14: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataEventBuffer;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:15: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:16: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageEvent;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:17: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Node;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:18: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.NodeApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:19: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.PutDataRequest;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:20: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Wearable;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:30: error: package GoogleApiClient does not exist
+public class ConnectionHelper implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
+                                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:30: error: package GoogleApiClient does not exist
+public class ConnectionHelper implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
+                                                                                             ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:31: error: package DataApi does not exist
+        DataApi.DataListener, MessageApi.MessageListener, NodeApi.NodeListener {
+               ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:31: error: package MessageApi does not exist
+        DataApi.DataListener, MessageApi.MessageListener, NodeApi.NodeListener {
+                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:31: error: package NodeApi does not exist
+        DataApi.DataListener, MessageApi.MessageListener, NodeApi.NodeListener {
+                                                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/listener/WearReceiveListener.java:3: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataEventBuffer;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/listener/WearReceiveListener.java:4: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageEvent;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/listener/NodeChangeListener.java:3: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Node;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWearBase.java:62: error: cannot find symbol
+    public void onMessageReceived(final MessageEvent messageEvent) {
+                                        ^
+  symbol:   class MessageEvent
+  location: class OkWearBase
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWearBase.java:74: error: cannot find symbol
+    public void onDataChanged(final DataEventBuffer dataEvents) {
+                                    ^
+  symbol:   class DataEventBuffer
+  location: class OkWearBase
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:37: error: cannot find symbol
+    private GoogleApiClient mGoogleApiClient;
+            ^
+  symbol:   class GoogleApiClient
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:55: error: cannot find symbol
+    private GoogleApiClient buildGoogleApiClient(final Context context) {
+            ^
+  symbol:   class GoogleApiClient
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:62: error: cannot find symbol
+    protected GoogleApiClient getGoogleApiClient() {
+              ^
+  symbol:   class GoogleApiClient
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:80: error: cannot find symbol
+    public void onConnectionFailed(final ConnectionResult connectionResult) {
+                                         ^
+  symbol:   class ConnectionResult
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:100: error: cannot find symbol
+    public void onMessageReceived(final MessageEvent messageEvent) {
+                                        ^
+  symbol:   class MessageEvent
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:107: error: cannot find symbol
+    public void onDataChanged(final DataEventBuffer dataEventBuffer) {
+                                    ^
+  symbol:   class DataEventBuffer
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:114: error: cannot find symbol
+    public void onPeerConnected(Node node) {
+                                ^
+  symbol:   class Node
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:119: error: cannot find symbol
+    public void onPeerDisconnected(Node node) {
+                                   ^
+  symbol:   class Node
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:146: error: cannot find symbol
+    public void sendMessage(@NonNull final Node node, @Nullable final byte[] payload,
+                                           ^
+  symbol:   class Node
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:147: error: package MessageApi does not exist
+                            @NonNull final String path, @Nullable final SendResultListener<MessageApi.SendMessageResult> listener) {
+                                                                                                     ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:171: error: cannot find symbol
+    public void sendMessageAsync(@NonNull final Node node, @Nullable final byte[] payload,
+                                                ^
+  symbol:   class Node
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:172: error: package MessageApi does not exist
+                                 @NonNull final String path, @Nullable final SendResultListener<MessageApi.SendMessageResult> listener) {
+                                                                                                          ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:185: error: cannot find symbol
+    public void syncData(@NonNull final PutDataRequest request, @Nullable final SendResultListener<DataApi.DataItemResult> listener) {
+                                        ^
+  symbol:   class PutDataRequest
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:185: error: package DataApi does not exist
+    public void syncData(@NonNull final PutDataRequest request, @Nullable final SendResultListener<DataApi.DataItemResult> listener) {
+                                                                                                          ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:204: error: cannot find symbol
+    public void syncDataAsync(@NonNull final PutDataRequest request, @Nullable final SendResultListener<DataApi.DataItemResult> listener) {
+                                             ^
+  symbol:   class PutDataRequest
+  location: class ConnectionHelper
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:204: error: package DataApi does not exist
+    public void syncDataAsync(@NonNull final PutDataRequest request, @Nullable final SendResultListener<DataApi.DataItemResult> listener) {
+                                                                                                               ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:212: error: cannot find symbol
+        public void onMessageReceived(final MessageEvent messageEvent);
+                                            ^
+  symbol:   class MessageEvent
+  location: interface CallBackListener
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/ConnectionHelper.java:214: error: cannot find symbol
+        public void onDataChanged(final DataEventBuffer dataEventBuffer);
+                                        ^
+  symbol:   class DataEventBuffer
+  location: interface CallBackListener
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/listener/WearReceiveListener.java:8: error: cannot find symbol
+    void onReceiveMessage(final MessageEvent messageEvent);
+                                ^
+  symbol:   class MessageEvent
+  location: interface WearReceiveListener
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/listener/WearReceiveListener.java:10: error: cannot find symbol
+    void onReceiveDataApi(final DataEventBuffer dataEventBuffer);
+                                ^
+  symbol:   class DataEventBuffer
+  location: interface WearReceiveListener
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/listener/NodeChangeListener.java:9: error: cannot find symbol
+    void onReceiveNodes(final List<Node> nodes);
+                                   ^
+  symbol:   class Node
+  location: interface NodeChangeListener
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:8: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Asset;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:9: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:10: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:11: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Node;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:6: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.MessageApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:7: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Node;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/DataApiImpl.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/DataApiImpl.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/DataApiImpl.java:6: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataApi;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:56: error: package MessageApi does not exist
+                               @Nullable final SendResultListener<MessageApi.SendMessageResult> listener) {
+                                                                            ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:78: error: package MessageApi does not exist
+                                    @Nullable final SendResultListener<MessageApi.SendMessageResult> listener) {
+                                                                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:94: error: cannot find symbol
+    public void sendMessage(@NonNull final Node node, @Nullable final byte[] payload, @Nullable final String path) {
+                                           ^
+  symbol:   class Node
+  location: class OkWear
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:99: error: cannot find symbol
+    public void sendMessage(@NonNull final Node node, @Nullable final byte[] payload,
+                                           ^
+  symbol:   class Node
+  location: class OkWear
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:100: error: package MessageApi does not exist
+                            @Nullable String path, @Nullable final SendResultListener<MessageApi.SendMessageResult> listener) {
+                                                                                                ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:108: error: cannot find symbol
+    public void sendMessageAsync(@NonNull final Node node, @Nullable final byte[] payload, @Nullable final String path) {
+                                                ^
+  symbol:   class Node
+  location: class OkWear
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:113: error: cannot find symbol
+    public void sendMessageAsync(@NonNull final Node node, @Nullable final byte[] payload,
+                                                ^
+  symbol:   class Node
+  location: class OkWear
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:114: error: package MessageApi does not exist
+                                 @Nullable String path, @Nullable final SendResultListener<MessageApi.SendMessageResult> listener) {
+                                                                                                     ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:5: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Asset;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:6: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.DataMap;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:7: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.PutDataMapRequest;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:8: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.PutDataRequest;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:151: error: package DataApi does not exist
+    public void syncData(@NonNull final Payload payload, @Nullable final SendResultListener<DataApi.DataItemResult> listener) {
+                                                                                                   ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:161: error: package DataApi does not exist
+    public void syncDataAsync(@NonNull final Payload payload, @Nullable final SendResultListener<DataApi.DataItemResult> listener) {
+                                                                                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/OkWear.java:171: error: cannot find symbol
+    public Bitmap loadBitmap(@NonNull final Asset asset) {
+                                            ^
+  symbol:   class Asset
+  location: class OkWear
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:29: error: package MessageApi does not exist
+                               @Nullable final SendResultListener<MessageApi.SendMessageResult> listener);
+                                                                            ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:49: error: package MessageApi does not exist
+                                    @Nullable final SendResultListener<MessageApi.SendMessageResult> listener);
+                                                                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:58: error: cannot find symbol
+    public void sendMessage(@NonNull final Node node, @Nullable final byte[] payload, @Nullable String path);
+                                           ^
+  symbol:   class Node
+  location: interface MessageApiImpl
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:68: error: cannot find symbol
+    public void sendMessage(@NonNull final Node node, @Nullable final byte[] payload,
+                                           ^
+  symbol:   class Node
+  location: interface MessageApiImpl
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:69: error: package MessageApi does not exist
+                            @Nullable String path, @Nullable final SendResultListener<MessageApi.SendMessageResult> listener);
+                                                                                                ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:79: error: cannot find symbol
+    public void sendMessageAsync(@NonNull final Node node, @Nullable final byte[] payload, @Nullable String path);
+                                                ^
+  symbol:   class Node
+  location: interface MessageApiImpl
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:90: error: cannot find symbol
+    public void sendMessageAsync(@NonNull final Node node, @Nullable final byte[] payload,
+                                                ^
+  symbol:   class Node
+  location: interface MessageApiImpl
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/MessageApiImpl.java:91: error: package MessageApi does not exist
+                                 @Nullable String path, @Nullable final SendResultListener<MessageApi.SendMessageResult> listener);
+                                                                                                     ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/DataApiImpl.java:26: error: package DataApi does not exist
+    public void syncData(@NonNull final Payload payload, @Nullable final SendResultListener<DataApi.DataItemResult> listener);
+                                                                                                   ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/DataApiImpl.java:43: error: package DataApi does not exist
+    public void syncDataAsync(@NonNull final Payload payload, @Nullable final SendResultListener<DataApi.DataItemResult> listener);
+                                                                                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:17: error: cannot find symbol
+    private PutDataMapRequest dataMapRequest;
+            ^
+  symbol:   class PutDataMapRequest
+  location: class Payload
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:18: error: cannot find symbol
+    private DataMap dataMap;
+            ^
+  symbol:   class DataMap
+  location: class Payload
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:148: error: cannot find symbol
+    public PutDataRequest getPutDataRequest() {
+           ^
+  symbol:   class PutDataRequest
+  location: class Payload
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:22: error: cannot find symbol
+        private DataMap dataMap;
+                ^
+  symbol:   class DataMap
+  location: class Builder
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:23: error: cannot find symbol
+        private PutDataMapRequest dataMapRequest;
+                ^
+  symbol:   class PutDataMapRequest
+  location: class Builder
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:40: error: cannot find symbol
+        public Builder addPayload(String name, Asset value) {
+                                               ^
+  symbol:   class Asset
+  location: class Builder
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/Payload.java:71: error: cannot find symbol
+        public Builder addPayload(String name, DataMap value) {
+                                               ^
+  symbol:   class DataMap
+  location: class Builder
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:8: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:9: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Asset;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:10: error: package com.google.android.gms.wearable does not exist
+import com.google.android.gms.wearable.Wearable;
+                                      ^
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:19: error: cannot find symbol
+    protected static Asset createAssetFromBitmap(final Bitmap bitmap) {
+                     ^
+  symbol:   class Asset
+  location: class AssetUtil
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:23: error: cannot find symbol
+    protected static Asset createAssetFromBitmap(final Bitmap bitmap, final Bitmap.CompressFormat format,
+                     ^
+  symbol:   class Asset
+  location: class AssetUtil
+/tmp/rdisk/1698/src/OkWear-master/library/okwear/src/main/java/jp/android/a/akira/library/okwear/util/AssetUtil.java:30: error: cannot find symbol
+    public static Bitmap loadBitmapFromAsset(@NonNull final Asset asset, final GoogleApiClient googleApiClient) {
+                                                            ^
+  symbol:   class Asset
+  location: class AssetUtil
+
+100 warnings
+:library:okwear:javadocJar
+:library:okwear:sourcesJar
+:library:okwear:assemble
+:library:okwear:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.272 secs
+
+2018-04-05 19:03:38,824 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:03:38,824 INFO  SysUtils - Execute command: [/tmp/rdisk/1698/src/OkWear-master/gradlew, -b, /tmp/rdisk/1698/src/OkWear-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:03:45,753 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 19:03:45,753 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 19:03:45,753 INFO  SysUtils - Execute command: [/tmp/rdisk/1698/src/OkWear-master/gradlew, -b, /tmp/rdisk/1698/src/OkWear-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 19:04:33,833 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 19:04:33,833 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mobile:preBuild UP-TO-DATE
+:mobile:preDebugBuild UP-TO-DATE
+:mobile:compileDebugNdk UP-TO-DATE
+:mobile:checkDebugManifest
+:mobile:preReleaseBuild UP-TO-DATE
+:library:okwear:compileLint
+:library:okwear:copyReleaseLint UP-TO-DATE
+:library:okwear:preBuild UP-TO-DATE
+:library:okwear:preReleaseBuild UP-TO-DATE
+:library:okwear:checkReleaseManifest
+:library:okwear:preDebugAndroidTestBuild UP-TO-DATE
+:library:okwear:preDebugBuild UP-TO-DATE
+:library:okwear:prepareComAndroidSupportSupportV42200Library UP-TO-DATE
+:library:okwear:prepareComGoogleAndroidGmsPlayServicesBase750Library UP-TO-DATE
+:library:okwear:prepareComGoogleAndroidGmsPlayServicesWearable750Library UP-TO-DATE
+:library:okwear:prepareReleaseDependencies
+:library:okwear:compileReleaseAidl UP-TO-DATE
+:library:okwear:compileReleaseRenderscript UP-TO-DATE
+:library:okwear:generateReleaseBuildConfig UP-TO-DATE
+:library:okwear:generateReleaseAssets UP-TO-DATE
+:library:okwear:mergeReleaseAssets UP-TO-DATE
+:library:okwear:generateReleaseResValues UP-TO-DATE
+:library:okwear:generateReleaseResources UP-TO-DATE
+:library:okwear:mergeReleaseResources UP-TO-DATE
+:library:okwear:processReleaseManifest UP-TO-DATE
+:library:okwear:processReleaseResources UP-TO-DATE
+:library:okwear:generateReleaseSources UP-TO-DATE
+:library:okwear:compileReleaseJava UP-TO-DATE
+:library:okwear:extractReleaseAnnotations UP-TO-DATE
+:library:okwear:mergeReleaseProguardFiles UP-TO-DATE
+:library:okwear:processReleaseJavaRes UP-TO-DATE
+:library:okwear:packageReleaseJar UP-TO-DATE
+:library:okwear:compileReleaseNdk UP-TO-DATE
+:library:okwear:packageReleaseJniLibs UP-TO-DATE
+:library:okwear:packageReleaseLocalJar UP-TO-DATE
+:library:okwear:packageReleaseRenderscript UP-TO-DATE
+:library:okwear:packageReleaseResources UP-TO-DATE
+:library:okwear:bundleRelease UP-TO-DATE
+:mobile:prepareComAndroidSupportAppcompatV72200Library
+:mobile:prepareComAndroidSupportSupportV42200Library
+:mobile:prepareComGithubAakiraOkwear102Library
+:mobile:prepareComGoogleAndroidGmsPlayServices700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesAds700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesAnalytics700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesAppindexing700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesAppstate700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesBase750Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesCast700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesDrive700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesFitness700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesGames700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesGcm700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesIdentity700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesLocation700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesMaps700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesNearby700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesPanorama700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesPlus700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesSafetynet700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesWallet700Library
+:mobile:prepareComGoogleAndroidGmsPlayServicesWearable750Library
+:mobile:prepareDebugDependencies
+:mobile:compileDebugAidl
+:mobile:compileDebugRenderscript
+:mobile:generateDebugBuildConfig
+:mobile:generateDebugAssets UP-TO-DATE
+:mobile:mergeDebugAssets
+:mobile:generateDebugResValues
+:mobile:generateDebugResources
+:mobile:mergeDebugResources/tmp/rdisk/1698/src/OkWear-master/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:mobile:processDebugManifest
+:mobile:processDebugResources
+:mobile:generateDebugSources
+:mobile:compileDebugJava
+:mobile:preDexDebug
+:mobile:dexDebugUNEXPECTED TOP-LEVEL EXCEPTION:
+com.android.dex.DexException: Multiple dex files define Lcom/google/android/gms/internal/zzrc;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:596)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:554)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:535)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:189)
+	at com.android.dx.command.dexer.Main.mergeLibraryDexBuffers(Main.java:454)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:303)
+	at com.android.dx.command.dexer.Main.run(Main.java:246)
+	at com.android.dx.command.dexer.Main.main(Main.java:215)
+	at com.android.dx.command.Main.main(Main.java:106)
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':mobile:dexDebug'.
+> com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 2
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':mobile:dexDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.internal.UncheckedException: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 2
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:39)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:66)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 2
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:42)
+	at com.android.builder.core.AndroidBuilder.convertByteCode(AndroidBuilder.java:1196)
+	at com.android.builder.core.AndroidBuilder$convertByteCode$8.call(Unknown Source)
+	at com.android.build.gradle.tasks.Dex.doTaskAction(Dex.groovy:151)
+	at com.android.build.gradle.tasks.Dex.this$5$doTaskAction(Dex.groovy)
+	at com.android.build.gradle.tasks.Dex$this$5$doTaskAction.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Dex.taskAction(Dex.groovy:90)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	... 53 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 2
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:40)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 47.624 secs
+
+2018-04-05 19:04:33,901 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:04:33,901 INFO  SysUtils - Execute command: [/tmp/rdisk/1698/src/OkWear-master/gradlew, -b, /tmp/rdisk/1698/src/OkWear-master/wear/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:04:41,080 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-05 19:04:41,080 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-05 19:04:41,080 INFO  SysUtils - Execute command: [/tmp/rdisk/1698/src/OkWear-master/gradlew, -b, /tmp/rdisk/1698/src/OkWear-master/wear/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-05 19:05:10,211 INFO  SysUtils - Configuration on demand is an incubating feature.
+:wear:preBuild UP-TO-DATE
+:wear:preDebugBuild UP-TO-DATE
+:wear:compileDebugNdk UP-TO-DATE
+:wear:checkDebugManifest
+:wear:preReleaseBuild UP-TO-DATE
+:library:okwear:compileLint
+:library:okwear:copyReleaseLint UP-TO-DATE
+:library:okwear:preBuild UP-TO-DATE
+:library:okwear:preReleaseBuild UP-TO-DATE
+:library:okwear:checkReleaseManifest
+:library:okwear:preDebugAndroidTestBuild UP-TO-DATE
+:library:okwear:preDebugBuild UP-TO-DATE
+:library:okwear:prepareComAndroidSupportSupportV42200Library UP-TO-DATE
+:library:okwear:prepareComGoogleAndroidGmsPlayServicesBase750Library UP-TO-DATE
+:library:okwear:prepareComGoogleAndroidGmsPlayServicesWearable750Library UP-TO-DATE
+:library:okwear:prepareReleaseDependencies
+:library:okwear:compileReleaseAidl UP-TO-DATE
+:library:okwear:compileReleaseRenderscript UP-TO-DATE
+:library:okwear:generateReleaseBuildConfig UP-TO-DATE
+:library:okwear:generateReleaseAssets UP-TO-DATE
+:library:okwear:mergeReleaseAssets UP-TO-DATE
+:library:okwear:generateReleaseResValues UP-TO-DATE
+:library:okwear:generateReleaseResources UP-TO-DATE
+:library:okwear:mergeReleaseResources UP-TO-DATE
+:library:okwear:processReleaseManifest UP-TO-DATE
+:library:okwear:processReleaseResources UP-TO-DATE
+:library:okwear:generateReleaseSources UP-TO-DATE
+:library:okwear:compileReleaseJava UP-TO-DATE
+:library:okwear:extractReleaseAnnotations UP-TO-DATE
+:library:okwear:mergeReleaseProguardFiles UP-TO-DATE
+:library:okwear:processReleaseJavaRes UP-TO-DATE
+:library:okwear:packageReleaseJar UP-TO-DATE
+:library:okwear:compileReleaseNdk UP-TO-DATE
+:library:okwear:packageReleaseJniLibs UP-TO-DATE
+:library:okwear:packageReleaseLocalJar UP-TO-DATE
+:library:okwear:packageReleaseRenderscript UP-TO-DATE
+:library:okwear:packageReleaseResources UP-TO-DATE
+:library:okwear:bundleRelease UP-TO-DATE
+:wear:prepareComAndroidSupportRecyclerviewV72100Library
+:wear:prepareComAndroidSupportSupportV42200Library
+:wear:prepareComGithubAakiraOkwear102Library
+:wear:prepareComGoogleAndroidGmsPlayServicesBase750Library
+:wear:prepareComGoogleAndroidGmsPlayServicesWearable750Library
+:wear:prepareComGoogleAndroidSupportWearable110Library
+:wear:prepareDebugDependencies
+:wear:compileDebugAidl
+:wear:compileDebugRenderscript
+:wear:generateDebugBuildConfig
+:wear:generateDebugAssets UP-TO-DATE
+:wear:mergeDebugAssets
+:wear:generateDebugResValues
+:wear:generateDebugResources
+:wear:mergeDebugResources
+:wear:processDebugManifest
+:wear:processDebugResources
+:wear:generateDebugSources
+:wear:compileDebugJava
+:wear:preDexDebug
+:wear:dexDebug
+:wear:processDebugJavaRes UP-TO-DATE
+:wear:validateDebugSigning
+:wear:packageDebug
+:wear:zipalignDebug
+:wear:assembleDebug
+:wear:checkReleaseManifest
+:wear:prepareReleaseDependencies
+:wear:compileReleaseAidl
+:wear:compileReleaseRenderscript
+:wear:generateReleaseBuildConfig
+:wear:generateReleaseAssets UP-TO-DATE
+:wear:mergeReleaseAssets
+:wear:generateReleaseResValues
+:wear:generateReleaseResources
+:wear:mergeReleaseResources
+:wear:processReleaseManifest
+:wear:processReleaseResources
+:wear:generateReleaseSources
+:wear:compileReleaseJava
+:wear:lintVitalRelease
+:wear:compileReleaseNdk UP-TO-DATE
+:wear:preDexRelease
+:wear:dexRelease
+:wear:processReleaseJavaRes UP-TO-DATE
+:wear:packageRelease
+:wear:assembleRelease
+:wear:assemble
+:wear:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.706 secs
+
+2018-04-05 19:05:10,304 INFO  FullProcessService - Found APK file: /tmp/rdisk/1698/src/OkWear-master/wear/build/outputs/apk/wear-release-unsigned.apk

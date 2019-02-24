@@ -1,0 +1,57 @@
+2018-05-11 13:52:45,673 INFO  DownloadService - Downloading "https://github.com/konifar/android-material-design-icon-generator-plugin/archive/master.zip", attempt 3
+2018-05-11 13:52:50,347 INFO  DownloadService - Downloaded https://github.com/konifar/android-material-design-icon-generator-plugin/archive/master.zip, attempt 3
+2018-05-11 13:52:50,347 INFO  DownloadService - Size of file "/tmp/rdisk/1590/master.zip": 31 MB
+2018-05-11 13:52:50,347 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:52:50,381 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1590/master.zip: true
+2018-05-11 13:52:50,381 DEBUG ZipUtil - Extracting '/tmp/rdisk/1590/master.zip' into '/tmp/rdisk/1590/src'.
+2018-05-11 13:52:52,730 INFO  FullProcessService - Size of directory with sources: 46 MB
+2018-05-11 13:52:52,730 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1590/src]
+2018-05-11 13:52:52,736 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1590/src/.git/
+
+2018-05-11 13:52:52,981 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/gradlew
+2018-05-11 13:52:53,226 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/build.gradle
+2018-05-11 13:52:53,472 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/settings.gradle /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/build.gradle
+2018-05-11 13:52:53,473 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:52:53,473 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:52:53,975 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/local.properties
+2018-05-11 13:52:53,975 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.6-bin.zip
+2018-05-11 13:52:53,976 INFO  ProjectFixService - Build info for "/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-11 13:52:53,976 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-11 13:52:53,977 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:52:53,977 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:52:53,977 INFO  SysUtils - Execute command: [/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/gradlew, -b, /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:53:03,925 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-05-11 13:53:03,925 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-05-11 13:53:03,925 INFO  SysUtils - Execute command: [/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/gradlew, -b, /tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-05-11 13:54:03,284 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/src/main/java/com/konifar/material_icon_generator/MaterialDesignIconGenerateDialog.java:12: warning: OutputPropertiesFactory is internal proprietary API and may be removed in a future release
+import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+                                                 ^
+/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/src/main/java/com/konifar/material_icon_generator/MaterialDesignIconGenerateDialog.java:12: warning: OutputPropertiesFactory is internal proprietary API and may be removed in a future release
+import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+                                                 ^
+/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/src/main/java/com/konifar/material_icon_generator/MaterialDesignIconGenerateDialog.java:12: warning: OutputPropertiesFactory is internal proprietary API and may be removed in a future release
+import com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory;
+                                                 ^
+/tmp/rdisk/1590/src/android-material-design-icon-generator-plugin-master/src/main/java/com/konifar/material_icon_generator/MaterialDesignIconGenerateDialog.java:614: warning: OutputPropertiesFactory is internal proprietary API and may be removed in a future release
+            transformer.setOutputProperty(OutputPropertiesFactory.S_KEY_INDENT_AMOUNT, "4");
+                                          ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:processResources
+:classes
+:prepareSandbox
+:buildPlugin
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 58.948 secs
+
+2018-05-11 13:54:04,032 ERROR FullProcessService - Project build has not produced APK file
+2018-05-11 13:54:04,762 ERROR FullProcessService - Could not find generated or existed APK file

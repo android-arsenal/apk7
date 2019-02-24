@@ -1,0 +1,21 @@
+2018-04-05 21:07:36,108 INFO  DownloadService - Downloading "https://github.com/thinktube-kobe/airtube/archive/master.zip", attempt 3
+2018-04-05 21:08:36,594 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 21:08:37,243 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 21:08:37,243 INFO  DownloadService - Downloading "https://github.com/thinktube-kobe/airtube/archive/master.zip", attempt 3
+2018-04-05 21:09:38,526 DEBUG FullProcessService - Repository https://github.com/thinktube-kobe/airtube available: true
+2018-04-05 21:09:38,526 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 21:09:38,526 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/thinktube-kobe/airtube, /tmp/rdisk/1574/src]
+2018-04-05 21:09:48,490 INFO  SysUtils - 
+2018-04-05 21:09:48,507 INFO  GitService - Deleted "/tmp/rdisk/1574/src/.git": true
+2018-04-05 21:09:48,536 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-04-05 21:09:48,537 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1574/src]
+2018-04-05 21:09:48,542 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1574/src/.git/
+
+2018-04-05 21:09:48,562 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-05 21:09:48,562 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-05 21:09:48,580 INFO  ProjectBuildService - Build script(s): none
+2018-04-05 21:09:48,598 INFO  ProjectBuildService - All script(s): none
+2018-04-05 21:09:48,598 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 21:09:48,598 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-05 21:09:48,598 ERROR FullProcessService - Project build has not produced APK file
+2018-04-05 21:09:48,616 ERROR FullProcessService - Could not find generated or existed APK file

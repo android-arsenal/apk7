@@ -1,0 +1,119 @@
+2018-04-04 15:28:30,631 INFO  DownloadService - Downloading "https://github.com/erchenger/SizeAdjustingTextView/archive/master.zip", attempt 3
+2018-04-04 15:28:31,093 INFO  DownloadService - Downloaded https://github.com/erchenger/SizeAdjustingTextView/archive/master.zip, attempt 3
+2018-04-04 15:28:31,093 INFO  DownloadService - Size of file "/tmp/rdisk/1749/master.zip": 768 KB
+2018-04-04 15:28:31,093 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:28:31,094 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1749/master.zip: true
+2018-04-04 15:28:31,094 DEBUG ZipUtil - Extracting '/tmp/rdisk/1749/master.zip' into '/tmp/rdisk/1749/src'.
+2018-04-04 15:28:31,112 INFO  FullProcessService - Size of directory with sources: 872 KB
+2018-04-04 15:28:31,112 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1749/src]
+2018-04-04 15:28:31,118 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1749/src/.git/
+
+2018-04-04 15:28:31,122 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/gradlew
+2018-04-04 15:28:31,125 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/build.gradle /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/sizeadjustingtextview/build.gradle /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/build.gradle
+2018-04-04 15:28:31,129 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/sizeadjustingtextview/build.gradle /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/settings.gradle /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/build.gradle /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/build.gradle
+2018-04-04 15:28:31,129 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:28:31,130 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:28:31,138 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/local.properties
+2018-04-04 15:28:31,138 INFO  ProjectFixService - Build info for "/tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-04 15:28:31,139 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/sizeadjustingtextview/local.properties
+2018-04-04 15:28:31,139 INFO  ProjectFixService - Build info for "/tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/sizeadjustingtextview/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-04 15:28:31,140 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/local.properties
+2018-04-04 15:28:31,140 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-04 15:28:31,140 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-04 15:28:31,141 INFO  ProjectFixService - Build info for "/tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-04 15:28:31,142 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:28:31,142 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:28:31,142 INFO  SysUtils - Execute command: [/tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/gradlew, -b, /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:28:40,165 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-04 15:28:40,166 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-04 15:28:40,166 INFO  SysUtils - Execute command: [/tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/gradlew, -b, /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-04 15:29:04,595 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:sizeadjustingtextview:compileLint
+:sizeadjustingtextview:copyReleaseLint UP-TO-DATE
+:sizeadjustingtextview:preBuild UP-TO-DATE
+:sizeadjustingtextview:preReleaseBuild UP-TO-DATE
+:sizeadjustingtextview:checkReleaseManifest
+:sizeadjustingtextview:preDebugAndroidTestBuild UP-TO-DATE
+:sizeadjustingtextview:preDebugBuild UP-TO-DATE
+:sizeadjustingtextview:prepareComAndroidSupportAppcompatV72211Library
+:sizeadjustingtextview:prepareComAndroidSupportSupportV42211Library
+:sizeadjustingtextview:prepareReleaseDependencies
+:sizeadjustingtextview:compileReleaseAidl
+:sizeadjustingtextview:compileReleaseRenderscript
+:sizeadjustingtextview:generateReleaseBuildConfig
+:sizeadjustingtextview:generateReleaseAssets UP-TO-DATE
+:sizeadjustingtextview:mergeReleaseAssets
+:sizeadjustingtextview:generateReleaseResValues
+:sizeadjustingtextview:generateReleaseResources
+:sizeadjustingtextview:mergeReleaseResources
+:sizeadjustingtextview:processReleaseManifest
+:sizeadjustingtextview:processReleaseResources
+:sizeadjustingtextview:generateReleaseSources
+:sizeadjustingtextview:compileReleaseJava
+:sizeadjustingtextview:extractReleaseAnnotations
+:sizeadjustingtextview:mergeReleaseProguardFiles
+:sizeadjustingtextview:processReleaseJavaRes UP-TO-DATE
+:sizeadjustingtextview:packageReleaseJar
+:sizeadjustingtextview:compileReleaseNdk UP-TO-DATE
+:sizeadjustingtextview:packageReleaseJniLibs UP-TO-DATE
+:sizeadjustingtextview:packageReleaseLocalJar UP-TO-DATE
+:sizeadjustingtextview:packageReleaseRenderscript UP-TO-DATE
+:sizeadjustingtextview:packageReleaseResources
+:sizeadjustingtextview:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72211Library
+:app:prepareComAndroidSupportSupportV42211Library
+:app:prepareSizeAdjustingTextViewAndroidStudiosSizeadjustingtextviewUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.995 secs
+
+2018-04-04 15:29:04,660 INFO  FullProcessService - Found APK file: /tmp/rdisk/1749/src/SizeAdjustingTextView-master/SizeAdjustingTextViewAndroidStudios/app/build/outputs/apk/app-debug.apk

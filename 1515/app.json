@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.jorgecastilloprz.easymvp",
+    "label" : "EasyMVP",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABqlBMVEUAAAD/VQD/QED/gAD/USj/VSL/WCP/TRr/VyL+ViH+ViD9VSD8ViL+ViH9ViHwUR8AAAD8VSH8ViH9ViH9ViHyUiDINxbWTBz7VSDyUx+wNxLIRRz7VSCqNxL9m379wK39hmL94tn9/f30lXjtUR/uUR/95+DvUR/9b0L9kXD9fFP9r5f9/Pz99vT76OLwUh/4zb/3vqz5zb/xelT3uKT1lXjxUh/1qpLtVyjsUB/1o4n62tD729H0iGfxUh/yUiDzUiDyUiDqUB7uVyj0UyCkNxL4xbXzUyD2qpLxbUP2o4n1iGfzUyDrUB/zgF386OL2lnj1UyD0UyDxZjr61Mj3lnnrUB74uKT2UyD1UyDsUR70e1X1bkP3VCD2VCD2VCD4VCD3VCDtUR7LSBr5VCCmNRKtNxv6VCD3VCD3VCD6VSHpTx6HJg+qAAAAAADbSh3/VyL2VCH3VCH4VSH5VSHKRBsAAAA3DADLRBrrUB/vUh/uUR/pTx7qUB7qTx7rUB7mTR7EQho0DAAAAAAAAABGEwhgIQpcHwpbHgpdIQpmMwAAAAAAAAC/AAASexaSAAAAjnRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir///////////////////////////////////////////z8///v//8q//z//////////////P///+////zv/////P///O8n/ysc7P35/+wiAwip//////+tAyqw7fDv8PDv8O2xLAkgQk1LTE0FCw4EWYFJ5gAAAhlJREFUSMfdlutb0lAcgIdgarZTKZZd1cVcXhalRk0oRFdeQmUrL7MYzsyKwgzIyizvkpf+58Y5GzDczqEvfuj9tOfZ+57tHJ5nPyjqtHBVEXBZdLebvGSpo196qs9gqfZAzfRrauvOEqirrykUbuocDcicv2AELspzETQ0erE0NtBNlyi08yrqcjPwktb30leu6ioKrl2vKLhRDJr/1+BmC6S14qCNgdzy/WvAshUG7YWAqyRoNXw94DjOMbjdAekEXd38HSPQfb/fKWhB0t17TE9vH7q+n/f9AXzA8A8eCv3BPKFH0A88xgbBXkHw+Xwsy3Jo/UAgPIAL+k74kfDAICbg+4fK/EhYHHyCCZinQ1Y/MmwfdMGNBkdG+J7RsRDkGfSjDgEYHxfg+0/wkyH0tBj0o8OSfQAEY78Ths/EoB+VnQJgns/zFyiYgr4oS9MOATDPZ8YM8r4ozzoGwDgfM4C+qGACgM6zGOi+pMzOOQcAnv/LWGxK5xX0JSWOC0Dh90LvI0mSig9AuZ8gBaDMT6jzhABY/YRmCWw/xhY/rs0vFIPX9l++Uj+uLS68MQIXtfSWth0osiwriqKqqqa9e5/88JFKGSNr+VNyhV6x4XM6nc5kMtlsdjEpflkuzLjVr9++r/1Ys2F9/Sfk18bm1vZqcYzu7O7t53K53w7otw72dndKB/Xh0TGBo0Pr8E/9IZA6tX8xfwE0JBjiKBy8+wAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 3732,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.jorgecastilloprz.easymvp\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"EasyMVP\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.github.jorgecastilloprz.easymvp.EasyMVPApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"EasyMVP\" android:name=\"com.github.jorgecastilloprz.easymvp.ui.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"EasyMVP\" android:name=\"com.github.jorgecastilloprz.easymvp.mvp.views.DetailsActivity\" android:parentActivityName=\"com.github.jorgecastilloprz.easymvp.ui.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".ui.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2093245,
+  "crc32" : 3510264942,
+  "sha256" : "7b40ddef8670989cd477865ad1afc43aa0684c1f1cdec1cedf402eecddde462c",
+  "buildTime" : 1522972312000
+}

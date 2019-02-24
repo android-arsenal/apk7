@@ -1,0 +1,195 @@
+2018-04-05 19:56:27,167 INFO  DownloadService - Downloading "https://github.com/ragunathjawahar/kaffeine/archive/master.zip", attempt 3
+2018-04-05 19:56:28,615 INFO  DownloadService - Downloaded https://github.com/ragunathjawahar/kaffeine/archive/master.zip, attempt 3
+2018-04-05 19:56:28,615 INFO  DownloadService - Size of file "/tmp/rdisk/1632/master.zip": 146 KB
+2018-04-05 19:56:28,615 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:56:28,615 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1632/master.zip: true
+2018-04-05 19:56:28,615 DEBUG ZipUtil - Extracting '/tmp/rdisk/1632/master.zip' into '/tmp/rdisk/1632/src'.
+2018-04-05 19:56:28,627 INFO  FullProcessService - Size of directory with sources: 187 KB
+2018-04-05 19:56:28,627 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1632/src]
+2018-04-05 19:56:28,632 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1632/src/.git/
+
+2018-04-05 19:56:28,635 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1632/src/kaffeine-master/gradlew
+2018-04-05 19:56:28,638 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/build.gradle /tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build.gradle /tmp/rdisk/1632/src/kaffeine-master/kaffeine/build.gradle /tmp/rdisk/1632/src/kaffeine-master/build.gradle
+2018-04-05 19:56:28,641 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1632/src/kaffeine-master/settings.gradle /tmp/rdisk/1632/src/kaffeine-master/kaffeine/build.gradle /tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build.gradle /tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/build.gradle /tmp/rdisk/1632/src/kaffeine-master/gradle-mvn-push.gradle /tmp/rdisk/1632/src/kaffeine-master/build.gradle
+2018-04-05 19:56:28,641 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:56:28,641 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:56:28,650 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/local.properties
+2018-04-05 19:56:28,650 INFO  ProjectFixService - Build info for "/tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/build.gradle": [buildToolsVersion=22,compileSdkVersion=21,minSdkVersion=21,targetSdkVersion=21]
+2018-04-05 19:56:28,650 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=21,targetSdkVersion=21]
+2018-04-05 19:56:28,651 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/local.properties
+2018-04-05 19:56:28,651 INFO  ProjectFixService - Build info for "/tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build.gradle": [buildToolsVersion=22,compileSdkVersion=21,minSdkVersion=17,targetSdkVersion=21]
+2018-04-05 19:56:28,651 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=17,targetSdkVersion=21]
+2018-04-05 19:56:28,652 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1632/src/kaffeine-master/kaffeine/local.properties
+2018-04-05 19:56:28,652 INFO  ProjectFixService - Build info for "/tmp/rdisk/1632/src/kaffeine-master/kaffeine/build.gradle": [buildToolsVersion=22,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2018-04-05 19:56:28,652 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1632/src/kaffeine-master/kaffeine/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2018-04-05 19:56:28,652 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1632/src/kaffeine-master/local.properties
+2018-04-05 19:56:28,653 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 19:56:28,653 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 19:56:28,654 INFO  ProjectFixService - Build info for "/tmp/rdisk/1632/src/kaffeine-master/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2018-04-05 19:56:28,654 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:56:28,654 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:56:28,654 INFO  SysUtils - Execute command: [/tmp/rdisk/1632/src/kaffeine-master/gradlew, -b, /tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:57:14,841 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-05 19:57:14,841 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 19:57:14,841 INFO  SysUtils - Execute command: [/tmp/rdisk/1632/src/kaffeine-master/gradlew, -b, /tmp/rdisk/1632/src/kaffeine-master/kaffeine-recyclerview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 19:57:25,971 INFO  SysUtils - Configuration on demand is an incubating feature.
+:kaffeine-recyclerview-v7:compileLint
+:kaffeine-recyclerview-v7:copyDebugLint UP-TO-DATE
+:kaffeine-recyclerview-v7:preBuild
+:kaffeine-recyclerview-v7:preDebugBuild
+:kaffeine-recyclerview-v7:checkDebugManifest
+:kaffeine-recyclerview-v7:preDebugTestBuild
+:kaffeine-recyclerview-v7:preReleaseBuild
+:kaffeine-recyclerview-v7:prepareComAndroidSupportRecyclerviewV72200Library
+:kaffeine-recyclerview-v7:prepareComAndroidSupportSupportV42200Library
+:kaffeine-recyclerview-v7:prepareDebugDependencies
+:kaffeine-recyclerview-v7:compileDebugAidl
+:kaffeine-recyclerview-v7:compileDebugRenderscript
+:kaffeine-recyclerview-v7:generateDebugBuildConfig
+:kaffeine-recyclerview-v7:generateDebugAssets UP-TO-DATE
+:kaffeine-recyclerview-v7:mergeDebugAssets
+:kaffeine-recyclerview-v7:generateDebugResValues
+:kaffeine-recyclerview-v7:generateDebugResources
+:kaffeine-recyclerview-v7:mergeDebugResources
+:kaffeine-recyclerview-v7:processDebugManifest
+:kaffeine-recyclerview-v7:processDebugResources
+:kaffeine-recyclerview-v7:generateDebugSources
+:kaffeine-recyclerview-v7:compileDebugKotlin
+:kaffeine-recyclerview-v7:compileDebugJava
+:kaffeine-recyclerview-v7:extractDebugAnnotations
+:kaffeine-recyclerview-v7:mergeDebugProguardFiles
+:kaffeine-recyclerview-v7:processDebugJavaRes UP-TO-DATE
+:kaffeine-recyclerview-v7:packageDebugJar
+:kaffeine-recyclerview-v7:compileDebugNdk
+:kaffeine-recyclerview-v7:packageDebugJniLibs UP-TO-DATE
+:kaffeine-recyclerview-v7:packageDebugLocalJar UP-TO-DATE
+:kaffeine-recyclerview-v7:packageDebugRenderscript UP-TO-DATE
+:kaffeine-recyclerview-v7:packageDebugResources
+:kaffeine-recyclerview-v7:bundleDebug
+:kaffeine-recyclerview-v7:assembleDebug
+:kaffeine-recyclerview-v7:copyReleaseLint UP-TO-DATE
+:kaffeine-recyclerview-v7:checkReleaseManifest
+:kaffeine-recyclerview-v7:prepareReleaseDependencies
+:kaffeine-recyclerview-v7:compileReleaseAidl
+:kaffeine-recyclerview-v7:compileReleaseRenderscript
+:kaffeine-recyclerview-v7:generateReleaseBuildConfig
+:kaffeine-recyclerview-v7:generateReleaseAssets UP-TO-DATE
+:kaffeine-recyclerview-v7:mergeReleaseAssets
+:kaffeine-recyclerview-v7:generateReleaseResValues
+:kaffeine-recyclerview-v7:generateReleaseResources
+:kaffeine-recyclerview-v7:mergeReleaseResources
+:kaffeine-recyclerview-v7:processReleaseManifest
+:kaffeine-recyclerview-v7:processReleaseResources
+:kaffeine-recyclerview-v7:generateReleaseSources
+:kaffeine-recyclerview-v7:compileReleaseKotlin
+:kaffeine-recyclerview-v7:compileReleaseJava
+:kaffeine-recyclerview-v7:extractReleaseAnnotations
+:kaffeine-recyclerview-v7:mergeReleaseProguardFiles
+:kaffeine-recyclerview-v7:processReleaseJavaRes UP-TO-DATE
+:kaffeine-recyclerview-v7:packageReleaseJar
+:kaffeine-recyclerview-v7:compileReleaseNdk
+:kaffeine-recyclerview-v7:packageReleaseJniLibs UP-TO-DATE
+:kaffeine-recyclerview-v7:packageReleaseLocalJar UP-TO-DATE
+:kaffeine-recyclerview-v7:packageReleaseRenderscript UP-TO-DATE
+:kaffeine-recyclerview-v7:packageReleaseResources
+:kaffeine-recyclerview-v7:bundleRelease
+:kaffeine-recyclerview-v7:assembleRelease
+:kaffeine-recyclerview-v7:assemble
+:kaffeine-recyclerview-v7:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.615 secs
+
+2018-04-05 19:57:25,980 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:57:25,980 INFO  SysUtils - Execute command: [/tmp/rdisk/1632/src/kaffeine-master/gradlew, -b, /tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:57:33,652 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 19:57:33,652 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:57:33,653 INFO  SysUtils - Execute command: [/tmp/rdisk/1632/src/kaffeine-master/gradlew, -b, /tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:58:12,322 INFO  SysUtils - Configuration on demand is an incubating feature.
+:kaffeine-showcase:preBuild
+:kaffeine-showcase:compileDebugNdk
+:kaffeine:compileLint
+:kaffeine:copyReleaseLint UP-TO-DATE
+:kaffeine:mergeReleaseProguardFiles
+:kaffeine:preBuild
+:kaffeine:preReleaseBuild
+:kaffeine:checkReleaseManifest
+:kaffeine:prepareReleaseDependencies
+:kaffeine:compileReleaseAidl
+:kaffeine:compileReleaseRenderscript
+:kaffeine:generateReleaseBuildConfig
+:kaffeine:generateReleaseAssets UP-TO-DATE
+:kaffeine:mergeReleaseAssets
+:kaffeine:generateReleaseResValues
+:kaffeine:generateReleaseResources
+:kaffeine:packageReleaseResources
+:kaffeine:processReleaseManifest
+:kaffeine:processReleaseResources
+:kaffeine:generateReleaseSources
+:kaffeine:compileReleaseKotlin
+:kaffeine:compileReleaseJava
+:kaffeine:processReleaseJavaRes UP-TO-DATE
+:kaffeine:packageReleaseJar
+:kaffeine:compileReleaseNdk
+:kaffeine:packageReleaseJniLibs UP-TO-DATE
+:kaffeine:packageReleaseLocalJar UP-TO-DATE
+:kaffeine:packageReleaseRenderscript UP-TO-DATE
+:kaffeine:bundleRelease
+:kaffeine-showcase:preDebugBuild
+:kaffeine-showcase:checkDebugManifest
+:kaffeine-showcase:preReleaseBuild
+:kaffeine-showcase:prepareComAndroidSupportRecyclerviewV72200Library
+:kaffeine-showcase:prepareComAndroidSupportSupportV42200Library
+:kaffeine-showcase:prepareKaffeineMasterKaffeineUnspecifiedLibrary
+:kaffeine-showcase:prepareDebugDependencies
+:kaffeine-showcase:compileDebugAidl
+:kaffeine-showcase:compileDebugRenderscript
+:kaffeine-showcase:generateDebugBuildConfig
+:kaffeine-showcase:generateDebugAssets UP-TO-DATE
+:kaffeine-showcase:mergeDebugAssets
+:kaffeine-showcase:generateDebugResValues
+:kaffeine-showcase:generateDebugResources
+:kaffeine-showcase:mergeDebugResources
+:kaffeine-showcase:processDebugManifest
+:kaffeine-showcase:processDebugResources
+:kaffeine-showcase:generateDebugSources
+:kaffeine-showcase:compileDebugKotlin
+:kaffeine-showcase:compileDebugJava
+:kaffeine-showcase:preDexDebug
+:kaffeine-showcase:dexDebug
+:kaffeine-showcase:processDebugJavaRes UP-TO-DATE
+:kaffeine-showcase:validateDebugSigning
+:kaffeine-showcase:packageDebug
+:kaffeine-showcase:zipalignDebug
+:kaffeine-showcase:assembleDebug
+:kaffeine-showcase:checkReleaseManifest
+:kaffeine-showcase:prepareReleaseDependencies
+:kaffeine-showcase:compileReleaseAidl
+:kaffeine-showcase:compileReleaseRenderscript
+:kaffeine-showcase:generateReleaseBuildConfig
+:kaffeine-showcase:generateReleaseAssets UP-TO-DATE
+:kaffeine-showcase:mergeReleaseAssets
+:kaffeine-showcase:generateReleaseResValues
+:kaffeine-showcase:generateReleaseResources
+:kaffeine-showcase:mergeReleaseResources
+:kaffeine-showcase:processReleaseManifest
+:kaffeine-showcase:processReleaseResources
+:kaffeine-showcase:generateReleaseSources
+:kaffeine-showcase:compileReleaseKotlin
+:kaffeine-showcase:compileReleaseJava
+:kaffeine-showcase:lintVitalRelease
+:kaffeine-showcase:compileReleaseNdk
+:kaffeine-showcase:preDexRelease
+:kaffeine-showcase:dexRelease
+:kaffeine-showcase:processReleaseJavaRes UP-TO-DATE
+:kaffeine-showcase:packageRelease
+:kaffeine-showcase:assembleRelease
+:kaffeine-showcase:assemble
+:kaffeine-showcase:build
+
+BUILD SUCCESSFUL
+
+Total time: 38.094 secs
+
+2018-04-05 19:58:12,341 INFO  FullProcessService - Found APK file: /tmp/rdisk/1632/src/kaffeine-master/kaffeine-showcase/build/outputs/apk/kaffeine-showcase-release-unsigned.apk

@@ -1,0 +1,237 @@
+2018-04-05 19:13:33,436 INFO  DownloadService - Downloading "https://github.com/halysongoncalves/PugNotification/archive/master.zip", attempt 3
+2018-04-05 19:13:33,975 INFO  DownloadService - Downloaded https://github.com/halysongoncalves/PugNotification/archive/master.zip, attempt 3
+2018-04-05 19:13:33,976 INFO  DownloadService - Size of file "/tmp/rdisk/1688/master.zip": 1 MB
+2018-04-05 19:13:33,976 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:13:33,976 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1688/master.zip: true
+2018-04-05 19:13:33,976 DEBUG ZipUtil - Extracting '/tmp/rdisk/1688/master.zip' into '/tmp/rdisk/1688/src'.
+2018-04-05 19:13:33,996 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-05 19:13:33,996 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1688/src]
+2018-04-05 19:13:34,005 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1688/src/.git/
+
+2018-04-05 19:13:34,008 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1688/src/Pugnotification-master/gradlew /tmp/rdisk/1688/src/Pugnotification-master/gradle/gradlew
+2018-04-05 19:13:34,010 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1688/src/Pugnotification-master/library/build.gradle /tmp/rdisk/1688/src/Pugnotification-master/sample/build.gradle /tmp/rdisk/1688/src/Pugnotification-master/build.gradle
+2018-04-05 19:13:34,013 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1688/src/Pugnotification-master/settings.gradle /tmp/rdisk/1688/src/Pugnotification-master/sample/build.gradle /tmp/rdisk/1688/src/Pugnotification-master/library/maven.gradle /tmp/rdisk/1688/src/Pugnotification-master/library/build.gradle /tmp/rdisk/1688/src/Pugnotification-master/dependencies.gradle /tmp/rdisk/1688/src/Pugnotification-master/build.gradle
+2018-04-05 19:13:34,013 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:13:34,013 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:13:34,021 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1688/src/Pugnotification-master/library/local.properties
+2018-04-05 19:13:34,024 INFO  ProjectFixService - Build info for "/tmp/rdisk/1688/src/Pugnotification-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:13:34,024 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1688/src/Pugnotification-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:13:34,025 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1688/src/Pugnotification-master/sample/local.properties
+2018-04-05 19:13:34,028 INFO  ProjectFixService - Build info for "/tmp/rdisk/1688/src/Pugnotification-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:13:34,028 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1688/src/Pugnotification-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:13:34,029 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1688/src/Pugnotification-master/local.properties
+2018-04-05 19:13:34,029 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.6-all.zip
+2018-04-05 19:13:34,030 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.6-bin.zip)
+2018-04-05 19:13:34,033 INFO  ProjectFixService - Build info for "/tmp/rdisk/1688/src/Pugnotification-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-05 19:13:34,033 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1688/src/Pugnotification-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-05 19:13:34,033 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:13:34,034 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:13:34,034 INFO  SysUtils - Execute command: [/tmp/rdisk/1688/src/Pugnotification-master/gradlew, -b, /tmp/rdisk/1688/src/Pugnotification-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:13:44,910 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 19:13:44,911 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 19:13:44,911 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 19:13:44,911 INFO  SysUtils - Execute command: [/tmp/rdisk/1688/src/Pugnotification-master/gradlew, -b, /tmp/rdisk/1688/src/Pugnotification-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 19:14:02,979 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidSourcesJar
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42301Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+AAPT: /tmp/rdisk/1688/src/Pugnotification-master/library/src/main/res/drawable-nodpi/pugnotification_ic_placeholder.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJavaWithJavacNote: /tmp/rdisk/1688/src/Pugnotification-master/library/src/main/java/br/com/goncalves/pugnotification/notification/Load.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugProguardFiles
+:library:packageDebugJar
+:library:compileDebugNdk UP-TO-DATE
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+Total methods in library-debug.aar: 0
+Total fields in library-debug.aar:  0
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+AAPT: /tmp/rdisk/1688/src/Pugnotification-master/library/src/main/res/drawable-nodpi/pugnotification_ic_placeholder.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaWithJavacNote: /tmp/rdisk/1688/src/Pugnotification-master/library/src/main/java/br/com/goncalves/pugnotification/notification/Load.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+Total methods in library-release.aar: 0
+Total fields in library-release.aar:  0
+:library:signArchives
+:library:assemble
+:library:lint
+Ran lint on variant debug: 5 issues found
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:/tmp/rdisk/1688/src/Pugnotification-master/library/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/1688/src/Pugnotification-master/library/build/outputs/lint-results.xml
+:library:prepareDebugUnitTestDependencies
+:library:processDebugUnitTestJavaRes UP-TO-DATE
+:library:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:library:compileDebugUnitTestSources UP-TO-DATE
+:library:mockableAndroidJar
+:library:assembleDebugUnitTest
+:library:testDebugUnitTest
+:library:prepareReleaseUnitTestDependencies
+:library:processReleaseUnitTestJavaRes UP-TO-DATE
+:library:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:library:compileReleaseUnitTestSources UP-TO-DATE
+:library:assembleReleaseUnitTest
+:library:testReleaseUnitTest
+:library:test
+:library:check
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.62 secs
+
+2018-04-05 19:14:02,989 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:14:02,989 INFO  SysUtils - Execute command: [/tmp/rdisk/1688/src/Pugnotification-master/gradlew, -b, /tmp/rdisk/1688/src/Pugnotification-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:14:10,090 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-05 19:14:10,090 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test countDebugDexMethods check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug countReleaseDexMethods
+2018-04-05 19:14:10,090 INFO  SysUtils - Execute command: [/tmp/rdisk/1688/src/Pugnotification-master/gradlew, -b, /tmp/rdisk/1688/src/Pugnotification-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, countDebugDexMethods, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, -x, countReleaseDexMethods, build]
+2018-04-05 19:14:35,988 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72301Library
+:sample:prepareComAndroidSupportSupportV42301Library
+:sample:preparePugnotificationMasterLibraryUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+AAPT: /tmp/rdisk/1688/src/Pugnotification-master/sample/build/intermediates/exploded-aar/Pugnotification-master/library/unspecified/res/drawable-nodpi/pugnotification_ic_placeholder.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:preDexDebug
+:sample:dexDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:assembleDebug
+Total methods in sample-debug-unaligned.apk: 15910
+Total fields in sample-debug-unaligned.apk:  6935
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+AAPT: /tmp/rdisk/1688/src/Pugnotification-master/sample/build/intermediates/exploded-aar/Pugnotification-master/library/unspecified/res/drawable-nodpi/pugnotification_ic_placeholder.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:preDexRelease
+:sample:dexRelease
+:sample:packageRelease
+:sample:assembleRelease
+Total methods in sample-release-unsigned.apk: 15908
+Total fields in sample-release-unsigned.apk:  6935
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.476 secs
+
+2018-04-05 19:14:36,031 INFO  FullProcessService - Found APK file: /tmp/rdisk/1688/src/Pugnotification-master/sample/build/outputs/apk/sample-release-unsigned.apk

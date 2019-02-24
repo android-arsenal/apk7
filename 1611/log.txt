@@ -1,0 +1,201 @@
+2018-05-11 13:50:38,815 INFO  DownloadService - Downloading "https://github.com/liuguangqiang/SwipeBack/archive/master.zip", attempt 3
+2018-05-11 13:50:39,658 INFO  DownloadService - Downloaded https://github.com/liuguangqiang/SwipeBack/archive/master.zip, attempt 3
+2018-05-11 13:50:39,659 INFO  DownloadService - Size of file "/tmp/rdisk/1611/master.zip": 4 MB
+2018-05-11 13:50:39,659 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:50:39,659 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1611/master.zip: true
+2018-05-11 13:50:39,659 DEBUG ZipUtil - Extracting '/tmp/rdisk/1611/master.zip' into '/tmp/rdisk/1611/src'.
+2018-05-11 13:50:39,693 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-05-11 13:50:39,693 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1611/src]
+2018-05-11 13:50:39,698 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1611/src/.git/
+
+2018-05-11 13:50:39,701 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1611/src/SwipeBack-master/gradlew
+2018-05-11 13:50:39,704 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1611/src/SwipeBack-master/app/build.gradle /tmp/rdisk/1611/src/SwipeBack-master/library/build.gradle /tmp/rdisk/1611/src/SwipeBack-master/build.gradle
+2018-05-11 13:50:39,706 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1611/src/SwipeBack-master/settings.gradle /tmp/rdisk/1611/src/SwipeBack-master/library/build.gradle /tmp/rdisk/1611/src/SwipeBack-master/build.gradle /tmp/rdisk/1611/src/SwipeBack-master/app/build.gradle
+2018-05-11 13:50:39,707 INFO  DownloadService - Downloading "https://raw.github.com/liuguangqiang/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-05-11 13:51:40,040 ERROR RemoteScriptService - Could not download content from "https://raw.github.com/liuguangqiang/gradle-mvn-push/master/gradle-mvn-push.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 13:51:40,040 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:51:40,040 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:51:40,050 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1611/src/SwipeBack-master/app/local.properties
+2018-05-11 13:51:40,050 INFO  ProjectFixService - Build info for "/tmp/rdisk/1611/src/SwipeBack-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:51:40,051 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1611/src/SwipeBack-master/library/local.properties
+2018-05-11 13:51:40,051 INFO  ProjectFixService - Build info for "/tmp/rdisk/1611/src/SwipeBack-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:51:40,051 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1611/src/SwipeBack-master/local.properties
+2018-05-11 13:51:40,054 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
+2018-05-11 13:51:40,055 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
+2018-05-11 13:51:40,056 INFO  ProjectFixService - Build info for "/tmp/rdisk/1611/src/SwipeBack-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=23]
+2018-05-11 13:51:40,056 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:51:40,056 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:51:40,056 INFO  SysUtils - Execute command: [/tmp/rdisk/1611/src/SwipeBack-master/gradlew, -b, /tmp/rdisk/1611/src/SwipeBack-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:51:49,888 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-05-11 13:51:49,888 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 13:51:49,888 INFO  SysUtils - Execute command: [/tmp/rdisk/1611/src/SwipeBack-master/gradlew, -b, /tmp/rdisk/1611/src/SwipeBack-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 13:52:11,982 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:app:prepareComAndroidSupportAppcompatV72501Library
+:app:prepareComAndroidSupportSupportCompat2501Library
+:app:prepareComAndroidSupportSupportCoreUi2501Library
+:app:prepareComAndroidSupportSupportCoreUtils2501Library
+:app:prepareComAndroidSupportSupportFragment2501Library
+:app:prepareComAndroidSupportSupportMediaCompat2501Library
+:app:prepareComAndroidSupportSupportV42501Library
+:app:prepareComAndroidSupportSupportVectorDrawable2501Library
+:app:prepareComGithubLiuguangqiangPrettyprogressbarLibrary020Library
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:library:prepareComAndroidSupportAppcompatV72501Library
+:library:prepareComAndroidSupportSupportCompat2501Library
+:library:prepareComAndroidSupportSupportCoreUi2501Library
+:library:prepareComAndroidSupportSupportCoreUtils2501Library
+:library:prepareComAndroidSupportSupportFragment2501Library
+:library:prepareComAndroidSupportSupportMediaCompat2501Library
+:library:prepareComAndroidSupportSupportV42501Library
+:library:prepareComAndroidSupportSupportVectorDrawable2501Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk NO-SOURCE
+:library:compileLint
+:library:copyReleaseLint NO-SOURCE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1611/src/SwipeBack-master/library/src/main/java/com/liuguangqiang/swipeback/SwipeBackActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript NO-SOURCE
+:library:packageReleaseResources
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.872 secs
+
+2018-05-11 13:52:12,049 INFO  FullProcessService - Found APK file: /tmp/rdisk/1611/src/SwipeBack-master/app/build/outputs/apk/app-debug.apk

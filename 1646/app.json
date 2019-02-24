@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.lorentzos.adp",
+    "label" : "ADP",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.1.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAJvElEQVRo3s2ae4xcdRXHP+d3n/Pc2bZ0+8TysEDbUCsiBIoiohEDGg1EDCqJ/IEJ0aiRqH8ZFTUkaELAR6NiYoiKRDRBwCjExFcJFLEIFIjKw77oY9vdndd9/Y5/zOzs3dnZ7WwtlJPczJ3fvXPv93sev3N+5zeiqihQjxNUWbQoilUQwDUGzxGMCKoUFQ0ABIlFaKhCYi2JtaiCERBk8S8VKHsuRgQXYCpK+NTv/spUnOAMBZoOaIGC61DyvZUF13mbIOdb1Y1xlq1JrB3NrIaAGJG255gJ3zF7HDG7FN0Rpdlj9Th9pZWm2B6ZY4ulc+8d772ItdVSh4BVZX+9xUQU48jCj7GqGBGqgVesBt5VcWavOzrZuKSZprUotdiFzXieEfmA7xiKntsoeu5215hf1OPkvqNRfCS1iiNdFc/7fnAMpNYCdAgAuEZwjcxLQAFVGC34hVoQ3BBl2afHW/H6dpp2rCqd3w+jx0yVySguTUbx5b7jXF4L/a+sCyvbpuL4e0fa8ZGFKEwTmBYzjMtZVTxjWFMpvq/outv31Zt37Ks310dZhpGOz8viXLj3u8RaXm201u6ZatziGbNjTaX00dB1jmXJ4QlYVSqB768oFb5zNIof2ltvbk6sxZHjCr+BZByRjhs3WqcfarV/tqwQ/rQWBrVhSJhjgV9SCMYqvvfQ3nrzc/U4OWHAB4kjQjvJ2DPV+HjoOH88pVhYr8dLwCosLYSnusY8vK/evCzrBu9rLdOv2N9ovsWqPrKsEG7WxRKwCrXQX25EHjjQaG8aLjRPrBgRDrfaazLVB5YUgrOsDklAFUq+6/uOuedQq73JvN7I+0iMt6LVwH3VwFsyiITpB+86Qslzbz3cii493hdrd6pMrZJYS9bN9sdHAsZb0YbAcbYFrkP/k+ZYoOL7l0/GyWet6qLdJrGWepwQpyklx2GsGLCyGFJxHdIs61zL7HERmYjiqyu+e730xaGb11roOqFVe3uUZCwmXjNVWnHCaSNl3n3aKi5cPcabRsqUAx8BGnHC7qkGj+89yMMv7uH58UkC18EzZijLSFc5UWZvLbnug800PTiHgAEC19xQj9MNw4IXEdpJSsEx3Hj+Rq7ZeAYV35tzX9FzOaVUYMuKZVy/eT33P/8y2/6+i0PtmKLvDlVECtBM0rGy737BteaLs1xIUXzHKaSZfj4bMgOKQDNOWF0K2fb+rXxyy9kDwfdL4DhcveF0fnzVO9m4dIR6lAxtbatKlNobHbUrppOcmebnGbmqnWWnD+s57TRjZTHgu1dczMblSxbt06eOlLnziovZuKRKM06HztpxZkeMyMckb4GuL34iszrUDNNOM8gybrn0bawdqRz3NFkLA7552dupuoZhLW/VIsa5znc7JZ0BqCfJ8sk4ecdCprTaCUa1lrXlkJvOO4e3rlr+f8/160arXL/pTBrtCBnCl0SEZpqeOxklG3pB/PTBIxeMt6JKwXXmDVTfwLXnnMYHz3oT65fWcI05UfmKaza9mbt3PsdkmuK7LgtFtQD1JDVP7j/8zg3Lak8bgF2Hjl4wyIQiQjNOWFMO+f4VW/ny1i1sOGXJCQUPUAl9Ll67gn3jR0myjGNFtRHh2UNHLuxZ4D9HpjYMWsi0k5S15ZDvv/8SVlVKr2nZcPWmN3OwFfHSZIN9rQjfc/HnyROuwMuTjbMyVdzUqhxottY4fUWPVXCxfP3S819z8ACbVy3nBx+8jMko5uF//5cf7nyB/Y02Rd9D+7zDMYbxVnvFRBRXTCtNC40kHTV9hUMzjrnyjLVsXrHsdS3gqoHPhzecwV1XdvJEM07mlDQCtNKs2kjSEQMEQNg/VQYCHzrn9JNWia6sFPn2ey5krOAT24H1ky9KaHR6tZ6TNLOsLhVYv6zGyZSxcpEbt5xNFCcDE5KCGIVYIZpFwGaMlUJ8x+Fky3vPPJWVBb/XRsnhTxTaJnSdZug6E9q3LvBO5komJyXf46ylI7RzVlAgcMxUwXUmTeAYXVYI9+TzgBFhoh3zRpGlYUBms16rJVOohcGBWhhMGoB1tcpzWc5EnmPYPVlnvNl6QxBop2mnh6qKqpJay5pq6QXPiBqAs5fWHtO+efZQK+KvL+056eBVlRfHJ3Ad08vQmbWsX1Ld0Svmzl0++mg18Fr5YtTzfe5+chfpcS4BT5Q88+ohnj88ge+6vXzgG8OWsaWP9wiMhsHukuc9ml8wh0HA04cn+N7fnjipBH6w/R/E3TbkdIUQus7usVJhxgK241t3zymyKmV++MSz/OTRJ08K+G1/+zuPvLSXciGctRJUuM+qNvq7Er8C9s+q+oxDsVrltu07+eJvfs9/x4++LsAnW22+9Ye/cPv2nZTLZURMvrWWCvxozqIemADuAL4xq3ByXKq1Ue5/eT+P3HUv7zptDe84cx3rlo1S8Lz5Wy+y0LDMGbSqHJhq8Pgre3nwuRd5qdGmWq1iusk0Vyz/GvjnIAIAdwI3AqfOer4xjNZGieOYe194hZ8/9Tyh6+CK6T1YB2AW6Wy7CDOfItJbeXWud5vFIkSZJTWGQqHISK3Wu56TCPhafqyfwCRwM3DPoLWwHwSsWrWKRr1OHMc5neqMZqe3iiSn6y7o3njuvEdOhKIxGGNmk5wm2pHbgacHNrZy8kvgA8B1g+ZkEaFULiOtFmmSzF3H9sDNbODNp/E5n3mS3ftzz39KRL7aScZ6zPb6TXk/6yeBCMVCAc/zui8xiOkcZhqIdDQ5rdGeZucDn3PBAeEzAXwCaA67PzABfBjYPU96BBEKhQKu6yIys2Uk0nEDI9IhJTL/kdNyR9MyY6UZ7cfAdSKyc1EbHMC/gCuBPQuRCMOwS6KjZWO6L89bw5hZoPqBz3zPWaMDPgKuRXhg0Ts0XdkJXN4fOP0kgiDokegRmQMw5+di5mp9msQM+AngGkR+vdCm1jD9kedU9dJucA8mAXieh+M4OXDTM4rB9A6Zrenp83yAdwae6ShO7j/WqmSoBo+IHFbVjyjcAOyd7z7XdXGcLgEzrd3c1NlnlQFjSTeZXiIiO4Zp+g7doZJOEXKXqp6n6K3A4UH3OY7T0XwPd4eE9E+1fbEA/FbRrcBnROTI0Ds4+UQ135EvpBDZj/Ilq7pZVW8GdtD5C0OuhjILzECzxl9V+ImqXqJwlYg8JovcCXXz87sO2MuyCpnaQa6/B9XbFG4DzhXYisgFwNkCK4CqQqiqIWAFWsC4wsvAE8CfgD8DBztkhu1Og6MzihXtbsbtOnSUVO2ceI8yy5F2tMDfYnTuqVABRoASMAakwDjKAWB8drZafPNABC5avZyy7/E/fjfaCmvItL0AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1257,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"0.1.2\" package=\"com.lorentzos.adp\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0c0000\" android:label=\"ADP\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ADP\" android:name=\"com.lorentzos.adp.StartActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"ADP\" android:name=\"com.lorentzos.adp.ui.SelectActivity\" />\n\t\t<activity android:label=\"EditDetailsActivity\" android:name=\"com.lorentzos.adp.ui.EditDetailsActivity\" android:parentActivityName=\"com.lorentzos.adp.ui.SelectActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.lorentzos.adp.ui.SelectActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1012268,
+  "crc32" : 1975291940,
+  "sha256" : "b992daf576d35f5329677727a98b93023619778db882ffcdf2d141f0868cac2b",
+  "buildTime" : 1522957557000
+}

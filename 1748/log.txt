@@ -1,0 +1,436 @@
+2018-04-04 15:29:09,198 INFO  DownloadService - Downloading "https://github.com/atomicrobot/vinyl/archive/master.zip", attempt 3
+2018-04-04 15:29:10,060 INFO  DownloadService - Downloaded https://github.com/atomicrobot/vinyl/archive/master.zip, attempt 3
+2018-04-04 15:29:10,061 INFO  DownloadService - Size of file "/tmp/rdisk/1748/master.zip": 115 KB
+2018-04-04 15:29:10,061 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:29:10,061 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1748/master.zip: true
+2018-04-04 15:29:10,061 DEBUG ZipUtil - Extracting '/tmp/rdisk/1748/master.zip' into '/tmp/rdisk/1748/src'.
+2018-04-04 15:29:10,074 INFO  FullProcessService - Size of directory with sources: 168 KB
+2018-04-04 15:29:10,074 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1748/src]
+2018-04-04 15:29:10,083 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1748/src/.git/
+
+2018-04-04 15:29:10,087 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1748/src/vinyl-master/gradlew
+2018-04-04 15:29:10,092 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1748/src/vinyl-master/vinyl-samples/build.gradle /tmp/rdisk/1748/src/vinyl-master/build.gradle /tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/build.gradle /tmp/rdisk/1748/src/vinyl-master/vinyl-compiler/build.gradle
+2018-04-04 15:29:10,096 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1748/src/vinyl-master/vinyl-samples/build.gradle /tmp/rdisk/1748/src/vinyl-master/vinyl-compiler/build.gradle /tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/build.gradle /tmp/rdisk/1748/src/vinyl-master/settings.gradle /tmp/rdisk/1748/src/vinyl-master/gradle-mvn-push.gradle /tmp/rdisk/1748/src/vinyl-master/config/checkstyle/checkstyle.gradle /tmp/rdisk/1748/src/vinyl-master/build.gradle
+2018-04-04 15:29:10,101 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:29:10,101 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:29:10,131 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1748/src/vinyl-master/vinyl-samples/local.properties
+2018-04-04 15:29:10,132 INFO  ProjectFixService - Build info for "/tmp/rdisk/1748/src/vinyl-master/vinyl-samples/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:29:10,134 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1748/src/vinyl-master/local.properties
+2018-04-04 15:29:10,135 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-04 15:29:10,135 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-04 15:29:10,136 INFO  ProjectFixService - Build info for "/tmp/rdisk/1748/src/vinyl-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:29:10,137 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/local.properties
+2018-04-04 15:29:10,138 INFO  ProjectFixService - Build info for "/tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:29:10,138 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1748/src/vinyl-master/vinyl-compiler/local.properties
+2018-04-04 15:29:10,139 INFO  ProjectFixService - Build info for "/tmp/rdisk/1748/src/vinyl-master/vinyl-compiler/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-04 15:29:10,139 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:29:10,139 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:29:10,140 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/vinyl-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:29:23,516 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-04 15:29:23,517 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-04 15:29:23,517 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/vinyl-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-04 15:29:34,876 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-04 15:29:34,876 INFO  SysUtils - Configuration on demand is an incubating feature.
+:vinyl-samples:preBuild UP-TO-DATE
+:vinyl-samples:preDebugBuild UP-TO-DATE
+:vinyl-samples:compileDebugNdk UP-TO-DATE
+:vinyl-annotations:compileJava
+:vinyl-annotations:processResources UP-TO-DATE
+:vinyl-annotations:classes
+:vinyl-annotations:jar
+:vinyl-annotations:javadoc/tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/src/main/java/com/madebyatomicrobot/vinyl/annotations/Converter.java:22: warning: no @return
+    Class<?> converter();
+             ^
+
+1 warning
+:vinyl-annotations:javadocJar
+:vinyl-annotations:sourcesJar
+:vinyl-compiler:compileJava
+:vinyl-compiler:processResources UP-TO-DATE
+:vinyl-compiler:classes
+:vinyl-compiler:jar
+:vinyl-compiler:javadoc
+:vinyl-compiler:javadocJar
+:vinyl-compiler:sourcesJar
+:vinyl-samples:checkDebugManifest
+:vinyl-samples:prepareDebugDependencies
+:vinyl-samples:compileDebugAidl
+:vinyl-samples:compileDebugRenderscript
+:vinyl-samples:generateDebugBuildConfig
+:vinyl-samples:generateDebugAssets UP-TO-DATE
+:vinyl-samples:mergeDebugAssets
+:vinyl-samples:generateDebugResValues
+:vinyl-samples:generateDebugResources
+:vinyl-samples:mergeDebugResources
+:vinyl-samples:processDebugManifest
+:vinyl-samples:processDebugResources
+:vinyl-samples:generateDebugSources
+:vinyl-samples:compileDebugJava
+:vinyl-samples:preDexDebugUNEXPECTED TOP-LEVEL EXCEPTION:
+com.android.dx.cf.iface.ParseException: bad class file magic (cafebabe) or version (0034.0000)
+	at com.android.dx.cf.direct.DirectClassFile.parse0(DirectClassFile.java:472)
+	at com.android.dx.cf.direct.DirectClassFile.parse(DirectClassFile.java:406)
+	at com.android.dx.cf.direct.DirectClassFile.parseToInterfacesIfNecessary(DirectClassFile.java:388)
+	at com.android.dx.cf.direct.DirectClassFile.getMagic(DirectClassFile.java:251)
+	at com.android.dx.command.dexer.Main.processClass(Main.java:704)
+	at com.android.dx.command.dexer.Main.processFileBytes(Main.java:673)
+	at com.android.dx.command.dexer.Main.access$300(Main.java:82)
+	at com.android.dx.command.dexer.Main$1.processFileBytes(Main.java:602)
+	at com.android.dx.cf.direct.ClassPathOpener.processArchive(ClassPathOpener.java:284)
+	at com.android.dx.cf.direct.ClassPathOpener.processOne(ClassPathOpener.java:166)
+	at com.android.dx.cf.direct.ClassPathOpener.process(ClassPathOpener.java:144)
+	at com.android.dx.command.dexer.Main.processOne(Main.java:632)
+	at com.android.dx.command.dexer.Main.processAllFiles(Main.java:510)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:279)
+	at com.android.dx.command.dexer.Main.run(Main.java:245)
+	at com.android.dx.command.dexer.Main.main(Main.java:214)
+	at com.android.dx.command.Main.main(Main.java:106)
+...while parsing com/madebyatomicrobot/vinyl/annotations/Converter.class
+1 error; aborting
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':vinyl-samples:preDexDebug'.
+> com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':vinyl-samples:preDexDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+	at com.android.ide.common.internal.WaitableExecutor.waitForTasksWithQuickFail(WaitableExecutor.java:116)
+	at com.android.ide.common.internal.WaitableExecutor$waitForTasksWithQuickFail$0.call(Unknown Source)
+	at com.android.build.gradle.tasks.PreDex.taskAction(PreDex.groovy:106)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:42)
+	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1298)
+	at com.android.builder.internal.compiler.PreDexCache.preDexLibrary(PreDexCache.java:122)
+	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1250)
+	at com.android.builder.core.AndroidBuilder$preDexLibrary$4.call(Unknown Source)
+	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy:150)
+	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy)
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:40)
+	... 6 more
+
+
+BUILD FAILED
+
+Total time: 10.773 secs
+
+2018-04-04 15:29:34,887 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:29:34,887 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:29:41,317 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-04-04 15:29:41,318 INFO  ProjectTaskService - Excluded tasks (18): lintDebug mockableAndroidJar deviceCheck lint javadoc uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-04 15:29:41,318 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, javadoc, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-04 15:29:48,108 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-04 15:29:48,108 INFO  SysUtils - Configuration on demand is an incubating feature.
+:vinyl-annotations:compileJava UP-TO-DATE
+:vinyl-annotations:processResources UP-TO-DATE
+:vinyl-annotations:classes UP-TO-DATE
+:vinyl-annotations:jar UP-TO-DATE
+:vinyl-annotations:javadocJar UP-TO-DATE
+:vinyl-annotations:sourcesJar UP-TO-DATE
+:vinyl-annotations:signArchives SKIPPED
+:vinyl-annotations:assemble UP-TO-DATE
+:vinyl-annotations:build
+:vinyl-compiler:compileJava UP-TO-DATE
+:vinyl-compiler:processResources UP-TO-DATE
+:vinyl-compiler:classes UP-TO-DATE
+:vinyl-compiler:jar UP-TO-DATE
+:vinyl-compiler:javadocJar UP-TO-DATE
+:vinyl-compiler:sourcesJar UP-TO-DATE
+:vinyl-compiler:signArchives SKIPPED
+:vinyl-compiler:assemble UP-TO-DATE
+:vinyl-compiler:build
+:vinyl-samples:preBuild UP-TO-DATE
+:vinyl-samples:preDebugBuild UP-TO-DATE
+:vinyl-samples:compileDebugNdk UP-TO-DATE
+:vinyl-samples:checkDebugManifest
+:vinyl-samples:prepareDebugDependencies
+:vinyl-samples:compileDebugAidl UP-TO-DATE
+:vinyl-samples:compileDebugRenderscript UP-TO-DATE
+:vinyl-samples:generateDebugBuildConfig UP-TO-DATE
+:vinyl-samples:generateDebugAssets UP-TO-DATE
+:vinyl-samples:mergeDebugAssets UP-TO-DATE
+:vinyl-samples:generateDebugResValues UP-TO-DATE
+:vinyl-samples:generateDebugResources UP-TO-DATE
+:vinyl-samples:mergeDebugResources UP-TO-DATE
+:vinyl-samples:processDebugManifest UP-TO-DATE
+:vinyl-samples:processDebugResources UP-TO-DATE
+:vinyl-samples:generateDebugSources UP-TO-DATE
+:vinyl-samples:compileDebugJava UP-TO-DATE
+:vinyl-samples:preDexDebugUNEXPECTED TOP-LEVEL EXCEPTION:
+com.android.dx.cf.iface.ParseException: bad class file magic (cafebabe) or version (0034.0000)
+	at com.android.dx.cf.direct.DirectClassFile.parse0(DirectClassFile.java:472)
+	at com.android.dx.cf.direct.DirectClassFile.parse(DirectClassFile.java:406)
+	at com.android.dx.cf.direct.DirectClassFile.parseToInterfacesIfNecessary(DirectClassFile.java:388)
+	at com.android.dx.cf.direct.DirectClassFile.getMagic(DirectClassFile.java:251)
+	at com.android.dx.command.dexer.Main.processClass(Main.java:704)
+	at com.android.dx.command.dexer.Main.processFileBytes(Main.java:673)
+	at com.android.dx.command.dexer.Main.access$300(Main.java:82)
+	at com.android.dx.command.dexer.Main$1.processFileBytes(Main.java:602)
+	at com.android.dx.cf.direct.ClassPathOpener.processArchive(ClassPathOpener.java:284)
+	at com.android.dx.cf.direct.ClassPathOpener.processOne(ClassPathOpener.java:166)
+	at com.android.dx.cf.direct.ClassPathOpener.process(ClassPathOpener.java:144)
+	at com.android.dx.command.dexer.Main.processOne(Main.java:632)
+	at com.android.dx.command.dexer.Main.processAllFiles(Main.java:510)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:279)
+	at com.android.dx.command.dexer.Main.run(Main.java:245)
+	at com.android.dx.command.dexer.Main.main(Main.java:214)
+	at com.android.dx.command.Main.main(Main.java:106)
+...while parsing com/madebyatomicrobot/vinyl/annotations/Converter.class
+1 error; aborting
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':vinyl-samples:preDexDebug'.
+> com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':vinyl-samples:preDexDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+	at com.android.ide.common.internal.WaitableExecutor.waitForTasksWithQuickFail(WaitableExecutor.java:116)
+	at com.android.ide.common.internal.WaitableExecutor$waitForTasksWithQuickFail$0.call(Unknown Source)
+	at com.android.build.gradle.tasks.PreDex.taskAction(PreDex.groovy:106)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:42)
+	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1298)
+	at com.android.builder.internal.compiler.PreDexCache.preDexLibrary(PreDexCache.java:122)
+	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1250)
+	at com.android.builder.core.AndroidBuilder$preDexLibrary$1.call(Unknown Source)
+	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy:150)
+	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy)
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/java'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:40)
+	... 6 more
+
+
+BUILD FAILED
+
+Total time: 6.359 secs
+
+2018-04-04 15:29:48,122 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:29:48,123 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:29:54,745 INFO  ProjectTaskService - Detected possible tasks: 41
+2018-04-04 15:29:54,745 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-04 15:29:54,745 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/vinyl-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-04 15:29:59,198 INFO  SysUtils - Configuration on demand is an incubating feature.
+:vinyl-annotations:compileJava UP-TO-DATE
+:vinyl-annotations:processResources UP-TO-DATE
+:vinyl-annotations:classes UP-TO-DATE
+:vinyl-annotations:jar UP-TO-DATE
+:vinyl-annotations:javadocJar UP-TO-DATE
+:vinyl-annotations:sourcesJar UP-TO-DATE
+:vinyl-annotations:signArchives SKIPPED
+:vinyl-annotations:assemble UP-TO-DATE
+:vinyl-annotations:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.041 secs
+
+2018-04-04 15:29:59,211 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:29:59,212 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/vinyl-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:30:05,817 INFO  ProjectTaskService - Detected possible tasks: 41
+2018-04-04 15:30:05,818 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-04 15:30:05,818 INFO  SysUtils - Execute command: [/tmp/rdisk/1748/src/vinyl-master/gradlew, -b, /tmp/rdisk/1748/src/vinyl-master/vinyl-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-04 15:30:10,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+:vinyl-annotations:compileJava UP-TO-DATE
+:vinyl-annotations:processResources UP-TO-DATE
+:vinyl-annotations:classes UP-TO-DATE
+:vinyl-annotations:jar UP-TO-DATE
+:vinyl-compiler:compileJava UP-TO-DATE
+:vinyl-compiler:processResources UP-TO-DATE
+:vinyl-compiler:classes UP-TO-DATE
+:vinyl-compiler:jar UP-TO-DATE
+:vinyl-compiler:javadocJar UP-TO-DATE
+:vinyl-compiler:sourcesJar UP-TO-DATE
+:vinyl-compiler:signArchives SKIPPED
+:vinyl-compiler:assemble UP-TO-DATE
+:vinyl-compiler:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.198 secs
+
+2018-04-04 15:30:10,427 ERROR FullProcessService - Project build has not produced APK file
+2018-04-04 15:30:10,439 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,168 @@
+2018-04-05 21:19:17,284 INFO  DownloadService - Downloading "https://github.com/denley/WearPrefs/archive/master.zip", attempt 3
+2018-04-05 21:20:17,915 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 21:20:18,704 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 21:20:18,705 INFO  DownloadService - Downloading "https://github.com/denley/WearPrefs/archive/master.zip", attempt 3
+2018-04-05 21:21:20,119 DEBUG FullProcessService - Repository https://github.com/denley/WearPrefs available: true
+2018-04-05 21:21:20,119 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 21:21:20,119 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/denley/WearPrefs, /tmp/rdisk/1570/src]
+2018-04-05 21:21:21,706 INFO  SysUtils - 
+2018-04-05 21:21:21,711 INFO  GitService - Deleted "/tmp/rdisk/1570/src/.git": true
+2018-04-05 21:21:21,714 INFO  FullProcessService - Size of directory with sources: 229 KB
+2018-04-05 21:21:21,714 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1570/src]
+2018-04-05 21:21:21,718 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1570/src/.git/
+
+2018-04-05 21:21:21,720 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1570/src/gradlew
+2018-04-05 21:21:21,723 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1570/src/sample-mobile/build.gradle /tmp/rdisk/1570/src/sample-wear/build.gradle /tmp/rdisk/1570/src/wearprefs/build.gradle /tmp/rdisk/1570/src/build.gradle
+2018-04-05 21:21:21,726 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1570/src/wearprefs/build.gradle /tmp/rdisk/1570/src/wearprefs/android-release-aar.gradle /tmp/rdisk/1570/src/settings.gradle /tmp/rdisk/1570/src/sample-wear/build.gradle /tmp/rdisk/1570/src/sample-mobile/build.gradle /tmp/rdisk/1570/src/build.gradle
+2018-04-05 21:21:21,726 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 21:21:21,726 INFO  ProjectFixService - Fixing project...
+2018-04-05 21:21:21,732 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1570/src/sample-mobile/local.properties
+2018-04-05 21:21:21,733 INFO  ProjectFixService - Build info for "/tmp/rdisk/1570/src/sample-mobile/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
+2018-04-05 21:21:21,733 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1570/src/sample-wear/local.properties
+2018-04-05 21:21:21,733 INFO  ProjectFixService - Build info for "/tmp/rdisk/1570/src/sample-wear/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=20,targetSdkVersion=23]
+2018-04-05 21:21:21,733 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1570/src/wearprefs/local.properties
+2018-04-05 21:21:21,734 INFO  ProjectFixService - Build info for "/tmp/rdisk/1570/src/wearprefs/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-04-05 21:21:21,734 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1570/src/local.properties
+2018-04-05 21:21:21,734 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 21:21:21,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 21:21:21,735 INFO  ProjectFixService - Build info for "/tmp/rdisk/1570/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-04-05 21:21:21,735 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 21:21:21,735 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 21:21:21,735 INFO  SysUtils - Execute command: [/tmp/rdisk/1570/src/gradlew, -b, /tmp/rdisk/1570/src/sample-mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 21:21:29,307 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-05 21:21:29,307 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 21:21:29,307 INFO  SysUtils - Execute command: [/tmp/rdisk/1570/src/gradlew, -b, /tmp/rdisk/1570/src/sample-mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 21:22:13,493 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample-mobile:preBuild UP-TO-DATE
+:sample-mobile:preDebugBuild UP-TO-DATE
+:sample-mobile:checkDebugManifest
+:sample-mobile:preReleaseBuild UP-TO-DATE
+:wearprefs:compileLint
+:wearprefs:copyReleaseLint UP-TO-DATE
+:wearprefs:preBuild UP-TO-DATE
+:wearprefs:preReleaseBuild UP-TO-DATE
+:wearprefs:checkReleaseManifest
+:wearprefs:preDebugAndroidTestBuild UP-TO-DATE
+:wearprefs:preDebugBuild UP-TO-DATE
+:wearprefs:preDebugUnitTestBuild UP-TO-DATE
+:wearprefs:preReleaseUnitTestBuild UP-TO-DATE
+:wearprefs:prepareComAndroidSupportSupportV42220Library
+:wearprefs:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:wearprefs:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:wearprefs:prepareComGoogleAndroidGmsPlayServicesWearable810Library
+:wearprefs:prepareReleaseDependencies
+:wearprefs:compileReleaseAidl
+:wearprefs:compileReleaseRenderscript
+:wearprefs:generateReleaseBuildConfig
+:wearprefs:generateReleaseAssets UP-TO-DATE
+:wearprefs:mergeReleaseAssets
+:wearprefs:generateReleaseResValues
+:wearprefs:generateReleaseResources
+:wearprefs:mergeReleaseResources
+:wearprefs:processReleaseManifest
+:wearprefs:processReleaseResources
+:wearprefs:generateReleaseSources
+:wearprefs:processReleaseJavaRes UP-TO-DATE
+:wearprefs:compileReleaseJavaWithJavacNote: /tmp/rdisk/1570/src/wearprefs/src/main/java/wearprefs/TypeUtil.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:wearprefs:extractReleaseAnnotations
+:wearprefs:mergeReleaseProguardFiles
+:wearprefs:packageReleaseJar
+:wearprefs:compileReleaseNdk UP-TO-DATE
+:wearprefs:packageReleaseJniLibs UP-TO-DATE
+:wearprefs:packageReleaseLocalJar UP-TO-DATE
+:wearprefs:packageReleaseRenderscript UP-TO-DATE
+:wearprefs:packageReleaseResources
+:wearprefs:bundleRelease
+:sample-mobile:prepareComAndroidSupportAppcompatV72301Library
+:sample-mobile:prepareComAndroidSupportSupportV42301Library
+:sample-mobile:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:sample-mobile:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:sample-mobile:prepareComGoogleAndroidGmsPlayServicesWearable810Library
+:sample-mobile:prepareSrcWearprefsUnspecifiedLibrary
+:sample-mobile:prepareDebugDependencies
+:sample-mobile:compileDebugAidl
+:sample-mobile:compileDebugRenderscript
+:sample-mobile:generateDebugBuildConfig
+:sample-mobile:generateDebugAssets UP-TO-DATE
+:sample-mobile:mergeDebugAssets
+:sample-mobile:generateDebugResValues
+:sample-mobile:generateDebugResources
+:sample-mobile:mergeDebugResources
+:sample-mobile:processDebugManifest
+:sample-mobile:processDebugResources
+:sample-mobile:generateDebugSources
+:sample-mobile:processDebugJavaRes UP-TO-DATE
+:sample-mobile:compileDebugJavaWithJavacNote: /tmp/rdisk/1570/src/sample-mobile/src/main/java/wearprefs/sample/SettingsActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample-mobile:compileDebugNdk UP-TO-DATE
+:sample-mobile:compileDebugSources
+:sample-mobile:preDexDebug
+:sample-mobile:dexDebug
+:sample-mobile:validateDebugSigning
+:sample-mobile:packageDebug
+:sample-mobile:zipalignDebug
+:sample-mobile:assembleDebug
+:sample-mobile:checkReleaseManifest
+:sample-mobile:prepareReleaseDependencies
+:sample-mobile:compileReleaseAidl
+:sample-mobile:compileReleaseRenderscript
+:sample-mobile:generateReleaseBuildConfig
+:sample-mobile:generateReleaseAssets UP-TO-DATE
+:sample-mobile:mergeReleaseAssets
+:sample-mobile:generateReleaseResValues
+:sample-wear:preBuild UP-TO-DATE
+:sample-wear:preReleaseBuild UP-TO-DATE
+:sample-wear:checkReleaseManifest
+:sample-wear:preDebugBuild UP-TO-DATE
+:sample-wear:prepareComAndroidSupportRecyclerviewV72200Library
+:sample-wear:prepareComAndroidSupportSupportV42220Library
+:sample-wear:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:sample-wear:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:sample-wear:prepareComGoogleAndroidGmsPlayServicesWearable810Library
+:sample-wear:prepareComGoogleAndroidSupportWearable130Library
+:sample-wear:prepareSrcWearprefsUnspecifiedLibrary
+:sample-wear:prepareReleaseDependencies
+:sample-wear:compileReleaseAidl
+:sample-wear:compileReleaseRenderscript
+:sample-wear:generateReleaseBuildConfig
+:sample-wear:generateReleaseAssets UP-TO-DATE
+:sample-wear:mergeReleaseAssets
+:sample-wear:generateReleaseResValues
+:sample-wear:generateReleaseResources
+:sample-wear:mergeReleaseResources
+:sample-wear:processReleaseManifest
+:sample-wear:processReleaseResources
+:sample-wear:generateReleaseSources
+:sample-wear:processReleaseJavaRes UP-TO-DATE
+:sample-wear:compileReleaseJavaWithJavac
+:sample-wear:compileReleaseNdk UP-TO-DATE
+:sample-wear:preDexRelease
+:sample-wear:dexRelease
+:sample-wear:packageRelease
+:sample-mobile:handleReleaseMicroApk
+:sample-mobile:generateReleaseResources
+:sample-mobile:mergeReleaseResources
+:sample-mobile:processReleaseManifest
+:sample-mobile:processReleaseResources
+:sample-mobile:generateReleaseSources
+:sample-mobile:processReleaseJavaRes UP-TO-DATE
+:sample-mobile:compileReleaseJavaWithJavacNote: /tmp/rdisk/1570/src/sample-mobile/src/main/java/wearprefs/sample/SettingsActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample-mobile:compileReleaseNdk UP-TO-DATE
+:sample-mobile:compileReleaseSources
+:sample-mobile:preDexRelease
+:sample-mobile:dexRelease
+:sample-mobile:packageRelease
+:sample-mobile:assembleRelease
+:sample-mobile:assemble
+:sample-mobile:build
+
+BUILD SUCCESSFUL
+
+Total time: 43.712 secs
+
+2018-04-05 21:22:13,569 INFO  FullProcessService - Found APK file: /tmp/rdisk/1570/src/sample-wear/build/outputs/apk/sample-wear-release-unsigned.apk

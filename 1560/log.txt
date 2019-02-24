@@ -1,0 +1,325 @@
+2018-04-05 21:49:43,180 INFO  DownloadService - Downloading "https://github.com/anton46/Foursquare-CollectionPicker/archive/master.zip", attempt 3
+2018-04-05 21:50:43,652 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 21:50:44,332 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 21:50:44,332 INFO  DownloadService - Downloading "https://github.com/anton46/Foursquare-CollectionPicker/archive/master.zip", attempt 3
+2018-04-05 21:51:45,612 DEBUG FullProcessService - Repository https://github.com/anton46/Foursquare-CollectionPicker available: true
+2018-04-05 21:51:45,612 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 21:51:45,612 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/anton46/Foursquare-CollectionPicker, /tmp/rdisk/1560/src]
+2018-04-05 21:51:47,437 INFO  SysUtils - 
+2018-04-05 21:51:47,451 INFO  GitService - Deleted "/tmp/rdisk/1560/src/.git": true
+2018-04-05 21:51:47,453 INFO  FullProcessService - Size of directory with sources: 260 KB
+2018-04-05 21:51:47,453 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1560/src]
+2018-04-05 21:51:47,458 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1560/src/.git/
+
+2018-04-05 21:51:47,460 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1560/src/gradlew
+2018-04-05 21:51:47,463 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1560/src/collectionpicker/build.gradle /tmp/rdisk/1560/src/sample/build.gradle /tmp/rdisk/1560/src/build.gradle
+2018-04-05 21:51:47,465 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1560/src/settings.gradle /tmp/rdisk/1560/src/sample/build.gradle /tmp/rdisk/1560/src/maven_push.gradle /tmp/rdisk/1560/src/collectionpicker/build.gradle /tmp/rdisk/1560/src/build.gradle
+2018-04-05 21:51:47,465 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 21:51:47,465 INFO  ProjectFixService - Fixing project...
+2018-04-05 21:51:47,472 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1560/src/collectionpicker/local.properties
+2018-04-05 21:51:47,472 INFO  ProjectFixService - Build info for "/tmp/rdisk/1560/src/collectionpicker/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-04-05 21:51:47,472 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1560/src/sample/local.properties
+2018-04-05 21:51:47,472 INFO  ProjectFixService - Build info for "/tmp/rdisk/1560/src/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=16,targetSdkVersion=21]
+2018-04-05 21:51:47,473 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1560/src/local.properties
+2018-04-05 21:51:47,473 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 21:51:47,473 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 21:51:47,474 INFO  ProjectFixService - Build info for "/tmp/rdisk/1560/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=16,targetSdkVersion=21]
+2018-04-05 21:51:47,474 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 21:51:47,474 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 21:51:47,474 INFO  SysUtils - Execute command: [/tmp/rdisk/1560/src/gradlew, -b, /tmp/rdisk/1560/src/collectionpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 21:51:54,440 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-04-05 21:51:54,440 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 21:51:54,440 INFO  SysUtils - Execute command: [/tmp/rdisk/1560/src/gradlew, -b, /tmp/rdisk/1560/src/collectionpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 21:52:06,483 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 21:52:06,483 INFO  SysUtils - Configuration on demand is an incubating feature.
+:collectionpicker:androidJavadocs/tmp/rdisk/1560/src/collectionpicker/src/main/java/com/anton46/collectionitempicker/CollectionPicker.java:3: error: package com.anton46.collectionpicker does not exist
+import com.anton46.collectionpicker.R;
+                                   ^
+/tmp/rdisk/1560/src/collectionpicker/src/main/java/com/anton46/collectionitempicker/CollectionPicker.java:125: warning: no @param for checkedItems
+    public void setCheckedItems(HashMap<String, Object> checkedItems) {
+                ^
+
+2 warnings
+:collectionpicker:androidJavadocsJar
+:collectionpicker:androidSourcesJar
+:collectionpicker:compileLint
+:collectionpicker:copyDebugLint UP-TO-DATE
+:collectionpicker:preBuild
+:collectionpicker:preDebugBuild
+:collectionpicker:checkDebugManifest
+:collectionpicker:preDebugTestBuild
+:collectionpicker:preReleaseBuild
+:collectionpicker:prepareComAndroidSupportAppcompatV72103Library
+:collectionpicker:prepareComAndroidSupportSupportV42103Library
+:collectionpicker:prepareDebugDependencies
+:collectionpicker:compileDebugAidl
+:collectionpicker:compileDebugRenderscript
+:collectionpicker:generateDebugBuildConfig
+:collectionpicker:generateDebugAssets UP-TO-DATE
+:collectionpicker:mergeDebugAssets
+:collectionpicker:generateDebugResValues
+:collectionpicker:generateDebugResources
+:collectionpicker:mergeDebugResources
+:collectionpicker:processDebugManifest
+:collectionpicker:processDebugResources
+:collectionpicker:generateDebugSources
+:collectionpicker:compileDebugJavaNote: /tmp/rdisk/1560/src/collectionpicker/src/main/java/com/anton46/collectionitempicker/CollectionPicker.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:collectionpicker:extractDebugAnnotations
+:collectionpicker:mergeDebugProguardFiles
+:collectionpicker:processDebugJavaRes UP-TO-DATE
+:collectionpicker:packageDebugJar
+:collectionpicker:compileDebugNdk
+:collectionpicker:packageDebugJniLibs UP-TO-DATE
+:collectionpicker:packageDebugLocalJar UP-TO-DATE
+:collectionpicker:packageDebugRenderscript UP-TO-DATE
+:collectionpicker:packageDebugResources
+:collectionpicker:bundleDebug
+:collectionpicker:assembleDebug
+:collectionpicker:copyReleaseLint UP-TO-DATE
+:collectionpicker:checkReleaseManifest
+:collectionpicker:prepareReleaseDependencies
+:collectionpicker:compileReleaseAidl
+:collectionpicker:compileReleaseRenderscript
+:collectionpicker:generateReleaseBuildConfig
+:collectionpicker:generateReleaseAssets UP-TO-DATE
+:collectionpicker:mergeReleaseAssets
+:collectionpicker:generateReleaseResValues
+:collectionpicker:generateReleaseResources
+:collectionpicker:mergeReleaseResources
+:collectionpicker:processReleaseManifest
+:collectionpicker:processReleaseResources
+:collectionpicker:generateReleaseSources
+:collectionpicker:compileReleaseJavaNote: /tmp/rdisk/1560/src/collectionpicker/src/main/java/com/anton46/collectionitempicker/CollectionPicker.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:collectionpicker:extractReleaseAnnotations
+:collectionpicker:mergeReleaseProguardFiles
+:collectionpicker:processReleaseJavaRes UP-TO-DATE
+:collectionpicker:packageReleaseJar
+:collectionpicker:compileReleaseNdk
+:collectionpicker:packageReleaseJniLibs UP-TO-DATE
+:collectionpicker:packageReleaseLocalJar UP-TO-DATE
+:collectionpicker:packageReleaseRenderscript UP-TO-DATE
+:collectionpicker:packageReleaseResources
+:collectionpicker:bundleRelease
+:collectionpicker:assembleRelease
+:collectionpicker:signArchives FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not evaluate onlyIf predicate for task ':collectionpicker:signArchives'.
+> Unable to retrieve secret key from key ring file '/Users/anton/.gnupg/secring.gpg' as it does not exist
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleException: Could not evaluate onlyIf predicate for task ':collectionpicker:signArchives'.
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.InvalidUserDataException: Unable to retrieve secret key from key ring file '/Users/anton/.gnupg/secring.gpg' as it does not exist
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.readSecretKey(PgpSignatoryFactory.groovy:76)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory$readSecretKey$1.callCurrent(Unknown Source)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.createSignatory(PgpSignatoryFactory.groovy:67)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory$createSignatory$0.callCurrent(Unknown Source)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.readProperties(PgpSignatoryFactory.groovy:59)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.createSignatory(PgpSignatoryFactory.groovy:29)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.createSignatory(PgpSignatoryFactory.groovy)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory$createSignatory.call(Unknown Source)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryProvider.getDefaultSignatory(PgpSignatoryProvider.groovy:36)
+	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryProvider.getDefaultSignatory(PgpSignatoryProvider.groovy)
+	at org.gradle.plugins.signing.signatory.SignatoryProvider$getDefaultSignatory.call(Unknown Source)
+	at org.gradle.plugins.signing.SigningExtension.getSignatory(SigningExtension.groovy:170)
+	at org.gradle.plugins.signing.SigningExtension_Decorated.getSignatory(Unknown Source)
+	at org.gradle.plugins.signing.SigningExtension$_addSignatureSpecConventions_closure2.doCall(SigningExtension.groovy:198)
+	at org.gradle.plugins.signing.SigningExtension$_addSignatureSpecConventions_closure2.doCall(SigningExtension.groovy)
+	at org.gradle.api.internal.ConventionAwareHelper$2.getValue(ConventionAwareHelper.java:84)
+	at org.gradle.api.internal.ConventionAwareHelper$MappedPropertyImpl.getValue(ConventionAwareHelper.java:136)
+	at org.gradle.api.internal.ConventionAwareHelper.getConventionValue(ConventionAwareHelper.java:114)
+	at org.gradle.plugins.signing.Sign_Decorated.getSignatory(Unknown Source)
+	at org.gradle.plugins.signing.Sign$_closure1.doCall(Sign.groovy:65)
+	at org.gradle.api.specs.internal.ClosureSpec.isSatisfiedBy(ClosureSpec.java:32)
+	at org.gradle.api.specs.AndSpec.isSatisfiedBy(AndSpec.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:41)
+	... 40 more
+
+
+BUILD FAILED
+
+Total time: 11.615 secs
+
+2018-04-05 21:52:06,514 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 21:52:06,514 INFO  SysUtils - Execute command: [/tmp/rdisk/1560/src/gradlew, -b, /tmp/rdisk/1560/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 21:52:13,182 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 21:52:13,182 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 21:52:13,182 INFO  SysUtils - Execute command: [/tmp/rdisk/1560/src/gradlew, -b, /tmp/rdisk/1560/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 21:52:36,981 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild
+:sample:compileDebugNdk
+:collectionpicker:compileLint
+:collectionpicker:copyReleaseLint UP-TO-DATE
+:collectionpicker:preBuild
+:collectionpicker:preReleaseBuild
+:collectionpicker:checkReleaseManifest
+:collectionpicker:preDebugBuild
+:collectionpicker:preDebugTestBuild
+:collectionpicker:prepareComAndroidSupportAppcompatV72103Library UP-TO-DATE
+:collectionpicker:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:collectionpicker:prepareReleaseDependencies
+:collectionpicker:compileReleaseAidl UP-TO-DATE
+:collectionpicker:compileReleaseRenderscript UP-TO-DATE
+:collectionpicker:generateReleaseBuildConfig UP-TO-DATE
+:collectionpicker:generateReleaseAssets UP-TO-DATE
+:collectionpicker:mergeReleaseAssets UP-TO-DATE
+:collectionpicker:generateReleaseResValues UP-TO-DATE
+:collectionpicker:generateReleaseResources UP-TO-DATE
+:collectionpicker:mergeReleaseResources UP-TO-DATE
+:collectionpicker:processReleaseManifest UP-TO-DATE
+:collectionpicker:processReleaseResources UP-TO-DATE
+:collectionpicker:generateReleaseSources UP-TO-DATE
+:collectionpicker:compileReleaseJava UP-TO-DATE
+:collectionpicker:extractReleaseAnnotations UP-TO-DATE
+:collectionpicker:mergeReleaseProguardFiles UP-TO-DATE
+:collectionpicker:processReleaseJavaRes UP-TO-DATE
+:collectionpicker:packageReleaseJar UP-TO-DATE
+:collectionpicker:compileReleaseNdk UP-TO-DATE
+:collectionpicker:packageReleaseJniLibs UP-TO-DATE
+:collectionpicker:packageReleaseLocalJar UP-TO-DATE
+:collectionpicker:packageReleaseRenderscript UP-TO-DATE
+:collectionpicker:packageReleaseResources UP-TO-DATE
+:collectionpicker:bundleRelease UP-TO-DATE
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:preReleaseBuild
+:sample:prepareComAndroidSupportAppcompatV72103Library
+:sample:prepareComAndroidSupportSupportV42103Library
+:sample:prepareSrcCollectionpickerUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJava
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1560/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJava
+:sample:lintVitalRelease
+:sample:compileReleaseNdk
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.353 secs
+
+2018-04-05 21:52:37,043 INFO  FullProcessService - Found APK file: /tmp/rdisk/1560/src/sample/build/outputs/apk/sample-release-unsigned.apk

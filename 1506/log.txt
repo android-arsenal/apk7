@@ -1,0 +1,21 @@
+2018-04-06 00:19:50,538 INFO  DownloadService - Downloading "https://github.com/lorensiuswlt/AndroidTwitter/archive/master.zip", attempt 3
+2018-04-06 00:20:51,010 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-06 00:20:51,655 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-06 00:20:51,655 INFO  DownloadService - Downloading "https://github.com/lorensiuswlt/AndroidTwitter/archive/master.zip", attempt 3
+2018-04-06 00:21:52,975 DEBUG FullProcessService - Repository https://github.com/lorensiuswlt/AndroidTwitter available: true
+2018-04-06 00:21:52,975 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-06 00:21:52,975 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lorensiuswlt/AndroidTwitter, /tmp/rdisk/1506/src]
+2018-04-06 00:21:54,301 INFO  SysUtils - 
+2018-04-06 00:21:54,309 INFO  GitService - Deleted "/tmp/rdisk/1506/src/.git": true
+2018-04-06 00:21:54,311 INFO  FullProcessService - Size of directory with sources: 59 KB
+2018-04-06 00:21:54,311 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1506/src]
+2018-04-06 00:21:54,314 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1506/src/.git/
+
+2018-04-06 00:21:54,316 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-06 00:21:54,316 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-06 00:21:54,317 INFO  ProjectBuildService - Build script(s): none
+2018-04-06 00:21:54,319 INFO  ProjectBuildService - All script(s): none
+2018-04-06 00:21:54,319 INFO  ProjectBuildService - Remote scripts: none
+2018-04-06 00:21:54,319 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-06 00:21:54,319 ERROR FullProcessService - Project build has not produced APK file
+2018-04-06 00:21:54,320 ERROR FullProcessService - Could not find generated or existed APK file

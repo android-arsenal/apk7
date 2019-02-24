@@ -1,0 +1,156 @@
+2018-04-05 20:06:14,450 INFO  DownloadService - Downloading "https://github.com/chenupt/SpringIndicator/archive/master.zip", attempt 3
+2018-04-05 20:06:16,551 INFO  DownloadService - Downloaded https://github.com/chenupt/SpringIndicator/archive/master.zip, attempt 3
+2018-04-05 20:06:16,551 INFO  DownloadService - Size of file "/tmp/rdisk/1615/master.zip": 5 MB
+2018-04-05 20:06:16,551 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 20:06:16,552 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1615/master.zip: true
+2018-04-05 20:06:16,552 DEBUG ZipUtil - Extracting '/tmp/rdisk/1615/master.zip' into '/tmp/rdisk/1615/src'.
+2018-04-05 20:06:16,597 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-04-05 20:06:16,597 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1615/src]
+2018-04-05 20:06:16,607 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1615/src/.git/
+
+2018-04-05 20:06:16,609 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1615/src/SpringIndicator-master/gradlew
+2018-04-05 20:06:16,612 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1615/src/SpringIndicator-master/lib/build.gradle /tmp/rdisk/1615/src/SpringIndicator-master/sample/build.gradle /tmp/rdisk/1615/src/SpringIndicator-master/build.gradle
+2018-04-05 20:06:16,615 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1615/src/SpringIndicator-master/settings.gradle /tmp/rdisk/1615/src/SpringIndicator-master/sample/build.gradle /tmp/rdisk/1615/src/SpringIndicator-master/lib/build.gradle /tmp/rdisk/1615/src/SpringIndicator-master/build.gradle
+2018-04-05 20:06:16,615 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:06:16,615 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:06:16,621 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1615/src/SpringIndicator-master/lib/local.properties
+2018-04-05 20:06:16,621 INFO  ProjectFixService - Build info for "/tmp/rdisk/1615/src/SpringIndicator-master/lib/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-05 20:06:16,622 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1615/src/SpringIndicator-master/sample/local.properties
+2018-04-05 20:06:16,622 INFO  ProjectFixService - Build info for "/tmp/rdisk/1615/src/SpringIndicator-master/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-05 20:06:16,622 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1615/src/SpringIndicator-master/local.properties
+2018-04-05 20:06:16,622 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 20:06:16,622 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 20:06:16,623 INFO  ProjectFixService - Build info for "/tmp/rdisk/1615/src/SpringIndicator-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-04-05 20:06:16,623 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:06:16,623 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:06:16,623 INFO  SysUtils - Execute command: [/tmp/rdisk/1615/src/SpringIndicator-master/gradlew, -b, /tmp/rdisk/1615/src/SpringIndicator-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:06:23,019 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 20:06:23,019 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 20:06:23,019 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 20:06:23,019 INFO  SysUtils - Execute command: [/tmp/rdisk/1615/src/SpringIndicator-master/gradlew, -b, /tmp/rdisk/1615/src/SpringIndicator-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 20:06:45,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lib:androidJavadocs/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/SpringIndicator.java:23: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/SpringIndicator.java:61: error: cannot find symbol
+    private ViewPager viewPager;
+            ^
+  symbol:   class ViewPager
+  location: class SpringIndicator
+/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/SpringIndicator.java:65: error: package ViewPager does not exist
+    private ViewPager.OnPageChangeListener delegateListener;
+                     ^
+/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/SpringIndicator.java:104: error: cannot find symbol
+    public void setViewPager(final ViewPager viewPager) {
+                                   ^
+  symbol:   class ViewPager
+  location: class SpringIndicator
+/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/SpringIndicator.java:297: error: package ViewPager does not exist
+    public void setOnPageChangeListener(ViewPager.OnPageChangeListener listener){
+                                                 ^
+/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/viewpager/ScrollerViewPager.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/1615/src/SpringIndicator-master/lib/src/main/java/github/chenupt/springindicator/viewpager/ScrollerViewPager.java:32: error: cannot find symbol
+public class ScrollerViewPager extends ViewPager {
+                                       ^
+  symbol: class ViewPager
+
+7 warnings
+:lib:androidJavadocsJar
+:lib:androidSourcesJar
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:compileDebugNdk UP-TO-DATE
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:checkDebugManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugUnitTestBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:preReleaseUnitTestBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAppcompatV72103Library
+:lib:prepareComAndroidSupportSupportV42103Library
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl
+:lib:compileDebugRenderscript
+:lib:generateDebugBuildConfig
+:lib:generateDebugAssets UP-TO-DATE
+:lib:mergeDebugAssets
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:mergeDebugResources
+:lib:processDebugManifest
+:lib:processDebugResources
+:lib:generateDebugSources
+:lib:compileDebugJavaWithJavac
+:lib:extractDebugAnnotations
+:lib:mergeDebugProguardFiles
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:packageDebugResources
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:transformResourcesWithMergeJavaResForDebug
+:lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:lib:mergeDebugJniLibFolders
+:lib:transformNative_libsWithMergeJniLibsForDebug
+:lib:transformNative_libsWithSyncJniLibsForDebug
+:lib:bundleDebug
+:lib:compileDebugSources
+:lib:assembleDebug
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:copyReleaseLint UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:compileReleaseJavaWithJavac
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseProguardFiles
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:transformResourcesWithMergeJavaResForRelease
+:lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lib:mergeReleaseJniLibFolders
+:lib:transformNative_libsWithMergeJniLibsForRelease
+:lib:transformNative_libsWithSyncJniLibsForRelease
+:lib:bundleRelease
+:lib:compileReleaseSources
+:lib:assembleRelease
+:lib:signArchives SKIPPED
+:lib:assemble
+:lib:lint
+Wrote HTML report to file:///tmp/rdisk/1615/src/SpringIndicator-master/lib/build/outputs/lint-results.html
+Wrote XML report to file:///tmp/rdisk/1615/src/SpringIndicator-master/lib/build/outputs/lint-results.xml
+Lint found 0 errors and 1 warnings
+:lib:prepareDebugUnitTestDependencies
+:lib:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:lib:processDebugUnitTestJavaRes UP-TO-DATE
+:lib:compileDebugUnitTestSources UP-TO-DATE
+:lib:mockableAndroidJar
+:lib:assembleDebugUnitTest
+:lib:testDebugUnitTest
+:lib:prepareReleaseUnitTestDependencies
+:lib:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:lib:processReleaseUnitTestJavaRes UP-TO-DATE
+:lib:compileReleaseUnitTestSources UP-TO-DATE
+:lib:assembleReleaseUnitTest
+:lib:testReleaseUnitTest
+:lib:test
+:lib:check
+:lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.702 secs
+
+2018-04-05 20:06:45,174 INFO  FullProcessService - Found APK file: /tmp/rdisk/1615/src/SpringIndicator-master/img/springindicator_1.0.1.apk

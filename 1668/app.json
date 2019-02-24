@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.facebook.network.connectionclass.sample",
+    "label" : "ConnectionClass Sample",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 58,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.facebook.network.connectionclass.sample\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:label=\"ConnectionClass Sample\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ConnectionClass Sample\" android:name=\"com.facebook.network.connectionclass.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 38129,
+  "crc32" : 287653435,
+  "sha256" : "e58be471982492787d3f6e0a98a2dda155f251b93ef7e1099fa9a84936e8fbaf",
+  "buildTime" : 1522956710000
+}

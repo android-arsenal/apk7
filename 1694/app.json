@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.facebook.samples.demo",
+    "label" : "Fresco Animation Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.14.1",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1583,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.14.1\" package=\"com.facebook.samples.demo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:label=\"Fresco Animation Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.facebook.samples.animation.AnimationApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Fresco Animation Demo\" android:name=\"com.facebook.samples.animation.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1235003,
+  "crc32" : 435720927,
+  "sha256" : "eea982357f82c9e5607de1caf4050edf579f5e5bca90956132366c6f8ebaa20e",
+  "buildTime" : 1496784477000
+}

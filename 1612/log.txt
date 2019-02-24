@@ -1,0 +1,523 @@
+2018-04-05 20:09:20,697 INFO  DownloadService - Downloading "https://github.com/hzsweers/barber/archive/master.zip", attempt 3
+2018-04-05 20:09:24,545 INFO  DownloadService - Downloaded https://github.com/hzsweers/barber/archive/master.zip, attempt 3
+2018-04-05 20:09:24,546 INFO  DownloadService - Size of file "/tmp/rdisk/1612/master.zip": 13 MB
+2018-04-05 20:09:24,546 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 20:09:24,546 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1612/master.zip: true
+2018-04-05 20:09:24,546 DEBUG ZipUtil - Extracting '/tmp/rdisk/1612/master.zip' into '/tmp/rdisk/1612/src'.
+2018-04-05 20:09:24,709 INFO  FullProcessService - Size of directory with sources: 23 MB
+2018-04-05 20:09:24,709 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1612/src]
+2018-04-05 20:09:24,718 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1612/src/.git/
+
+2018-04-05 20:09:24,722 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1612/src/barber-master/gradlew
+2018-04-05 20:09:24,725 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1612/src/barber-master/api/build.gradle /tmp/rdisk/1612/src/barber-master/sample/build.gradle /tmp/rdisk/1612/src/barber-master/build.gradle /tmp/rdisk/1612/src/barber-master/compiler/build.gradle
+2018-04-05 20:09:24,729 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1612/src/barber-master/settings.gradle /tmp/rdisk/1612/src/barber-master/sample/build.gradle /tmp/rdisk/1612/src/barber-master/compiler/build.gradle /tmp/rdisk/1612/src/barber-master/build.gradle /tmp/rdisk/1612/src/barber-master/api/build.gradle
+2018-04-05 20:09:24,729 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:09:24,729 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:09:24,737 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1612/src/barber-master/api/local.properties
+2018-04-05 20:09:24,739 INFO  ProjectFixService - Build info for "/tmp/rdisk/1612/src/barber-master/api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,739 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1612/src/barber-master/api/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,739 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1612/src/barber-master/sample/local.properties
+2018-04-05 20:09:24,741 INFO  ProjectFixService - Build info for "/tmp/rdisk/1612/src/barber-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,741 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1612/src/barber-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,742 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1612/src/barber-master/local.properties
+2018-04-05 20:09:24,742 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.9-all.zip
+2018-04-05 20:09:24,742 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.9-bin.zip)
+2018-04-05 20:09:24,744 INFO  ProjectFixService - Build info for "/tmp/rdisk/1612/src/barber-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,744 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1612/src/barber-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,745 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1612/src/barber-master/compiler/local.properties
+2018-04-05 20:09:24,748 INFO  ProjectFixService - Build info for "/tmp/rdisk/1612/src/barber-master/compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,748 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/1612/src/barber-master/compiler/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=23]
+2018-04-05 20:09:24,748 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:09:24,748 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:09:24,748 INFO  SysUtils - Execute command: [/tmp/rdisk/1612/src/barber-master/gradlew, -b, /tmp/rdisk/1612/src/barber-master/api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:09:37,257 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-05 20:09:37,257 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-05 20:09:37,257 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-05 20:09:37,257 INFO  SysUtils - Execute command: [/tmp/rdisk/1612/src/barber-master/gradlew, -b, /tmp/rdisk/1612/src/barber-master/api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-05 20:09:52,037 INFO  SysUtils - Configuration on demand is an incubating feature.
+:api:preBuild UP-TO-DATE
+:api:preDebugBuild UP-TO-DATE
+:api:compileDebugNdk UP-TO-DATE
+:api:compileLint
+:api:copyDebugLint UP-TO-DATE
+:api:mergeDebugProguardFiles
+:api:packageDebugRenderscript UP-TO-DATE
+:api:checkDebugManifest
+:api:prepareDebugDependencies
+:api:compileDebugRenderscript
+:api:generateDebugResValues
+:api:generateDebugResources
+:api:packageDebugResources
+:api:compileDebugAidl
+:api:generateDebugBuildConfig
+:api:generateDebugAssets UP-TO-DATE
+:api:mergeDebugAssets
+:api:processDebugManifest
+:api:processDebugResources
+:api:generateDebugSources
+:api:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:api:processDebugJavaRes UP-TO-DATE
+:api:transformResourcesWithMergeJavaResForDebug
+:api:transformClassesAndResourcesWithSyncLibJarsForDebug
+:api:mergeDebugJniLibFolders
+:api:transformNative_libsWithMergeJniLibsForDebug
+:api:transformNative_libsWithSyncJniLibsForDebug
+:api:bundleDebug
+:api:compileDebugSources
+:api:assembleDebug
+:api:preReleaseBuild UP-TO-DATE
+:api:compileReleaseNdk UP-TO-DATE
+:api:copyReleaseLint UP-TO-DATE
+:api:mergeReleaseProguardFiles
+:api:packageReleaseRenderscript UP-TO-DATE
+:api:checkReleaseManifest
+:api:prepareReleaseDependencies
+:api:compileReleaseRenderscript
+:api:generateReleaseResValues
+:api:generateReleaseResources
+:api:packageReleaseResources
+:api:compileReleaseAidl
+:api:generateReleaseBuildConfig
+:api:generateReleaseAssets UP-TO-DATE
+:api:mergeReleaseAssets
+:api:processReleaseManifest
+:api:processReleaseResources
+:api:generateReleaseSources
+:api:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:api:processReleaseJavaRes UP-TO-DATE
+:api:transformResourcesWithMergeJavaResForRelease
+:api:transformClassesAndResourcesWithSyncLibJarsForRelease
+:api:mergeReleaseJniLibFolders
+:api:transformNative_libsWithMergeJniLibsForRelease
+:api:transformNative_libsWithSyncJniLibsForRelease
+:api:bundleRelease
+:api:compileReleaseSources
+:api:assembleRelease
+:api:assemble
+:api:lint
+Wrote HTML report to file:///tmp/rdisk/1612/src/barber-master/api/build/outputs/lint-results.html
+Wrote XML report to file:///tmp/rdisk/1612/src/barber-master/api/build/outputs/lint-results.xml
+Lint found 0 errors and 0 warnings
+:api:preDebugUnitTestBuild UP-TO-DATE
+:api:prepareDebugUnitTestDependencies
+:api:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:api:processDebugUnitTestJavaRes UP-TO-DATE
+:api:compileDebugUnitTestSources UP-TO-DATE
+:api:mockableAndroidJar
+:api:assembleDebugUnitTest
+:api:testDebugUnitTest
+:api:preReleaseUnitTestBuild UP-TO-DATE
+:api:prepareReleaseUnitTestDependencies
+:api:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:api:processReleaseUnitTestJavaRes UP-TO-DATE
+:api:compileReleaseUnitTestSources UP-TO-DATE
+:api:assembleReleaseUnitTest
+:api:testReleaseUnitTest
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.31 secs
+
+2018-04-05 20:09:52,046 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:09:52,046 INFO  SysUtils - Execute command: [/tmp/rdisk/1612/src/barber-master/gradlew, -b, /tmp/rdisk/1612/src/barber-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:09:58,874 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-05 20:09:58,874 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 20:09:58,874 INFO  SysUtils - Execute command: [/tmp/rdisk/1612/src/barber-master/gradlew, -b, /tmp/rdisk/1612/src/barber-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 20:10:27,861 INFO  SysUtils - Configuration on demand is an incubating feature.
+:api:preBuild UP-TO-DATE
+:api:preReleaseBuild UP-TO-DATE
+:api:compileReleaseNdk UP-TO-DATE
+:api:compileLint
+:api:copyReleaseLint UP-TO-DATE
+:api:mergeReleaseProguardFiles UP-TO-DATE
+:api:packageReleaseRenderscript UP-TO-DATE
+:api:checkReleaseManifest
+:api:prepareReleaseDependencies
+:api:compileReleaseRenderscript UP-TO-DATE
+:api:generateReleaseResValues UP-TO-DATE
+:api:generateReleaseResources UP-TO-DATE
+:api:packageReleaseResources UP-TO-DATE
+:api:compileReleaseAidl UP-TO-DATE
+:api:generateReleaseBuildConfig UP-TO-DATE
+:api:generateReleaseAssets UP-TO-DATE
+:api:mergeReleaseAssets UP-TO-DATE
+:api:processReleaseManifest UP-TO-DATE
+:api:processReleaseResources UP-TO-DATE
+:api:generateReleaseSources UP-TO-DATE
+:api:compileReleaseJavaWithJavac UP-TO-DATE
+:api:processReleaseJavaRes UP-TO-DATE
+:api:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:api:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:api:mergeReleaseJniLibFolders UP-TO-DATE
+:api:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:api:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:api:bundleRelease UP-TO-DATE
+:compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:compiler:processResources
+:compiler:classes
+:compiler:jar
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72311Library
+:sample:prepareComAndroidSupportSupportV42311Library
+:sample:prepareIoSweersBarberApi131Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNative_libsWithMergeJniLibsForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/BarberView$$Barbershop.java:26: Error: Expected resource of type color [ResourceType]
+      target.stripeColor = res.getColor(17170455);
+                                        ~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/BarberView$$Barbershop.java:28: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(1)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/BarberView$$Barbershop.java:29: Error: Expected resource of type styleable [ResourceType]
+      target.stripeCount = a.getInt(1, -1);
+                                    ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/BarberView$$Barbershop.java:31: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(2)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/BarberView$$Barbershop.java:32: Error: Expected resource of type styleable [ResourceType]
+      target.poleWidth = a.getDimensionPixelSize(2, -1);
+                                                 ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/ChildTestView$$Barbershop.java:23: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(1)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/ChildTestView$$Barbershop.java:24: Error: Expected resource of type styleable [ResourceType]
+      target.childBoolean = a.getBoolean(1, false);
+                                         ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/ChildTestView$$Barbershop.java:26: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(2)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/ChildTestView$$Barbershop.java:27: Error: Expected resource of type styleable [ResourceType]
+      target.childString = a.getString(2);
+                                       ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/CustomPreference$$Barbershop.java:23: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(1)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/CustomPreference$$Barbershop.java:24: Error: Expected resource of type styleable [ResourceType]
+      target.summaryColor = a.getColor(1, -1);
+                                       ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:25: Error: Expected resource of type bool [ResourceType]
+      target.testBoolean = res.getBoolean(2131230728);
+                                          ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:27: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(1)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:28: Error: Expected resource of type styleable [ResourceType]
+      target.testInt = a.getInt(1, -1);
+                                ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:30: Error: Expected resource of type integer [ResourceType]
+      target.testInt = res.getInteger(2131427333);
+                                      ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:32: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(2)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:33: Error: Expected resource of type styleable [ResourceType]
+      target.testInteger = a.getInteger(2, -1);
+                                        ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:35: Error: Expected resource of type integer [ResourceType]
+      target.testInteger = res.getInteger(2131427333);
+                                          ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:37: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(3)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:38: Error: Expected resource of type styleable [ResourceType]
+      target.testColor = a.getColor(3, -1);
+                                    ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:40: Error: Expected resource of type color [ResourceType]
+      target.testColor = res.getColor(17170455);
+                                      ~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:42: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(4)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:43: Error: Expected resource of type styleable [ResourceType]
+      target.setTestFloat(a.getFloat(4, -1f));
+                                     ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:47: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(5)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:48: Error: Expected resource of type styleable [ResourceType]
+      target.testCharSequence = a.getText(5);
+                                          ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:50: Error: Expected resource of type string [ResourceType]
+      target.testCharSequence = res.getText(2131165207);
+                                            ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:52: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(6)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:53: Error: Expected resource of type styleable [ResourceType]
+      target.testString = a.getString(6);
+                                      ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:55: Error: Expected resource of type string [ResourceType]
+      target.testString = res.getString(2131165208);
+                                        ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:57: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(7)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:58: Error: Expected resource of type styleable [ResourceType]
+      target.testTextArray = a.getTextArray(7);
+                                            ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:60: Error: Expected resource of type array [ResourceType]
+      target.testTextArray = res.getTextArray(2131492864);
+                                              ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:62: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(8)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:63: Error: Expected resource of type styleable [ResourceType]
+      target.testColorStateList = a.getColorStateList(8);
+                                                      ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:65: Error: Expected resource of type color [ResourceType]
+      target.testColorStateList = res.getColorStateList(2131558468);
+                                                        ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:67: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(9)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:68: Error: Expected resource of type styleable [ResourceType]
+      target.testDrawable = a.getDrawable(9);
+                                          ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:70: Error: Expected resource of type drawable [ResourceType]
+      target.testDrawable = android.support.v4.content.res.ResourcesCompat.getDrawable(res, 2130837574, target.getContext().getTheme());
+                                                                                            ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:72: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(10)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:73: Error: Expected resource of type styleable [ResourceType]
+      target.testFractionBase = a.getFraction(10, 2, 2, -1f);
+                                              ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:75: Error: Expected resource of type fraction [ResourceType]
+      target.testFractionBase = res.getFraction(2131623936, 2, 2);
+                                                ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:77: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(11)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:78: Error: Expected resource of type styleable [ResourceType]
+      target.testFracionPBase = a.getFraction(11, 2, 2, -1f);
+                                              ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:80: Error: Expected resource of type fraction [ResourceType]
+      target.testFracionPBase = res.getFraction(2131623937, 2, 2);
+                                                ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:82: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(12)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:83: Error: Expected resource of type styleable [ResourceType]
+      target.testDimension = a.getDimension(12, -1f);
+                                            ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:85: Error: Expected resource of type dimen [ResourceType]
+      target.testDimension = res.getDimension(2131296334);
+                                              ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:87: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(13)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:88: Error: Expected resource of type styleable [ResourceType]
+      target.testDimensionPixelSize = a.getDimensionPixelSize(13, -1);
+                                                              ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:90: Error: Expected resource of type dimen [ResourceType]
+      target.testDimensionPixelSize = res.getDimensionPixelSize(2131296334);
+                                                                ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:92: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(14)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:93: Error: Expected resource of type styleable [ResourceType]
+      target.testDimensionPixelOffset = a.getDimensionPixelOffset(14, -1);
+                                                                  ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:95: Error: Expected resource of type dimen [ResourceType]
+      target.testDimensionPixelOffset = res.getDimensionPixelOffset(2131296334);
+                                                                    ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:97: Error: Expected resource of type styleable [ResourceType]
+    target.testResId = a.getResourceId(15, 2131492864);
+                                       ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:98: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(16)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:99: Error: Expected resource of type styleable [ResourceType]
+      target.testNonResString1 = a.getNonResourceString(16);
+                                                        ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:101: Error: Expected resource of type string [ResourceType]
+      target.testNonResString1 = res.getString(2131165206);
+                                               ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:103: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(17)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:104: Error: Expected resource of type styleable [ResourceType]
+      target.testNonResString2 = a.getNonResourceString(17);
+                                                        ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/DefaultsTestView$$Barbershop.java:106: Error: Expected resource of type string [ResourceType]
+      target.testNonResString2 = res.getString(2131165206);
+                                               ~~~~~~~~~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:23: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(1)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:24: Error: Expected resource of type styleable [ResourceType]
+      target.testInt = a.getInt(1, -1);
+                                ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:26: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(2)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:27: Error: Expected resource of type styleable [ResourceType]
+      target.testInteger = a.getInteger(2, -1);
+                                        ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:29: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(3)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:30: Error: Expected resource of type styleable [ResourceType]
+      target.testColor = a.getColor(3, -1);
+                                    ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:32: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(4)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:33: Error: Expected resource of type styleable [ResourceType]
+      target.setTestFloat(a.getFloat(4, -1f));
+                                     ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:35: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(5)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:36: Error: Expected resource of type styleable [ResourceType]
+      target.testCharSequence = a.getText(5);
+                                          ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:38: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(6)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:39: Error: Expected resource of type styleable [ResourceType]
+      target.testString = a.getString(6);
+                                      ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:41: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(7)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:42: Error: Expected resource of type styleable [ResourceType]
+      target.testTextArray = a.getTextArray(7);
+                                            ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:44: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(8)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:45: Error: Expected resource of type styleable [ResourceType]
+      target.testColorStateList = a.getColorStateList(8);
+                                                      ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:47: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(9)) {
+                   ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:48: Error: Expected resource of type styleable [ResourceType]
+      target.testDrawable = a.getDrawable(9);
+                                          ~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:50: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(10)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:51: Error: Expected resource of type styleable [ResourceType]
+      target.testFractionBase = a.getFraction(10, 2, 2, -1f);
+                                              ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:53: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(11)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:54: Error: Expected resource of type styleable [ResourceType]
+      target.testFracionPBase = a.getFraction(11, 2, 2, -1f);
+                                              ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:56: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(12)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:57: Error: Expected resource of type styleable [ResourceType]
+      target.testDimension = a.getDimension(12, -1f);
+                                            ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:59: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(13)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:60: Error: Expected resource of type styleable [ResourceType]
+      target.testDimensionPixelSize = a.getDimensionPixelSize(13, -1);
+                                                              ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:62: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(14)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:63: Error: Expected resource of type styleable [ResourceType]
+      target.testDimensionPixelOffset = a.getDimensionPixelOffset(14, -1);
+                                                                  ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:65: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(15)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:66: Error: Expected resource of type styleable [ResourceType]
+      target.testResId = a.getResourceId(15, -1);
+                                         ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:68: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(16)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:69: Error: Expected resource of type styleable [ResourceType]
+      target.testNonResString1 = a.getNonResourceString(16);
+                                                        ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:71: Error: Expected resource of type styleable [ResourceType]
+    if (a.hasValue(17)) {
+                   ~~
+/tmp/rdisk/1612/src/barber-master/sample/build/generated/source/apt/release/io/sweers/barber/sample/testing/TestView$$Barbershop.java:72: Error: Expected resource of type styleable [ResourceType]
+      target.testNonResString2 = a.getNonResourceString(17);
+                                                        ~~
+
+   Explanation for issues of type "ResourceType":
+   Ensures that resource id's passed to APIs are of the right type; for
+   example, calling Resources.getColor(R.string.name) is wrong.
+
+94 errors, 0 warnings
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNative_libsWithMergeJniLibsForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.554 secs
+
+2018-04-05 20:10:27,910 INFO  FullProcessService - Found APK file: /tmp/rdisk/1612/src/barber-master/sample/build/outputs/apk/sample-release-unsigned.apk

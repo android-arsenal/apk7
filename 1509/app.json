@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.davemorrissey.labs.subscaleview.test",
+    "label" : "SSIV Test App",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "3.1.0",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1206,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"3.1.0\" android:hardwareAccelerated=\"true\" package=\"com.davemorrissey.labs.subscaleview.test\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0b0017\" android:label=\"SSIV Test App\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"SSIV Test App\" android:name=\"com.davemorrissey.labs.subscaleview.test.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.basicfeatures.BasicFeaturesActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.imagedisplay.ImageDisplayActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.eventhandling.EventHandlingActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.eventhandlingadvanced.AdvancedEventHandlingActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.viewpager.ViewPagerActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.animation.AnimationActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.extension.ExtensionActivity\" />\n\t\t<activity android:name=\"com.davemorrissey.labs.subscaleview.test.configuration.ConfigurationActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 8857396,
+  "crc32" : 4141013349,
+  "sha256" : "b9aa286c58b0e42840a92cbef5ee438fd57580a010e7bc82313fa2c3918d0ee2",
+  "buildTime" : 1523266079000
+}

@@ -1,0 +1,7 @@
+2016-06-27 01:38:40,182 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/jitpack/jitpack.io/archive/master.zip", attempt 3
+2016-06-27 01:38:42,641 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/jitpack/jitpack.io/archive/master.zip, attempt 3
+2016-06-27 01:38:43,248 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-06-27 01:38:43,248 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-06-27 01:38:43,248 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-06-27 01:38:43,248 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-06-27 01:38:43,269 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

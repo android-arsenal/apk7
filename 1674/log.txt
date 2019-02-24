@@ -1,0 +1,141 @@
+2018-04-05 19:25:48,184 INFO  DownloadService - Downloading "https://github.com/500px/500px-android-blur/archive/master.zip", attempt 3
+2018-04-05 19:25:49,875 INFO  DownloadService - Downloaded https://github.com/500px/500px-android-blur/archive/master.zip, attempt 3
+2018-04-05 19:25:49,875 INFO  DownloadService - Size of file "/tmp/rdisk/1674/master.zip": 10 MB
+2018-04-05 19:25:49,875 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 19:25:49,875 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1674/master.zip: true
+2018-04-05 19:25:49,875 DEBUG ZipUtil - Extracting '/tmp/rdisk/1674/master.zip' into '/tmp/rdisk/1674/src'.
+2018-04-05 19:25:49,957 INFO  FullProcessService - Size of directory with sources: 10 MB
+2018-04-05 19:25:49,957 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1674/src]
+2018-04-05 19:25:49,963 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1674/src/.git/
+
+2018-04-05 19:25:49,965 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1674/src/500px-android-blur-master/gradlew
+2018-04-05 19:25:49,968 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1674/src/500px-android-blur-master/app/build.gradle /tmp/rdisk/1674/src/500px-android-blur-master/blurringview/build.gradle /tmp/rdisk/1674/src/500px-android-blur-master/build.gradle
+2018-04-05 19:25:49,970 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1674/src/500px-android-blur-master/settings.gradle /tmp/rdisk/1674/src/500px-android-blur-master/build.gradle /tmp/rdisk/1674/src/500px-android-blur-master/blurringview/build.gradle /tmp/rdisk/1674/src/500px-android-blur-master/app/build.gradle
+2018-04-05 19:25:49,970 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 19:25:49,970 INFO  ProjectFixService - Fixing project...
+2018-04-05 19:25:49,976 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1674/src/500px-android-blur-master/app/local.properties
+2018-04-05 19:25:49,977 INFO  ProjectFixService - Build info for "/tmp/rdisk/1674/src/500px-android-blur-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-05 19:25:49,977 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1674/src/500px-android-blur-master/blurringview/local.properties
+2018-04-05 19:25:49,977 INFO  ProjectFixService - Build info for "/tmp/rdisk/1674/src/500px-android-blur-master/blurringview/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-05 19:25:49,977 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1674/src/500px-android-blur-master/local.properties
+2018-04-05 19:25:49,978 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-04-05 19:25:49,978 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-04-05 19:25:49,979 INFO  ProjectFixService - Build info for "/tmp/rdisk/1674/src/500px-android-blur-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-05 19:25:49,979 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 19:25:49,979 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 19:25:49,979 INFO  SysUtils - Execute command: [/tmp/rdisk/1674/src/500px-android-blur-master/gradlew, -b, /tmp/rdisk/1674/src/500px-android-blur-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 19:25:58,776 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-04-05 19:25:58,776 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 19:25:58,776 INFO  SysUtils - Execute command: [/tmp/rdisk/1674/src/500px-android-blur-master/gradlew, -b, /tmp/rdisk/1674/src/500px-android-blur-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 19:26:23,439 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:blurringview:preBuild UP-TO-DATE
+:blurringview:preReleaseBuild UP-TO-DATE
+:blurringview:checkReleaseManifest
+:blurringview:prepareReleaseDependencies
+:blurringview:compileReleaseAidl
+:blurringview:compileReleaseNdk UP-TO-DATE
+:blurringview:compileLint
+:blurringview:copyReleaseLint UP-TO-DATE
+:blurringview:mergeReleaseShaders
+:blurringview:compileReleaseShaders
+:blurringview:generateReleaseAssets
+:blurringview:mergeReleaseAssets
+:blurringview:mergeReleaseProguardFiles
+:blurringview:packageReleaseRenderscript UP-TO-DATE
+:blurringview:compileReleaseRenderscript
+:blurringview:generateReleaseResValues
+:blurringview:generateReleaseResources
+:blurringview:packageReleaseResources
+:blurringview:processReleaseManifest
+:blurringview:generateReleaseBuildConfig
+:blurringview:processReleaseResources
+:blurringview:generateReleaseSources
+:blurringview:incrementalReleaseJavaCompilationSafeguard
+:blurringview:compileReleaseJavaWithJavac
+:blurringview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1674/src/500px-android-blur-master/blurringview/src/main/java/com/fivehundredpx/android/blur/BlurringView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:blurringview:processReleaseJavaRes UP-TO-DATE
+:blurringview:transformResourcesWithMergeJavaResForRelease
+:blurringview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:blurringview:mergeReleaseJniLibFolders
+:blurringview:transformNative_libsWithMergeJniLibsForRelease
+:blurringview:transformNative_libsWithSyncJniLibsForRelease
+:blurringview:bundleRelease
+:app:prepare500pxAndroidBlurMasterBlurringviewUnspecifiedLibrary
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1674/src/500px-android-blur-master/app/src/main/java/com/fivehundredpx/blurdemo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/1674/src/500px-android-blur-master/app/src/main/java/com/fivehundredpx/blurdemo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.113 secs
+
+2018-04-05 19:26:23,495 INFO  FullProcessService - Found APK file: /tmp/rdisk/1674/src/500px-android-blur-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.mikepenz.materialdrawer.app",
+    "label" : "MaterialDrawer",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "6.0.7",
+    "versionCode" : 6070,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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"
+  },
+  "dexClasses" : 3175,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6070\" android:versionName=\"6.0.7\" package=\"com.mikepenz.materialdrawer.app\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:label=\"MaterialDrawer\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:name=\"com.mikepenz.materialdrawer.app.CustomApplication\" android:allowBackup=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:theme=\"resourceId:0x7f0e00c4\" android:label=\"MaterialDrawer\" android:name=\"com.mikepenz.materialdrawer.app.DrawerActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e00ae\" android:label=\"MaterialDrawer\" android:name=\"com.mikepenz.materialdrawer.app.CompactHeaderDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c8\" android:label=\"MaterialDrawer\" android:name=\"com.mikepenz.materialdrawer.app.PersistentDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00bf\" android:name=\"com.mikepenz.materialdrawer.app.ActionBarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c4\" android:name=\"com.mikepenz.materialdrawer.app.MenuDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00be\" android:name=\"com.mikepenz.materialdrawer.app.NonTranslucentDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c9\" android:name=\"com.mikepenz.materialdrawer.app.MultiDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c9\" android:name=\"com.mikepenz.materialdrawer.app.AdvancedActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00be\" android:name=\"com.mikepenz.materialdrawer.app.EmbeddedDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00be\" android:name=\"com.mikepenz.materialdrawer.app.MiniDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00af\" android:name=\"com.mikepenz.materialdrawer.app.FullscreenDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c4\" android:name=\"com.mikepenz.materialdrawer.app.CustomContainerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c4\" android:name=\"com.mikepenz.materialdrawer.app.FragmentActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c7\" android:name=\"com.mikepenz.materialdrawer.app.CollapsingToolbarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00c9\" android:name=\"com.mikepenz.materialdrawer.app.CrossfadeDrawerLayoutActvitiy\" />\n\t\t<activity android:name=\"com.mikepenz.aboutlibraries.ui.LibsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4327520,
+  "crc32" : 1809412134,
+  "sha256" : "898c39c04f0a062399078f5fcdf53355f7edc1e601071a6e9e06322c01083f86",
+  "buildTime" : 1526862050000
+}

@@ -1,0 +1,182 @@
+2018-04-05 20:05:16,081 INFO  DownloadService - Downloading "https://github.com/audionowdigital/openplayer-android/archive/master.zip", attempt 3
+2018-04-05 20:05:18,106 INFO  DownloadService - Downloaded https://github.com/audionowdigital/openplayer-android/archive/master.zip, attempt 3
+2018-04-05 20:05:18,106 INFO  DownloadService - Size of file "/tmp/rdisk/1616/master.zip": 4 MB
+2018-04-05 20:05:18,106 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 20:05:18,107 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1616/master.zip: true
+2018-04-05 20:05:18,107 DEBUG ZipUtil - Extracting '/tmp/rdisk/1616/master.zip' into '/tmp/rdisk/1616/src'.
+2018-04-05 20:05:18,238 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-04-05 20:05:18,239 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1616/src]
+2018-04-05 20:05:18,244 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1616/src/.git/
+
+2018-04-05 20:05:18,252 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1616/src/openplayer-android-master/gradlew
+2018-04-05 20:05:18,260 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/build.gradle /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/build.gradle /tmp/rdisk/1616/src/openplayer-android-master/build.gradle
+2018-04-05 20:05:18,268 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1616/src/openplayer-android-master/settings.gradle /tmp/rdisk/1616/src/openplayer-android-master/build.gradle /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/build.gradle /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/build.gradle
+2018-04-05 20:05:18,268 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:05:18,268 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:05:18,285 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/local.properties
+2018-04-05 20:05:18,285 INFO  ProjectFixService - Build info for "/tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-04-05 20:05:18,285 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/local.properties
+2018-04-05 20:05:18,286 INFO  ProjectFixService - Build info for "/tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-05 20:05:18,286 INFO  LocalPropertiesFixService - Updated fake /tmp/rdisk/1616/src/openplayer-android-master/local.properties
+2018-04-05 20:05:18,286 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 20:05:18,286 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 20:05:18,287 INFO  ProjectFixService - Build info for "/tmp/rdisk/1616/src/openplayer-android-master/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2018-04-05 20:05:18,287 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:05:18,287 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:05:18,288 INFO  SysUtils - Execute command: [/tmp/rdisk/1616/src/openplayer-android-master/gradlew, -b, /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:05:28,859 INFO  ProjectTaskService - Detected possible tasks: 55
+2018-04-05 20:05:28,859 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 20:05:28,860 INFO  SysUtils - Execute command: [/tmp/rdisk/1616/src/openplayer-android-master/gradlew, -b, /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 20:05:36,989 INFO  SysUtils - Configuration on demand is an incubating feature.
+:OpenPlayer:compileLint
+:OpenPlayer:copyDebugLint UP-TO-DATE
+:OpenPlayer:mergeDebugProguardFiles
+:OpenPlayer:preBuild
+:OpenPlayer:preDebugBuild
+:OpenPlayer:checkDebugManifest
+:OpenPlayer:prepareDebugDependencies
+:OpenPlayer:compileDebugAidl
+:OpenPlayer:compileDebugRenderscript
+:OpenPlayer:generateDebugBuildConfig
+:OpenPlayer:generateDebugAssets UP-TO-DATE
+:OpenPlayer:mergeDebugAssets
+:OpenPlayer:generateDebugResValues
+:OpenPlayer:generateDebugResources
+:OpenPlayer:packageDebugResources
+:OpenPlayer:processDebugManifest
+:OpenPlayer:processDebugResources
+:OpenPlayer:generateDebugSources
+:OpenPlayer:compileDebugJavaNote: /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/src/net/pocketmagic/android/openmxplayer/MXDecoder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:OpenPlayer:processDebugJavaRes UP-TO-DATE
+:OpenPlayer:packageDebugJar
+:OpenPlayer:compileDebugNdk
+:OpenPlayer:packageDebugJniLibs
+:OpenPlayer:packageDebugLocalJar UP-TO-DATE
+:OpenPlayer:packageDebugRenderscript UP-TO-DATE
+:OpenPlayer:bundleDebug
+:OpenPlayer:assembleDebug
+:OpenPlayer:copyReleaseLint UP-TO-DATE
+:OpenPlayer:mergeReleaseProguardFiles
+:OpenPlayer:preReleaseBuild
+:OpenPlayer:checkReleaseManifest
+:OpenPlayer:prepareReleaseDependencies
+:OpenPlayer:compileReleaseAidl
+:OpenPlayer:compileReleaseRenderscript
+:OpenPlayer:generateReleaseBuildConfig
+:OpenPlayer:generateReleaseAssets UP-TO-DATE
+:OpenPlayer:mergeReleaseAssets
+:OpenPlayer:generateReleaseResValues
+:OpenPlayer:generateReleaseResources
+:OpenPlayer:packageReleaseResources
+:OpenPlayer:processReleaseManifest
+:OpenPlayer:processReleaseResources
+:OpenPlayer:generateReleaseSources
+:OpenPlayer:compileReleaseJavaNote: /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayer/src/net/pocketmagic/android/openmxplayer/MXDecoder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:OpenPlayer:processReleaseJavaRes UP-TO-DATE
+:OpenPlayer:packageReleaseJar
+:OpenPlayer:compileReleaseNdk
+:OpenPlayer:packageReleaseJniLibs
+:OpenPlayer:packageReleaseLocalJar UP-TO-DATE
+:OpenPlayer:packageReleaseRenderscript UP-TO-DATE
+:OpenPlayer:bundleRelease
+:OpenPlayer:assembleRelease
+:OpenPlayer:assemble
+:OpenPlayer:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.599 secs
+
+2018-04-05 20:05:37,004 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:05:37,004 INFO  SysUtils - Execute command: [/tmp/rdisk/1616/src/openplayer-android-master/gradlew, -b, /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:05:43,037 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 20:05:43,037 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 20:05:43,037 INFO  SysUtils - Execute command: [/tmp/rdisk/1616/src/openplayer-android-master/gradlew, -b, /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 20:06:03,822 INFO  SysUtils - Configuration on demand is an incubating feature.
+:OpenPlayerDemo:preBuild
+:OpenPlayerDemo:compileDebugNdk
+:OpenPlayer:compileLint
+:OpenPlayer:copyReleaseLint UP-TO-DATE
+:OpenPlayer:mergeReleaseProguardFiles UP-TO-DATE
+:OpenPlayer:preBuild
+:OpenPlayer:preReleaseBuild
+:OpenPlayer:checkReleaseManifest
+:OpenPlayer:prepareReleaseDependencies
+:OpenPlayer:compileReleaseAidl UP-TO-DATE
+:OpenPlayer:compileReleaseRenderscript UP-TO-DATE
+:OpenPlayer:generateReleaseBuildConfig UP-TO-DATE
+:OpenPlayer:generateReleaseAssets UP-TO-DATE
+:OpenPlayer:mergeReleaseAssets UP-TO-DATE
+:OpenPlayer:generateReleaseResValues UP-TO-DATE
+:OpenPlayer:generateReleaseResources UP-TO-DATE
+:OpenPlayer:packageReleaseResources UP-TO-DATE
+:OpenPlayer:processReleaseManifest UP-TO-DATE
+:OpenPlayer:processReleaseResources UP-TO-DATE
+:OpenPlayer:generateReleaseSources UP-TO-DATE
+:OpenPlayer:compileReleaseJava UP-TO-DATE
+:OpenPlayer:processReleaseJavaRes UP-TO-DATE
+:OpenPlayer:packageReleaseJar UP-TO-DATE
+:OpenPlayer:compileReleaseNdk UP-TO-DATE
+:OpenPlayer:packageReleaseJniLibs UP-TO-DATE
+:OpenPlayer:packageReleaseLocalJar UP-TO-DATE
+:OpenPlayer:packageReleaseRenderscript UP-TO-DATE
+:OpenPlayer:bundleRelease UP-TO-DATE
+:OpenPlayerDemo:preDebugBuild
+:OpenPlayerDemo:checkDebugManifest
+:OpenPlayerDemo:preReleaseBuild
+:OpenPlayerDemo:prepareComAudionowdigitalOpenPlayer10Library
+:OpenPlayerDemo:prepareDebugDependencies
+:OpenPlayerDemo:compileDebugAidl
+:OpenPlayerDemo:compileDebugRenderscript
+:OpenPlayerDemo:generateDebugBuildConfig
+:OpenPlayerDemo:generateDebugAssets UP-TO-DATE
+:OpenPlayerDemo:mergeDebugAssets
+:OpenPlayerDemo:generateDebugResValues
+:OpenPlayerDemo:generateDebugResources
+:OpenPlayerDemo:mergeDebugResources/tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/src/main/res/drawable-xhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:OpenPlayerDemo:processDebugManifest
+:OpenPlayerDemo:processDebugResources
+:OpenPlayerDemo:generateDebugSources
+:OpenPlayerDemo:compileDebugJava
+:OpenPlayerDemo:preDexDebug
+:OpenPlayerDemo:dexDebug
+:OpenPlayerDemo:processDebugJavaRes UP-TO-DATE
+:OpenPlayerDemo:validateDebugSigning
+:OpenPlayerDemo:packageDebug
+:OpenPlayerDemo:zipalignDebug
+:OpenPlayerDemo:assembleDebug
+:OpenPlayerDemo:checkReleaseManifest
+:OpenPlayerDemo:prepareReleaseDependencies
+:OpenPlayerDemo:compileReleaseAidl
+:OpenPlayerDemo:compileReleaseRenderscript
+:OpenPlayerDemo:generateReleaseBuildConfig
+:OpenPlayerDemo:generateReleaseAssets UP-TO-DATE
+:OpenPlayerDemo:mergeReleaseAssets
+:OpenPlayerDemo:generateReleaseResValues
+:OpenPlayerDemo:generateReleaseResources
+:OpenPlayerDemo:mergeReleaseResources/tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/src/main/res/drawable-xhdpi/ic_launcher.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:OpenPlayerDemo:processReleaseManifest
+:OpenPlayerDemo:processReleaseResources
+:OpenPlayerDemo:generateReleaseSources
+:OpenPlayerDemo:compileReleaseJava
+:OpenPlayerDemo:lintVitalRelease
+:OpenPlayerDemo:compileReleaseNdk
+:OpenPlayerDemo:preDexRelease
+:OpenPlayerDemo:dexRelease
+:OpenPlayerDemo:processReleaseJavaRes UP-TO-DATE
+:OpenPlayerDemo:packageRelease
+:OpenPlayerDemo:assembleRelease
+:OpenPlayerDemo:assemble
+:OpenPlayerDemo:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.34 secs
+
+2018-04-05 20:06:03,843 INFO  FullProcessService - Found APK file: /tmp/rdisk/1616/src/openplayer-android-master/OpenPlayerDemo/build/outputs/apk/OpenPlayerDemo-release-unsigned.apk

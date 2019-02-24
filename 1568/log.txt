@@ -1,0 +1,165 @@
+2018-04-05 21:25:10,257 INFO  DownloadService - Downloading "https://github.com/orhanobut/hawk/archive/master.zip", attempt 3
+2018-04-05 21:26:10,885 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-05 21:26:11,587 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-05 21:26:11,587 INFO  DownloadService - Downloading "https://github.com/orhanobut/hawk/archive/master.zip", attempt 3
+2018-04-05 21:27:12,895 DEBUG FullProcessService - Repository https://github.com/orhanobut/hawk available: true
+2018-04-05 21:27:12,895 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-05 21:27:12,895 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/orhanobut/hawk, /tmp/rdisk/1568/src]
+2018-04-05 21:27:14,453 INFO  SysUtils - 
+2018-04-05 21:27:14,457 INFO  GitService - Deleted "/tmp/rdisk/1568/src/.git": true
+2018-04-05 21:27:14,460 INFO  FullProcessService - Size of directory with sources: 284 KB
+2018-04-05 21:27:14,460 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1568/src]
+2018-04-05 21:27:14,464 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1568/src/.git/
+
+2018-04-05 21:27:14,467 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1568/src/gradlew
+2018-04-05 21:27:14,469 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1568/src/benchmark/build.gradle /tmp/rdisk/1568/src/hawk/build.gradle /tmp/rdisk/1568/src/build.gradle
+2018-04-05 21:27:14,472 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1568/src/settings.gradle /tmp/rdisk/1568/src/hawk/build.gradle /tmp/rdisk/1568/src/gradle/maven_push.gradle /tmp/rdisk/1568/src/build.gradle /tmp/rdisk/1568/src/benchmark/build.gradle
+2018-04-05 21:27:14,472 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 21:27:14,472 INFO  ProjectFixService - Fixing project...
+2018-04-05 21:27:14,479 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1568/src/benchmark/local.properties
+2018-04-05 21:27:14,481 INFO  ProjectFixService - Build info for "/tmp/rdisk/1568/src/benchmark/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
+2018-04-05 21:27:14,481 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1568/src/hawk/local.properties
+2018-04-05 21:27:14,483 INFO  ProjectFixService - Build info for "/tmp/rdisk/1568/src/hawk/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-04-05 21:27:14,483 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1568/src/local.properties
+2018-04-05 21:27:14,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-04-05 21:27:14,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-04-05 21:27:14,484 INFO  ProjectFixService - Build info for "/tmp/rdisk/1568/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-04-05 21:27:14,484 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 21:27:14,484 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 21:27:14,484 INFO  SysUtils - Execute command: [/tmp/rdisk/1568/src/gradlew, -b, /tmp/rdisk/1568/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 21:27:25,807 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-05 21:27:25,807 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 21:27:25,807 INFO  SysUtils - Execute command: [/tmp/rdisk/1568/src/gradlew, -b, /tmp/rdisk/1568/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 21:28:28,196 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/root/Applications/android-sdk/build-tools/28.0.0-rc1' (Expected '/root/Applications/android-sdk/build-tools/28.0.0-preview')
+RELEASE BUILD
+:benchmark:preBuild UP-TO-DATE
+:hawk:preBuild UP-TO-DATE
+:hawk:preDebugBuild UP-TO-DATE
+:hawk:checkDebugManifest
+:hawk:processDebugManifest
+:benchmark:preDebugBuild
+:hawk:compileDebugAidl
+:benchmark:compileDebugAidl
+:hawk:packageDebugRenderscript NO-SOURCE
+:benchmark:compileDebugRenderscript
+:benchmark:checkDebugManifest
+:benchmark:generateDebugBuildConfig
+:benchmark:prepareLintJar
+:benchmark:mainApkListPersistenceDebug
+:benchmark:generateDebugResValues
+:benchmark:generateDebugResources
+:hawk:compileDebugRenderscript
+:hawk:generateDebugResValues
+:hawk:generateDebugResources
+:hawk:packageDebugResources
+:benchmark:mergeDebugResources
+:benchmark:createDebugCompatibleScreenManifests
+:benchmark:processDebugManifest
+:benchmark:splitsDiscoveryTaskDebug
+:hawk:platformAttrExtractor
+:hawk:generateDebugBuildConfig
+:hawk:prepareLintJar
+:hawk:processDebugJavaRes NO-SOURCE
+:benchmark:compileDebugNdk NO-SOURCE
+:benchmark:mergeDebugShaders
+:benchmark:compileDebugShaders
+:benchmark:generateDebugAssets
+:hawk:mergeDebugShaders
+:hawk:compileDebugShaders
+:hawk:generateDebugAssets
+:hawk:packageDebugAssets
+:benchmark:mergeDebugAssets
+:benchmark:mergeDebugJniLibFolders
+:hawk:compileDebugNdk NO-SOURCE
+:hawk:mergeDebugJniLibFolders
+:hawk:transformNativeLibsWithMergeJniLibsForDebug
+:hawk:transformNativeLibsWithStripDebugSymbolForDebug
+:hawk:transformNativeLibsWithIntermediateJniLibsForDebug
+:benchmark:processDebugJavaRes NO-SOURCE
+:benchmark:validateSigningDebug
+:hawk:preReleaseBuild UP-TO-DATE
+:hawk:checkReleaseManifest
+:hawk:processReleaseManifest
+:benchmark:preReleaseBuild
+:hawk:compileReleaseAidl
+:benchmark:compileReleaseAidl
+:hawk:packageReleaseRenderscript NO-SOURCE
+:benchmark:compileReleaseRenderscript
+:benchmark:checkReleaseManifest
+:benchmark:generateReleaseBuildConfig
+:benchmark:mainApkListPersistenceRelease
+:benchmark:generateReleaseResValues
+:benchmark:generateReleaseResources
+:hawk:compileReleaseRenderscript
+:hawk:generateReleaseResValues
+:hawk:generateReleaseResources
+:hawk:packageReleaseResources
+:benchmark:mergeReleaseResources
+:benchmark:createReleaseCompatibleScreenManifests
+:benchmark:processReleaseManifest
+:benchmark:splitsDiscoveryTaskRelease
+:hawk:generateReleaseBuildConfig
+:hawk:processReleaseJavaRes NO-SOURCE
+:benchmark:compileReleaseNdk NO-SOURCE
+:benchmark:mergeReleaseShaders
+:benchmark:compileReleaseShaders
+:benchmark:generateReleaseAssets
+:hawk:mergeReleaseShaders
+:hawk:compileReleaseShaders
+:hawk:generateReleaseAssets
+:hawk:packageReleaseAssets
+:benchmark:mergeReleaseAssets
+:benchmark:mergeReleaseJniLibFolders
+:hawk:compileReleaseNdk NO-SOURCE
+:hawk:mergeReleaseJniLibFolders
+:hawk:transformNativeLibsWithMergeJniLibsForRelease
+:hawk:transformNativeLibsWithStripDebugSymbolForRelease
+:hawk:transformNativeLibsWithIntermediateJniLibsForRelease
+:benchmark:processReleaseJavaRes NO-SOURCE
+:hawk:generateDebugRFile
+:benchmark:processDebugResources
+:benchmark:generateDebugSources
+:hawk:compileDebugKotlin
+:hawk:generateDebugSources
+:hawk:javaPreCompileDebug
+:hawk:compileDebugJavaWithJavac
+:hawk:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:benchmark:javaPreCompileDebug
+:benchmark:compileDebugJavaWithJavac
+:benchmark:compileDebugSources
+:benchmark:transformClassesWithDexBuilderForDebug
+:benchmark:transformDexArchiveWithExternalLibsDexMergerForDebug
+:benchmark:transformDexArchiveWithDexMergerForDebug
+:benchmark:transformNativeLibsWithMergeJniLibsForDebug
+:benchmark:transformNativeLibsWithStripDebugSymbolForDebug
+:benchmark:transformResourcesWithMergeJavaResForDebug
+:benchmark:packageDebug
+:benchmark:assembleDebug
+:hawk:generateReleaseRFile
+:benchmark:processReleaseResources
+:benchmark:generateReleaseSources
+:hawk:compileReleaseKotlin
+:hawk:generateReleaseSources
+:hawk:javaPreCompileRelease
+:hawk:compileReleaseJavaWithJavac
+:hawk:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:benchmark:javaPreCompileRelease
+:benchmark:compileReleaseJavaWithJavac
+:benchmark:compileReleaseSources
+:benchmark:lintVitalRelease
+:benchmark:transformClassesWithDexBuilderForRelease
+:benchmark:transformDexArchiveWithExternalLibsDexMergerForRelease
+:benchmark:transformDexArchiveWithDexMergerForRelease
+:benchmark:transformNativeLibsWithMergeJniLibsForRelease
+:benchmark:transformNativeLibsWithStripDebugSymbolForRelease
+:benchmark:transformResourcesWithMergeJavaResForRelease
+:benchmark:packageRelease
+:benchmark:assembleRelease
+:benchmark:assemble
+:benchmark:build
+
+BUILD SUCCESSFUL in 1m 2s
+93 actionable tasks: 93 executed
+
+2018-04-05 21:28:28,247 INFO  FullProcessService - Found APK file: /tmp/rdisk/1568/src/benchmark/build/outputs/apk/release/benchmark-release-unsigned.apk

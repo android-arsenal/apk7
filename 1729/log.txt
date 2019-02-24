@@ -1,0 +1,117 @@
+2018-04-04 15:47:26,802 INFO  DownloadService - Downloading "https://github.com/T-Spoon/Benchit/archive/master.zip", attempt 3
+2018-04-04 15:47:27,218 INFO  DownloadService - Downloaded https://github.com/T-Spoon/Benchit/archive/master.zip, attempt 3
+2018-04-04 15:47:27,218 INFO  DownloadService - Size of file "/tmp/rdisk/1729/master.zip": 111 KB
+2018-04-04 15:47:27,218 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-04 15:47:27,219 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1729/master.zip: true
+2018-04-04 15:47:27,219 DEBUG ZipUtil - Extracting '/tmp/rdisk/1729/master.zip' into '/tmp/rdisk/1729/src'.
+2018-04-04 15:47:27,228 INFO  FullProcessService - Size of directory with sources: 133 KB
+2018-04-04 15:47:27,228 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1729/src]
+2018-04-04 15:47:27,234 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1729/src/.git/
+
+2018-04-04 15:47:27,236 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1729/src/Benchit-master/gradlew
+2018-04-04 15:47:27,239 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1729/src/Benchit-master/app/build.gradle /tmp/rdisk/1729/src/Benchit-master/library/build.gradle /tmp/rdisk/1729/src/Benchit-master/build.gradle
+2018-04-04 15:47:27,242 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1729/src/Benchit-master/settings.gradle /tmp/rdisk/1729/src/Benchit-master/library/build.gradle /tmp/rdisk/1729/src/Benchit-master/build.gradle /tmp/rdisk/1729/src/Benchit-master/app/build.gradle
+2018-04-04 15:47:27,242 INFO  ProjectBuildService - Remote scripts: none
+2018-04-04 15:47:27,242 INFO  ProjectFixService - Fixing project...
+2018-04-04 15:47:27,250 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1729/src/Benchit-master/app/local.properties
+2018-04-04 15:47:27,250 INFO  ProjectFixService - Build info for "/tmp/rdisk/1729/src/Benchit-master/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-04 15:47:27,250 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1729/src/Benchit-master/library/local.properties
+2018-04-04 15:47:27,252 INFO  ProjectFixService - Build info for "/tmp/rdisk/1729/src/Benchit-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-04 15:47:27,252 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1729/src/Benchit-master/local.properties
+2018-04-04 15:47:27,253 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-04 15:47:27,254 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-04 15:47:27,255 INFO  ProjectFixService - Build info for "/tmp/rdisk/1729/src/Benchit-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=22]
+2018-04-04 15:47:27,255 INFO  ProjectFixService - Project was maybe fixed
+2018-04-04 15:47:27,255 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-04 15:47:27,255 INFO  SysUtils - Execute command: [/tmp/rdisk/1729/src/Benchit-master/gradlew, -b, /tmp/rdisk/1729/src/Benchit-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-04 15:47:36,382 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-04-04 15:47:36,382 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-04 15:47:36,382 INFO  SysUtils - Execute command: [/tmp/rdisk/1729/src/Benchit-master/gradlew, -b, /tmp/rdisk/1729/src/Benchit-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-04 15:48:00,835 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:app:prepareBenchitMasterLibraryUnspecifiedLibrary
+:app:prepareComAndroidSupportAppcompatV72210Library
+:app:prepareComAndroidSupportSupportV42210Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:lintVitalRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.024 secs
+
+2018-04-04 15:48:00,874 INFO  FullProcessService - Found APK file: /tmp/rdisk/1729/src/Benchit-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.hkm.ui.processbuttons",
+    "label" : "Process Button Sample",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3.0",
+    "versionCode" : 140,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABO1BMVEUAAAAAAABjZWpkZmsAAAAvMjkwMzoAAAAxNDoyNTp+kzlQWjo6PjqCmDlDSjpZZDmatjhMVTqJoTg0NzoyNDpeaTibuDgxMzqDmTg2OjpGTTpicDl3ijmEmzmLpDhFTTo9QTpZZDicuThqezmmxjinxziRqzh8kDlJUDmWsTiLozhHTzpfbDmhvzheazlkcjmmxThjcjlYYjmkxDhWYjpITzqgvzi/1m7x9uDi7b2pyT7J3YXz+OXV5aFGTjozNjqJoDjh7Lz///+602Pv9dv9/vuty0WIoDlXYjnG23/8/fju9NisykLS45r+/vzh7LqnxzlWYTqHnjity0apyD2uy0ioxzmGnTlCRzqlxDhARzphbjlgbjl4izh3izmGnTiFnTmjwTiJoTk3OTo4Ozo2OToTFBcAAAAAAACH4UwrAAAAaXRSTlMAA///DP//D///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////MT5S3/gAAAABNElEQVRIx+3WZ0/CQBjAcYoHfSgOhMOKwLl6blwo7lX33gP3xu//CbQrRm/k4iti+L+5Jvf8ko6kbShUjWnhOsXCmgtQJKpYBLlAVwd6DVQlAO4YCEHMiHPm6xsaRQCaEs3sfNJICU8Jp1t8AQCmP9+akVw0TifiUWjL5vKE5HPZduggRkZ6l3BnVzexqJ9FenpT8tsKff30RwODUgBDBfqrwrDsOYxYlGl0TAhgvEg5FSdEYLL0tT01PTMbjM7NLzhLaZEPlpad3RXbXg3Amr2+4aybMR4wt9yh7Z3dvQDsHxweuQfHPIBPvKnTs+/TP7/w1kvggKsyFVa+ZoF5QyXdsgDuZOCeBfhBBh6BBcknSc8sgJdXSW+1F9m/AMr54F05D6DKh2IV78OuIV0xpP3hz+QTpHaUEpel4MsAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1220,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"140\" android:versionName=\"1.3.0\" package=\"com.hkm.ui.processbuttons\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"@android:style/Theme.Holo.Light\" android:label=\"Process Button Sample\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.dd.sample.Main\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.dd.sample.demo.MessageActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.dd.sample.demo.SignInActivity\" android:configChanges=\"0xc80\" />\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.dd.sample.demo.UploadActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.dd.sample.demo.StateSampleActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.dd.sample.demo.AnimationActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 671052,
+  "crc32" : 2175918623,
+  "sha256" : "b042e6060cd1ff5f827a3df9701e850172d6697206e432e0a656cd4ab255fb9f",
+  "buildTime" : 1496784477000
+}

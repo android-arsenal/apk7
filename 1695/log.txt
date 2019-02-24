@@ -1,0 +1,374 @@
+2018-05-11 13:43:16,185 INFO  DownloadService - Downloading "https://github.com/sockeqwe/mosby/archive/master.zip", attempt 3
+2018-05-11 13:43:19,761 INFO  DownloadService - Downloaded https://github.com/sockeqwe/mosby/archive/master.zip, attempt 3
+2018-05-11 13:43:19,762 INFO  DownloadService - Size of file "/tmp/rdisk/1695/master.zip": 4 MB
+2018-05-11 13:43:19,762 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-11 13:43:19,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1695/master.zip: true
+2018-05-11 13:43:19,764 DEBUG ZipUtil - Extracting '/tmp/rdisk/1695/master.zip' into '/tmp/rdisk/1695/src'.
+2018-05-11 13:43:19,958 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-05-11 13:43:19,958 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1695/src]
+2018-05-11 13:43:19,964 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1695/src/.git/
+
+2018-05-11 13:43:19,988 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1695/src/mosby-master/gradlew
+2018-05-11 13:43:20,014 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1695/src/mosby-master/mvi-integration-test/build.gradle /tmp/rdisk/1695/src/mosby-master/mvi/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-lce/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp/build.gradle /tmp/rdisk/1695/src/mosby-master/presentermanager/build.gradle /tmp/rdisk/1695/src/mosby-master/sample-mail/build.gradle /tmp/rdisk/1695/src/mosby-master/sample-mvi/build.gradle /tmp/rdisk/1695/src/mosby-master/sample/build.gradle /tmp/rdisk/1695/src/mosby-master/utils-fragment-integration-test/build.gradle /tmp/rdisk/1695/src/mosby-master/utils-fragment/build.gradle /tmp/rdisk/1695/src/mosby-master/viewstate/build.gradle /tmp/rdisk/1695/src/mosby-master/build.gradle /tmp/rdisk/1695/src/mosby-master/mvi-common/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-common/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-nullobject-presenter/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-queuing-presenter/build.gradle
+2018-05-11 13:43:20,039 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1695/src/mosby-master/viewstate/build.gradle /tmp/rdisk/1695/src/mosby-master/utils-fragment/build.gradle /tmp/rdisk/1695/src/mosby-master/utils-fragment-integration-test/build.gradle /tmp/rdisk/1695/src/mosby-master/settings.gradle /tmp/rdisk/1695/src/mosby-master/sample/build.gradle /tmp/rdisk/1695/src/mosby-master/sample-mvi/build.gradle /tmp/rdisk/1695/src/mosby-master/sample-mail/build.gradle /tmp/rdisk/1695/src/mosby-master/presentermanager/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-queuing-presenter/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-nullobject-presenter/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-lce/build.gradle /tmp/rdisk/1695/src/mosby-master/mvp-common/build.gradle /tmp/rdisk/1695/src/mosby-master/mvi/build.gradle /tmp/rdisk/1695/src/mosby-master/mvi-integration-test/build.gradle /tmp/rdisk/1695/src/mosby-master/mvi-common/build.gradle /tmp/rdisk/1695/src/mosby-master/maven-push.gradle /tmp/rdisk/1695/src/mosby-master/maven-push-java-lib.gradle /tmp/rdisk/1695/src/mosby-master/findbugs.gradle /tmp/rdisk/1695/src/mosby-master/build.gradle
+2018-05-11 13:43:20,052 INFO  ProjectBuildService - Remote scripts: none
+2018-05-11 13:43:20,052 INFO  ProjectFixService - Fixing project...
+2018-05-11 13:43:20,126 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvi-integration-test/local.properties
+2018-05-11 13:43:20,137 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvi-integration-test/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,137 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvi/local.properties
+2018-05-11 13:43:20,154 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvi/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,154 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvp-lce/local.properties
+2018-05-11 13:43:20,165 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvp-lce/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,166 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvp/local.properties
+2018-05-11 13:43:20,177 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvp/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,177 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/presentermanager/local.properties
+2018-05-11 13:43:20,190 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/presentermanager/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,190 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/sample-mail/local.properties
+2018-05-11 13:43:20,200 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/sample-mail/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,200 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/sample-mvi/local.properties
+2018-05-11 13:43:20,210 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/sample-mvi/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,210 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/sample/local.properties
+2018-05-11 13:43:20,221 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/sample/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,222 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/utils-fragment-integration-test/local.properties
+2018-05-11 13:43:20,233 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/utils-fragment-integration-test/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,233 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/utils-fragment/local.properties
+2018-05-11 13:43:20,244 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/utils-fragment/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,245 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/viewstate/local.properties
+2018-05-11 13:43:20,255 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/viewstate/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,255 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/local.properties
+2018-05-11 13:43:20,256 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-05-11 13:43:20,256 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-05-11 13:43:20,257 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
+2018-05-11 13:43:20,257 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvi-common/local.properties
+2018-05-11 13:43:20,267 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvi-common/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,267 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvp-common/local.properties
+2018-05-11 13:43:20,278 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvp-common/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,278 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvp-nullobject-presenter/local.properties
+2018-05-11 13:43:20,290 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvp-nullobject-presenter/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,291 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1695/src/mosby-master/mvp-queuing-presenter/local.properties
+2018-05-11 13:43:20,301 INFO  ProjectFixService - Build info for "/tmp/rdisk/1695/src/mosby-master/mvp-queuing-presenter/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2018-05-11 13:43:20,301 INFO  ProjectFixService - Project was maybe fixed
+2018-05-11 13:43:20,301 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-11 13:43:20,302 INFO  SysUtils - Execute command: [/tmp/rdisk/1695/src/mosby-master/gradlew, -b, /tmp/rdisk/1695/src/mosby-master/mvi-integration-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-11 13:43:28,234 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-05-11 13:43:28,234 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-11 13:43:28,235 INFO  SysUtils - Execute command: [/tmp/rdisk/1695/src/mosby-master/gradlew, -b, /tmp/rdisk/1695/src/mosby-master/mvi-integration-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-11 13:44:23,922 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
+Use 'android.enableAapt2=true' to remove this warning.
+It will be removed at the end of 2018.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.0.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
+Use 'android.enableAapt2=true' to remove this warning.
+It will be removed at the end of 2018.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.0.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+File should  /tmp/rdisk/1695/src/mosby-master/mvi/findbugs-filter.xml true
+File filter /tmp/rdisk/1695/src/mosby-master/mvi/findbugs-filter.xml
+File should  /tmp/rdisk/1695/src/mosby-master/mvi/findbugs-filter.xml true
+File filter /tmp/rdisk/1695/src/mosby-master/mvi/findbugs-filter.xml
+WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
+Use 'android.enableAapt2=true' to remove this warning.
+It will be removed at the end of 2018.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.0.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+File should  /tmp/rdisk/1695/src/mosby-master/presentermanager/findbugs-filter.xml true
+File filter /tmp/rdisk/1695/src/mosby-master/presentermanager/findbugs-filter.xml
+File should  /tmp/rdisk/1695/src/mosby-master/presentermanager/findbugs-filter.xml true
+File filter /tmp/rdisk/1695/src/mosby-master/presentermanager/findbugs-filter.xml
+WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
+Use 'android.enableAapt2=true' to remove this warning.
+It will be removed at the end of 2018.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.0.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+File should  /tmp/rdisk/1695/src/mosby-master/utils-fragment/findbugs-filter.xml false
+File should  /tmp/rdisk/1695/src/mosby-master/utils-fragment/findbugs-filter.xml false
+:mvi:preBuild UP-TO-DATE
+:mvi:preDebugBuild UP-TO-DATE
+:presentermanager:preBuild UP-TO-DATE
+:presentermanager:preDebugBuild UP-TO-DATE
+:presentermanager:compileDebugAidl
+:utils-fragment:preBuild UP-TO-DATE
+:utils-fragment:preDebugBuild UP-TO-DATE
+:utils-fragment:compileDebugAidl
+:mvi:compileDebugAidl
+:presentermanager:packageDebugRenderscript NO-SOURCE
+:utils-fragment:packageDebugRenderscript NO-SOURCE
+:mvi:compileDebugRenderscript
+:mvi:checkDebugManifest
+:mvi:generateDebugBuildConfig
+:mvi:generateDebugResValues
+:mvi:generateDebugResources
+:mvi:packageDebugResources
+:mvi:platformAttrExtractor
+:mvi:processDebugManifest
+:presentermanager:compileDebugRenderscript
+:presentermanager:generateDebugResValues
+:presentermanager:generateDebugResources
+:presentermanager:packageDebugResources
+:presentermanager:platformAttrExtractor
+:presentermanager:checkDebugManifest
+:presentermanager:processDebugManifest
+:utils-fragment:compileDebugRenderscript
+:utils-fragment:generateDebugResValues
+:utils-fragment:generateDebugResources
+:utils-fragment:packageDebugResources
+:utils-fragment:platformAttrExtractor
+:utils-fragment:checkDebugManifest
+:utils-fragment:processDebugManifest
+:mvi:prepareLintJar
+:utils-fragment:generateDebugRFile
+:presentermanager:generateDebugRFile
+:mvi:generateDebugRFile
+:mvi:generateDebugSources
+:mvp-common:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:mvp-common:processResources NO-SOURCE
+:mvp-common:classes
+:mvp-common:jar
+:mvi-common:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /tmp/rdisk/1695/src/mosby-master/mvi-common/src/main/java/com/hannesdorfmann/mosby3/mvi/MviBasePresenter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:mvi-common:processResources NO-SOURCE
+:mvi-common:classes
+:mvi-common:jar
+:presentermanager:generateDebugBuildConfig
+:presentermanager:prepareLintJar
+:presentermanager:generateDebugSources
+:presentermanager:javaPreCompileDebug
+:presentermanager:compileDebugJavaWithJavacNote: /tmp/rdisk/1695/src/mosby-master/presentermanager/src/main/java/com/hannesdorfmann/mosby3/MosbySavedState.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:presentermanager:processDebugJavaRes NO-SOURCE
+:presentermanager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:utils-fragment:generateDebugBuildConfig
+:utils-fragment:prepareLintJar
+:utils-fragment:generateDebugSources
+:utils-fragment:javaPreCompileDebug
+:utils-fragment:compileDebugJavaWithJavac
+:utils-fragment:processDebugJavaRes NO-SOURCE
+:utils-fragment:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:mvi:javaPreCompileDebug
+:mvi:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mvi:processDebugJavaRes NO-SOURCE
+:mvi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:mvi-integration-test:preBuild UP-TO-DATE
+:mvi-integration-test:preDebugBuild
+:mvi-integration-test:compileDebugAidl
+:mvi:packageDebugRenderscript NO-SOURCE
+:mvi-integration-test:compileDebugRenderscript
+:mvi-integration-test:checkDebugManifest
+:mvi-integration-test:generateDebugBuildConfig
+:mvi-integration-test:prepareLintJar
+:mvi-integration-test:mainApkListPersistenceDebug
+:mvi-integration-test:generateDebugResValues
+:mvi-integration-test:generateDebugResources
+:mvi-integration-test:mergeDebugResources
+:mvi-integration-test:createDebugCompatibleScreenManifests
+:mvi-integration-test:processDebugManifest
+:mvi-integration-test:splitsDiscoveryTaskDebug
+:mvi-integration-test:processDebugResources
+:mvi-integration-test:generateDebugSources
+:mvi-integration-test:javaPreCompileDebug
+:mvi-integration-test:compileDebugJavaWithJavac
+:mvi-integration-test:compileDebugNdk NO-SOURCE
+:mvi-integration-test:compileDebugSources
+:mvi:mergeDebugShaders
+:mvi:compileDebugShaders
+:mvi:generateDebugAssets
+:mvi:packageDebugAssets
+:mvi-integration-test:mergeDebugShaders
+:mvi-integration-test:compileDebugShaders
+:mvi-integration-test:generateDebugAssets
+:presentermanager:mergeDebugShaders
+:presentermanager:compileDebugShaders
+:presentermanager:generateDebugAssets
+:presentermanager:packageDebugAssets
+:utils-fragment:mergeDebugShaders
+:utils-fragment:compileDebugShaders
+:utils-fragment:generateDebugAssets
+:utils-fragment:packageDebugAssets
+:mvi-integration-test:mergeDebugAssets
+:mvi-integration-test:transformClassesWithDexBuilderForDebug
+:mvi-integration-test:transformDexArchiveWithExternalLibsDexMergerForDebug
+:mvi-integration-test:transformDexArchiveWithDexMergerForDebug
+:mvi:compileDebugNdk NO-SOURCE
+:mvi:mergeDebugJniLibFolders
+:mvi:transformNativeLibsWithMergeJniLibsForDebug
+:mvi:transformNativeLibsWithStripDebugSymbolForDebug
+:mvi:transformNativeLibsWithIntermediateJniLibsForDebug
+:mvi-integration-test:mergeDebugJniLibFolders
+:presentermanager:compileDebugNdk NO-SOURCE
+:presentermanager:mergeDebugJniLibFolders
+:presentermanager:transformNativeLibsWithMergeJniLibsForDebug
+:presentermanager:transformNativeLibsWithStripDebugSymbolForDebug
+:presentermanager:transformNativeLibsWithIntermediateJniLibsForDebug
+:utils-fragment:compileDebugNdk NO-SOURCE
+:utils-fragment:mergeDebugJniLibFolders
+:utils-fragment:transformNativeLibsWithMergeJniLibsForDebug
+:utils-fragment:transformNativeLibsWithStripDebugSymbolForDebug
+:utils-fragment:transformNativeLibsWithIntermediateJniLibsForDebug
+:mvi-integration-test:transformNativeLibsWithMergeJniLibsForDebug
+:mvi-integration-test:transformNativeLibsWithStripDebugSymbolForDebug
+:mvi-integration-test:processDebugJavaRes NO-SOURCE
+:mvi-integration-test:transformResourcesWithMergeJavaResForDebug
+:mvi-integration-test:validateSigningDebug
+:mvi-integration-test:packageDebug
+:mvi-integration-test:assembleDebug
+:mvi:preReleaseBuild UP-TO-DATE
+:presentermanager:preReleaseBuild UP-TO-DATE
+:presentermanager:compileReleaseAidl
+:utils-fragment:preReleaseBuild UP-TO-DATE
+:utils-fragment:compileReleaseAidl
+:mvi:compileReleaseAidl
+:presentermanager:packageReleaseRenderscript NO-SOURCE
+:utils-fragment:packageReleaseRenderscript NO-SOURCE
+:mvi:compileReleaseRenderscript
+:mvi:checkReleaseManifest
+:mvi:generateReleaseBuildConfig
+:mvi:generateReleaseResValues
+:mvi:generateReleaseResources
+:mvi:packageReleaseResources
+:mvi:processReleaseManifest
+:presentermanager:compileReleaseRenderscript
+:presentermanager:generateReleaseResValues
+:presentermanager:generateReleaseResources
+:presentermanager:packageReleaseResources
+:presentermanager:checkReleaseManifest
+:presentermanager:processReleaseManifest
+:presentermanager:generateReleaseRFile
+:utils-fragment:compileReleaseRenderscript
+:utils-fragment:generateReleaseResValues
+:utils-fragment:generateReleaseResources
+:utils-fragment:packageReleaseResources
+:utils-fragment:checkReleaseManifest
+:utils-fragment:processReleaseManifest
+:utils-fragment:generateReleaseRFile
+:mvi:generateReleaseRFile
+:mvi:generateReleaseSources
+:presentermanager:generateReleaseBuildConfig
+:presentermanager:generateReleaseSources
+:presentermanager:javaPreCompileRelease
+:presentermanager:compileReleaseJavaWithJavacNote: /tmp/rdisk/1695/src/mosby-master/presentermanager/src/main/java/com/hannesdorfmann/mosby3/MosbySavedState.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:presentermanager:processReleaseJavaRes NO-SOURCE
+:presentermanager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:utils-fragment:generateReleaseBuildConfig
+:utils-fragment:generateReleaseSources
+:utils-fragment:javaPreCompileRelease
+:utils-fragment:compileReleaseJavaWithJavac
+:utils-fragment:processReleaseJavaRes NO-SOURCE
+:utils-fragment:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:mvi:javaPreCompileRelease
+:mvi:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mvi:processReleaseJavaRes NO-SOURCE
+:mvi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:mvi-integration-test:preReleaseBuild
+:mvi-integration-test:compileReleaseAidl
+:mvi:packageReleaseRenderscript NO-SOURCE
+:mvi-integration-test:compileReleaseRenderscript
+:mvi-integration-test:checkReleaseManifest
+:mvi-integration-test:generateReleaseBuildConfig
+:mvi-integration-test:mainApkListPersistenceRelease
+:mvi-integration-test:generateReleaseResValues
+:mvi-integration-test:generateReleaseResources
+:mvi-integration-test:mergeReleaseResources
+:mvi-integration-test:createReleaseCompatibleScreenManifests
+:mvi-integration-test:processReleaseManifest
+:mvi-integration-test:splitsDiscoveryTaskRelease
+:mvi-integration-test:processReleaseResources
+:mvi-integration-test:generateReleaseSources
+:mvi-integration-test:javaPreCompileRelease
+:mvi-integration-test:compileReleaseJavaWithJavac
+:mvi-integration-test:compileReleaseNdk NO-SOURCE
+:mvi-integration-test:compileReleaseSources
+:mvi-integration-test:lintVitalRelease
+:mvi:mergeReleaseShaders
+:mvi:compileReleaseShaders
+:mvi:generateReleaseAssets
+:mvi:packageReleaseAssets
+:mvi-integration-test:mergeReleaseShaders
+:mvi-integration-test:compileReleaseShaders
+:mvi-integration-test:generateReleaseAssets
+:presentermanager:mergeReleaseShaders
+:presentermanager:compileReleaseShaders
+:presentermanager:generateReleaseAssets
+:presentermanager:packageReleaseAssets
+:utils-fragment:mergeReleaseShaders
+:utils-fragment:compileReleaseShaders
+:utils-fragment:generateReleaseAssets
+:utils-fragment:packageReleaseAssets
+:mvi-integration-test:mergeReleaseAssets
+:mvi-integration-test:transformClassesWithDexBuilderForRelease
+:mvi-integration-test:transformDexArchiveWithExternalLibsDexMergerForRelease
+:mvi-integration-test:transformDexArchiveWithDexMergerForRelease
+:mvi:compileReleaseNdk NO-SOURCE
+:mvi:mergeReleaseJniLibFolders
+:mvi:transformNativeLibsWithMergeJniLibsForRelease
+:mvi:transformNativeLibsWithStripDebugSymbolForRelease
+:mvi:transformNativeLibsWithIntermediateJniLibsForRelease
+:mvi-integration-test:mergeReleaseJniLibFolders
+:presentermanager:compileReleaseNdk NO-SOURCE
+:presentermanager:mergeReleaseJniLibFolders
+:presentermanager:transformNativeLibsWithMergeJniLibsForRelease
+:presentermanager:transformNativeLibsWithStripDebugSymbolForRelease
+:presentermanager:transformNativeLibsWithIntermediateJniLibsForRelease
+:utils-fragment:compileReleaseNdk NO-SOURCE
+:utils-fragment:mergeReleaseJniLibFolders
+:utils-fragment:transformNativeLibsWithMergeJniLibsForRelease
+:utils-fragment:transformNativeLibsWithStripDebugSymbolForRelease
+:utils-fragment:transformNativeLibsWithIntermediateJniLibsForRelease
+:mvi-integration-test:transformNativeLibsWithMergeJniLibsForRelease
+:mvi-integration-test:transformNativeLibsWithStripDebugSymbolForRelease
+:mvi-integration-test:processReleaseJavaRes NO-SOURCE
+:mvi-integration-test:transformResourcesWithMergeJavaResForRelease
+:mvi-integration-test:packageRelease
+:mvi-integration-test:assembleRelease
+:mvi-integration-test:assemble
+:mvi-integration-test:build
+
+BUILD SUCCESSFUL in 55s
+171 actionable tasks: 171 executed
+
+2018-05-11 13:44:24,055 INFO  FullProcessService - Found APK file: /tmp/rdisk/1695/src/mosby-master/mvi-integration-test/build/outputs/apk/release/mvi-integration-test-release-unsigned.apk

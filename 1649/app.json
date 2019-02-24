@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "me.panavtec.cleancontacts",
+    "label" : "Clean Contacts",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABiVBMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pz+/v79/f3w8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/vy8vKwsLDIyMj7+/vN7f2Q2v100P2qqqrb8v1Vxf0TsP0SsP3Q7v0quP3n9f0wuf0vuf120P1Lw/3x+f0htf08vv3w+f3F6v2m4f2x5P3P7v265/286P276P3h9P0Usf1qzP1PxP2Z3f3B6f0Vsf1Hwv2D1f2N2P0cs/3a8v140f03vP0Ysv34+/3k9f3X8P33+/1iyv0etP3O7f110P3M7f1Xxv38/P2M2P0+vv1szv2p4f215v2B1f1QxP2f3v2e3f3G6/1my/3H7P1/1P2y5P1uzv05vf06vf0Zsv3Ly8usrKytra36+vr////v7++Hh4eqqqoAAADb29v6+vr5+fnLy8sAAAA3NzfLy8vr6+vv7+/u7u7s7OzHx8c0NDQAAAAAAABGRkZgYGBcXFxbW1tmZmYAAAAAAAC/v79JWJI4AAAAg3RSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7v///yr///////////////////////////////////////////////////////////////////////////////////////8nKxzs/+wiAwip//+tAyqw7fDv7bEsCSBCTUtMBQsOBCSMnGYAAAIISURBVEjHvZZXU8JAFIWDYDfYsGssbOwi2IggIigK9t4VsaHYFbvYfrk3RRDcZHfGGc8LZ5Lz3c2W5MIw/yVdGkG6pLheTy75MwPWkJ6hqXSDFPvOZ2Zl5xCUnZsZJ/RMHmskK79AAXSModBYVGzSVHERW1LKyDNPY8rKjSZSfRNbUQlRGaiqTgFquNpariYVqEsAySPUN5gRyNxQTwfwjUhRI08DNDWL1VtaxFGamyiAVgi2QWm+DUwrGWjvQMjSKbpOC0Id7UTACnVtsrWBtRKBLkh1y7YbbBcR6IFUr2x7wfYRAbuAUL9s+xES7ORVckDMKRonoA6KZR1wwZMMut2D8OMaoNnpIfP3TpuH6M6S0yPnPU7Kw2f0Do/4fCPDXtrTqvY+aACjY37/2CgdELBy45YJcQoTlnHOGiAAk1Pxl0F5JaYmNYDpGQH9kjAzrQLMzvmkhGt+gVtcWlrkFuZd0gXf3CwWWJbqrazaEzO1rzmkMZdxwDrcEjb41OXkN8TrmxhgC8bexu3ANjzpFgYIIrSD37MdhIJ4IIQHQqrAbgirXVVAXX8GxI+xLaghWzKwR3e89xVAxxwcsuSGEj46ZiJKyzo5PQuzYU2x4fOLk3iPu7y6voneRjV0G727f7hMtNHHp+eXWCz2qiK49fL89PizUb+9fxD0/pbc/COfBEX+7V/MF5CB9euiTTJtAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2566,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"me.panavtec.cleancontacts\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0d0000\" android:label=\"Clean Contacts\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"me.panavtec.cleancontacts.CleanContactsApp\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Clean Contacts\" android:name=\"me.panavtec.cleancontacts.modules.main.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Detail\" android:name=\"me.panavtec.cleancontacts.modules.detail.DetailActivity\" android:parentActivityName=\"me.panavtec.cleancontacts.modules.main.MainActivity\" />\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1708088,
+  "crc32" : 2080943188,
+  "sha256" : "961a7514bebad35bc7a6b6743cf6dd8eaa6bce5b21a85abc3eed2996c99f8cea",
+  "buildTime" : 1522957403000
+}

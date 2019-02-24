@@ -1,0 +1,229 @@
+2018-04-05 20:20:09,194 INFO  DownloadService - Downloading "https://github.com/fabiendevos/nanotasks/archive/master.zip", attempt 3
+2018-04-05 20:20:09,560 INFO  DownloadService - Downloaded https://github.com/fabiendevos/nanotasks/archive/master.zip, attempt 3
+2018-04-05 20:20:09,560 INFO  DownloadService - Size of file "/tmp/rdisk/1595/master.zip": 121 KB
+2018-04-05 20:20:09,560 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-05 20:20:09,560 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/1595/master.zip: true
+2018-04-05 20:20:09,560 DEBUG ZipUtil - Extracting '/tmp/rdisk/1595/master.zip' into '/tmp/rdisk/1595/src'.
+2018-04-05 20:20:09,568 INFO  FullProcessService - Size of directory with sources: 136 KB
+2018-04-05 20:20:09,568 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/1595/src]
+2018-04-05 20:20:09,573 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/1595/src/.git/
+
+2018-04-05 20:20:09,575 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/gradlew
+2018-04-05 20:20:09,578 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasks/build.gradle /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build.gradle /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/build.gradle
+2018-04-05 20:20:09,580 INFO  ProjectBuildService - All script(s): /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/settings.gradle /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build.gradle /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasks/build.gradle /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/build.gradle
+2018-04-05 20:20:09,580 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-05 20:21:09,709 ERROR RemoteScriptService - Could not download content from "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-05 20:21:09,709 INFO  ProjectBuildService - Remote scripts: none
+2018-04-05 20:21:09,709 INFO  ProjectFixService - Fixing project...
+2018-04-05 20:21:09,715 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasks/local.properties
+2018-04-05 20:21:09,715 INFO  ProjectFixService - Build info for "/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasks/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 20:21:09,716 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/local.properties
+2018-04-05 20:21:09,716 INFO  ProjectFixService - Build info for "/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 20:21:09,716 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/local.properties
+2018-04-05 20:21:09,716 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-05 20:21:09,716 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-05 20:21:09,717 INFO  ProjectFixService - Build info for "/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-05 20:21:09,717 INFO  ProjectFixService - Project was maybe fixed
+2018-04-05 20:21:09,718 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:21:09,718 INFO  SysUtils - Execute command: [/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/gradlew, -b, /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasks/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:21:17,237 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-05 20:21:17,237 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-05 20:21:17,237 INFO  SysUtils - Execute command: [/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/gradlew, -b, /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasks/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-05 20:21:26,047 INFO  SysUtils - Configuration on demand is an incubating feature.
+:nanotasks:androidJavadocs
+:nanotasks:androidJavadocsJar
+:nanotasks:androidSourcesJar
+:nanotasks:compileLint
+:nanotasks:copyDebugLint UP-TO-DATE
+:nanotasks:mergeDebugProguardFiles
+:nanotasks:preBuild
+:nanotasks:preDebugBuild
+:nanotasks:checkDebugManifest
+:nanotasks:prepareDebugDependencies
+:nanotasks:compileDebugAidl
+:nanotasks:compileDebugRenderscript
+:nanotasks:generateDebugBuildConfig
+:nanotasks:generateDebugAssets UP-TO-DATE
+:nanotasks:mergeDebugAssets
+:nanotasks:generateDebugResValues
+:nanotasks:generateDebugResources
+:nanotasks:packageDebugResources
+:nanotasks:processDebugManifest
+:nanotasks:processDebugResources
+:nanotasks:generateDebugSources
+:nanotasks:compileDebugJava
+:nanotasks:processDebugJavaRes UP-TO-DATE
+:nanotasks:packageDebugJar
+:nanotasks:compileDebugNdk
+:nanotasks:packageDebugJniLibs UP-TO-DATE
+:nanotasks:packageDebugLocalJar UP-TO-DATE
+:nanotasks:packageDebugRenderscript UP-TO-DATE
+:nanotasks:bundleDebug
+:nanotasks:assembleDebug
+:nanotasks:copyReleaseLint UP-TO-DATE
+:nanotasks:mergeReleaseProguardFiles
+:nanotasks:preReleaseBuild
+:nanotasks:checkReleaseManifest
+:nanotasks:prepareReleaseDependencies
+:nanotasks:compileReleaseAidl
+:nanotasks:compileReleaseRenderscript
+:nanotasks:generateReleaseBuildConfig
+:nanotasks:generateReleaseAssets UP-TO-DATE
+:nanotasks:mergeReleaseAssets
+:nanotasks:generateReleaseResValues
+:nanotasks:generateReleaseResources
+:nanotasks:packageReleaseResources
+:nanotasks:processReleaseManifest
+:nanotasks:processReleaseResources
+:nanotasks:generateReleaseSources
+:nanotasks:compileReleaseJava
+:nanotasks:processReleaseJavaRes UP-TO-DATE
+:nanotasks:packageReleaseJar
+:nanotasks:compileReleaseNdk
+:nanotasks:packageReleaseJniLibs UP-TO-DATE
+:nanotasks:packageReleaseLocalJar UP-TO-DATE
+:nanotasks:packageReleaseRenderscript UP-TO-DATE
+:nanotasks:bundleRelease
+:nanotasks:assembleRelease
+:nanotasks:signArchives SKIPPED
+:nanotasks:assemble
+:nanotasks:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.37 secs
+
+2018-04-05 20:21:26,053 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-05 20:21:26,054 INFO  SysUtils - Execute command: [/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/gradlew, -b, /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-05 20:21:33,335 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-05 20:21:33,335 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-05 20:21:33,335 INFO  SysUtils - Execute command: [/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/gradlew, -b, /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-05 20:21:55,386 INFO  SysUtils - Configuration on demand is an incubating feature.
+:nanotasksample:preBuild
+:nanotasksample:compileDebugNdk
+:nanotasks:compileLint
+:nanotasks:copyReleaseLint UP-TO-DATE
+:nanotasks:mergeReleaseProguardFiles UP-TO-DATE
+:nanotasks:preBuild
+:nanotasks:preReleaseBuild
+:nanotasks:checkReleaseManifest
+:nanotasks:prepareReleaseDependencies
+:nanotasks:compileReleaseAidl UP-TO-DATE
+:nanotasks:compileReleaseRenderscript UP-TO-DATE
+:nanotasks:generateReleaseBuildConfig UP-TO-DATE
+:nanotasks:generateReleaseAssets UP-TO-DATE
+:nanotasks:mergeReleaseAssets UP-TO-DATE
+:nanotasks:generateReleaseResValues UP-TO-DATE
+:nanotasks:generateReleaseResources UP-TO-DATE
+:nanotasks:packageReleaseResources UP-TO-DATE
+:nanotasks:processReleaseManifest UP-TO-DATE
+:nanotasks:processReleaseResources UP-TO-DATE
+:nanotasks:generateReleaseSources UP-TO-DATE
+:nanotasks:compileReleaseJava UP-TO-DATE
+:nanotasks:processReleaseJavaRes UP-TO-DATE
+:nanotasks:packageReleaseJar UP-TO-DATE
+:nanotasks:compileReleaseNdk UP-TO-DATE
+:nanotasks:packageReleaseJniLibs UP-TO-DATE
+:nanotasks:packageReleaseLocalJar UP-TO-DATE
+:nanotasks:packageReleaseRenderscript UP-TO-DATE
+:nanotasks:bundleRelease UP-TO-DATE
+:nanotasksample:preDebugBuild
+:nanotasksample:checkDebugManifest
+:nanotasksample:preReleaseBuild
+:nanotasksample:prepareComAndroidSupportAppcompatV72103Library
+:nanotasksample:prepareComAndroidSupportSupportV42103Library
+:nanotasksample:prepareNanoTasksNanotasksUnspecifiedLibrary
+:nanotasksample:prepareDebugDependencies
+:nanotasksample:compileDebugAidl
+:nanotasksample:compileDebugRenderscript
+:nanotasksample:generateDebugBuildConfig
+:nanotasksample:generateDebugAssets UP-TO-DATE
+:nanotasksample:mergeDebugAssets
+:nanotasksample:generateDebugResValues
+:nanotasksample:generateDebugResources
+:nanotasksample:mergeDebugResources/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:nanotasksample:processDebugManifest
+:nanotasksample:processDebugResources
+:nanotasksample:generateDebugSources
+:nanotasksample:compileDebugJava
+:nanotasksample:preDexDebug
+:nanotasksample:dexDebug
+:nanotasksample:processDebugJavaRes UP-TO-DATE
+:nanotasksample:validateDebugSigning
+:nanotasksample:packageDebug
+:nanotasksample:zipalignDebug
+:nanotasksample:assembleDebug
+:nanotasksample:checkReleaseManifest
+:nanotasksample:prepareReleaseDependencies
+:nanotasksample:compileReleaseAidl
+:nanotasksample:compileReleaseRenderscript
+:nanotasksample:generateReleaseBuildConfig
+:nanotasksample:generateReleaseAssets UP-TO-DATE
+:nanotasksample:mergeReleaseAssets
+:nanotasksample:generateReleaseResValues
+:nanotasksample:generateReleaseResources
+:nanotasksample:mergeReleaseResources/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:nanotasksample:processReleaseManifest
+:nanotasksample:processReleaseResources
+:nanotasksample:generateReleaseSources
+:nanotasksample:compileReleaseJava
+:nanotasksample:lintVitalRelease
+:nanotasksample:compileReleaseNdk
+:nanotasksample:preDexRelease
+:nanotasksample:dexRelease
+:nanotasksample:processReleaseJavaRes UP-TO-DATE
+:nanotasksample:packageRelease
+:nanotasksample:assembleRelease
+:nanotasksample:assemble
+:nanotasksample:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.609 secs
+
+2018-04-05 20:21:55,423 INFO  FullProcessService - Found APK file: /tmp/rdisk/1595/src/nanotasks-master/NanoTasks/nanotasksample/build/outputs/apk/nanotasksample-release-unsigned.apk
